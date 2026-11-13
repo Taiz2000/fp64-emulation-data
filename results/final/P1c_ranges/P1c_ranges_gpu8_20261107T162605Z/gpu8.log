@@ -1,0 +1,352 @@
+2026-11-07T16:26:15Z rep=1 range:native:ozaki:phi0:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0
+2026-11-07T16:26:25Z rep=1 range:default_ws:ozaki:phi0:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0 --workspace-mb 1265
+2026-11-07T16:26:34Z rep=1 range:eager_ws:ozaki:phi0:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0 --workspace-mb 1265
+2026-11-07T16:26:43Z rep=1 range:native:ozaki:phi0.5:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0.5
+2026-11-07T16:26:52Z rep=1 range:default_ws:ozaki:phi0.5:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0.5 --workspace-mb 1265
+2026-11-07T16:27:01Z rep=1 range:eager_ws:ozaki:phi0.5:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0.5 --workspace-mb 1265
+2026-11-07T16:27:10Z rep=1 range:native:ozaki:phi1:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 1
+2026-11-07T16:27:19Z rep=1 range:default_ws:ozaki:phi1:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 1 --workspace-mb 1265
+2026-11-07T16:27:28Z rep=1 range:eager_ws:ozaki:phi1:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 1 --workspace-mb 1265
+2026-11-07T16:27:38Z rep=1 range:native:ozaki:phi2:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 2
+2026-11-07T16:27:47Z rep=1 range:default_ws:ozaki:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 2 --workspace-mb 1265
+2026-11-07T16:27:56Z rep=1 range:eager_ws:ozaki:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 2 --workspace-mb 1265
+2026-11-07T16:28:05Z rep=1 range:native:ozaki:phi3:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 3
+2026-11-07T16:28:14Z rep=1 range:default_ws:ozaki:phi3:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 3 --workspace-mb 1265
+2026-11-07T16:28:23Z rep=1 range:eager_ws:ozaki:phi3:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 3 --workspace-mb 1265
+2026-11-07T16:28:32Z rep=1 range:native:ozaki:phi4:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 4
+2026-11-07T16:28:42Z rep=1 range:default_ws:ozaki:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 4 --workspace-mb 1265
+2026-11-07T16:28:50Z rep=1 range:eager_ws:ozaki:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 4 --workspace-mb 1265
+2026-11-07T16:28:59Z rep=1 range:native:ozaki:phi6:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 6
+2026-11-07T16:29:09Z rep=1 range:default_ws:ozaki:phi6:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 6 --workspace-mb 1265
+2026-11-07T16:29:18Z rep=1 range:eager_ws:ozaki:phi6:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 6 --workspace-mb 1265
+2026-11-07T16:29:28Z rep=1 range:native:ozaki:phi8:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 8
+2026-11-07T16:29:37Z rep=1 range:default_ws:ozaki:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 8 --workspace-mb 1265
+2026-11-07T16:29:46Z rep=1 range:eager_ws:ozaki:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 8 --workspace-mb 1265
+2026-11-07T16:29:55Z rep=1 range:native:inner:phi1:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 1
+2026-11-07T16:30:04Z rep=1 range:default_ws:inner:phi1:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 1 --workspace-mb 1265
+2026-11-07T16:30:13Z rep=1 range:eager_ws:inner:phi1:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 1 --workspace-mb 1265
+2026-11-07T16:30:22Z rep=1 range:native:inner:phi2:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 2
+2026-11-07T16:30:31Z rep=1 range:default_ws:inner:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 2 --workspace-mb 1265
+2026-11-07T16:30:39Z rep=1 range:eager_ws:inner:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 2 --workspace-mb 1265
+2026-11-07T16:30:48Z rep=1 range:native:inner:phi4:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 4
+2026-11-07T16:30:58Z rep=1 range:default_ws:inner:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 4 --workspace-mb 1265
+2026-11-07T16:31:06Z rep=1 range:eager_ws:inner:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 4 --workspace-mb 1265
+2026-11-07T16:31:15Z rep=1 range:native:inner:phi6:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6
+2026-11-07T16:31:24Z rep=1 range:default_ws:inner:phi6:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --workspace-mb 1265
+2026-11-07T16:31:33Z rep=1 range:eager_ws:inner:phi6:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --workspace-mb 1265
+2026-11-07T16:31:42Z rep=1 range:native:inner:phi7:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7
+2026-11-07T16:31:51Z rep=1 range:default_ws:inner:phi7:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7 --workspace-mb 1265
+2026-11-07T16:32:00Z rep=1 range:eager_ws:inner:phi7:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7 --workspace-mb 1265
+2026-11-07T16:32:08Z rep=1 range:native:inner:phi7.5:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.5
+2026-11-07T16:32:18Z rep=1 range:default_ws:inner:phi7.5:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.5 --workspace-mb 1265
+2026-11-07T16:32:27Z rep=1 range:eager_ws:inner:phi7.5:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.5 --workspace-mb 1265
+2026-11-07T16:32:36Z rep=1 range:native:inner:phi7.75:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.75
+2026-11-07T16:32:45Z rep=1 range:default_ws:inner:phi7.75:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.75 --workspace-mb 1265
+2026-11-07T16:32:54Z rep=1 range:eager_ws:inner:phi7.75:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.75 --workspace-mb 1265
+2026-11-07T16:33:03Z rep=1 range:native:inner:phi8:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 8
+2026-11-07T16:33:12Z rep=1 range:default_ws:inner:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 8 --workspace-mb 1265
+2026-11-07T16:33:21Z rep=1 range:eager_ws:inner:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 8 --workspace-mb 1265
+2026-11-07T16:33:30Z rep=1 range:native:inner:phi12:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 12
+2026-11-07T16:33:39Z rep=1 range:default_ws:inner:phi12:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 12 --workspace-mb 1265
+2026-11-07T16:33:49Z rep=1 range:eager_ws:inner:phi12:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 12 --workspace-mb 1265
+2026-11-07T16:33:58Z rep=1 range:native:rowcol:phi2:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 2
+2026-11-07T16:34:07Z rep=1 range:default_ws:rowcol:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 2 --workspace-mb 1265
+2026-11-07T16:34:16Z rep=1 range:eager_ws:rowcol:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 2 --workspace-mb 1265
+2026-11-07T16:34:25Z rep=1 range:native:rowcol:phi4:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 4
+2026-11-07T16:34:34Z rep=1 range:default_ws:rowcol:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 4 --workspace-mb 1265
+2026-11-07T16:34:43Z rep=1 range:eager_ws:rowcol:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 4 --workspace-mb 1265
+2026-11-07T16:34:51Z rep=1 range:native:rowcol:phi8:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 8
+2026-11-07T16:35:01Z rep=1 range:default_ws:rowcol:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 8 --workspace-mb 1265
+2026-11-07T16:35:09Z rep=1 range:eager_ws:rowcol:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 8 --workspace-mb 1265
+2026-11-07T16:35:18Z rep=1 range:native:rowcol:phi16:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 16
+2026-11-07T16:35:28Z rep=1 range:default_ws:rowcol:phi16:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 16 --workspace-mb 1265
+2026-11-07T16:35:36Z rep=1 range:eager_ws:rowcol:phi16:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 16 --workspace-mb 1265
+2026-11-07T16:35:45Z rep=1 range:native:inner:phi4:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 4
+2026-11-07T16:35:53Z rep=1 range:default_ws:inner:phi4:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 4 --workspace-mb 545
+2026-11-07T16:36:02Z rep=1 range:eager_ws:inner:phi4:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 4 --workspace-mb 545
+2026-11-07T16:36:09Z rep=1 range:native:inner:phi6:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 6
+2026-11-07T16:36:17Z rep=1 range:default_ws:inner:phi6:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 6 --workspace-mb 545
+2026-11-07T16:36:25Z rep=1 range:eager_ws:inner:phi6:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 6 --workspace-mb 545
+2026-11-07T16:36:33Z rep=1 range:native:inner:phi7:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7
+2026-11-07T16:36:41Z rep=1 range:default_ws:inner:phi7:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7 --workspace-mb 545
+2026-11-07T16:36:50Z rep=1 range:eager_ws:inner:phi7:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7 --workspace-mb 545
+2026-11-07T16:36:57Z rep=1 range:native:inner:phi7.5:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.5
+2026-11-07T16:37:06Z rep=1 range:default_ws:inner:phi7.5:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.5 --workspace-mb 545
+2026-11-07T16:37:14Z rep=1 range:eager_ws:inner:phi7.5:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.5 --workspace-mb 545
+2026-11-07T16:37:22Z rep=1 range:native:inner:phi7.75:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.75
+2026-11-07T16:37:30Z rep=1 range:default_ws:inner:phi7.75:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.75 --workspace-mb 545
+2026-11-07T16:37:39Z rep=1 range:eager_ws:inner:phi7.75:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.75 --workspace-mb 545
+2026-11-07T16:37:47Z rep=1 range:native:inner:phi8:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 8
+2026-11-07T16:37:56Z rep=1 range:default_ws:inner:phi8:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 8 --workspace-mb 545
+2026-11-07T16:38:04Z rep=1 range:eager_ws:inner:phi8:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 8 --workspace-mb 545
+2026-11-07T16:38:13Z rep=1 range:native:inner:phi4:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 4
+2026-11-07T16:38:21Z rep=1 range:default_ws:inner:phi4:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 4 --workspace-mb 689
+2026-11-07T16:38:30Z rep=1 range:eager_ws:inner:phi4:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 4 --workspace-mb 689
+2026-11-07T16:38:38Z rep=1 range:native:inner:phi6:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 6
+2026-11-07T16:38:47Z rep=1 range:default_ws:inner:phi6:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 6 --workspace-mb 689
+2026-11-07T16:38:55Z rep=1 range:eager_ws:inner:phi6:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 6 --workspace-mb 689
+2026-11-07T16:39:04Z rep=1 range:native:inner:phi7:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7
+2026-11-07T16:39:12Z rep=1 range:default_ws:inner:phi7:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7 --workspace-mb 689
+2026-11-07T16:39:21Z rep=1 range:eager_ws:inner:phi7:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7 --workspace-mb 689
+2026-11-07T16:39:29Z rep=1 range:native:inner:phi7.5:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.5
+2026-11-07T16:39:38Z rep=1 range:default_ws:inner:phi7.5:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.5 --workspace-mb 689
+2026-11-07T16:39:46Z rep=1 range:eager_ws:inner:phi7.5:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.5 --workspace-mb 689
+2026-11-07T16:39:55Z rep=1 range:native:inner:phi7.75:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.75
+2026-11-07T16:40:03Z rep=1 range:default_ws:inner:phi7.75:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.75 --workspace-mb 689
+2026-11-07T16:40:12Z rep=1 range:eager_ws:inner:phi7.75:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.75 --workspace-mb 689
+2026-11-07T16:40:20Z rep=1 range:native:inner:phi8:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 8
+2026-11-07T16:40:29Z rep=1 range:default_ws:inner:phi8:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 8 --workspace-mb 689
+2026-11-07T16:40:37Z rep=1 range:eager_ws:inner:phi8:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 8 --workspace-mb 689
+2026-11-07T16:40:46Z rep=1 range:native:inner:phi4:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 4
+2026-11-07T16:40:58Z rep=1 range:default_ws:inner:phi4:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 4 --workspace-mb 3569
+2026-11-07T16:41:08Z rep=1 range:eager_ws:inner:phi4:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 4 --workspace-mb 3569
+2026-11-07T16:41:18Z rep=1 range:native:inner:phi6:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 6
+2026-11-07T16:41:30Z rep=1 range:default_ws:inner:phi6:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 6 --workspace-mb 3569
+2026-11-07T16:41:40Z rep=1 range:eager_ws:inner:phi6:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 6 --workspace-mb 3569
+2026-11-07T16:41:50Z rep=1 range:native:inner:phi7:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7
+2026-11-07T16:42:02Z rep=1 range:default_ws:inner:phi7:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7 --workspace-mb 3569
+2026-11-07T16:42:12Z rep=1 range:eager_ws:inner:phi7:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7 --workspace-mb 3569
+2026-11-07T16:42:22Z rep=1 range:native:inner:phi7.5:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.5
+2026-11-07T16:42:35Z rep=1 range:default_ws:inner:phi7.5:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.5 --workspace-mb 3569
+2026-11-07T16:42:45Z rep=1 range:eager_ws:inner:phi7.5:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.5 --workspace-mb 3569
+2026-11-07T16:42:55Z rep=1 range:native:inner:phi7.75:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.75
+2026-11-07T16:43:07Z rep=1 range:default_ws:inner:phi7.75:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.75 --workspace-mb 3569
+2026-11-07T16:43:17Z rep=1 range:eager_ws:inner:phi7.75:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.75 --workspace-mb 3569
+2026-11-07T16:43:27Z rep=1 range:native:inner:phi8:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 8
+2026-11-07T16:43:39Z rep=1 range:default_ws:inner:phi8:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 8 --workspace-mb 3569
+2026-11-07T16:43:51Z rep=1 range:eager_ws:inner:phi8:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 8 --workspace-mb 3569
+2026-11-07T16:44:04Z rep=2 range:default_ws:ozaki:phi0:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0 --workspace-mb 1265
+2026-11-07T16:44:13Z rep=2 range:eager_ws:ozaki:phi0:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0 --workspace-mb 1265
+2026-11-07T16:44:21Z rep=2 range:native:ozaki:phi0.5:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0.5
+2026-11-07T16:44:30Z rep=2 range:default_ws:ozaki:phi0.5:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0.5 --workspace-mb 1265
+2026-11-07T16:44:39Z rep=2 range:eager_ws:ozaki:phi0.5:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0.5 --workspace-mb 1265
+2026-11-07T16:44:48Z rep=2 range:native:ozaki:phi1:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 1
+2026-11-07T16:44:57Z rep=2 range:default_ws:ozaki:phi1:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 1 --workspace-mb 1265
+2026-11-07T16:45:06Z rep=2 range:eager_ws:ozaki:phi1:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 1 --workspace-mb 1265
+2026-11-07T16:45:15Z rep=2 range:native:ozaki:phi2:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 2
+2026-11-07T16:45:24Z rep=2 range:default_ws:ozaki:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 2 --workspace-mb 1265
+2026-11-07T16:45:33Z rep=2 range:eager_ws:ozaki:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 2 --workspace-mb 1265
+2026-11-07T16:45:42Z rep=2 range:native:ozaki:phi3:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 3
+2026-11-07T16:45:51Z rep=2 range:default_ws:ozaki:phi3:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 3 --workspace-mb 1265
+2026-11-07T16:46:00Z rep=2 range:eager_ws:ozaki:phi3:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 3 --workspace-mb 1265
+2026-11-07T16:46:09Z rep=2 range:native:ozaki:phi4:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 4
+2026-11-07T16:46:18Z rep=2 range:default_ws:ozaki:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 4 --workspace-mb 1265
+2026-11-07T16:46:27Z rep=2 range:eager_ws:ozaki:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 4 --workspace-mb 1265
+2026-11-07T16:46:36Z rep=2 range:native:ozaki:phi6:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 6
+2026-11-07T16:46:46Z rep=2 range:default_ws:ozaki:phi6:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 6 --workspace-mb 1265
+2026-11-07T16:46:55Z rep=2 range:eager_ws:ozaki:phi6:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 6 --workspace-mb 1265
+2026-11-07T16:47:05Z rep=2 range:native:ozaki:phi8:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 8
+2026-11-07T16:47:14Z rep=2 range:default_ws:ozaki:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 8 --workspace-mb 1265
+2026-11-07T16:47:23Z rep=2 range:eager_ws:ozaki:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 8 --workspace-mb 1265
+2026-11-07T16:47:32Z rep=2 range:native:inner:phi1:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 1
+2026-11-07T16:47:42Z rep=2 range:default_ws:inner:phi1:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 1 --workspace-mb 1265
+2026-11-07T16:47:50Z rep=2 range:eager_ws:inner:phi1:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 1 --workspace-mb 1265
+2026-11-07T16:47:59Z rep=2 range:native:inner:phi2:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 2
+2026-11-07T16:48:08Z rep=2 range:default_ws:inner:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 2 --workspace-mb 1265
+2026-11-07T16:48:17Z rep=2 range:eager_ws:inner:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 2 --workspace-mb 1265
+2026-11-07T16:48:26Z rep=2 range:native:inner:phi4:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 4
+2026-11-07T16:48:35Z rep=2 range:default_ws:inner:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 4 --workspace-mb 1265
+2026-11-07T16:48:44Z rep=2 range:eager_ws:inner:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 4 --workspace-mb 1265
+2026-11-07T16:48:53Z rep=2 range:native:inner:phi6:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6
+2026-11-07T16:49:02Z rep=2 range:default_ws:inner:phi6:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --workspace-mb 1265
+2026-11-07T16:49:10Z rep=2 range:eager_ws:inner:phi6:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --workspace-mb 1265
+2026-11-07T16:49:19Z rep=2 range:native:inner:phi7:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7
+2026-11-07T16:49:28Z rep=2 range:default_ws:inner:phi7:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7 --workspace-mb 1265
+2026-11-07T16:49:37Z rep=2 range:eager_ws:inner:phi7:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7 --workspace-mb 1265
+2026-11-07T16:49:46Z rep=2 range:native:inner:phi7.5:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.5
+2026-11-07T16:49:55Z rep=2 range:default_ws:inner:phi7.5:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.5 --workspace-mb 1265
+2026-11-07T16:50:04Z rep=2 range:eager_ws:inner:phi7.5:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.5 --workspace-mb 1265
+2026-11-07T16:50:13Z rep=2 range:native:inner:phi7.75:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.75
+2026-11-07T16:50:22Z rep=2 range:default_ws:inner:phi7.75:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.75 --workspace-mb 1265
+2026-11-07T16:50:30Z rep=2 range:eager_ws:inner:phi7.75:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.75 --workspace-mb 1265
+2026-11-07T16:50:39Z rep=2 range:native:inner:phi8:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 8
+2026-11-07T16:50:48Z rep=2 range:default_ws:inner:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 8 --workspace-mb 1265
+2026-11-07T16:50:57Z rep=2 range:eager_ws:inner:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 8 --workspace-mb 1265
+2026-11-07T16:51:07Z rep=2 range:native:inner:phi12:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 12
+2026-11-07T16:51:16Z rep=2 range:default_ws:inner:phi12:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 12 --workspace-mb 1265
+2026-11-07T16:51:25Z rep=2 range:eager_ws:inner:phi12:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 12 --workspace-mb 1265
+2026-11-07T16:51:35Z rep=2 range:native:rowcol:phi2:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 2
+2026-11-07T16:51:44Z rep=2 range:default_ws:rowcol:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 2 --workspace-mb 1265
+2026-11-07T16:51:53Z rep=2 range:eager_ws:rowcol:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 2 --workspace-mb 1265
+2026-11-07T16:52:02Z rep=2 range:native:rowcol:phi4:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 4
+2026-11-07T16:52:12Z rep=2 range:default_ws:rowcol:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 4 --workspace-mb 1265
+2026-11-07T16:52:20Z rep=2 range:eager_ws:rowcol:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 4 --workspace-mb 1265
+2026-11-07T16:52:29Z rep=2 range:native:rowcol:phi8:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 8
+2026-11-07T16:52:38Z rep=2 range:default_ws:rowcol:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 8 --workspace-mb 1265
+2026-11-07T16:52:47Z rep=2 range:eager_ws:rowcol:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 8 --workspace-mb 1265
+2026-11-07T16:52:55Z rep=2 range:native:rowcol:phi16:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 16
+2026-11-07T16:53:05Z rep=2 range:default_ws:rowcol:phi16:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 16 --workspace-mb 1265
+2026-11-07T16:53:13Z rep=2 range:eager_ws:rowcol:phi16:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 16 --workspace-mb 1265
+2026-11-07T16:53:23Z rep=2 range:native:inner:phi4:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 4
+2026-11-07T16:53:31Z rep=2 range:default_ws:inner:phi4:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 4 --workspace-mb 545
+2026-11-07T16:53:40Z rep=2 range:eager_ws:inner:phi4:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 4 --workspace-mb 545
+2026-11-07T16:53:47Z rep=2 range:native:inner:phi6:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 6
+2026-11-07T16:53:56Z rep=2 range:default_ws:inner:phi6:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 6 --workspace-mb 545
+2026-11-07T16:54:04Z rep=2 range:eager_ws:inner:phi6:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 6 --workspace-mb 545
+2026-11-07T16:54:11Z rep=2 range:native:inner:phi7:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7
+2026-11-07T16:54:20Z rep=2 range:default_ws:inner:phi7:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7 --workspace-mb 545
+2026-11-07T16:54:28Z rep=2 range:eager_ws:inner:phi7:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7 --workspace-mb 545
+2026-11-07T16:54:35Z rep=2 range:native:inner:phi7.5:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.5
+2026-11-07T16:54:44Z rep=2 range:default_ws:inner:phi7.5:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.5 --workspace-mb 545
+2026-11-07T16:54:52Z rep=2 range:eager_ws:inner:phi7.5:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.5 --workspace-mb 545
+2026-11-07T16:55:00Z rep=2 range:native:inner:phi7.75:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.75
+2026-11-07T16:55:09Z rep=2 range:default_ws:inner:phi7.75:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.75 --workspace-mb 545
+2026-11-07T16:55:17Z rep=2 range:eager_ws:inner:phi7.75:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.75 --workspace-mb 545
+2026-11-07T16:55:25Z rep=2 range:native:inner:phi8:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 8
+2026-11-07T16:55:34Z rep=2 range:default_ws:inner:phi8:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 8 --workspace-mb 545
+2026-11-07T16:55:42Z rep=2 range:eager_ws:inner:phi8:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 8 --workspace-mb 545
+2026-11-07T16:55:50Z rep=2 range:native:inner:phi4:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 4
+2026-11-07T16:55:59Z rep=2 range:default_ws:inner:phi4:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 4 --workspace-mb 689
+2026-11-07T16:56:07Z rep=2 range:eager_ws:inner:phi4:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 4 --workspace-mb 689
+2026-11-07T16:56:16Z rep=2 range:native:inner:phi6:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 6
+2026-11-07T16:56:24Z rep=2 range:default_ws:inner:phi6:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 6 --workspace-mb 689
+2026-11-07T16:56:33Z rep=2 range:eager_ws:inner:phi6:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 6 --workspace-mb 689
+2026-11-07T16:56:41Z rep=2 range:native:inner:phi7:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7
+2026-11-07T16:56:50Z rep=2 range:default_ws:inner:phi7:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7 --workspace-mb 689
+2026-11-07T16:56:59Z rep=2 range:eager_ws:inner:phi7:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7 --workspace-mb 689
+2026-11-07T16:57:07Z rep=2 range:native:inner:phi7.5:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.5
+2026-11-07T16:57:15Z rep=2 range:default_ws:inner:phi7.5:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.5 --workspace-mb 689
+2026-11-07T16:57:24Z rep=2 range:eager_ws:inner:phi7.5:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.5 --workspace-mb 689
+2026-11-07T16:57:33Z rep=2 range:native:inner:phi7.75:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.75
+2026-11-07T16:57:41Z rep=2 range:default_ws:inner:phi7.75:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.75 --workspace-mb 689
+2026-11-07T16:57:50Z rep=2 range:eager_ws:inner:phi7.75:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.75 --workspace-mb 689
+2026-11-07T16:57:58Z rep=2 range:native:inner:phi8:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 8
+2026-11-07T16:58:07Z rep=2 range:default_ws:inner:phi8:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 8 --workspace-mb 689
+2026-11-07T16:58:15Z rep=2 range:eager_ws:inner:phi8:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 8 --workspace-mb 689
+2026-11-07T16:58:24Z rep=2 range:native:inner:phi4:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 4
+2026-11-07T16:58:36Z rep=2 range:default_ws:inner:phi4:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 4 --workspace-mb 3569
+2026-11-07T16:58:46Z rep=2 range:eager_ws:inner:phi4:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 4 --workspace-mb 3569
+2026-11-07T16:58:56Z rep=2 range:native:inner:phi6:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 6
+2026-11-07T16:59:08Z rep=2 range:default_ws:inner:phi6:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 6 --workspace-mb 3569
+2026-11-07T16:59:18Z rep=2 range:eager_ws:inner:phi6:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 6 --workspace-mb 3569
+2026-11-07T16:59:28Z rep=2 range:native:inner:phi7:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7
+2026-11-07T16:59:41Z rep=2 range:default_ws:inner:phi7:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7 --workspace-mb 3569
+2026-11-07T16:59:51Z rep=2 range:eager_ws:inner:phi7:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7 --workspace-mb 3569
+2026-11-07T17:00:01Z rep=2 range:native:inner:phi7.5:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.5
+2026-11-07T17:00:13Z rep=2 range:default_ws:inner:phi7.5:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.5 --workspace-mb 3569
+2026-11-07T17:00:23Z rep=2 range:eager_ws:inner:phi7.5:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.5 --workspace-mb 3569
+2026-11-07T17:00:33Z rep=2 range:native:inner:phi7.75:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.75
+2026-11-07T17:00:45Z rep=2 range:default_ws:inner:phi7.75:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.75 --workspace-mb 3569
+2026-11-07T17:00:55Z rep=2 range:eager_ws:inner:phi7.75:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.75 --workspace-mb 3569
+2026-11-07T17:01:05Z rep=2 range:native:inner:phi8:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 8
+2026-11-07T17:01:17Z rep=2 range:default_ws:inner:phi8:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 8 --workspace-mb 3569
+2026-11-07T17:01:29Z rep=2 range:eager_ws:inner:phi8:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 8 --workspace-mb 3569
+2026-11-07T17:01:42Z rep=2 range:native:ozaki:phi0:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0
+2026-11-07T17:01:51Z rep=3 range:eager_ws:ozaki:phi0:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0 --workspace-mb 1265
+2026-11-07T17:02:00Z rep=3 range:native:ozaki:phi0.5:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0.5
+2026-11-07T17:02:10Z rep=3 range:default_ws:ozaki:phi0.5:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0.5 --workspace-mb 1265
+2026-11-07T17:02:19Z rep=3 range:eager_ws:ozaki:phi0.5:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0.5 --workspace-mb 1265
+2026-11-07T17:02:28Z rep=3 range:native:ozaki:phi1:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 1
+2026-11-07T17:02:37Z rep=3 range:default_ws:ozaki:phi1:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 1 --workspace-mb 1265
+2026-11-07T17:02:46Z rep=3 range:eager_ws:ozaki:phi1:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 1 --workspace-mb 1265
+2026-11-07T17:02:55Z rep=3 range:native:ozaki:phi2:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 2
+2026-11-07T17:03:04Z rep=3 range:default_ws:ozaki:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 2 --workspace-mb 1265
+2026-11-07T17:03:13Z rep=3 range:eager_ws:ozaki:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 2 --workspace-mb 1265
+2026-11-07T17:03:22Z rep=3 range:native:ozaki:phi3:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 3
+2026-11-07T17:03:31Z rep=3 range:default_ws:ozaki:phi3:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 3 --workspace-mb 1265
+2026-11-07T17:03:40Z rep=3 range:eager_ws:ozaki:phi3:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 3 --workspace-mb 1265
+2026-11-07T17:03:49Z rep=3 range:native:ozaki:phi4:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 4
+2026-11-07T17:03:59Z rep=3 range:default_ws:ozaki:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 4 --workspace-mb 1265
+2026-11-07T17:04:08Z rep=3 range:eager_ws:ozaki:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 4 --workspace-mb 1265
+2026-11-07T17:04:16Z rep=3 range:native:ozaki:phi6:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 6
+2026-11-07T17:04:26Z rep=3 range:default_ws:ozaki:phi6:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 6 --workspace-mb 1265
+2026-11-07T17:04:35Z rep=3 range:eager_ws:ozaki:phi6:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 6 --workspace-mb 1265
+2026-11-07T17:04:45Z rep=3 range:native:ozaki:phi8:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 8
+2026-11-07T17:04:54Z rep=3 range:default_ws:ozaki:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 8 --workspace-mb 1265
+2026-11-07T17:05:03Z rep=3 range:eager_ws:ozaki:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 8 --workspace-mb 1265
+2026-11-07T17:05:13Z rep=3 range:native:inner:phi1:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 1
+2026-11-07T17:05:22Z rep=3 range:default_ws:inner:phi1:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 1 --workspace-mb 1265
+2026-11-07T17:05:31Z rep=3 range:eager_ws:inner:phi1:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 1 --workspace-mb 1265
+2026-11-07T17:05:40Z rep=3 range:native:inner:phi2:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 2
+2026-11-07T17:05:49Z rep=3 range:default_ws:inner:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 2 --workspace-mb 1265
+2026-11-07T17:05:58Z rep=3 range:eager_ws:inner:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 2 --workspace-mb 1265
+2026-11-07T17:06:08Z rep=3 range:native:inner:phi4:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 4
+2026-11-07T17:06:17Z rep=3 range:default_ws:inner:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 4 --workspace-mb 1265
+2026-11-07T17:06:27Z rep=3 range:eager_ws:inner:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 4 --workspace-mb 1265
+2026-11-07T17:06:36Z rep=3 range:native:inner:phi6:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6
+2026-11-07T17:06:45Z rep=3 range:default_ws:inner:phi6:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --workspace-mb 1265
+2026-11-07T17:06:55Z rep=3 range:eager_ws:inner:phi6:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --workspace-mb 1265
+2026-11-07T17:07:04Z rep=3 range:native:inner:phi7:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7
+2026-11-07T17:07:14Z rep=3 range:default_ws:inner:phi7:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7 --workspace-mb 1265
+2026-11-07T17:07:24Z rep=3 range:eager_ws:inner:phi7:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7 --workspace-mb 1265
+2026-11-07T17:07:34Z rep=3 range:native:inner:phi7.5:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.5
+2026-11-07T17:07:43Z rep=3 range:default_ws:inner:phi7.5:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.5 --workspace-mb 1265
+2026-11-07T17:07:53Z rep=3 range:eager_ws:inner:phi7.5:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.5 --workspace-mb 1265
+2026-11-07T17:08:02Z rep=3 range:native:inner:phi7.75:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.75
+2026-11-07T17:08:12Z rep=3 range:default_ws:inner:phi7.75:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.75 --workspace-mb 1265
+2026-11-07T17:08:21Z rep=3 range:eager_ws:inner:phi7.75:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.75 --workspace-mb 1265
+2026-11-07T17:08:30Z rep=3 range:native:inner:phi8:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 8
+2026-11-07T17:08:40Z rep=3 range:default_ws:inner:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 8 --workspace-mb 1265
+2026-11-07T17:08:49Z rep=3 range:eager_ws:inner:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 8 --workspace-mb 1265
+2026-11-07T17:08:59Z rep=3 range:native:inner:phi12:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 12
+2026-11-07T17:09:08Z rep=3 range:default_ws:inner:phi12:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 12 --workspace-mb 1265
+2026-11-07T17:09:18Z rep=3 range:eager_ws:inner:phi12:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 12 --workspace-mb 1265
+2026-11-07T17:09:28Z rep=3 range:native:rowcol:phi2:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 2
+2026-11-07T17:09:37Z rep=3 range:default_ws:rowcol:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 2 --workspace-mb 1265
+2026-11-07T17:09:46Z rep=3 range:eager_ws:rowcol:phi2:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 2 --workspace-mb 1265
+2026-11-07T17:09:55Z rep=3 range:native:rowcol:phi4:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 4
+2026-11-07T17:10:04Z rep=3 range:default_ws:rowcol:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 4 --workspace-mb 1265
+2026-11-07T17:10:13Z rep=3 range:eager_ws:rowcol:phi4:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 4 --workspace-mb 1265
+2026-11-07T17:10:22Z rep=3 range:native:rowcol:phi8:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 8
+2026-11-07T17:10:31Z rep=3 range:default_ws:rowcol:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 8 --workspace-mb 1265
+2026-11-07T17:10:40Z rep=3 range:eager_ws:rowcol:phi8:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 8 --workspace-mb 1265
+2026-11-07T17:10:49Z rep=3 range:native:rowcol:phi16:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 16
+2026-11-07T17:10:59Z rep=3 range:default_ws:rowcol:phi16:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 16 --workspace-mb 1265
+2026-11-07T17:11:08Z rep=3 range:eager_ws:rowcol:phi16:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 16 --workspace-mb 1265
+2026-11-07T17:11:17Z rep=3 range:native:inner:phi4:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 4
+2026-11-07T17:11:25Z rep=3 range:default_ws:inner:phi4:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 4 --workspace-mb 545
+2026-11-07T17:11:34Z rep=3 range:eager_ws:inner:phi4:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 4 --workspace-mb 545
+2026-11-07T17:11:41Z rep=3 range:native:inner:phi6:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 6
+2026-11-07T17:11:50Z rep=3 range:default_ws:inner:phi6:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 6 --workspace-mb 545
+2026-11-07T17:11:58Z rep=3 range:eager_ws:inner:phi6:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 6 --workspace-mb 545
+2026-11-07T17:12:06Z rep=3 range:native:inner:phi7:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7
+2026-11-07T17:12:14Z rep=3 range:default_ws:inner:phi7:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7 --workspace-mb 545
+2026-11-07T17:12:23Z rep=3 range:eager_ws:inner:phi7:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7 --workspace-mb 545
+2026-11-07T17:12:30Z rep=3 range:native:inner:phi7.5:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.5
+2026-11-07T17:12:39Z rep=3 range:default_ws:inner:phi7.5:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.5 --workspace-mb 545
+2026-11-07T17:12:47Z rep=3 range:eager_ws:inner:phi7.5:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.5 --workspace-mb 545
+2026-11-07T17:12:55Z rep=3 range:native:inner:phi7.75:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.75
+2026-11-07T17:13:03Z rep=3 range:default_ws:inner:phi7.75:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.75 --workspace-mb 545
+2026-11-07T17:13:12Z rep=3 range:eager_ws:inner:phi7.75:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.75 --workspace-mb 545
+2026-11-07T17:13:20Z rep=3 range:native:inner:phi8:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 8
+2026-11-07T17:13:29Z rep=3 range:default_ws:inner:phi8:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 8 --workspace-mb 545
+2026-11-07T17:13:37Z rep=3 range:eager_ws:inner:phi8:k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 8 --workspace-mb 545
+2026-11-07T17:13:46Z rep=3 range:native:inner:phi4:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 4
+2026-11-07T17:13:55Z rep=3 range:default_ws:inner:phi4:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 4 --workspace-mb 689
+2026-11-07T17:14:03Z rep=3 range:eager_ws:inner:phi4:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 4 --workspace-mb 689
+2026-11-07T17:14:12Z rep=3 range:native:inner:phi6:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 6
+2026-11-07T17:14:21Z rep=3 range:default_ws:inner:phi6:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 6 --workspace-mb 689
+2026-11-07T17:14:29Z rep=3 range:eager_ws:inner:phi6:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 6 --workspace-mb 689
+2026-11-07T17:14:38Z rep=3 range:native:inner:phi7:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7
+2026-11-07T17:14:46Z rep=3 range:default_ws:inner:phi7:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7 --workspace-mb 689
+2026-11-07T17:14:55Z rep=3 range:eager_ws:inner:phi7:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7 --workspace-mb 689
+2026-11-07T17:15:04Z rep=3 range:native:inner:phi7.5:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.5
+2026-11-07T17:15:13Z rep=3 range:default_ws:inner:phi7.5:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.5 --workspace-mb 689
+2026-11-07T17:15:21Z rep=3 range:eager_ws:inner:phi7.5:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.5 --workspace-mb 689
+2026-11-07T17:15:30Z rep=3 range:native:inner:phi7.75:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.75
+2026-11-07T17:15:39Z rep=3 range:default_ws:inner:phi7.75:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.75 --workspace-mb 689
+2026-11-07T17:15:47Z rep=3 range:eager_ws:inner:phi7.75:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.75 --workspace-mb 689
+2026-11-07T17:15:56Z rep=3 range:native:inner:phi8:k1024: env[] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 8
+2026-11-07T17:16:05Z rep=3 range:default_ws:inner:phi8:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 8 --workspace-mb 689
+2026-11-07T17:16:14Z rep=3 range:eager_ws:inner:phi8:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 8 --workspace-mb 689
+2026-11-07T17:16:23Z rep=3 range:native:inner:phi4:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 4
+2026-11-07T17:16:35Z rep=3 range:default_ws:inner:phi4:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 4 --workspace-mb 3569
+2026-11-07T17:16:45Z rep=3 range:eager_ws:inner:phi4:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 4 --workspace-mb 3569
+2026-11-07T17:16:55Z rep=3 range:native:inner:phi6:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 6
+2026-11-07T17:17:07Z rep=3 range:default_ws:inner:phi6:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 6 --workspace-mb 3569
+2026-11-07T17:17:17Z rep=3 range:eager_ws:inner:phi6:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 6 --workspace-mb 3569
+2026-11-07T17:17:27Z rep=3 range:native:inner:phi7:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7
+2026-11-07T17:17:39Z rep=3 range:default_ws:inner:phi7:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7 --workspace-mb 3569
+2026-11-07T17:17:49Z rep=3 range:eager_ws:inner:phi7:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7 --workspace-mb 3569
+2026-11-07T17:17:59Z rep=3 range:native:inner:phi7.5:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.5
+2026-11-07T17:18:11Z rep=3 range:default_ws:inner:phi7.5:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.5 --workspace-mb 3569
+2026-11-07T17:18:21Z rep=3 range:eager_ws:inner:phi7.5:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.5 --workspace-mb 3569
+2026-11-07T17:18:31Z rep=3 range:native:inner:phi7.75:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.75
+2026-11-07T17:18:43Z rep=3 range:default_ws:inner:phi7.75:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.75 --workspace-mb 3569
+2026-11-07T17:18:53Z rep=3 range:eager_ws:inner:phi7.75:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.75 --workspace-mb 3569
+2026-11-07T17:19:03Z rep=3 range:native:inner:phi8:k16384: env[] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 8
+2026-11-07T17:19:15Z rep=3 range:default_ws:inner:phi8:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 8 --workspace-mb 3569
+2026-11-07T17:19:27Z rep=3 range:eager_ws:inner:phi8:k16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 8 --workspace-mb 3569
+2026-11-07T17:19:40Z rep=3 range:native:ozaki:phi0:k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0
+2026-11-07T17:19:49Z rep=3 range:default_ws:ozaki:phi0:k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0 --workspace-mb 1265
+2026-11-07T17:19:58Z DONE

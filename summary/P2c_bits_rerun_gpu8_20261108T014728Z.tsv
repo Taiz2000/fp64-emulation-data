@@ -1,0 +1,4 @@
+gpu	config	ok/runs	med_ms	spread%	p90/med	TFLOPS	x_native	path	bits	err_comp	nat_err	err_rel	J/call	wall_sync	x_nat_wall
+ce RTX 4090	bits:eager_ws:inner_phi6:fixed64	3/3	8.884	0.9	1.00	15.470	nan	emu	64	1.1e-16	3.3e-15	1.1e-14	3.942	8.893	nan
+ce RTX 4090	bits:eager_ws:inner_phi6:fixed96	3/3	13.637	0.6	1.00	10.079	nan	emu	96	1.5e-16	3.3e-15	1.6e-14	6.103	13.651	nan
+ce RTX 4090	bits:eager_ws:u11:dyncap64	3/3	9.058	1.1	1.00	15.173	nan	emu	59	8.2e-18	2.5e-16	2.3e-15	3.960	9.067	nan

@@ -1,0 +1,43 @@
+verdict WARN
+lines 245 x reps 3, rows 735
+WARN shape:native:odd:m4097_n4097_k4097: native 0.342 TFLOPS vs PoC 0.36
+WARN shape:eager_ws0:odd:m4097_n4097_k4097: wall_sync spread 16.4%
+WARN shape:native:odd:m4000_n4000_k4000: native 0.348 TFLOPS vs PoC 0.36
+WARN shape:default_ws0:odd:m4000_n4000_k4000: wall_sync spread 55.6%
+WARN shape:eager_ws0:odd:m4000_n4000_k4000: wall_sync spread 22.3%
+WARN shape:eager_ws0:odd:m3001_n5003_k2999: wall_sync spread 21.9%
+WARN shape:eager_ws0:panel:m8192_n8192_k32: wall_sync spread 37.7%
+WARN shape:eager_ws0:panel:m8192_n8192_k64: wall_sync spread 26.1%
+WARN shape:eager_ws0:panel:m8192_n8192_k96: wall_sync spread 25.7%
+WARN shape:eager_ws0:panel:m8192_n8192_k256: wall_sync spread 34.5%
+WARN shape:default_ws0:panel:m8192_n8192_k512: wall_sync spread 21.5%
+WARN shape:eager_ws0:panel:m8192_n8192_k512: wall_sync spread 26.8%
+WARN shape:default_ws0:panel:m8192_n8192_k1024: wall_sync spread 41.9%
+WARN shape:eager_ws0:skinny:m8192_n64_k8192: wall_sync spread 25.1%
+WARN shape:eager_ws0:skinny:m8192_n96_k8192: wall_sync spread 18.1%
+WARN shape:eager_ws0:skinny:m8192_n192_k8192: wall_sync spread 29.7%
+WARN shape:eager_ws0:skinny:m8192_n256_k8192: wall_sync spread 19.4%
+WARN shape:default_ws0:skinny:m8192_n384_k8192: wall_sync spread 23.6%
+WARN shape:eager_ws0:skinny:m8192_n384_k8192: wall_sync spread 124.2%
+WARN shape:eager_ws0:skinny:m8192_n512_k8192: wall_sync spread 15.9%
+WARN shape:eager_ws0:skinny:m8192_n1024_k8192: wall_sync spread 21.7%
+WARN shape:default_ws0:skinny:m8192_n2048_k8192: wall_sync spread 33.2%
+WARN shape:eager_ws0:shortwide:m8_n8192_k8192: wall_sync spread 24.0%
+WARN shape:eager_ws0:shortwide:m32_n8192_k8192: wall_sync spread 25.9%
+WARN shape:native:shortwide:m128_n8192_k8192: wall_sync spread 5.3%
+WARN shape:eager_ws0:shortwide:m256_n8192_k8192: wall_sync spread 15.5%
+WARN shape:default_ws0:shortwide:m512_n8192_k8192: wall_sync spread 30.9%
+WARN shape:eager_ws0:gram:m32_n32_k8192: wall_sync spread 43.9%
+WARN shape:eager_ws0:gram:m32_n32_k131072: rep-median spread 20.8% -> rerun
+WARN shape:eager_ws0:gram:m32_n32_k131072: wall_sync spread 28.0%
+WARN shape:eager_ws0:gram:m128_n128_k32768: wall_sync spread 28.8%
+WARN shape:eager_ws0:gram:m128_n128_k131072: wall_sync spread 17.9%
+WARN shape:default_ws0:gram:m512_n512_k8192: wall_sync spread 35.7%
+WARN shape:eager_ws0:gram:m512_n512_k8192: wall_sync spread 28.0%
+WARN shape:default_ws0:gram:m512_n512_k32768: wall_sync spread 25.5%
+WARN shape:eager_ws0:gram:m512_n512_k131072: wall_sync spread 20.6%
+WARN shape:eager_ws0:rsvd_AO:m16384_n64_k8192: wall_sync spread 40.3%
+WARN shape:default_ws0:rsvd_AO:m16384_n256_k8192: wall_sync spread 16.9%
+WARN shape:eager_ws0:rsvd_AO:m16384_n256_k8192: wall_sync spread 30.2%
+WARN shape:eager_ws0:rsvd_AtQ:m8192_n256_k16384_TN: wall_sync spread 46.4%
+WARN shape:default_ws0:rsvd_QtA:m256_n8192_k16384_TN: wall_sync spread 24.0%

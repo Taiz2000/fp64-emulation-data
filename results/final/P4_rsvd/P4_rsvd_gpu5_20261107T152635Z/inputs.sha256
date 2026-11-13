@@ -1,0 +1,16 @@
+5c194029b27c3ef73bfa4cf0ddbbc6f70614887b32c48e29985e71b99c6baa61  /home/taiz/fp64/pathB/workloads/rsvd.py
+77b04bf73afb7e7b21f18eb3c7727429ed8cb27b67a87f4de19a505aa3bc0d65  /home/taiz/fp64/pathB/data/exp.npy
+89cf9098c5d2556459198fdfd31e54e3c3246e38f10deeb3c0a109f7c93fb338  /home/taiz/fp64/pathB/data/exp.sigma_exact.npy
+c5861c3933cd6b1bc82bf48e0c2fa6f30469069d099ccdb1e0fb0ad3f01f6fee  /home/taiz/fp64/pathB/data/exp.sigma_ref.npy
+f01c04ea8e216460870a949f874ede915af6e9a371aefa827036ee1d2b416154  /home/taiz/fp64/pathB/data/lrnoise.npy
+23e0179b88228430ab6e756ad690b1e47f242a185b1427508c5e19fb6d0863c4  /home/taiz/fp64/pathB/data/lrnoise.sigma_exact.npy
+3c92bec5c6e0c8e079e043a803b4d829e16f2a9e73ec193fab5de54351e3b140  /home/taiz/fp64/pathB/data/lrnoise.sigma_ref.npy
+a9f02008525d5347b68189f7350d224983843505439ca31d6ff589cf910d43b9  /home/taiz/fp64/pathB/data/poly.npy
+c35deded5dd62f2e07eff215501ecc8112c24d0d3a22e5de12eeeaa6c69b5a7b  /home/taiz/fp64/pathB/data/poly.sigma_exact.npy
+b306468300c3616b98ac1ed3122146866ab0cdbcf138ced36637b2203009eb59  /home/taiz/fp64/pathB/data/poly.sigma_ref.npy
+5d280e82da1c908910c2cc6494575987bcbcd627a114b53e8183834efdff276e  /home/taiz/fp64/pathB/data/scaled4.npy
+23e0179b88228430ab6e756ad690b1e47f242a185b1427508c5e19fb6d0863c4  /home/taiz/fp64/pathB/data/scaled4.sigma_exact.npy
+eefc3e6a3f9f179c5c4a7fd71e2dd1825a7d5411e8ad982569aade9c9f4810af  /home/taiz/fp64/pathB/data/scaled4.sigma_ref.npy
+cd97b4db3d518aefed969426aa5c6de0725b7bc68292625d684fd4c7295c5630  /home/taiz/fp64/pathB/data/scaled8.npy
+23e0179b88228430ab6e756ad690b1e47f242a185b1427508c5e19fb6d0863c4  /home/taiz/fp64/pathB/data/scaled8.sigma_exact.npy
+43527b79f20cb85f7f93aaa105862a393c5a5de7ca2242dceff686f9b6463df4  /home/taiz/fp64/pathB/data/scaled8.sigma_ref.npy

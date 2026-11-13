@@ -1,0 +1,3 @@
+bits:eager_ws:u11:dyncap64|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --mcontrol dynamic --max-bits 64 --workspace-mb 1105
+bits:eager_ws:inner_phi6:fixed64|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 64 --workspace-mb 1105
+bits:eager_ws:inner_phi6:fixed96|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 96 --workspace-mb 1265

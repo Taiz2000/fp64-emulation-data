@@ -1,0 +1,152 @@
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 2048 --n 2048 --k 2048 --api dgemm ] requested=151011332 -> 177 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm ] requested=402685956 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 8192 --k 8192 --api dgemm ] requested=1409351684 -> 1377 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 8192 --k 128 --api dgemm ] requested=268632324 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 64 --k 8192 --api dgemm ] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 512 --k 8192 --api dgemm ] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.5] requested=402685956 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.75] requested=402685956 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 8] requested=402685956 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 256 --n 256 --k 256 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=70390788 -> 100 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 512 --n 512 --k 512 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=74979332 -> 104 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 1024 --n 1024 --k 1024 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=88088580 -> 117 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 2048 --n 2048 --k 2048 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=151011332 -> 177 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=402685956 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 8192 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1409351684 -> 1377 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 16384 --n 16384 --k 16384 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=0 -> 32 MiB
+# SKIP ver13.1:dec_sq:n16384 (needs > 7127 MiB)
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 8192 --k 16 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=268566788 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 8192 --k 32 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=268566788 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 8192 --k 64 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=268566788 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 8192 --k 128 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=268632324 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 8192 --k 256 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=268763396 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 8192 --k 512 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=269025540 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 8192 --k 1024 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=269549828 -> 290 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 8192 --k 2048 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=402718724 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 8192 --k 4096 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=738263044 -> 737 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 8192 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1409351684 -> 1377 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 8 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 16 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 32 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 64 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 128 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 256 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 512 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 1024 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 2048 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=906010628 -> 897 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 4096 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1073790980 -> 1057 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.1/targets/x86_64-linux/lib --m 8192 --n 8192 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1409351684 -> 1377 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 2048 --n 2048 --k 2048 --api dgemm ] requested=151011332 -> 177 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm ] requested=402685956 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 8192 --k 8192 --api dgemm ] requested=1409351684 -> 1377 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 8192 --k 128 --api dgemm ] requested=268632324 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 64 --k 8192 --api dgemm ] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 512 --k 8192 --api dgemm ] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.5] requested=402685956 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.75] requested=402685956 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 8] requested=402685956 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 256 --n 256 --k 256 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=70390788 -> 100 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 512 --n 512 --k 512 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=74979332 -> 104 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 1024 --n 1024 --k 1024 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=88088580 -> 117 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 2048 --n 2048 --k 2048 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=151011332 -> 177 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=402685956 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 8192 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1409351684 -> 1377 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 16384 --n 16384 --k 16384 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=0 -> 32 MiB
+# SKIP ver13.2:dec_sq:n16384 (needs > 7127 MiB)
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 8192 --k 16 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=268566788 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 8192 --k 32 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=268566788 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 8192 --k 64 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=268566788 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 8192 --k 128 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=268632324 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 8192 --k 256 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=268763396 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 8192 --k 512 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=269025540 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 8192 --k 1024 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=269549828 -> 290 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 8192 --k 2048 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=402718724 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 8192 --k 4096 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=738263044 -> 737 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 8192 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1409351684 -> 1377 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 8 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 16 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 32 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 64 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 128 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 256 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 512 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 1024 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 2048 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=906010628 -> 897 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 4096 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1073790980 -> 1057 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.2/targets/x86_64-linux/lib --m 8192 --n 8192 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1409351684 -> 1377 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 2048 --n 2048 --k 2048 --api dgemm ] requested=151011332 -> 177 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm ] requested=402685956 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 8192 --k 8192 --api dgemm ] requested=1409351684 -> 1377 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 8192 --k 128 --api dgemm ] requested=268632324 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 64 --k 8192 --api dgemm ] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 512 --k 8192 --api dgemm ] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.5] requested=402685956 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.75] requested=402685956 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 8] requested=402685956 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 256 --n 256 --k 256 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=70390788 -> 100 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 512 --n 512 --k 512 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=74979332 -> 104 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 1024 --n 1024 --k 1024 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=88088580 -> 117 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 2048 --n 2048 --k 2048 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=151011332 -> 177 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=402685956 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 8192 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1409351684 -> 1377 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 16384 --n 16384 --k 16384 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=0 -> 32 MiB
+# SKIP ver13.3:dec_sq:n16384 (needs > 7127 MiB)
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 8192 --k 16 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=268566788 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 8192 --k 32 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=268566788 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 8192 --k 64 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=268566788 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 8192 --k 128 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=268632324 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 8192 --k 256 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=268763396 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 8192 --k 512 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=269025540 -> 289 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 8192 --k 1024 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=269549828 -> 290 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 8192 --k 2048 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=402718724 -> 417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 8192 --k 4096 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=738263044 -> 737 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 8192 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1409351684 -> 1377 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 8 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 16 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 32 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 64 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 128 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 256 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 512 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 1024 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=822120452 -> 817 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 2048 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=906010628 -> 897 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 4096 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1073790980 -> 1057 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.3/targets/x86_64-linux/lib --m 8192 --n 8192 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1409351684 -> 1377 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 2048 --n 2048 --k 2048 --api dgemm ] requested=322969984 -> 341 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm ] requested=1291862400 -> 1265 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 8192 --k 8192 --api dgemm ] requested=5167415680 -> 4961 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 8192 --k 128 --api dgemm ] requested=2046853504 -> 1985 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 64 --k 8192 --api dgemm ] requested=1832927872 -> 1781 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 512 --k 8192 --api dgemm ] requested=1832928640 -> 1781 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.5] requested=1291862400 -> 1265 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.75] requested=1291862400 -> 1265 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 8] requested=1291862400 -> 1265 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 256 --n 256 --k 256 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=72422784 -> 102 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 512 --n 512 --k 512 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=78387584 -> 107 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 1024 --n 1024 --k 1024 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=95428992 -> 124 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 2048 --n 2048 --k 2048 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=322969984 -> 341 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 4096 --n 4096 --k 4096 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1291862400 -> 1265 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 8192 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=5167415680 -> 4961 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 16384 --n 16384 --k 16384 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=0 -> 32 MiB
+# SKIP ver13.4:dec_sq:n16384 (needs > 7127 MiB)
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 8192 --k 16 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=2046853504 -> 1985 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 8192 --k 32 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=2046853504 -> 1985 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 8192 --k 64 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=2046853504 -> 1985 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 8192 --k 128 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=2046853504 -> 1985 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 8192 --k 256 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=2046853504 -> 1985 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 8192 --k 512 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=2147516800 -> 2081 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 8192 --k 1024 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=2348843392 -> 2273 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 8192 --k 2048 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=2751496576 -> 2657 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 8192 --k 4096 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=3556802944 -> 3425 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 8192 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=5167415680 -> 4961 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 8 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1832927872 -> 1781 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 16 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1832927872 -> 1781 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 32 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1832927872 -> 1781 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 64 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1832927872 -> 1781 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 128 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1832927872 -> 1781 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 256 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1832928128 -> 1781 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 512 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=1832928640 -> 1781 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 1024 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=2055227776 -> 1993 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 2048 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=2499826048 -> 2417 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 4096 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=3389022592 -> 3265 MiB
+# probe [LD_LIBRARY_PATH=/usr/local/cuda-13.4/targets/x86_64-linux/lib --m 8192 --n 8192 --k 8192 --api dgemm --no-ref --no-wall --reps 3 --warmup-s 0.2] requested=5167415680 -> 4961 MiB

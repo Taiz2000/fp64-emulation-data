@@ -1,0 +1,85 @@
+
+WARNING: Existing SQLite export found: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/sq1024.eager_ws0.sqlite
+         File is older than input file: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/sq1024.eager_ws0.nsys-rep
+         Use --force-export=true to update export file.
+
+usage: nsys stats [<args>] <input-file>
+Try 'nsys stats --help' for more information.
+
+WARNING: Existing SQLite export found: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/sq1024.eager_ws.sqlite
+         File is older than input file: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/sq1024.eager_ws.nsys-rep
+         Use --force-export=true to update export file.
+
+usage: nsys stats [<args>] <input-file>
+Try 'nsys stats --help' for more information.
+
+WARNING: Existing SQLite export found: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/sq4096.eager_ws0.sqlite
+         File is older than input file: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/sq4096.eager_ws0.nsys-rep
+         Use --force-export=true to update export file.
+
+usage: nsys stats [<args>] <input-file>
+Try 'nsys stats --help' for more information.
+
+WARNING: Existing SQLite export found: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/sq4096.eager_ws.sqlite
+         File is older than input file: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/sq4096.eager_ws.nsys-rep
+         Use --force-export=true to update export file.
+
+usage: nsys stats [<args>] <input-file>
+Try 'nsys stats --help' for more information.
+
+WARNING: Existing SQLite export found: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/sq8192.eager_ws.sqlite
+         File is older than input file: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/sq8192.eager_ws.nsys-rep
+         Use --force-export=true to update export file.
+
+usage: nsys stats [<args>] <input-file>
+Try 'nsys stats --help' for more information.
+
+WARNING: Existing SQLite export found: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/gram128_k32768.eager_ws.sqlite
+         File is older than input file: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/gram128_k32768.eager_ws.nsys-rep
+         Use --force-export=true to update export file.
+
+usage: nsys stats [<args>] <input-file>
+Try 'nsys stats --help' for more information.
+
+WARNING: Existing SQLite export found: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/gram128_k131072.eager_ws.sqlite
+         File is older than input file: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/gram128_k131072.eager_ws.nsys-rep
+         Use --force-export=true to update export file.
+
+usage: nsys stats [<args>] <input-file>
+Try 'nsys stats --help' for more information.
+
+WARNING: Existing SQLite export found: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/panel_k32.eager_ws.sqlite
+         File is older than input file: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/panel_k32.eager_ws.nsys-rep
+         Use --force-export=true to update export file.
+
+usage: nsys stats [<args>] <input-file>
+Try 'nsys stats --help' for more information.
+
+WARNING: Existing SQLite export found: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/skinny_n64.eager_ws.sqlite
+         File is older than input file: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/skinny_n64.eager_ws.nsys-rep
+         Use --force-export=true to update export file.
+
+usage: nsys stats [<args>] <input-file>
+Try 'nsys stats --help' for more information.
+
+WARNING: Existing SQLite export found: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/skinny_n512.eager_ws.sqlite
+         File is older than input file: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/skinny_n512.eager_ws.nsys-rep
+         Use --force-export=true to update export file.
+
+usage: nsys stats [<args>] <input-file>
+Try 'nsys stats --help' for more information.
+
+WARNING: Existing SQLite export found: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/inner8.eager_ws.sqlite
+         File is older than input file: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/inner8.eager_ws.nsys-rep
+         Use --force-export=true to update export file.
+
+usage: nsys stats [<args>] <input-file>
+Try 'nsys stats --help' for more information.
+
+WARNING: Existing SQLite export found: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/sq4096.default_ws.sqlite
+         File is older than input file: /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z/sq4096.default_ws.nsys-rep
+         Use --force-export=true to update export file.
+
+usage: nsys stats [<args>] <input-file>
+Try 'nsys stats --help' for more information.
+2026-11-07T17:08:37Z DONE

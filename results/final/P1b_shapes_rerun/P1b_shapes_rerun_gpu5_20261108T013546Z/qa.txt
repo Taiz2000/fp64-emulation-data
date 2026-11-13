@@ -1,0 +1,4 @@
+verdict WARN
+lines 5 x reps 3, rows 15
+WARN shape:eager_ws0:skinny:m8192_n64_k8192: wall_sync spread 45.9%
+WARN shape:eager_ws0:skinny:m8192_n64_k8192: throttle reasons ['0x624']

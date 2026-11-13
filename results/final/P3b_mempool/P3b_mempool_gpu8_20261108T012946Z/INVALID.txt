@@ -1,0 +1,1 @@
+INVALID (label): CUDA index 8 = physical GPU 2 (5060 Ti, idle at the time). Valid 5060 Ti data but mislabeled; superseded by P3b_mempool_gpu2_20261108T015545Z.

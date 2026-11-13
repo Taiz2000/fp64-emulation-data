@@ -1,0 +1,13 @@
+2026-11-08T01:36:08Z gpu2 P1a_square_rerun -> /home/taiz/fp64/pathB/results/final/P1a_square_rerun/P1a_square_rerun_gpu2_20261108T013546Z : WARN  results/final/P1a_square_rerun/P1a_square_rerun_gpu2_20261108T013546Z  (0 fail, 1 warn)
+2026-11-08T01:36:49Z gpu4 P1a_square_rerun -> /home/taiz/fp64/pathB/results/final/P1a_square_rerun/P1a_square_rerun_gpu4_20261108T013546Z : PASS  results/final/P1a_square_rerun/P1a_square_rerun_gpu4_20261108T013546Z  (0 fail, 0 warn)
+2026-11-08T01:36:49Z gpu4 RERUN DONE
+2026-11-08T01:36:59Z gpu8 P1a_square_rerun -> /home/taiz/fp64/pathB/results/final/P1a_square_rerun/P1a_square_rerun_gpu8_20261108T013546Z : PASS  results/final/P1a_square_rerun/P1a_square_rerun_gpu8_20261108T013546Z  (0 fail, 0 warn)
+2026-11-08T01:37:26Z gpu2 P1b_shapes_rerun -> /home/taiz/fp64/pathB/results/final/P1b_shapes_rerun/P1b_shapes_rerun_gpu2_20261108T013608Z : WARN  results/final/P1b_shapes_rerun/P1b_shapes_rerun_gpu2_20261108T013608Z  (0 fail, 1 warn)
+2026-11-08T01:37:26Z gpu2 RERUN DONE
+2026-11-08T01:38:47Z gpu5 P1b_shapes_rerun -> /home/taiz/fp64/pathB/results/final/P1b_shapes_rerun/P1b_shapes_rerun_gpu5_20261108T013546Z : WARN  results/final/P1b_shapes_rerun/P1b_shapes_rerun_gpu5_20261108T013546Z  (0 fail, 2 warn)
+2026-11-08T01:38:47Z gpu5 RERUN DONE
+2026-11-08T01:46:28Z gpu8 P1b_shapes_rerun -> /home/taiz/fp64/pathB/results/final/P1b_shapes_rerun/P1b_shapes_rerun_gpu8_20261108T013659Z : WARN  results/final/P1b_shapes_rerun/P1b_shapes_rerun_gpu8_20261108T013659Z  (0 fail, 1 warn)
+2026-11-08T01:47:28Z gpu8 P1c_ranges_rerun -> /home/taiz/fp64/pathB/results/final/P1c_ranges_rerun/P1c_ranges_rerun_gpu8_20261108T014628Z : PASS  results/final/P1c_ranges_rerun/P1c_ranges_rerun_gpu8_20261108T014628Z  (0 fail, 0 warn)
+2026-11-08T01:48:56Z gpu8 P2c_bits_rerun -> /home/taiz/fp64/pathB/results/final/P2c_bits_rerun/P2c_bits_rerun_gpu8_20261108T014728Z : PASS  results/final/P2c_bits_rerun/P2c_bits_rerun_gpu8_20261108T014728Z  (0 fail, 0 warn)
+2026-11-08T01:48:56Z gpu8 RERUN DONE
+ALL DONE

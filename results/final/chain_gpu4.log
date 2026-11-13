@@ -1,0 +1,6 @@
+2026-11-07T13:06:55Z chain start: gpu=4 model=3090 cpus=12-23 P1=[P1a P1c] P4=0 P2=[P2b P2c] P3=1 commit=beb2287
+2026-11-07T16:13:53Z P1 done
+2026-11-07T17:05:48Z P2 done
+2026-11-07T17:08:37Z P3a -> /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu4_20261107T170548Z
+2026-11-07T17:10:41Z P3b -> /home/taiz/fp64/pathB/results/final/P3b_mempool/P3b_mempool_gpu4_20261107T170837Z
+2026-11-07T17:10:41Z CHAIN DONE

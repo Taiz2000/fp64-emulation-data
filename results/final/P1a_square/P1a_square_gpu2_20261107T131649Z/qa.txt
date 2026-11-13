@@ -1,0 +1,10 @@
+verdict WARN
+lines 63 x reps 3, rows 189
+WARN sq:eager_kp:n512: wall_sync spread 5.1%
+WARN sq:default_ws0:n1024: wall_sync spread 24.9%
+WARN sq:eager_ws0:n1536: wall_sync spread 30.9%
+WARN sq:native:n2048: native 0.337 TFLOPS vs PoC 0.36
+WARN sq:default_ws0:n2048: wall_sync spread 21.2%
+WARN sq:eager_ws0:n2048: wall_sync spread 23.8%
+WARN sq:default_ws0:n4096: wall_sync spread 26.8%
+WARN sq:eager_ws0:n8192: wall_sync spread 19.4%

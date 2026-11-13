@@ -1,0 +1,12 @@
+verdict WARN
+lines 70 x reps 3, rows 210
+WARN sq:default_kp:n1024: wall_sync spread 15.7%
+WARN sq:default_ws0:n1536: wall_sync spread 17.2%
+WARN sq:eager_ws0:n1536: wall_sync spread 22.9%
+WARN sq:default_ws:n2048: wall_sync spread 5.9%
+WARN sq:default_ws0:n3072: wall_sync spread 21.0%
+WARN sq:default_ws:n3072: wall_sync spread 5.2%
+WARN sq:eager_ws0:n3072: wall_sync spread 23.1%
+WARN sq:eager_ws0:n4096: wall_sync spread 19.1%
+WARN sq:eager_ws0:n6144: wall_sync spread 26.1%
+WARN sq:default_ws0:n8192: wall_sync spread 17.9%

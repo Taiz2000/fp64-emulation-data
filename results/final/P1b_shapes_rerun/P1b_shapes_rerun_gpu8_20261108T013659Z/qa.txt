@@ -1,0 +1,3 @@
+verdict WARN
+lines 12 x reps 3, rows 36
+WARN shape:eager_ws0:odd:m4097_n4097_k4097: rep-median spread 21.3% -> rerun

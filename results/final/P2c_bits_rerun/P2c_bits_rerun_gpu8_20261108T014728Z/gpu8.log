@@ -1,0 +1,10 @@
+2026-11-08T01:47:37Z rep=1 bits:eager_ws:u11:dyncap64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --mcontrol dynamic --max-bits 64 --workspace-mb 1105
+2026-11-08T01:47:46Z rep=1 bits:eager_ws:inner_phi6:fixed64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 64 --workspace-mb 1105
+2026-11-08T01:47:55Z rep=1 bits:eager_ws:inner_phi6:fixed96: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 96 --workspace-mb 1265
+2026-11-08T01:48:04Z rep=2 bits:eager_ws:inner_phi6:fixed64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 64 --workspace-mb 1105
+2026-11-08T01:48:13Z rep=2 bits:eager_ws:inner_phi6:fixed96: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 96 --workspace-mb 1265
+2026-11-08T01:48:21Z rep=2 bits:eager_ws:u11:dyncap64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --mcontrol dynamic --max-bits 64 --workspace-mb 1105
+2026-11-08T01:48:30Z rep=3 bits:eager_ws:inner_phi6:fixed96: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 96 --workspace-mb 1265
+2026-11-08T01:48:39Z rep=3 bits:eager_ws:u11:dyncap64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --mcontrol dynamic --max-bits 64 --workspace-mb 1105
+2026-11-08T01:48:48Z rep=3 bits:eager_ws:inner_phi6:fixed64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 64 --workspace-mb 1105
+2026-11-08T01:48:56Z DONE

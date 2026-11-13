@@ -1,0 +1,6 @@
+2026-11-07T13:06:55Z chain start: gpu=5 model=3090 cpus=24-35 P1=[P1b] P4=1 P2=[P2a P2d] P3=0 commit=beb2287
+2026-11-07T15:26:35Z P1 done
+2026-11-07T15:26:35Z P4 start
+2026-11-07T17:07:20Z P4 -> /home/taiz/fp64/pathB/results/final/P4_rsvd/P4_rsvd_gpu5_20261107T152635Z
+2026-11-07T18:27:50Z P2 done
+2026-11-07T18:27:50Z CHAIN DONE

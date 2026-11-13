@@ -1,0 +1,12 @@
+shape:eager_ws0:odd:m4097_n4097_k4097: rep-median spread 18.2% -> rerun
+shape:eager_ws0:panel:m8192_n8192_k128: rep-median spread 19.8% -> rerun
+shape:eager_ws0:skinny:m8192_n8_k8192: rep-median spread 16.9% -> rerun
+shape:default_ws0:skinny:m8192_n256_k8192: rep-median spread 19.9% -> rerun
+shape:eager_ws0:shortwide:m32_n8192_k8192: rep-median spread 23.6% -> rerun
+shape:native:shortwide:m64_n8192_k8192: wall_sync spread 5.1%
+shape:eager_ws0:shortwide:m64_n8192_k8192: rep-median spread 27.9% -> rerun
+shape:eager_ws0:shortwide:m256_n8192_k8192: rep-median spread 20.0% -> rerun
+shape:native:gram:m128_n128_k8192: wall_sync spread 10.9%
+shape:eager_ws:gram:m128_n128_k8192: wall_sync spread 8.5%
+shape:native:rsvd_AtQ:m8192_n256_k16384_TN: wall_sync spread 5.6%
+shape:eager_ws0:rsvd_AtQ:m8192_n256_k16384_TN: rep-median spread 15.2% -> rerun

@@ -1,0 +1,8 @@
+seed,n,blas,C_rc,class_rc,exact_sign,products_pos_inf,products_neg_inf,products_finite
+20261108,2048,scipy-openblas 0.3.31.188.0,nan,nan,1,1044,1004,0
+1,2048,scipy-openblas 0.3.31.188.0,nan,nan,-1,994,1054,0
+2,2048,scipy-openblas 0.3.31.188.0,nan,nan,1,1028,1020,0
+3,2048,scipy-openblas 0.3.31.188.0,nan,nan,1,1044,1004,0
+4,2048,scipy-openblas 0.3.31.188.0,nan,nan,1,1028,1020,0
+5,2048,scipy-openblas 0.3.31.188.0,nan,nan,1,1058,990,0
+6,2048,scipy-openblas 0.3.31.188.0,nan,nan,-1,1002,1046,0

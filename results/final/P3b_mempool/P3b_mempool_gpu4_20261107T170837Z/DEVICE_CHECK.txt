@@ -1,0 +1,1 @@
+OK: CUDA index 4 under default ordering = physical GPU 4 (PCI 81:00.0) by coincidence; correct 3090.

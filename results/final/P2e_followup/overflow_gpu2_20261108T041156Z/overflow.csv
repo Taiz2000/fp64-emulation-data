@@ -1,0 +1,5 @@
+mode,gpu,env_emulate,env_strategy,env_svmask,n,ms_per_call,C_rc,class_rc,exact_sign,other_entries_finite
+native,NVIDIA GeForce RTX 5060 Ti,,,,2048,51.089,-inf,-inf,1,True
+default,NVIDIA GeForce RTX 5060 Ti,1,,,2048,5.920,inf,+inf,1,True
+eager,NVIDIA GeForce RTX 5060 Ti,1,EAGER,,2048,5.926,inf,+inf,1,True
+eager_mask0,NVIDIA GeForce RTX 5060 Ti,1,EAGER,0,2048,5.916,inf,+inf,1,True

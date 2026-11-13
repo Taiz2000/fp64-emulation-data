@@ -1,0 +1,50 @@
+CUDA_ROOT=/usr/local/cuda-13.4
+/usr/local/cuda -> /usr/local/cuda-13.2
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2026 NVIDIA Corporation
+Built on Tue_Sep_01_08:45:21_PDT_2026
+Cuda compilation tools, release 13.4, V13.4.92
+Build cuda_13.4.r13.4/compiler.38855100_0
+cuda 13.4.2
+cuda_crt 13.4.92
+cuda_ctadvisor 13.4.92
+cuda_cudart 13.4.92
+cuda_culibos 13.4.92
+cuda_cuobjdump 13.4.92
+cuda_cupti 13.4.92
+cuda_cuxxfilt 13.4.92
+cuda_gdb 13.4.92
+cuda_nvcc 13.4.92
+cuda_nvdisasm 13.4.92
+cuda_nvml_dev 13.4.92
+cuda_nvprune 13.4.92
+cuda_nvrtc 13.4.92
+cuda_nvtx 13.4.92
+cuda_opencl 13.4.92
+cuda_profiler_api 13.4.92
+cuda_sandbox_dev 13.4.92
+cuda_sanitizer_api 13.4.92
+libcublas 13.8.0.4
+libcufft 12.4.0.43
+libcufile 1.19.1.55
+libcurand 10.4.4.72
+libcusolver 12.3.4.7
+libcusparse 12.8.6.72
+libnpp 13.2.0.58
+libnvfatbin 13.4.92
+libnvjitlink 13.4.92
+libnvjpeg 13.2.3.58
+libnvptxcompiler 13.4.92
+libnvvm 13.4.92
+nsight_compute 2026.3.1.2
+nsight_systems 2026.3.2.476
+lrwxrwxrwx 1 root root        15 Sep  2 03:28 /usr/local/cuda-13.4/targets/x86_64-linux/lib/libcublas.so -> libcublas.so.13
+lrwxrwxrwx 1 root root        21 Sep  2 03:28 /usr/local/cuda-13.4/targets/x86_64-linux/lib/libcublas.so.13 -> libcublas.so.13.8.0.4
+-rw-r--r-- 1 root root  57594520 Sep  2 03:28 /usr/local/cuda-13.4/targets/x86_64-linux/lib/libcublas.so.13.8.0.4
+lrwxrwxrwx 1 root root        17 Sep  2 03:28 /usr/local/cuda-13.4/targets/x86_64-linux/lib/libcublasLt.so -> libcublasLt.so.13
+lrwxrwxrwx 1 root root        23 Sep  2 03:28 /usr/local/cuda-13.4/targets/x86_64-linux/lib/libcublasLt.so.13 -> libcublasLt.so.13.8.0.4
+-rw-r--r-- 1 root root 545528240 Sep  2 03:28 /usr/local/cuda-13.4/targets/x86_64-linux/lib/libcublasLt.so.13.8.0.4
+c0c5a5f16b29c42f1b55b4d081f2ae685e602e3fcf37b7407049d7247036d023  /usr/local/cuda-13.4/targets/x86_64-linux/lib/libcublas.so.13.8.0.4
+d3b51f2253ba58f0a7f299b883bc6b4f3a27f81701c9ab15accb3bd770a91669  /usr/local/cuda-13.4/targets/x86_64-linux/lib/libcublasLt.so.13.8.0.4
+NVIDIA Nsight Systems version 2026.3.2.476-263238834031v0
+Version 2026.3.1.0 (build 38829034) (public-release)

@@ -1,0 +1,4 @@
+Time (%),Total Time (ns),Instances,Avg (ns),Med (ns),Min (ns),Max (ns),StdDev (ns),Style,Range
+76.0,121224337,6,20204056.2,179473.0,170099,120300307,49036952.3,PushPop,cuBLAS:cublasLtDDDMatmul
+17.2,27429727,6,4571621.2,12489.5,10300,27362868,11165385.7,PushPop,cuBLAS:cublasLtDDDMatmulAlgoGetHeuristicForStream
+6.7,10754813,1,10754813.0,10754813.0,10754813,10754813,0.0,PushPop,cuBLAS:cublasCreate_v2

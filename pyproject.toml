@@ -1,0 +1,18 @@
+[project]
+name = "pathb"
+version = "0.1.0"
+description = "cuBLAS automatic FP64 emulation on consumer GPUs"
+requires-python = ">=3.10"
+dependencies = [
+    "cupy-cuda13x>=14.2.0",
+    "numpy>=2.2.6",
+]
+
+[tool.uv]
+# Supply-chain guard: only resolve distributions uploaded at least one week ago.
+exclude-newer = "1 week"
+
+[dependency-groups]
+analysis = [
+    "matplotlib>=3.10.9",
+]

@@ -1,0 +1,4 @@
+verdict WARN
+lines 117 x reps 3, rows 351
+WARN range:native:inner:phi8:k256: wall_sync spread 5.2%
+WARN range:eager_ws:inner:phi4:k1024: wall_sync spread 5.6%

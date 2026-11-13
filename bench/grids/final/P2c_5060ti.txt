@@ -1,0 +1,28 @@
+bits:native:u11:ref||--m 4096 --n 4096 --k 4096 --api dgemm --dist u11
+bits:eager_ws:u11:ref|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --workspace-mb 1265
+bits:eager_ws:u11:fixed24|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --mcontrol fixed --max-bits 24 --workspace-mb 929
+bits:eager_ws:u11:fixed32|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --mcontrol fixed --max-bits 32 --workspace-mb 961
+bits:eager_ws:u11:fixed40|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --mcontrol fixed --max-bits 40 --workspace-mb 993
+bits:eager_ws:u11:fixed48|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --mcontrol fixed --max-bits 48 --workspace-mb 1025
+bits:eager_ws:u11:fixed53|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --mcontrol fixed --max-bits 53 --workspace-mb 1057
+bits:eager_ws:u11:fixed56|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --mcontrol fixed --max-bits 56 --workspace-mb 1057
+bits:eager_ws:u11:fixed64|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --mcontrol fixed --max-bits 64 --workspace-mb 1105
+bits:eager_ws:u11:fixed72|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --mcontrol fixed --max-bits 72 --workspace-mb 1153
+bits:eager_ws:u11:fixed80|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --mcontrol fixed --max-bits 80 --workspace-mb 1185
+bits:eager_ws:u11:fixed96|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --mcontrol fixed --max-bits 96 --workspace-mb 1265
+bits:eager_ws:u11:dyncap64|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --mcontrol dynamic --max-bits 64 --workspace-mb 1105
+bits:eager_ws:u11:dyncap79|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist u11 --mcontrol dynamic --max-bits 79 --workspace-mb 1185
+bits:native:inner_phi6:ref||--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6
+bits:eager_ws:inner_phi6:ref|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --workspace-mb 1265
+bits:eager_ws:inner_phi6:fixed24|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 24 --workspace-mb 929
+bits:eager_ws:inner_phi6:fixed32|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 32 --workspace-mb 961
+bits:eager_ws:inner_phi6:fixed40|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 40 --workspace-mb 993
+bits:eager_ws:inner_phi6:fixed48|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 48 --workspace-mb 1025
+bits:eager_ws:inner_phi6:fixed53|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 53 --workspace-mb 1057
+bits:eager_ws:inner_phi6:fixed56|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 56 --workspace-mb 1057
+bits:eager_ws:inner_phi6:fixed64|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 64 --workspace-mb 1105
+bits:eager_ws:inner_phi6:fixed72|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 72 --workspace-mb 1153
+bits:eager_ws:inner_phi6:fixed80|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 80 --workspace-mb 1185
+bits:eager_ws:inner_phi6:fixed96|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol fixed --max-bits 96 --workspace-mb 1265
+bits:eager_ws:inner_phi6:dyncap64|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol dynamic --max-bits 64 --workspace-mb 1105
+bits:eager_ws:inner_phi6:dyncap79|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --mcontrol dynamic --max-bits 79 --workspace-mb 1185

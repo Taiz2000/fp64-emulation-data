@@ -1,0 +1,8 @@
+2026-11-07T13:16:49Z chain start: gpu=2 model=5060ti cpus=0-11 P1=[P1a P1b P1c] P4=1 P2=[P2a P2b P2c P2d] P3=1 commit=beb2287
+2026-11-07T17:56:41Z P1 done
+2026-11-07T17:56:41Z P4 start
+2026-11-07T19:35:20Z P4 -> /home/taiz/fp64/pathB/results/final/P4_rsvd/P4_rsvd_gpu2_20261107T175641Z
+2026-11-07T21:25:58Z P2 done
+2026-11-07T21:28:46Z P3a -> /home/taiz/fp64/pathB/results/final/P3a_nsys/P3a_nsys_gpu2_20261107T212558Z
+2026-11-07T21:29:47Z P3b -> /home/taiz/fp64/pathB/results/final/P3b_mempool/P3b_mempool_gpu2_20261107T212846Z
+2026-11-07T21:29:47Z CHAIN DONE

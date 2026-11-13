@@ -1,0 +1,736 @@
+2026-11-07T14:00:21Z rep=1 shape:native:square:m4096_n4096_k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T14:00:30Z rep=1 shape:default_ws0:square:m4096_n4096_k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T14:00:49Z rep=1 shape:default_ws:square:m4096_n4096_k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm  --workspace-mb 1265
+2026-11-07T14:00:58Z rep=1 shape:eager_ws0:square:m4096_n4096_k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T14:01:17Z rep=1 shape:eager_ws:square:m4096_n4096_k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm  --workspace-mb 1265
+2026-11-07T14:01:25Z rep=1 shape:native:square:m8192_n8192_k8192: env[] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:01:44Z rep=1 shape:default_ws0:square:m8192_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:02:03Z rep=1 shape:default_ws:square:m8192_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 8192 --api dgemm  --workspace-mb 4961
+2026-11-07T14:02:15Z rep=1 shape:eager_ws0:square:m8192_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:02:34Z rep=1 shape:eager_ws:square:m8192_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 8192 --api dgemm  --workspace-mb 4961
+2026-11-07T14:02:46Z rep=1 shape:native:odd:m4097_n4097_k4097: env[] --m 4097 --n 4097 --k 4097 --api dgemm 
+2026-11-07T14:02:55Z rep=1 shape:default_ws0:odd:m4097_n4097_k4097: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4097 --n 4097 --k 4097 --api dgemm 
+2026-11-07T14:03:14Z rep=1 shape:default_ws:odd:m4097_n4097_k4097: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4097 --n 4097 --k 4097 --api dgemm  --workspace-mb 1480
+2026-11-07T14:03:23Z rep=1 shape:eager_ws0:odd:m4097_n4097_k4097: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4097 --n 4097 --k 4097 --api dgemm 
+2026-11-07T14:03:42Z rep=1 shape:eager_ws:odd:m4097_n4097_k4097: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4097 --n 4097 --k 4097 --api dgemm  --workspace-mb 1480
+2026-11-07T14:03:50Z rep=1 shape:native:odd:m4000_n4000_k4000: env[] --m 4000 --n 4000 --k 4000 --api dgemm 
+2026-11-07T14:03:59Z rep=1 shape:default_ws0:odd:m4000_n4000_k4000: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4000 --n 4000 --k 4000 --api dgemm 
+2026-11-07T14:04:19Z rep=1 shape:default_ws:odd:m4000_n4000_k4000: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4000 --n 4000 --k 4000 --api dgemm  --workspace-mb 1265
+2026-11-07T14:04:28Z rep=1 shape:eager_ws0:odd:m4000_n4000_k4000: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4000 --n 4000 --k 4000 --api dgemm 
+2026-11-07T14:04:47Z rep=1 shape:eager_ws:odd:m4000_n4000_k4000: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4000 --n 4000 --k 4000 --api dgemm  --workspace-mb 1265
+2026-11-07T14:04:56Z rep=1 shape:native:odd:m3001_n5003_k2999: env[] --m 3001 --n 5003 --k 2999 --api dgemm 
+2026-11-07T14:05:04Z rep=1 shape:default_ws0:odd:m3001_n5003_k2999: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 3001 --n 5003 --k 2999 --api dgemm 
+2026-11-07T14:05:24Z rep=1 shape:default_ws:odd:m3001_n5003_k2999: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 3001 --n 5003 --k 2999 --api dgemm  --workspace-mb 1044
+2026-11-07T14:05:33Z rep=1 shape:eager_ws0:odd:m3001_n5003_k2999: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 3001 --n 5003 --k 2999 --api dgemm 
+2026-11-07T14:05:52Z rep=1 shape:eager_ws:odd:m3001_n5003_k2999: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 3001 --n 5003 --k 2999 --api dgemm  --workspace-mb 1044
+2026-11-07T14:06:01Z rep=1 shape:native:panel:m8192_n8192_k16: env[] --m 8192 --n 8192 --k 16 --api dgemm 
+2026-11-07T14:06:09Z rep=1 shape:default_ws0:panel:m8192_n8192_k16: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 16 --api dgemm 
+2026-11-07T14:06:17Z rep=1 shape:default_ws:panel:m8192_n8192_k16: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 16 --api dgemm  --workspace-mb 1985
+2026-11-07T14:06:25Z rep=1 shape:eager_ws0:panel:m8192_n8192_k16: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 16 --api dgemm 
+2026-11-07T14:06:56Z rep=1 shape:eager_ws:panel:m8192_n8192_k16: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 16 --api dgemm  --workspace-mb 1985
+2026-11-07T14:07:05Z rep=1 shape:native:panel:m8192_n8192_k32: env[] --m 8192 --n 8192 --k 32 --api dgemm 
+2026-11-07T14:07:15Z rep=1 shape:default_ws0:panel:m8192_n8192_k32: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 32 --api dgemm 
+2026-11-07T14:07:24Z rep=1 shape:default_ws:panel:m8192_n8192_k32: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 32 --api dgemm  --workspace-mb 1985
+2026-11-07T14:07:33Z rep=1 shape:eager_ws0:panel:m8192_n8192_k32: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 32 --api dgemm 
+2026-11-07T14:08:00Z rep=1 shape:eager_ws:panel:m8192_n8192_k32: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 32 --api dgemm  --workspace-mb 1985
+2026-11-07T14:08:10Z rep=1 shape:native:panel:m8192_n8192_k48: env[] --m 8192 --n 8192 --k 48 --api dgemm 
+2026-11-07T14:08:19Z rep=1 shape:default_ws0:panel:m8192_n8192_k48: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 48 --api dgemm 
+2026-11-07T14:08:29Z rep=1 shape:default_ws:panel:m8192_n8192_k48: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 48 --api dgemm  --workspace-mb 1985
+2026-11-07T14:08:38Z rep=1 shape:eager_ws0:panel:m8192_n8192_k48: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 48 --api dgemm 
+2026-11-07T14:09:08Z rep=1 shape:eager_ws:panel:m8192_n8192_k48: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 48 --api dgemm  --workspace-mb 1985
+2026-11-07T14:09:18Z rep=1 shape:native:panel:m8192_n8192_k64: env[] --m 8192 --n 8192 --k 64 --api dgemm 
+2026-11-07T14:09:27Z rep=1 shape:default_ws0:panel:m8192_n8192_k64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 64 --api dgemm 
+2026-11-07T14:09:37Z rep=1 shape:default_ws:panel:m8192_n8192_k64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 64 --api dgemm  --workspace-mb 1985
+2026-11-07T14:09:46Z rep=1 shape:eager_ws0:panel:m8192_n8192_k64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 64 --api dgemm 
+2026-11-07T14:10:16Z rep=1 shape:eager_ws:panel:m8192_n8192_k64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 64 --api dgemm  --workspace-mb 1985
+2026-11-07T14:10:25Z rep=1 shape:native:panel:m8192_n8192_k96: env[] --m 8192 --n 8192 --k 96 --api dgemm 
+2026-11-07T14:10:35Z rep=1 shape:default_ws0:panel:m8192_n8192_k96: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 96 --api dgemm 
+2026-11-07T14:10:44Z rep=1 shape:default_ws:panel:m8192_n8192_k96: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 96 --api dgemm  --workspace-mb 1985
+2026-11-07T14:10:53Z rep=1 shape:eager_ws0:panel:m8192_n8192_k96: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 96 --api dgemm 
+2026-11-07T14:11:24Z rep=1 shape:eager_ws:panel:m8192_n8192_k96: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 96 --api dgemm  --workspace-mb 1985
+2026-11-07T14:11:34Z rep=1 shape:native:panel:m8192_n8192_k128: env[] --m 8192 --n 8192 --k 128 --api dgemm 
+2026-11-07T14:11:44Z rep=1 shape:default_ws0:panel:m8192_n8192_k128: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 128 --api dgemm 
+2026-11-07T14:11:53Z rep=1 shape:default_ws:panel:m8192_n8192_k128: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 128 --api dgemm  --workspace-mb 1985
+2026-11-07T14:12:03Z rep=1 shape:eager_ws0:panel:m8192_n8192_k128: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 128 --api dgemm 
+2026-11-07T14:12:32Z rep=1 shape:eager_ws:panel:m8192_n8192_k128: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 128 --api dgemm  --workspace-mb 1985
+2026-11-07T14:12:42Z rep=1 shape:native:panel:m8192_n8192_k192: env[] --m 8192 --n 8192 --k 192 --api dgemm 
+2026-11-07T14:12:51Z rep=1 shape:default_ws0:panel:m8192_n8192_k192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 192 --api dgemm 
+2026-11-07T14:13:01Z rep=1 shape:default_ws:panel:m8192_n8192_k192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 192 --api dgemm  --workspace-mb 1985
+2026-11-07T14:13:11Z rep=1 shape:eager_ws0:panel:m8192_n8192_k192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 192 --api dgemm 
+2026-11-07T14:13:39Z rep=1 shape:eager_ws:panel:m8192_n8192_k192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 192 --api dgemm  --workspace-mb 1985
+2026-11-07T14:13:48Z rep=1 shape:native:panel:m8192_n8192_k256: env[] --m 8192 --n 8192 --k 256 --api dgemm 
+2026-11-07T14:13:58Z rep=1 shape:default_ws0:panel:m8192_n8192_k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 256 --api dgemm 
+2026-11-07T14:14:07Z rep=1 shape:default_ws:panel:m8192_n8192_k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 256 --api dgemm  --workspace-mb 1985
+2026-11-07T14:14:17Z rep=1 shape:eager_ws0:panel:m8192_n8192_k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 256 --api dgemm 
+2026-11-07T14:14:46Z rep=1 shape:eager_ws:panel:m8192_n8192_k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 256 --api dgemm  --workspace-mb 1985
+2026-11-07T14:14:56Z rep=1 shape:native:panel:m8192_n8192_k512: env[] --m 8192 --n 8192 --k 512 --api dgemm 
+2026-11-07T14:15:06Z rep=1 shape:default_ws0:panel:m8192_n8192_k512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 512 --api dgemm 
+2026-11-07T14:15:34Z rep=1 shape:default_ws:panel:m8192_n8192_k512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 512 --api dgemm  --workspace-mb 2081
+2026-11-07T14:15:44Z rep=1 shape:eager_ws0:panel:m8192_n8192_k512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 512 --api dgemm 
+2026-11-07T14:16:12Z rep=1 shape:eager_ws:panel:m8192_n8192_k512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 512 --api dgemm  --workspace-mb 2081
+2026-11-07T14:16:21Z rep=1 shape:native:panel:m8192_n8192_k1024: env[] --m 8192 --n 8192 --k 1024 --api dgemm 
+2026-11-07T14:16:31Z rep=1 shape:default_ws0:panel:m8192_n8192_k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 1024 --api dgemm 
+2026-11-07T14:16:56Z rep=1 shape:default_ws:panel:m8192_n8192_k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 1024 --api dgemm  --workspace-mb 2273
+2026-11-07T14:17:06Z rep=1 shape:eager_ws0:panel:m8192_n8192_k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 1024 --api dgemm 
+2026-11-07T14:17:32Z rep=1 shape:eager_ws:panel:m8192_n8192_k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 1024 --api dgemm  --workspace-mb 2273
+2026-11-07T14:17:41Z rep=1 shape:native:panel:m8192_n8192_k2048: env[] --m 8192 --n 8192 --k 2048 --api dgemm 
+2026-11-07T14:17:52Z rep=1 shape:default_ws0:panel:m8192_n8192_k2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 2048 --api dgemm 
+2026-11-07T14:18:15Z rep=1 shape:default_ws:panel:m8192_n8192_k2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 2048 --api dgemm  --workspace-mb 2657
+2026-11-07T14:18:25Z rep=1 shape:eager_ws0:panel:m8192_n8192_k2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 2048 --api dgemm 
+2026-11-07T14:18:46Z rep=1 shape:eager_ws:panel:m8192_n8192_k2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 2048 --api dgemm  --workspace-mb 2657
+2026-11-07T14:18:55Z rep=1 shape:native:skinny:m8192_n8_k8192: env[] --m 8192 --n 8 --k 8192 --api dgemm 
+2026-11-07T14:19:00Z rep=1 shape:default_ws0:skinny:m8192_n8_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8 --k 8192 --api dgemm 
+2026-11-07T14:19:05Z rep=1 shape:default_ws:skinny:m8192_n8_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:19:10Z rep=1 shape:eager_ws0:skinny:m8192_n8_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8 --k 8192 --api dgemm 
+2026-11-07T14:19:31Z rep=1 shape:eager_ws:skinny:m8192_n8_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:19:40Z rep=1 shape:native:skinny:m8192_n16_k8192: env[] --m 8192 --n 16 --k 8192 --api dgemm 
+2026-11-07T14:19:47Z rep=1 shape:default_ws0:skinny:m8192_n16_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 16 --k 8192 --api dgemm 
+2026-11-07T14:19:54Z rep=1 shape:default_ws:skinny:m8192_n16_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 16 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:20:01Z rep=1 shape:eager_ws0:skinny:m8192_n16_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 16 --k 8192 --api dgemm 
+2026-11-07T14:20:16Z rep=1 shape:eager_ws:skinny:m8192_n16_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 16 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:20:25Z rep=1 shape:native:skinny:m8192_n32_k8192: env[] --m 8192 --n 32 --k 8192 --api dgemm 
+2026-11-07T14:20:33Z rep=1 shape:default_ws0:skinny:m8192_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 32 --k 8192 --api dgemm 
+2026-11-07T14:20:42Z rep=1 shape:default_ws:skinny:m8192_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 32 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:20:50Z rep=1 shape:eager_ws0:skinny:m8192_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 32 --k 8192 --api dgemm 
+2026-11-07T14:21:11Z rep=1 shape:eager_ws:skinny:m8192_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 32 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:21:19Z rep=1 shape:native:skinny:m8192_n64_k8192: env[] --m 8192 --n 64 --k 8192 --api dgemm 
+2026-11-07T14:21:28Z rep=1 shape:default_ws0:skinny:m8192_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 64 --k 8192 --api dgemm 
+2026-11-07T14:21:37Z rep=1 shape:default_ws:skinny:m8192_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 64 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:21:45Z rep=1 shape:eager_ws0:skinny:m8192_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 64 --k 8192 --api dgemm 
+2026-11-07T14:22:06Z rep=1 shape:eager_ws:skinny:m8192_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 64 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:22:15Z rep=1 shape:native:skinny:m8192_n96_k8192: env[] --m 8192 --n 96 --k 8192 --api dgemm 
+2026-11-07T14:22:23Z rep=1 shape:default_ws0:skinny:m8192_n96_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 96 --k 8192 --api dgemm 
+2026-11-07T14:22:31Z rep=1 shape:default_ws:skinny:m8192_n96_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 96 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:22:40Z rep=1 shape:eager_ws0:skinny:m8192_n96_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 96 --k 8192 --api dgemm 
+2026-11-07T14:23:01Z rep=1 shape:eager_ws:skinny:m8192_n96_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 96 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:23:10Z rep=1 shape:native:skinny:m8192_n128_k8192: env[] --m 8192 --n 128 --k 8192 --api dgemm 
+2026-11-07T14:23:18Z rep=1 shape:default_ws0:skinny:m8192_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 128 --k 8192 --api dgemm 
+2026-11-07T14:23:27Z rep=1 shape:default_ws:skinny:m8192_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 128 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:23:35Z rep=1 shape:eager_ws0:skinny:m8192_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 128 --k 8192 --api dgemm 
+2026-11-07T14:23:55Z rep=1 shape:eager_ws:skinny:m8192_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 128 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:24:03Z rep=1 shape:native:skinny:m8192_n192_k8192: env[] --m 8192 --n 192 --k 8192 --api dgemm 
+2026-11-07T14:24:12Z rep=1 shape:default_ws0:skinny:m8192_n192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 192 --k 8192 --api dgemm 
+2026-11-07T14:24:29Z rep=1 shape:default_ws:skinny:m8192_n192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 192 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:24:37Z rep=1 shape:eager_ws0:skinny:m8192_n192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 192 --k 8192 --api dgemm 
+2026-11-07T14:24:49Z rep=1 shape:eager_ws:skinny:m8192_n192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 192 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:24:58Z rep=1 shape:native:skinny:m8192_n256_k8192: env[] --m 8192 --n 256 --k 8192 --api dgemm 
+2026-11-07T14:25:06Z rep=1 shape:default_ws0:skinny:m8192_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 256 --k 8192 --api dgemm 
+2026-11-07T14:25:25Z rep=1 shape:default_ws:skinny:m8192_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 256 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:25:33Z rep=1 shape:eager_ws0:skinny:m8192_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 256 --k 8192 --api dgemm 
+2026-11-07T14:25:45Z rep=1 shape:eager_ws:skinny:m8192_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 256 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:25:54Z rep=1 shape:native:skinny:m8192_n384_k8192: env[] --m 8192 --n 384 --k 8192 --api dgemm 
+2026-11-07T14:26:03Z rep=1 shape:default_ws0:skinny:m8192_n384_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 384 --k 8192 --api dgemm 
+2026-11-07T14:26:23Z rep=1 shape:default_ws:skinny:m8192_n384_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 384 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:26:32Z rep=1 shape:eager_ws0:skinny:m8192_n384_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 384 --k 8192 --api dgemm 
+2026-11-07T14:26:52Z rep=1 shape:eager_ws:skinny:m8192_n384_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 384 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:27:01Z rep=1 shape:native:skinny:m8192_n512_k8192: env[] --m 8192 --n 512 --k 8192 --api dgemm 
+2026-11-07T14:27:09Z rep=1 shape:default_ws0:skinny:m8192_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 512 --k 8192 --api dgemm 
+2026-11-07T14:27:30Z rep=1 shape:default_ws:skinny:m8192_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 512 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:27:38Z rep=1 shape:eager_ws0:skinny:m8192_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 512 --k 8192 --api dgemm 
+2026-11-07T14:27:58Z rep=1 shape:eager_ws:skinny:m8192_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 512 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:28:07Z rep=1 shape:native:skinny:m8192_n1024_k8192: env[] --m 8192 --n 1024 --k 8192 --api dgemm 
+2026-11-07T14:28:16Z rep=1 shape:default_ws0:skinny:m8192_n1024_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 1024 --k 8192 --api dgemm 
+2026-11-07T14:28:36Z rep=1 shape:default_ws:skinny:m8192_n1024_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 1024 --k 8192 --api dgemm  --workspace-mb 1993
+2026-11-07T14:28:44Z rep=1 shape:eager_ws0:skinny:m8192_n1024_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 1024 --k 8192 --api dgemm 
+2026-11-07T14:29:05Z rep=1 shape:eager_ws:skinny:m8192_n1024_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 1024 --k 8192 --api dgemm  --workspace-mb 1993
+2026-11-07T14:29:14Z rep=1 shape:native:skinny:m8192_n2048_k8192: env[] --m 8192 --n 2048 --k 8192 --api dgemm 
+2026-11-07T14:29:24Z rep=1 shape:default_ws0:skinny:m8192_n2048_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 2048 --k 8192 --api dgemm 
+2026-11-07T14:29:43Z rep=1 shape:default_ws:skinny:m8192_n2048_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 2048 --k 8192 --api dgemm  --workspace-mb 2417
+2026-11-07T14:29:53Z rep=1 shape:eager_ws0:skinny:m8192_n2048_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 2048 --k 8192 --api dgemm 
+2026-11-07T14:30:11Z rep=1 shape:eager_ws:skinny:m8192_n2048_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 2048 --k 8192 --api dgemm  --workspace-mb 2417
+2026-11-07T14:30:21Z rep=1 shape:native:shortwide:m8_n8192_k8192: env[] --m 8 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:30:29Z rep=1 shape:default_ws0:shortwide:m8_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:30:38Z rep=1 shape:default_ws:shortwide:m8_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T14:30:46Z rep=1 shape:eager_ws0:shortwide:m8_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:31:07Z rep=1 shape:eager_ws:shortwide:m8_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T14:31:15Z rep=1 shape:native:shortwide:m32_n8192_k8192: env[] --m 32 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:31:23Z rep=1 shape:default_ws0:shortwide:m32_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:31:32Z rep=1 shape:default_ws:shortwide:m32_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T14:31:40Z rep=1 shape:eager_ws0:shortwide:m32_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:32:02Z rep=1 shape:eager_ws:shortwide:m32_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T14:32:10Z rep=1 shape:native:shortwide:m64_n8192_k8192: env[] --m 64 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:32:18Z rep=1 shape:default_ws0:shortwide:m64_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 64 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:32:27Z rep=1 shape:default_ws:shortwide:m64_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 64 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T14:32:35Z rep=1 shape:eager_ws0:shortwide:m64_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 64 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:32:54Z rep=1 shape:eager_ws:shortwide:m64_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 64 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T14:33:03Z rep=1 shape:native:shortwide:m128_n8192_k8192: env[] --m 128 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:33:11Z rep=1 shape:default_ws0:shortwide:m128_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:33:20Z rep=1 shape:default_ws:shortwide:m128_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T14:33:28Z rep=1 shape:eager_ws0:shortwide:m128_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:33:48Z rep=1 shape:eager_ws:shortwide:m128_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T14:33:56Z rep=1 shape:native:shortwide:m256_n8192_k8192: env[] --m 256 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:34:05Z rep=1 shape:default_ws0:shortwide:m256_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 256 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:34:27Z rep=1 shape:default_ws:shortwide:m256_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 256 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T14:34:35Z rep=1 shape:eager_ws0:shortwide:m256_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 256 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:34:55Z rep=1 shape:eager_ws:shortwide:m256_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 256 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T14:35:04Z rep=1 shape:native:shortwide:m512_n8192_k8192: env[] --m 512 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:35:13Z rep=1 shape:default_ws0:shortwide:m512_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:35:33Z rep=1 shape:default_ws:shortwide:m512_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 8192 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:35:42Z rep=1 shape:eager_ws0:shortwide:m512_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:36:02Z rep=1 shape:eager_ws:shortwide:m512_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 8192 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T14:36:11Z rep=1 shape:native:gram:m32_n32_k8192: env[] --m 32 --n 32 --k 8192 --api dgemm 
+2026-11-07T14:36:13Z rep=1 shape:default_ws0:gram:m32_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 8192 --api dgemm 
+2026-11-07T14:36:16Z rep=1 shape:default_ws:gram:m32_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 8192 --api dgemm  --workspace-mb 215
+2026-11-07T14:36:18Z rep=1 shape:eager_ws0:gram:m32_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 8192 --api dgemm 
+2026-11-07T14:36:34Z rep=1 shape:eager_ws:gram:m32_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 8192 --api dgemm  --workspace-mb 215
+2026-11-07T14:36:39Z rep=1 shape:native:gram:m32_n32_k32768: env[] --m 32 --n 32 --k 32768 --api dgemm 
+2026-11-07T14:36:41Z rep=1 shape:default_ws0:gram:m32_n32_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 32768 --api dgemm 
+2026-11-07T14:36:44Z rep=1 shape:default_ws:gram:m32_n32_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 32768 --api dgemm  --workspace-mb 612
+2026-11-07T14:36:46Z rep=1 shape:eager_ws0:gram:m32_n32_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 32768 --api dgemm 
+2026-11-07T14:36:53Z rep=1 shape:eager_ws:gram:m32_n32_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 32768 --api dgemm  --workspace-mb 612
+2026-11-07T14:37:02Z rep=1 shape:native:gram:m32_n32_k131072: env[] --m 32 --n 32 --k 131072 --api dgemm 
+2026-11-07T14:37:05Z rep=1 shape:default_ws0:gram:m32_n32_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 131072 --api dgemm 
+2026-11-07T14:37:08Z rep=1 shape:default_ws:gram:m32_n32_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 131072 --api dgemm  --workspace-mb 2340
+2026-11-07T14:37:11Z rep=1 shape:eager_ws0:gram:m32_n32_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 131072 --api dgemm 
+2026-11-07T14:37:31Z rep=1 shape:eager_ws:gram:m32_n32_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 131072 --api dgemm  --workspace-mb 2340
+2026-11-07T14:37:39Z rep=1 shape:native:gram:m128_n128_k8192: env[] --m 128 --n 128 --k 8192 --api dgemm 
+2026-11-07T14:37:42Z rep=1 shape:default_ws0:gram:m128_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 8192 --api dgemm 
+2026-11-07T14:37:45Z rep=1 shape:default_ws:gram:m128_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 8192 --api dgemm  --workspace-mb 215
+2026-11-07T14:37:48Z rep=1 shape:eager_ws0:gram:m128_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 8192 --api dgemm 
+2026-11-07T14:38:03Z rep=1 shape:eager_ws:gram:m128_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 8192 --api dgemm  --workspace-mb 215
+2026-11-07T14:38:09Z rep=1 shape:native:gram:m128_n128_k32768: env[] --m 128 --n 128 --k 32768 --api dgemm 
+2026-11-07T14:38:14Z rep=1 shape:default_ws0:gram:m128_n128_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 32768 --api dgemm 
+2026-11-07T14:38:19Z rep=1 shape:default_ws:gram:m128_n128_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 32768 --api dgemm  --workspace-mb 612
+2026-11-07T14:38:25Z rep=1 shape:eager_ws0:gram:m128_n128_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 32768 --api dgemm 
+2026-11-07T14:38:44Z rep=1 shape:eager_ws:gram:m128_n128_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 32768 --api dgemm  --workspace-mb 612
+2026-11-07T14:38:52Z rep=1 shape:native:gram:m128_n128_k131072: env[] --m 128 --n 128 --k 131072 --api dgemm 
+2026-11-07T14:39:01Z rep=1 shape:default_ws0:gram:m128_n128_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 131072 --api dgemm 
+2026-11-07T14:39:10Z rep=1 shape:default_ws:gram:m128_n128_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 131072 --api dgemm  --workspace-mb 2340
+2026-11-07T14:39:19Z rep=1 shape:eager_ws0:gram:m128_n128_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 131072 --api dgemm 
+2026-11-07T14:39:39Z rep=1 shape:eager_ws:gram:m128_n128_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 131072 --api dgemm  --workspace-mb 2340
+2026-11-07T14:39:48Z rep=1 shape:native:gram:m512_n512_k8192: env[] --m 512 --n 512 --k 8192 --api dgemm 
+2026-11-07T14:39:56Z rep=1 shape:default_ws0:gram:m512_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 8192 --api dgemm 
+2026-11-07T14:40:13Z rep=1 shape:default_ws:gram:m512_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 8192 --api dgemm  --workspace-mb 254
+2026-11-07T14:40:19Z rep=1 shape:eager_ws0:gram:m512_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 8192 --api dgemm 
+2026-11-07T14:40:35Z rep=1 shape:eager_ws:gram:m512_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 8192 --api dgemm  --workspace-mb 254
+2026-11-07T14:40:42Z rep=1 shape:native:gram:m512_n512_k32768: env[] --m 512 --n 512 --k 32768 --api dgemm 
+2026-11-07T14:40:50Z rep=1 shape:default_ws0:gram:m512_n512_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 32768 --api dgemm 
+2026-11-07T14:41:00Z rep=1 shape:default_ws:gram:m512_n512_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 32768 --api dgemm  --workspace-mb 808
+2026-11-07T14:41:09Z rep=1 shape:eager_ws0:gram:m512_n512_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 32768 --api dgemm 
+2026-11-07T14:41:28Z rep=1 shape:eager_ws:gram:m512_n512_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 32768 --api dgemm  --workspace-mb 808
+2026-11-07T14:41:36Z rep=1 shape:native:gram:m512_n512_k131072: env[] --m 512 --n 512 --k 131072 --api dgemm 
+2026-11-07T14:41:46Z rep=1 shape:default_ws0:gram:m512_n512_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 131072 --api dgemm 
+2026-11-07T14:42:06Z rep=1 shape:default_ws:gram:m512_n512_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 131072 --api dgemm  --workspace-mb 3112
+2026-11-07T14:42:16Z rep=1 shape:eager_ws0:gram:m512_n512_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 131072 --api dgemm 
+2026-11-07T14:42:35Z rep=1 shape:eager_ws:gram:m512_n512_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 131072 --api dgemm  --workspace-mb 3112
+2026-11-07T14:42:45Z rep=1 shape:native:rsvd_AO:m16384_n64_k8192: env[] --m 16384 --n 64 --k 8192 --api dgemm 
+2026-11-07T14:42:54Z rep=1 shape:default_ws0:rsvd_AO:m16384_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 64 --k 8192 --api dgemm 
+2026-11-07T14:43:03Z rep=1 shape:default_ws:rsvd_AO:m16384_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 64 --k 8192 --api dgemm  --workspace-mb 3433
+2026-11-07T14:43:12Z rep=1 shape:eager_ws0:rsvd_AO:m16384_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 64 --k 8192 --api dgemm 
+2026-11-07T14:43:33Z rep=1 shape:eager_ws:rsvd_AO:m16384_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 64 --k 8192 --api dgemm  --workspace-mb 3433
+2026-11-07T14:43:42Z rep=1 shape:native:rsvd_AtQ:m8192_n64_k16384_TN: env[] --m 8192 --n 64 --k 16384 --api dgemm --opa T
+2026-11-07T14:43:51Z rep=1 shape:default_ws0:rsvd_AtQ:m8192_n64_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 64 --k 16384 --api dgemm --opa T
+2026-11-07T14:44:01Z rep=1 shape:default_ws:rsvd_AtQ:m8192_n64_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 64 --k 16384 --api dgemm --opa T --workspace-mb 3413
+2026-11-07T14:44:10Z rep=1 shape:eager_ws0:rsvd_AtQ:m8192_n64_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 64 --k 16384 --api dgemm --opa T
+2026-11-07T14:44:31Z rep=1 shape:eager_ws:rsvd_AtQ:m8192_n64_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 64 --k 16384 --api dgemm --opa T --workspace-mb 3413
+2026-11-07T14:44:41Z rep=1 shape:native:rsvd_QtA:m64_n8192_k16384_TN: env[] --m 64 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T14:44:50Z rep=1 shape:default_ws0:rsvd_QtA:m64_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 64 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T14:44:59Z rep=1 shape:default_ws:rsvd_QtA:m64_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 64 --n 8192 --k 16384 --api dgemm --opa T --workspace-mb 3259
+2026-11-07T14:45:07Z rep=1 shape:eager_ws0:rsvd_QtA:m64_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 64 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T14:45:27Z rep=1 shape:eager_ws:rsvd_QtA:m64_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 64 --n 8192 --k 16384 --api dgemm --opa T --workspace-mb 3259
+2026-11-07T14:45:36Z rep=1 shape:native:rsvd_AO:m16384_n256_k8192: env[] --m 16384 --n 256 --k 8192 --api dgemm 
+2026-11-07T14:45:45Z rep=1 shape:default_ws0:rsvd_AO:m16384_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 256 --k 8192 --api dgemm 
+2026-11-07T14:46:07Z rep=1 shape:default_ws:rsvd_AO:m16384_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 256 --k 8192 --api dgemm  --workspace-mb 3433
+2026-11-07T14:46:16Z rep=1 shape:eager_ws0:rsvd_AO:m16384_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 256 --k 8192 --api dgemm 
+2026-11-07T14:46:37Z rep=1 shape:eager_ws:rsvd_AO:m16384_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 256 --k 8192 --api dgemm  --workspace-mb 3433
+2026-11-07T14:46:46Z rep=1 shape:native:rsvd_AtQ:m8192_n256_k16384_TN: env[] --m 8192 --n 256 --k 16384 --api dgemm --opa T
+2026-11-07T14:46:55Z rep=1 shape:default_ws0:rsvd_AtQ:m8192_n256_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 256 --k 16384 --api dgemm --opa T
+2026-11-07T14:47:17Z rep=1 shape:default_ws:rsvd_AtQ:m8192_n256_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 256 --k 16384 --api dgemm --opa T --workspace-mb 3413
+2026-11-07T14:47:27Z rep=1 shape:eager_ws0:rsvd_AtQ:m8192_n256_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 256 --k 16384 --api dgemm --opa T
+2026-11-07T14:47:48Z rep=1 shape:eager_ws:rsvd_AtQ:m8192_n256_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 256 --k 16384 --api dgemm --opa T --workspace-mb 3413
+2026-11-07T14:47:58Z rep=1 shape:native:rsvd_QtA:m256_n8192_k16384_TN: env[] --m 256 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T14:48:07Z rep=1 shape:default_ws0:rsvd_QtA:m256_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 256 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T14:48:26Z rep=1 shape:default_ws:rsvd_QtA:m256_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 256 --n 8192 --k 16384 --api dgemm --opa T --workspace-mb 3259
+2026-11-07T14:48:35Z rep=1 shape:eager_ws0:rsvd_QtA:m256_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 256 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T14:48:54Z rep=1 shape:eager_ws:rsvd_QtA:m256_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 256 --n 8192 --k 16384 --api dgemm --opa T --workspace-mb 3259
+2026-11-07T14:49:03Z rep=2 shape:default_ws0:square:m4096_n4096_k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T14:49:20Z rep=2 shape:default_ws:square:m4096_n4096_k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm  --workspace-mb 1265
+2026-11-07T14:49:29Z rep=2 shape:eager_ws0:square:m4096_n4096_k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T14:49:48Z rep=2 shape:eager_ws:square:m4096_n4096_k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm  --workspace-mb 1265
+2026-11-07T14:49:57Z rep=2 shape:native:square:m8192_n8192_k8192: env[] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:50:16Z rep=2 shape:default_ws0:square:m8192_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:50:35Z rep=2 shape:default_ws:square:m8192_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 8192 --api dgemm  --workspace-mb 4961
+2026-11-07T14:50:46Z rep=2 shape:eager_ws0:square:m8192_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:51:07Z rep=2 shape:eager_ws:square:m8192_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 8192 --api dgemm  --workspace-mb 4961
+2026-11-07T14:51:18Z rep=2 shape:native:odd:m4097_n4097_k4097: env[] --m 4097 --n 4097 --k 4097 --api dgemm 
+2026-11-07T14:51:28Z rep=2 shape:default_ws0:odd:m4097_n4097_k4097: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4097 --n 4097 --k 4097 --api dgemm 
+2026-11-07T14:51:45Z rep=2 shape:default_ws:odd:m4097_n4097_k4097: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4097 --n 4097 --k 4097 --api dgemm  --workspace-mb 1480
+2026-11-07T14:51:54Z rep=2 shape:eager_ws0:odd:m4097_n4097_k4097: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4097 --n 4097 --k 4097 --api dgemm 
+2026-11-07T14:52:13Z rep=2 shape:eager_ws:odd:m4097_n4097_k4097: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4097 --n 4097 --k 4097 --api dgemm  --workspace-mb 1480
+2026-11-07T14:52:22Z rep=2 shape:native:odd:m4000_n4000_k4000: env[] --m 4000 --n 4000 --k 4000 --api dgemm 
+2026-11-07T14:52:31Z rep=2 shape:default_ws0:odd:m4000_n4000_k4000: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4000 --n 4000 --k 4000 --api dgemm 
+2026-11-07T14:52:50Z rep=2 shape:default_ws:odd:m4000_n4000_k4000: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4000 --n 4000 --k 4000 --api dgemm  --workspace-mb 1265
+2026-11-07T14:52:59Z rep=2 shape:eager_ws0:odd:m4000_n4000_k4000: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4000 --n 4000 --k 4000 --api dgemm 
+2026-11-07T14:53:18Z rep=2 shape:eager_ws:odd:m4000_n4000_k4000: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4000 --n 4000 --k 4000 --api dgemm  --workspace-mb 1265
+2026-11-07T14:53:27Z rep=2 shape:native:odd:m3001_n5003_k2999: env[] --m 3001 --n 5003 --k 2999 --api dgemm 
+2026-11-07T14:53:35Z rep=2 shape:default_ws0:odd:m3001_n5003_k2999: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 3001 --n 5003 --k 2999 --api dgemm 
+2026-11-07T14:53:51Z rep=2 shape:default_ws:odd:m3001_n5003_k2999: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 3001 --n 5003 --k 2999 --api dgemm  --workspace-mb 1044
+2026-11-07T14:54:00Z rep=2 shape:eager_ws0:odd:m3001_n5003_k2999: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 3001 --n 5003 --k 2999 --api dgemm 
+2026-11-07T14:54:20Z rep=2 shape:eager_ws:odd:m3001_n5003_k2999: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 3001 --n 5003 --k 2999 --api dgemm  --workspace-mb 1044
+2026-11-07T14:54:29Z rep=2 shape:native:panel:m8192_n8192_k16: env[] --m 8192 --n 8192 --k 16 --api dgemm 
+2026-11-07T14:54:37Z rep=2 shape:default_ws0:panel:m8192_n8192_k16: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 16 --api dgemm 
+2026-11-07T14:54:45Z rep=2 shape:default_ws:panel:m8192_n8192_k16: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 16 --api dgemm  --workspace-mb 1985
+2026-11-07T14:54:53Z rep=2 shape:eager_ws0:panel:m8192_n8192_k16: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 16 --api dgemm 
+2026-11-07T14:55:22Z rep=2 shape:eager_ws:panel:m8192_n8192_k16: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 16 --api dgemm  --workspace-mb 1985
+2026-11-07T14:55:31Z rep=2 shape:native:panel:m8192_n8192_k32: env[] --m 8192 --n 8192 --k 32 --api dgemm 
+2026-11-07T14:55:41Z rep=2 shape:default_ws0:panel:m8192_n8192_k32: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 32 --api dgemm 
+2026-11-07T14:55:51Z rep=2 shape:default_ws:panel:m8192_n8192_k32: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 32 --api dgemm  --workspace-mb 1985
+2026-11-07T14:56:00Z rep=2 shape:eager_ws0:panel:m8192_n8192_k32: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 32 --api dgemm 
+2026-11-07T14:56:30Z rep=2 shape:eager_ws:panel:m8192_n8192_k32: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 32 --api dgemm  --workspace-mb 1985
+2026-11-07T14:56:40Z rep=2 shape:native:panel:m8192_n8192_k48: env[] --m 8192 --n 8192 --k 48 --api dgemm 
+2026-11-07T14:56:49Z rep=2 shape:default_ws0:panel:m8192_n8192_k48: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 48 --api dgemm 
+2026-11-07T14:56:59Z rep=2 shape:default_ws:panel:m8192_n8192_k48: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 48 --api dgemm  --workspace-mb 1985
+2026-11-07T14:57:09Z rep=2 shape:eager_ws0:panel:m8192_n8192_k48: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 48 --api dgemm 
+2026-11-07T14:57:36Z rep=2 shape:eager_ws:panel:m8192_n8192_k48: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 48 --api dgemm  --workspace-mb 1985
+2026-11-07T14:57:46Z rep=2 shape:native:panel:m8192_n8192_k64: env[] --m 8192 --n 8192 --k 64 --api dgemm 
+2026-11-07T14:57:55Z rep=2 shape:default_ws0:panel:m8192_n8192_k64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 64 --api dgemm 
+2026-11-07T14:58:04Z rep=2 shape:default_ws:panel:m8192_n8192_k64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 64 --api dgemm  --workspace-mb 1985
+2026-11-07T14:58:14Z rep=2 shape:eager_ws0:panel:m8192_n8192_k64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 64 --api dgemm 
+2026-11-07T14:58:43Z rep=2 shape:eager_ws:panel:m8192_n8192_k64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 64 --api dgemm  --workspace-mb 1985
+2026-11-07T14:58:53Z rep=2 shape:native:panel:m8192_n8192_k96: env[] --m 8192 --n 8192 --k 96 --api dgemm 
+2026-11-07T14:59:03Z rep=2 shape:default_ws0:panel:m8192_n8192_k96: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 96 --api dgemm 
+2026-11-07T14:59:12Z rep=2 shape:default_ws:panel:m8192_n8192_k96: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 96 --api dgemm  --workspace-mb 1985
+2026-11-07T14:59:22Z rep=2 shape:eager_ws0:panel:m8192_n8192_k96: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 96 --api dgemm 
+2026-11-07T14:59:54Z rep=2 shape:eager_ws:panel:m8192_n8192_k96: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 96 --api dgemm  --workspace-mb 1985
+2026-11-07T15:00:03Z rep=2 shape:native:panel:m8192_n8192_k128: env[] --m 8192 --n 8192 --k 128 --api dgemm 
+2026-11-07T15:00:12Z rep=2 shape:default_ws0:panel:m8192_n8192_k128: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 128 --api dgemm 
+2026-11-07T15:00:22Z rep=2 shape:default_ws:panel:m8192_n8192_k128: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 128 --api dgemm  --workspace-mb 1985
+2026-11-07T15:00:32Z rep=2 shape:eager_ws0:panel:m8192_n8192_k128: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 128 --api dgemm 
+2026-11-07T15:00:54Z rep=2 shape:eager_ws:panel:m8192_n8192_k128: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 128 --api dgemm  --workspace-mb 1985
+2026-11-07T15:01:03Z rep=2 shape:native:panel:m8192_n8192_k192: env[] --m 8192 --n 8192 --k 192 --api dgemm 
+2026-11-07T15:01:13Z rep=2 shape:default_ws0:panel:m8192_n8192_k192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 192 --api dgemm 
+2026-11-07T15:01:22Z rep=2 shape:default_ws:panel:m8192_n8192_k192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 192 --api dgemm  --workspace-mb 1985
+2026-11-07T15:01:32Z rep=2 shape:eager_ws0:panel:m8192_n8192_k192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 192 --api dgemm 
+2026-11-07T15:02:01Z rep=2 shape:eager_ws:panel:m8192_n8192_k192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 192 --api dgemm  --workspace-mb 1985
+2026-11-07T15:02:11Z rep=2 shape:native:panel:m8192_n8192_k256: env[] --m 8192 --n 8192 --k 256 --api dgemm 
+2026-11-07T15:02:21Z rep=2 shape:default_ws0:panel:m8192_n8192_k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 256 --api dgemm 
+2026-11-07T15:02:30Z rep=2 shape:default_ws:panel:m8192_n8192_k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 256 --api dgemm  --workspace-mb 1985
+2026-11-07T15:02:40Z rep=2 shape:eager_ws0:panel:m8192_n8192_k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 256 --api dgemm 
+2026-11-07T15:03:10Z rep=2 shape:eager_ws:panel:m8192_n8192_k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 256 --api dgemm  --workspace-mb 1985
+2026-11-07T15:03:20Z rep=2 shape:native:panel:m8192_n8192_k512: env[] --m 8192 --n 8192 --k 512 --api dgemm 
+2026-11-07T15:03:30Z rep=2 shape:default_ws0:panel:m8192_n8192_k512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 512 --api dgemm 
+2026-11-07T15:03:59Z rep=2 shape:default_ws:panel:m8192_n8192_k512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 512 --api dgemm  --workspace-mb 2081
+2026-11-07T15:04:09Z rep=2 shape:eager_ws0:panel:m8192_n8192_k512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 512 --api dgemm 
+2026-11-07T15:04:38Z rep=2 shape:eager_ws:panel:m8192_n8192_k512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 512 --api dgemm  --workspace-mb 2081
+2026-11-07T15:04:47Z rep=2 shape:native:panel:m8192_n8192_k1024: env[] --m 8192 --n 8192 --k 1024 --api dgemm 
+2026-11-07T15:04:57Z rep=2 shape:default_ws0:panel:m8192_n8192_k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 1024 --api dgemm 
+2026-11-07T15:05:22Z rep=2 shape:default_ws:panel:m8192_n8192_k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 1024 --api dgemm  --workspace-mb 2273
+2026-11-07T15:05:32Z rep=2 shape:eager_ws0:panel:m8192_n8192_k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 1024 --api dgemm 
+2026-11-07T15:05:59Z rep=2 shape:eager_ws:panel:m8192_n8192_k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 1024 --api dgemm  --workspace-mb 2273
+2026-11-07T15:06:09Z rep=2 shape:native:panel:m8192_n8192_k2048: env[] --m 8192 --n 8192 --k 2048 --api dgemm 
+2026-11-07T15:06:20Z rep=2 shape:default_ws0:panel:m8192_n8192_k2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 2048 --api dgemm 
+2026-11-07T15:06:43Z rep=2 shape:default_ws:panel:m8192_n8192_k2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 2048 --api dgemm  --workspace-mb 2657
+2026-11-07T15:06:53Z rep=2 shape:eager_ws0:panel:m8192_n8192_k2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 2048 --api dgemm 
+2026-11-07T15:07:14Z rep=2 shape:eager_ws:panel:m8192_n8192_k2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 2048 --api dgemm  --workspace-mb 2657
+2026-11-07T15:07:24Z rep=2 shape:native:skinny:m8192_n8_k8192: env[] --m 8192 --n 8 --k 8192 --api dgemm 
+2026-11-07T15:07:29Z rep=2 shape:default_ws0:skinny:m8192_n8_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8 --k 8192 --api dgemm 
+2026-11-07T15:07:34Z rep=2 shape:default_ws:skinny:m8192_n8_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:07:39Z rep=2 shape:eager_ws0:skinny:m8192_n8_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8 --k 8192 --api dgemm 
+2026-11-07T15:07:58Z rep=2 shape:eager_ws:skinny:m8192_n8_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:08:06Z rep=2 shape:native:skinny:m8192_n16_k8192: env[] --m 8192 --n 16 --k 8192 --api dgemm 
+2026-11-07T15:08:13Z rep=2 shape:default_ws0:skinny:m8192_n16_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 16 --k 8192 --api dgemm 
+2026-11-07T15:08:20Z rep=2 shape:default_ws:skinny:m8192_n16_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 16 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:08:27Z rep=2 shape:eager_ws0:skinny:m8192_n16_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 16 --k 8192 --api dgemm 
+2026-11-07T15:08:46Z rep=2 shape:eager_ws:skinny:m8192_n16_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 16 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:08:55Z rep=2 shape:native:skinny:m8192_n32_k8192: env[] --m 8192 --n 32 --k 8192 --api dgemm 
+2026-11-07T15:09:03Z rep=2 shape:default_ws0:skinny:m8192_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 32 --k 8192 --api dgemm 
+2026-11-07T15:09:11Z rep=2 shape:default_ws:skinny:m8192_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 32 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:09:20Z rep=2 shape:eager_ws0:skinny:m8192_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 32 --k 8192 --api dgemm 
+2026-11-07T15:09:41Z rep=2 shape:eager_ws:skinny:m8192_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 32 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:09:49Z rep=2 shape:native:skinny:m8192_n64_k8192: env[] --m 8192 --n 64 --k 8192 --api dgemm 
+2026-11-07T15:09:58Z rep=2 shape:default_ws0:skinny:m8192_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 64 --k 8192 --api dgemm 
+2026-11-07T15:10:07Z rep=2 shape:default_ws:skinny:m8192_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 64 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:10:15Z rep=2 shape:eager_ws0:skinny:m8192_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 64 --k 8192 --api dgemm 
+2026-11-07T15:10:37Z rep=2 shape:eager_ws:skinny:m8192_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 64 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:10:45Z rep=2 shape:native:skinny:m8192_n96_k8192: env[] --m 8192 --n 96 --k 8192 --api dgemm 
+2026-11-07T15:10:54Z rep=2 shape:default_ws0:skinny:m8192_n96_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 96 --k 8192 --api dgemm 
+2026-11-07T15:11:02Z rep=2 shape:default_ws:skinny:m8192_n96_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 96 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:11:10Z rep=2 shape:eager_ws0:skinny:m8192_n96_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 96 --k 8192 --api dgemm 
+2026-11-07T15:11:30Z rep=2 shape:eager_ws:skinny:m8192_n96_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 96 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:11:39Z rep=2 shape:native:skinny:m8192_n128_k8192: env[] --m 8192 --n 128 --k 8192 --api dgemm 
+2026-11-07T15:11:47Z rep=2 shape:default_ws0:skinny:m8192_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 128 --k 8192 --api dgemm 
+2026-11-07T15:11:56Z rep=2 shape:default_ws:skinny:m8192_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 128 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:12:04Z rep=2 shape:eager_ws0:skinny:m8192_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 128 --k 8192 --api dgemm 
+2026-11-07T15:12:27Z rep=2 shape:eager_ws:skinny:m8192_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 128 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:12:36Z rep=2 shape:native:skinny:m8192_n192_k8192: env[] --m 8192 --n 192 --k 8192 --api dgemm 
+2026-11-07T15:12:45Z rep=2 shape:default_ws0:skinny:m8192_n192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 192 --k 8192 --api dgemm 
+2026-11-07T15:13:07Z rep=2 shape:default_ws:skinny:m8192_n192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 192 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:13:16Z rep=2 shape:eager_ws0:skinny:m8192_n192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 192 --k 8192 --api dgemm 
+2026-11-07T15:13:37Z rep=2 shape:eager_ws:skinny:m8192_n192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 192 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:13:45Z rep=2 shape:native:skinny:m8192_n256_k8192: env[] --m 8192 --n 256 --k 8192 --api dgemm 
+2026-11-07T15:13:54Z rep=2 shape:default_ws0:skinny:m8192_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 256 --k 8192 --api dgemm 
+2026-11-07T15:14:17Z rep=2 shape:default_ws:skinny:m8192_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 256 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:14:25Z rep=2 shape:eager_ws0:skinny:m8192_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 256 --k 8192 --api dgemm 
+2026-11-07T15:14:35Z rep=2 shape:eager_ws:skinny:m8192_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 256 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:14:44Z rep=2 shape:native:skinny:m8192_n384_k8192: env[] --m 8192 --n 384 --k 8192 --api dgemm 
+2026-11-07T15:14:53Z rep=2 shape:default_ws0:skinny:m8192_n384_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 384 --k 8192 --api dgemm 
+2026-11-07T15:15:14Z rep=2 shape:default_ws:skinny:m8192_n384_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 384 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:15:23Z rep=2 shape:eager_ws0:skinny:m8192_n384_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 384 --k 8192 --api dgemm 
+2026-11-07T15:15:33Z rep=2 shape:eager_ws:skinny:m8192_n384_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 384 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:15:41Z rep=2 shape:native:skinny:m8192_n512_k8192: env[] --m 8192 --n 512 --k 8192 --api dgemm 
+2026-11-07T15:15:50Z rep=2 shape:default_ws0:skinny:m8192_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 512 --k 8192 --api dgemm 
+2026-11-07T15:16:03Z rep=2 shape:default_ws:skinny:m8192_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 512 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:16:12Z rep=2 shape:eager_ws0:skinny:m8192_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 512 --k 8192 --api dgemm 
+2026-11-07T15:16:32Z rep=2 shape:eager_ws:skinny:m8192_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 512 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:16:41Z rep=2 shape:native:skinny:m8192_n1024_k8192: env[] --m 8192 --n 1024 --k 8192 --api dgemm 
+2026-11-07T15:16:50Z rep=2 shape:default_ws0:skinny:m8192_n1024_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 1024 --k 8192 --api dgemm 
+2026-11-07T15:17:11Z rep=2 shape:default_ws:skinny:m8192_n1024_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 1024 --k 8192 --api dgemm  --workspace-mb 1993
+2026-11-07T15:17:20Z rep=2 shape:eager_ws0:skinny:m8192_n1024_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 1024 --k 8192 --api dgemm 
+2026-11-07T15:17:38Z rep=2 shape:eager_ws:skinny:m8192_n1024_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 1024 --k 8192 --api dgemm  --workspace-mb 1993
+2026-11-07T15:17:47Z rep=2 shape:native:skinny:m8192_n2048_k8192: env[] --m 8192 --n 2048 --k 8192 --api dgemm 
+2026-11-07T15:17:57Z rep=2 shape:default_ws0:skinny:m8192_n2048_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 2048 --k 8192 --api dgemm 
+2026-11-07T15:18:18Z rep=2 shape:default_ws:skinny:m8192_n2048_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 2048 --k 8192 --api dgemm  --workspace-mb 2417
+2026-11-07T15:18:27Z rep=2 shape:eager_ws0:skinny:m8192_n2048_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 2048 --k 8192 --api dgemm 
+2026-11-07T15:18:45Z rep=2 shape:eager_ws:skinny:m8192_n2048_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 2048 --k 8192 --api dgemm  --workspace-mb 2417
+2026-11-07T15:18:54Z rep=2 shape:native:shortwide:m8_n8192_k8192: env[] --m 8 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:19:02Z rep=2 shape:default_ws0:shortwide:m8_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:19:11Z rep=2 shape:default_ws:shortwide:m8_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T15:19:19Z rep=2 shape:eager_ws0:shortwide:m8_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:19:30Z rep=2 shape:eager_ws:shortwide:m8_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T15:19:39Z rep=2 shape:native:shortwide:m32_n8192_k8192: env[] --m 32 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:19:47Z rep=2 shape:default_ws0:shortwide:m32_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:19:56Z rep=2 shape:default_ws:shortwide:m32_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T15:20:04Z rep=2 shape:eager_ws0:shortwide:m32_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:20:26Z rep=2 shape:eager_ws:shortwide:m32_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T15:20:35Z rep=2 shape:native:shortwide:m64_n8192_k8192: env[] --m 64 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:20:44Z rep=2 shape:default_ws0:shortwide:m64_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 64 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:20:52Z rep=2 shape:default_ws:shortwide:m64_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 64 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T15:21:00Z rep=2 shape:eager_ws0:shortwide:m64_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 64 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:21:19Z rep=2 shape:eager_ws:shortwide:m64_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 64 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T15:21:27Z rep=2 shape:native:shortwide:m128_n8192_k8192: env[] --m 128 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:21:36Z rep=2 shape:default_ws0:shortwide:m128_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:21:44Z rep=2 shape:default_ws:shortwide:m128_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T15:21:53Z rep=2 shape:eager_ws0:shortwide:m128_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:22:11Z rep=2 shape:eager_ws:shortwide:m128_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T15:22:19Z rep=2 shape:native:shortwide:m256_n8192_k8192: env[] --m 256 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:22:28Z rep=2 shape:default_ws0:shortwide:m256_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 256 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:22:48Z rep=2 shape:default_ws:shortwide:m256_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 256 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T15:22:56Z rep=2 shape:eager_ws0:shortwide:m256_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 256 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:23:14Z rep=2 shape:eager_ws:shortwide:m256_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 256 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T15:23:22Z rep=2 shape:native:shortwide:m512_n8192_k8192: env[] --m 512 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:23:31Z rep=2 shape:default_ws0:shortwide:m512_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:23:52Z rep=2 shape:default_ws:shortwide:m512_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 8192 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:24:01Z rep=2 shape:eager_ws0:shortwide:m512_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:24:22Z rep=2 shape:eager_ws:shortwide:m512_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 8192 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:24:31Z rep=2 shape:native:gram:m32_n32_k8192: env[] --m 32 --n 32 --k 8192 --api dgemm 
+2026-11-07T15:24:34Z rep=2 shape:default_ws0:gram:m32_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 8192 --api dgemm 
+2026-11-07T15:24:36Z rep=2 shape:default_ws:gram:m32_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 8192 --api dgemm  --workspace-mb 215
+2026-11-07T15:24:38Z rep=2 shape:eager_ws0:gram:m32_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 8192 --api dgemm 
+2026-11-07T15:24:55Z rep=2 shape:eager_ws:gram:m32_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 8192 --api dgemm  --workspace-mb 215
+2026-11-07T15:25:00Z rep=2 shape:native:gram:m32_n32_k32768: env[] --m 32 --n 32 --k 32768 --api dgemm 
+2026-11-07T15:25:03Z rep=2 shape:default_ws0:gram:m32_n32_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 32768 --api dgemm 
+2026-11-07T15:25:05Z rep=2 shape:default_ws:gram:m32_n32_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 32768 --api dgemm  --workspace-mb 612
+2026-11-07T15:25:08Z rep=2 shape:eager_ws0:gram:m32_n32_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 32768 --api dgemm 
+2026-11-07T15:25:20Z rep=2 shape:eager_ws:gram:m32_n32_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 32768 --api dgemm  --workspace-mb 612
+2026-11-07T15:25:28Z rep=2 shape:native:gram:m32_n32_k131072: env[] --m 32 --n 32 --k 131072 --api dgemm 
+2026-11-07T15:25:31Z rep=2 shape:default_ws0:gram:m32_n32_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 131072 --api dgemm 
+2026-11-07T15:25:35Z rep=2 shape:default_ws:gram:m32_n32_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 131072 --api dgemm  --workspace-mb 2340
+2026-11-07T15:25:38Z rep=2 shape:eager_ws0:gram:m32_n32_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 131072 --api dgemm 
+2026-11-07T15:25:57Z rep=2 shape:eager_ws:gram:m32_n32_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 131072 --api dgemm  --workspace-mb 2340
+2026-11-07T15:26:05Z rep=2 shape:native:gram:m128_n128_k8192: env[] --m 128 --n 128 --k 8192 --api dgemm 
+2026-11-07T15:26:08Z rep=2 shape:default_ws0:gram:m128_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 8192 --api dgemm 
+2026-11-07T15:26:11Z rep=2 shape:default_ws:gram:m128_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 8192 --api dgemm  --workspace-mb 215
+2026-11-07T15:26:14Z rep=2 shape:eager_ws0:gram:m128_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 8192 --api dgemm 
+2026-11-07T15:26:23Z rep=2 shape:eager_ws:gram:m128_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 8192 --api dgemm  --workspace-mb 215
+2026-11-07T15:26:29Z rep=2 shape:native:gram:m128_n128_k32768: env[] --m 128 --n 128 --k 32768 --api dgemm 
+2026-11-07T15:26:34Z rep=2 shape:default_ws0:gram:m128_n128_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 32768 --api dgemm 
+2026-11-07T15:26:40Z rep=2 shape:default_ws:gram:m128_n128_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 32768 --api dgemm  --workspace-mb 612
+2026-11-07T15:26:45Z rep=2 shape:eager_ws0:gram:m128_n128_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 32768 --api dgemm 
+2026-11-07T15:27:05Z rep=2 shape:eager_ws:gram:m128_n128_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 32768 --api dgemm  --workspace-mb 612
+2026-11-07T15:27:14Z rep=2 shape:native:gram:m128_n128_k131072: env[] --m 128 --n 128 --k 131072 --api dgemm 
+2026-11-07T15:27:22Z rep=2 shape:default_ws0:gram:m128_n128_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 131072 --api dgemm 
+2026-11-07T15:27:31Z rep=2 shape:default_ws:gram:m128_n128_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 131072 --api dgemm  --workspace-mb 2340
+2026-11-07T15:27:40Z rep=2 shape:eager_ws0:gram:m128_n128_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 131072 --api dgemm 
+2026-11-07T15:28:01Z rep=2 shape:eager_ws:gram:m128_n128_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 131072 --api dgemm  --workspace-mb 2340
+2026-11-07T15:28:10Z rep=2 shape:native:gram:m512_n512_k8192: env[] --m 512 --n 512 --k 8192 --api dgemm 
+2026-11-07T15:28:18Z rep=2 shape:default_ws0:gram:m512_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 8192 --api dgemm 
+2026-11-07T15:28:35Z rep=2 shape:default_ws:gram:m512_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 8192 --api dgemm  --workspace-mb 254
+2026-11-07T15:28:42Z rep=2 shape:eager_ws0:gram:m512_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 8192 --api dgemm 
+2026-11-07T15:28:49Z rep=2 shape:eager_ws:gram:m512_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 8192 --api dgemm  --workspace-mb 254
+2026-11-07T15:28:56Z rep=2 shape:native:gram:m512_n512_k32768: env[] --m 512 --n 512 --k 32768 --api dgemm 
+2026-11-07T15:29:04Z rep=2 shape:default_ws0:gram:m512_n512_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 32768 --api dgemm 
+2026-11-07T15:29:24Z rep=2 shape:default_ws:gram:m512_n512_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 32768 --api dgemm  --workspace-mb 808
+2026-11-07T15:29:33Z rep=2 shape:eager_ws0:gram:m512_n512_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 32768 --api dgemm 
+2026-11-07T15:29:52Z rep=2 shape:eager_ws:gram:m512_n512_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 32768 --api dgemm  --workspace-mb 808
+2026-11-07T15:30:01Z rep=2 shape:native:gram:m512_n512_k131072: env[] --m 512 --n 512 --k 131072 --api dgemm 
+2026-11-07T15:30:12Z rep=2 shape:default_ws0:gram:m512_n512_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 131072 --api dgemm 
+2026-11-07T15:30:33Z rep=2 shape:default_ws:gram:m512_n512_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 131072 --api dgemm  --workspace-mb 3112
+2026-11-07T15:30:43Z rep=2 shape:eager_ws0:gram:m512_n512_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 131072 --api dgemm 
+2026-11-07T15:31:02Z rep=2 shape:eager_ws:gram:m512_n512_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 131072 --api dgemm  --workspace-mb 3112
+2026-11-07T15:31:12Z rep=2 shape:native:rsvd_AO:m16384_n64_k8192: env[] --m 16384 --n 64 --k 8192 --api dgemm 
+2026-11-07T15:31:21Z rep=2 shape:default_ws0:rsvd_AO:m16384_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 64 --k 8192 --api dgemm 
+2026-11-07T15:31:30Z rep=2 shape:default_ws:rsvd_AO:m16384_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 64 --k 8192 --api dgemm  --workspace-mb 3433
+2026-11-07T15:31:39Z rep=2 shape:eager_ws0:rsvd_AO:m16384_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 64 --k 8192 --api dgemm 
+2026-11-07T15:32:00Z rep=2 shape:eager_ws:rsvd_AO:m16384_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 64 --k 8192 --api dgemm  --workspace-mb 3433
+2026-11-07T15:32:09Z rep=2 shape:native:rsvd_AtQ:m8192_n64_k16384_TN: env[] --m 8192 --n 64 --k 16384 --api dgemm --opa T
+2026-11-07T15:32:18Z rep=2 shape:default_ws0:rsvd_AtQ:m8192_n64_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 64 --k 16384 --api dgemm --opa T
+2026-11-07T15:32:28Z rep=2 shape:default_ws:rsvd_AtQ:m8192_n64_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 64 --k 16384 --api dgemm --opa T --workspace-mb 3413
+2026-11-07T15:32:37Z rep=2 shape:eager_ws0:rsvd_AtQ:m8192_n64_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 64 --k 16384 --api dgemm --opa T
+2026-11-07T15:32:59Z rep=2 shape:eager_ws:rsvd_AtQ:m8192_n64_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 64 --k 16384 --api dgemm --opa T --workspace-mb 3413
+2026-11-07T15:33:09Z rep=2 shape:native:rsvd_QtA:m64_n8192_k16384_TN: env[] --m 64 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T15:33:18Z rep=2 shape:default_ws0:rsvd_QtA:m64_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 64 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T15:33:27Z rep=2 shape:default_ws:rsvd_QtA:m64_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 64 --n 8192 --k 16384 --api dgemm --opa T --workspace-mb 3259
+2026-11-07T15:33:35Z rep=2 shape:eager_ws0:rsvd_QtA:m64_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 64 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T15:33:48Z rep=2 shape:eager_ws:rsvd_QtA:m64_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 64 --n 8192 --k 16384 --api dgemm --opa T --workspace-mb 3259
+2026-11-07T15:33:57Z rep=2 shape:native:rsvd_AO:m16384_n256_k8192: env[] --m 16384 --n 256 --k 8192 --api dgemm 
+2026-11-07T15:34:06Z rep=2 shape:default_ws0:rsvd_AO:m16384_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 256 --k 8192 --api dgemm 
+2026-11-07T15:34:27Z rep=2 shape:default_ws:rsvd_AO:m16384_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 256 --k 8192 --api dgemm  --workspace-mb 3433
+2026-11-07T15:34:37Z rep=2 shape:eager_ws0:rsvd_AO:m16384_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 256 --k 8192 --api dgemm 
+2026-11-07T15:34:48Z rep=2 shape:eager_ws:rsvd_AO:m16384_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 256 --k 8192 --api dgemm  --workspace-mb 3433
+2026-11-07T15:34:57Z rep=2 shape:native:rsvd_AtQ:m8192_n256_k16384_TN: env[] --m 8192 --n 256 --k 16384 --api dgemm --opa T
+2026-11-07T15:35:07Z rep=2 shape:default_ws0:rsvd_AtQ:m8192_n256_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 256 --k 16384 --api dgemm --opa T
+2026-11-07T15:35:29Z rep=2 shape:default_ws:rsvd_AtQ:m8192_n256_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 256 --k 16384 --api dgemm --opa T --workspace-mb 3413
+2026-11-07T15:35:38Z rep=2 shape:eager_ws0:rsvd_AtQ:m8192_n256_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 256 --k 16384 --api dgemm --opa T
+2026-11-07T15:36:01Z rep=2 shape:eager_ws:rsvd_AtQ:m8192_n256_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 256 --k 16384 --api dgemm --opa T --workspace-mb 3413
+2026-11-07T15:36:11Z rep=2 shape:native:rsvd_QtA:m256_n8192_k16384_TN: env[] --m 256 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T15:36:20Z rep=2 shape:default_ws0:rsvd_QtA:m256_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 256 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T15:36:41Z rep=2 shape:default_ws:rsvd_QtA:m256_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 256 --n 8192 --k 16384 --api dgemm --opa T --workspace-mb 3259
+2026-11-07T15:36:51Z rep=2 shape:eager_ws0:rsvd_QtA:m256_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 256 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T15:37:10Z rep=2 shape:eager_ws:rsvd_QtA:m256_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 256 --n 8192 --k 16384 --api dgemm --opa T --workspace-mb 3259
+2026-11-07T15:37:20Z rep=2 shape:native:square:m4096_n4096_k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T15:37:29Z rep=3 shape:default_ws:square:m4096_n4096_k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm  --workspace-mb 1265
+2026-11-07T15:37:38Z rep=3 shape:eager_ws0:square:m4096_n4096_k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T15:37:57Z rep=3 shape:eager_ws:square:m4096_n4096_k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm  --workspace-mb 1265
+2026-11-07T15:38:06Z rep=3 shape:native:square:m8192_n8192_k8192: env[] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:38:24Z rep=3 shape:default_ws0:square:m8192_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:38:44Z rep=3 shape:default_ws:square:m8192_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 8192 --api dgemm  --workspace-mb 4961
+2026-11-07T15:38:56Z rep=3 shape:eager_ws0:square:m8192_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T15:39:16Z rep=3 shape:eager_ws:square:m8192_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 8192 --api dgemm  --workspace-mb 4961
+2026-11-07T15:39:27Z rep=3 shape:native:odd:m4097_n4097_k4097: env[] --m 4097 --n 4097 --k 4097 --api dgemm 
+2026-11-07T15:39:37Z rep=3 shape:default_ws0:odd:m4097_n4097_k4097: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4097 --n 4097 --k 4097 --api dgemm 
+2026-11-07T15:39:56Z rep=3 shape:default_ws:odd:m4097_n4097_k4097: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4097 --n 4097 --k 4097 --api dgemm  --workspace-mb 1480
+2026-11-07T15:40:06Z rep=3 shape:eager_ws0:odd:m4097_n4097_k4097: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4097 --n 4097 --k 4097 --api dgemm 
+2026-11-07T15:40:25Z rep=3 shape:eager_ws:odd:m4097_n4097_k4097: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4097 --n 4097 --k 4097 --api dgemm  --workspace-mb 1480
+2026-11-07T15:40:33Z rep=3 shape:native:odd:m4000_n4000_k4000: env[] --m 4000 --n 4000 --k 4000 --api dgemm 
+2026-11-07T15:40:43Z rep=3 shape:default_ws0:odd:m4000_n4000_k4000: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4000 --n 4000 --k 4000 --api dgemm 
+2026-11-07T15:41:02Z rep=3 shape:default_ws:odd:m4000_n4000_k4000: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4000 --n 4000 --k 4000 --api dgemm  --workspace-mb 1265
+2026-11-07T15:41:10Z rep=3 shape:eager_ws0:odd:m4000_n4000_k4000: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4000 --n 4000 --k 4000 --api dgemm 
+2026-11-07T15:41:30Z rep=3 shape:eager_ws:odd:m4000_n4000_k4000: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4000 --n 4000 --k 4000 --api dgemm  --workspace-mb 1265
+2026-11-07T15:41:39Z rep=3 shape:native:odd:m3001_n5003_k2999: env[] --m 3001 --n 5003 --k 2999 --api dgemm 
+2026-11-07T15:41:48Z rep=3 shape:default_ws0:odd:m3001_n5003_k2999: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 3001 --n 5003 --k 2999 --api dgemm 
+2026-11-07T15:42:08Z rep=3 shape:default_ws:odd:m3001_n5003_k2999: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 3001 --n 5003 --k 2999 --api dgemm  --workspace-mb 1044
+2026-11-07T15:42:17Z rep=3 shape:eager_ws0:odd:m3001_n5003_k2999: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 3001 --n 5003 --k 2999 --api dgemm 
+2026-11-07T15:42:36Z rep=3 shape:eager_ws:odd:m3001_n5003_k2999: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 3001 --n 5003 --k 2999 --api dgemm  --workspace-mb 1044
+2026-11-07T15:42:44Z rep=3 shape:native:panel:m8192_n8192_k16: env[] --m 8192 --n 8192 --k 16 --api dgemm 
+2026-11-07T15:42:53Z rep=3 shape:default_ws0:panel:m8192_n8192_k16: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 16 --api dgemm 
+2026-11-07T15:43:01Z rep=3 shape:default_ws:panel:m8192_n8192_k16: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 16 --api dgemm  --workspace-mb 1985
+2026-11-07T15:43:09Z rep=3 shape:eager_ws0:panel:m8192_n8192_k16: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 16 --api dgemm 
+2026-11-07T15:43:24Z rep=3 shape:eager_ws:panel:m8192_n8192_k16: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 16 --api dgemm  --workspace-mb 1985
+2026-11-07T15:43:33Z rep=3 shape:native:panel:m8192_n8192_k32: env[] --m 8192 --n 8192 --k 32 --api dgemm 
+2026-11-07T15:43:43Z rep=3 shape:default_ws0:panel:m8192_n8192_k32: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 32 --api dgemm 
+2026-11-07T15:43:52Z rep=3 shape:default_ws:panel:m8192_n8192_k32: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 32 --api dgemm  --workspace-mb 1985
+2026-11-07T15:44:02Z rep=3 shape:eager_ws0:panel:m8192_n8192_k32: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 32 --api dgemm 
+2026-11-07T15:44:33Z rep=3 shape:eager_ws:panel:m8192_n8192_k32: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 32 --api dgemm  --workspace-mb 1985
+2026-11-07T15:44:42Z rep=3 shape:native:panel:m8192_n8192_k48: env[] --m 8192 --n 8192 --k 48 --api dgemm 
+2026-11-07T15:44:52Z rep=3 shape:default_ws0:panel:m8192_n8192_k48: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 48 --api dgemm 
+2026-11-07T15:45:01Z rep=3 shape:default_ws:panel:m8192_n8192_k48: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 48 --api dgemm  --workspace-mb 1985
+2026-11-07T15:45:11Z rep=3 shape:eager_ws0:panel:m8192_n8192_k48: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 48 --api dgemm 
+2026-11-07T15:45:29Z rep=3 shape:eager_ws:panel:m8192_n8192_k48: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 48 --api dgemm  --workspace-mb 1985
+2026-11-07T15:45:39Z rep=3 shape:native:panel:m8192_n8192_k64: env[] --m 8192 --n 8192 --k 64 --api dgemm 
+2026-11-07T15:45:48Z rep=3 shape:default_ws0:panel:m8192_n8192_k64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 64 --api dgemm 
+2026-11-07T15:45:57Z rep=3 shape:default_ws:panel:m8192_n8192_k64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 64 --api dgemm  --workspace-mb 1985
+2026-11-07T15:46:07Z rep=3 shape:eager_ws0:panel:m8192_n8192_k64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 64 --api dgemm 
+2026-11-07T15:46:21Z rep=3 shape:eager_ws:panel:m8192_n8192_k64: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 64 --api dgemm  --workspace-mb 1985
+2026-11-07T15:46:30Z rep=3 shape:native:panel:m8192_n8192_k96: env[] --m 8192 --n 8192 --k 96 --api dgemm 
+2026-11-07T15:46:40Z rep=3 shape:default_ws0:panel:m8192_n8192_k96: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 96 --api dgemm 
+2026-11-07T15:46:50Z rep=3 shape:default_ws:panel:m8192_n8192_k96: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 96 --api dgemm  --workspace-mb 1985
+2026-11-07T15:46:59Z rep=3 shape:eager_ws0:panel:m8192_n8192_k96: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 96 --api dgemm 
+2026-11-07T15:47:29Z rep=3 shape:eager_ws:panel:m8192_n8192_k96: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 96 --api dgemm  --workspace-mb 1985
+2026-11-07T15:47:39Z rep=3 shape:native:panel:m8192_n8192_k128: env[] --m 8192 --n 8192 --k 128 --api dgemm 
+2026-11-07T15:47:48Z rep=3 shape:default_ws0:panel:m8192_n8192_k128: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 128 --api dgemm 
+2026-11-07T15:47:58Z rep=3 shape:default_ws:panel:m8192_n8192_k128: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 128 --api dgemm  --workspace-mb 1985
+2026-11-07T15:48:07Z rep=3 shape:eager_ws0:panel:m8192_n8192_k128: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 128 --api dgemm 
+2026-11-07T15:48:30Z rep=3 shape:eager_ws:panel:m8192_n8192_k128: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 128 --api dgemm  --workspace-mb 1985
+2026-11-07T15:48:40Z rep=3 shape:native:panel:m8192_n8192_k192: env[] --m 8192 --n 8192 --k 192 --api dgemm 
+2026-11-07T15:48:49Z rep=3 shape:default_ws0:panel:m8192_n8192_k192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 192 --api dgemm 
+2026-11-07T15:48:59Z rep=3 shape:default_ws:panel:m8192_n8192_k192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 192 --api dgemm  --workspace-mb 1985
+2026-11-07T15:49:09Z rep=3 shape:eager_ws0:panel:m8192_n8192_k192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 192 --api dgemm 
+2026-11-07T15:49:38Z rep=3 shape:eager_ws:panel:m8192_n8192_k192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 192 --api dgemm  --workspace-mb 1985
+2026-11-07T15:49:48Z rep=3 shape:native:panel:m8192_n8192_k256: env[] --m 8192 --n 8192 --k 256 --api dgemm 
+2026-11-07T15:49:58Z rep=3 shape:default_ws0:panel:m8192_n8192_k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 256 --api dgemm 
+2026-11-07T15:50:07Z rep=3 shape:default_ws:panel:m8192_n8192_k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 256 --api dgemm  --workspace-mb 1985
+2026-11-07T15:50:17Z rep=3 shape:eager_ws0:panel:m8192_n8192_k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 256 --api dgemm 
+2026-11-07T15:50:47Z rep=3 shape:eager_ws:panel:m8192_n8192_k256: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 256 --api dgemm  --workspace-mb 1985
+2026-11-07T15:50:56Z rep=3 shape:native:panel:m8192_n8192_k512: env[] --m 8192 --n 8192 --k 512 --api dgemm 
+2026-11-07T15:51:06Z rep=3 shape:default_ws0:panel:m8192_n8192_k512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 512 --api dgemm 
+2026-11-07T15:51:35Z rep=3 shape:default_ws:panel:m8192_n8192_k512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 512 --api dgemm  --workspace-mb 2081
+2026-11-07T15:51:44Z rep=3 shape:eager_ws0:panel:m8192_n8192_k512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 512 --api dgemm 
+2026-11-07T15:52:12Z rep=3 shape:eager_ws:panel:m8192_n8192_k512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 512 --api dgemm  --workspace-mb 2081
+2026-11-07T15:52:21Z rep=3 shape:native:panel:m8192_n8192_k1024: env[] --m 8192 --n 8192 --k 1024 --api dgemm 
+2026-11-07T15:52:31Z rep=3 shape:default_ws0:panel:m8192_n8192_k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 1024 --api dgemm 
+2026-11-07T15:52:57Z rep=3 shape:default_ws:panel:m8192_n8192_k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 1024 --api dgemm  --workspace-mb 2273
+2026-11-07T15:53:07Z rep=3 shape:eager_ws0:panel:m8192_n8192_k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 1024 --api dgemm 
+2026-11-07T15:53:33Z rep=3 shape:eager_ws:panel:m8192_n8192_k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 1024 --api dgemm  --workspace-mb 2273
+2026-11-07T15:53:43Z rep=3 shape:native:panel:m8192_n8192_k2048: env[] --m 8192 --n 8192 --k 2048 --api dgemm 
+2026-11-07T15:53:54Z rep=3 shape:default_ws0:panel:m8192_n8192_k2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 2048 --api dgemm 
+2026-11-07T15:54:16Z rep=3 shape:default_ws:panel:m8192_n8192_k2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 2048 --api dgemm  --workspace-mb 2657
+2026-11-07T15:54:26Z rep=3 shape:eager_ws0:panel:m8192_n8192_k2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 2048 --api dgemm 
+2026-11-07T15:54:43Z rep=3 shape:eager_ws:panel:m8192_n8192_k2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 2048 --api dgemm  --workspace-mb 2657
+2026-11-07T15:54:53Z rep=3 shape:native:skinny:m8192_n8_k8192: env[] --m 8192 --n 8 --k 8192 --api dgemm 
+2026-11-07T15:54:58Z rep=3 shape:default_ws0:skinny:m8192_n8_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8 --k 8192 --api dgemm 
+2026-11-07T15:55:03Z rep=3 shape:default_ws:skinny:m8192_n8_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:55:07Z rep=3 shape:eager_ws0:skinny:m8192_n8_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8 --k 8192 --api dgemm 
+2026-11-07T15:55:28Z rep=3 shape:eager_ws:skinny:m8192_n8_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:55:36Z rep=3 shape:native:skinny:m8192_n16_k8192: env[] --m 8192 --n 16 --k 8192 --api dgemm 
+2026-11-07T15:55:43Z rep=3 shape:default_ws0:skinny:m8192_n16_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 16 --k 8192 --api dgemm 
+2026-11-07T15:55:50Z rep=3 shape:default_ws:skinny:m8192_n16_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 16 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:55:58Z rep=3 shape:eager_ws0:skinny:m8192_n16_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 16 --k 8192 --api dgemm 
+2026-11-07T15:56:19Z rep=3 shape:eager_ws:skinny:m8192_n16_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 16 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:56:27Z rep=3 shape:native:skinny:m8192_n32_k8192: env[] --m 8192 --n 32 --k 8192 --api dgemm 
+2026-11-07T15:56:35Z rep=3 shape:default_ws0:skinny:m8192_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 32 --k 8192 --api dgemm 
+2026-11-07T15:56:44Z rep=3 shape:default_ws:skinny:m8192_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 32 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:56:52Z rep=3 shape:eager_ws0:skinny:m8192_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 32 --k 8192 --api dgemm 
+2026-11-07T15:57:14Z rep=3 shape:eager_ws:skinny:m8192_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 32 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:57:22Z rep=3 shape:native:skinny:m8192_n64_k8192: env[] --m 8192 --n 64 --k 8192 --api dgemm 
+2026-11-07T15:57:30Z rep=3 shape:default_ws0:skinny:m8192_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 64 --k 8192 --api dgemm 
+2026-11-07T15:57:39Z rep=3 shape:default_ws:skinny:m8192_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 64 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:57:47Z rep=3 shape:eager_ws0:skinny:m8192_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 64 --k 8192 --api dgemm 
+2026-11-07T15:58:08Z rep=3 shape:eager_ws:skinny:m8192_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 64 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:58:16Z rep=3 shape:native:skinny:m8192_n96_k8192: env[] --m 8192 --n 96 --k 8192 --api dgemm 
+2026-11-07T15:58:25Z rep=3 shape:default_ws0:skinny:m8192_n96_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 96 --k 8192 --api dgemm 
+2026-11-07T15:58:33Z rep=3 shape:default_ws:skinny:m8192_n96_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 96 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:58:42Z rep=3 shape:eager_ws0:skinny:m8192_n96_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 96 --k 8192 --api dgemm 
+2026-11-07T15:59:02Z rep=3 shape:eager_ws:skinny:m8192_n96_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 96 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:59:11Z rep=3 shape:native:skinny:m8192_n128_k8192: env[] --m 8192 --n 128 --k 8192 --api dgemm 
+2026-11-07T15:59:19Z rep=3 shape:default_ws0:skinny:m8192_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 128 --k 8192 --api dgemm 
+2026-11-07T15:59:28Z rep=3 shape:default_ws:skinny:m8192_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 128 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T15:59:36Z rep=3 shape:eager_ws0:skinny:m8192_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 128 --k 8192 --api dgemm 
+2026-11-07T15:59:57Z rep=3 shape:eager_ws:skinny:m8192_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 128 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T16:00:06Z rep=3 shape:native:skinny:m8192_n192_k8192: env[] --m 8192 --n 192 --k 8192 --api dgemm 
+2026-11-07T16:00:14Z rep=3 shape:default_ws0:skinny:m8192_n192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 192 --k 8192 --api dgemm 
+2026-11-07T16:00:36Z rep=3 shape:default_ws:skinny:m8192_n192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 192 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T16:00:44Z rep=3 shape:eager_ws0:skinny:m8192_n192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 192 --k 8192 --api dgemm 
+2026-11-07T16:01:06Z rep=3 shape:eager_ws:skinny:m8192_n192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 192 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T16:01:14Z rep=3 shape:native:skinny:m8192_n256_k8192: env[] --m 8192 --n 256 --k 8192 --api dgemm 
+2026-11-07T16:01:23Z rep=3 shape:default_ws0:skinny:m8192_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 256 --k 8192 --api dgemm 
+2026-11-07T16:01:44Z rep=3 shape:default_ws:skinny:m8192_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 256 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T16:01:52Z rep=3 shape:eager_ws0:skinny:m8192_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 256 --k 8192 --api dgemm 
+2026-11-07T16:02:05Z rep=3 shape:eager_ws:skinny:m8192_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 256 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T16:02:13Z rep=3 shape:native:skinny:m8192_n384_k8192: env[] --m 8192 --n 384 --k 8192 --api dgemm 
+2026-11-07T16:02:22Z rep=3 shape:default_ws0:skinny:m8192_n384_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 384 --k 8192 --api dgemm 
+2026-11-07T16:02:43Z rep=3 shape:default_ws:skinny:m8192_n384_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 384 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T16:02:51Z rep=3 shape:eager_ws0:skinny:m8192_n384_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 384 --k 8192 --api dgemm 
+2026-11-07T16:03:11Z rep=3 shape:eager_ws:skinny:m8192_n384_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 384 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T16:03:19Z rep=3 shape:native:skinny:m8192_n512_k8192: env[] --m 8192 --n 512 --k 8192 --api dgemm 
+2026-11-07T16:03:28Z rep=3 shape:default_ws0:skinny:m8192_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 512 --k 8192 --api dgemm 
+2026-11-07T16:03:49Z rep=3 shape:default_ws:skinny:m8192_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 512 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T16:03:58Z rep=3 shape:eager_ws0:skinny:m8192_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 512 --k 8192 --api dgemm 
+2026-11-07T16:04:17Z rep=3 shape:eager_ws:skinny:m8192_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 512 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T16:04:26Z rep=3 shape:native:skinny:m8192_n1024_k8192: env[] --m 8192 --n 1024 --k 8192 --api dgemm 
+2026-11-07T16:04:35Z rep=3 shape:default_ws0:skinny:m8192_n1024_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 1024 --k 8192 --api dgemm 
+2026-11-07T16:04:55Z rep=3 shape:default_ws:skinny:m8192_n1024_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 1024 --k 8192 --api dgemm  --workspace-mb 1993
+2026-11-07T16:05:04Z rep=3 shape:eager_ws0:skinny:m8192_n1024_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 1024 --k 8192 --api dgemm 
+2026-11-07T16:05:23Z rep=3 shape:eager_ws:skinny:m8192_n1024_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 1024 --k 8192 --api dgemm  --workspace-mb 1993
+2026-11-07T16:05:32Z rep=3 shape:native:skinny:m8192_n2048_k8192: env[] --m 8192 --n 2048 --k 8192 --api dgemm 
+2026-11-07T16:05:42Z rep=3 shape:default_ws0:skinny:m8192_n2048_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 2048 --k 8192 --api dgemm 
+2026-11-07T16:06:02Z rep=3 shape:default_ws:skinny:m8192_n2048_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 2048 --k 8192 --api dgemm  --workspace-mb 2417
+2026-11-07T16:06:11Z rep=3 shape:eager_ws0:skinny:m8192_n2048_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 2048 --k 8192 --api dgemm 
+2026-11-07T16:06:31Z rep=3 shape:eager_ws:skinny:m8192_n2048_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 2048 --k 8192 --api dgemm  --workspace-mb 2417
+2026-11-07T16:06:40Z rep=3 shape:native:shortwide:m8_n8192_k8192: env[] --m 8 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:06:49Z rep=3 shape:default_ws0:shortwide:m8_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:06:58Z rep=3 shape:default_ws:shortwide:m8_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T16:07:06Z rep=3 shape:eager_ws0:shortwide:m8_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:07:27Z rep=3 shape:eager_ws:shortwide:m8_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T16:07:35Z rep=3 shape:native:shortwide:m32_n8192_k8192: env[] --m 32 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:07:44Z rep=3 shape:default_ws0:shortwide:m32_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:07:52Z rep=3 shape:default_ws:shortwide:m32_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T16:08:01Z rep=3 shape:eager_ws0:shortwide:m32_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:08:21Z rep=3 shape:eager_ws:shortwide:m32_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T16:08:30Z rep=3 shape:native:shortwide:m64_n8192_k8192: env[] --m 64 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:08:38Z rep=3 shape:default_ws0:shortwide:m64_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 64 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:08:46Z rep=3 shape:default_ws:shortwide:m64_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 64 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T16:08:55Z rep=3 shape:eager_ws0:shortwide:m64_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 64 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:09:16Z rep=3 shape:eager_ws:shortwide:m64_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 64 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T16:09:24Z rep=3 shape:native:shortwide:m128_n8192_k8192: env[] --m 128 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:09:33Z rep=3 shape:default_ws0:shortwide:m128_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:09:41Z rep=3 shape:default_ws:shortwide:m128_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T16:09:50Z rep=3 shape:eager_ws0:shortwide:m128_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:10:10Z rep=3 shape:eager_ws:shortwide:m128_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T16:10:19Z rep=3 shape:native:shortwide:m256_n8192_k8192: env[] --m 256 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:10:27Z rep=3 shape:default_ws0:shortwide:m256_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 256 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:10:47Z rep=3 shape:default_ws:shortwide:m256_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 256 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T16:10:56Z rep=3 shape:eager_ws0:shortwide:m256_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 256 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:11:17Z rep=3 shape:eager_ws:shortwide:m256_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 256 --n 8192 --k 8192 --api dgemm  --workspace-mb 1675
+2026-11-07T16:11:26Z rep=3 shape:native:shortwide:m512_n8192_k8192: env[] --m 512 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:11:34Z rep=3 shape:default_ws0:shortwide:m512_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:11:55Z rep=3 shape:default_ws:shortwide:m512_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 8192 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T16:12:03Z rep=3 shape:eager_ws0:shortwide:m512_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 8192 --k 8192 --api dgemm 
+2026-11-07T16:12:23Z rep=3 shape:eager_ws:shortwide:m512_n8192_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 8192 --k 8192 --api dgemm  --workspace-mb 1781
+2026-11-07T16:12:31Z rep=3 shape:native:gram:m32_n32_k8192: env[] --m 32 --n 32 --k 8192 --api dgemm 
+2026-11-07T16:12:34Z rep=3 shape:default_ws0:gram:m32_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 8192 --api dgemm 
+2026-11-07T16:12:36Z rep=3 shape:default_ws:gram:m32_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 8192 --api dgemm  --workspace-mb 215
+2026-11-07T16:12:38Z rep=3 shape:eager_ws0:gram:m32_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 8192 --api dgemm 
+2026-11-07T16:12:52Z rep=3 shape:eager_ws:gram:m32_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 8192 --api dgemm  --workspace-mb 215
+2026-11-07T16:12:58Z rep=3 shape:native:gram:m32_n32_k32768: env[] --m 32 --n 32 --k 32768 --api dgemm 
+2026-11-07T16:13:00Z rep=3 shape:default_ws0:gram:m32_n32_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 32768 --api dgemm 
+2026-11-07T16:13:02Z rep=3 shape:default_ws:gram:m32_n32_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 32768 --api dgemm  --workspace-mb 612
+2026-11-07T16:13:05Z rep=3 shape:eager_ws0:gram:m32_n32_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 32768 --api dgemm 
+2026-11-07T16:13:24Z rep=3 shape:eager_ws:gram:m32_n32_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 32768 --api dgemm  --workspace-mb 612
+2026-11-07T16:13:32Z rep=3 shape:native:gram:m32_n32_k131072: env[] --m 32 --n 32 --k 131072 --api dgemm 
+2026-11-07T16:13:35Z rep=3 shape:default_ws0:gram:m32_n32_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 131072 --api dgemm 
+2026-11-07T16:13:38Z rep=3 shape:default_ws:gram:m32_n32_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 32 --n 32 --k 131072 --api dgemm  --workspace-mb 2340
+2026-11-07T16:13:41Z rep=3 shape:eager_ws0:gram:m32_n32_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 131072 --api dgemm 
+2026-11-07T16:14:01Z rep=3 shape:eager_ws:gram:m32_n32_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 131072 --api dgemm  --workspace-mb 2340
+2026-11-07T16:14:10Z rep=3 shape:native:gram:m128_n128_k8192: env[] --m 128 --n 128 --k 8192 --api dgemm 
+2026-11-07T16:14:12Z rep=3 shape:default_ws0:gram:m128_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 8192 --api dgemm 
+2026-11-07T16:14:15Z rep=3 shape:default_ws:gram:m128_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 8192 --api dgemm  --workspace-mb 215
+2026-11-07T16:14:18Z rep=3 shape:eager_ws0:gram:m128_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 8192 --api dgemm 
+2026-11-07T16:14:33Z rep=3 shape:eager_ws:gram:m128_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 8192 --api dgemm  --workspace-mb 215
+2026-11-07T16:14:38Z rep=3 shape:native:gram:m128_n128_k32768: env[] --m 128 --n 128 --k 32768 --api dgemm 
+2026-11-07T16:14:44Z rep=3 shape:default_ws0:gram:m128_n128_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 32768 --api dgemm 
+2026-11-07T16:14:49Z rep=3 shape:default_ws:gram:m128_n128_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 32768 --api dgemm  --workspace-mb 612
+2026-11-07T16:14:54Z rep=3 shape:eager_ws0:gram:m128_n128_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 32768 --api dgemm 
+2026-11-07T16:15:14Z rep=3 shape:eager_ws:gram:m128_n128_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 32768 --api dgemm  --workspace-mb 612
+2026-11-07T16:15:23Z rep=3 shape:native:gram:m128_n128_k131072: env[] --m 128 --n 128 --k 131072 --api dgemm 
+2026-11-07T16:15:32Z rep=3 shape:default_ws0:gram:m128_n128_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 131072 --api dgemm 
+2026-11-07T16:15:41Z rep=3 shape:default_ws:gram:m128_n128_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 128 --n 128 --k 131072 --api dgemm  --workspace-mb 2340
+2026-11-07T16:15:49Z rep=3 shape:eager_ws0:gram:m128_n128_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 131072 --api dgemm 
+2026-11-07T16:16:10Z rep=3 shape:eager_ws:gram:m128_n128_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 131072 --api dgemm  --workspace-mb 2340
+2026-11-07T16:16:19Z rep=3 shape:native:gram:m512_n512_k8192: env[] --m 512 --n 512 --k 8192 --api dgemm 
+2026-11-07T16:16:27Z rep=3 shape:default_ws0:gram:m512_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 8192 --api dgemm 
+2026-11-07T16:16:37Z rep=3 shape:default_ws:gram:m512_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 8192 --api dgemm  --workspace-mb 254
+2026-11-07T16:16:44Z rep=3 shape:eager_ws0:gram:m512_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 8192 --api dgemm 
+2026-11-07T16:16:59Z rep=3 shape:eager_ws:gram:m512_n512_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 8192 --api dgemm  --workspace-mb 254
+2026-11-07T16:17:06Z rep=3 shape:native:gram:m512_n512_k32768: env[] --m 512 --n 512 --k 32768 --api dgemm 
+2026-11-07T16:17:15Z rep=3 shape:default_ws0:gram:m512_n512_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 32768 --api dgemm 
+2026-11-07T16:17:35Z rep=3 shape:default_ws:gram:m512_n512_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 32768 --api dgemm  --workspace-mb 808
+2026-11-07T16:17:44Z rep=3 shape:eager_ws0:gram:m512_n512_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 32768 --api dgemm 
+2026-11-07T16:18:03Z rep=3 shape:eager_ws:gram:m512_n512_k32768: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 32768 --api dgemm  --workspace-mb 808
+2026-11-07T16:18:12Z rep=3 shape:native:gram:m512_n512_k131072: env[] --m 512 --n 512 --k 131072 --api dgemm 
+2026-11-07T16:18:22Z rep=3 shape:default_ws0:gram:m512_n512_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 131072 --api dgemm 
+2026-11-07T16:18:42Z rep=3 shape:default_ws:gram:m512_n512_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 131072 --api dgemm  --workspace-mb 3112
+2026-11-07T16:18:52Z rep=3 shape:eager_ws0:gram:m512_n512_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 131072 --api dgemm 
+2026-11-07T16:19:12Z rep=3 shape:eager_ws:gram:m512_n512_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 131072 --api dgemm  --workspace-mb 3112
+2026-11-07T16:19:22Z rep=3 shape:native:rsvd_AO:m16384_n64_k8192: env[] --m 16384 --n 64 --k 8192 --api dgemm 
+2026-11-07T16:19:32Z rep=3 shape:default_ws0:rsvd_AO:m16384_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 64 --k 8192 --api dgemm 
+2026-11-07T16:19:40Z rep=3 shape:default_ws:rsvd_AO:m16384_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 64 --k 8192 --api dgemm  --workspace-mb 3433
+2026-11-07T16:19:49Z rep=3 shape:eager_ws0:rsvd_AO:m16384_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 64 --k 8192 --api dgemm 
+2026-11-07T16:20:10Z rep=3 shape:eager_ws:rsvd_AO:m16384_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 64 --k 8192 --api dgemm  --workspace-mb 3433
+2026-11-07T16:20:19Z rep=3 shape:native:rsvd_AtQ:m8192_n64_k16384_TN: env[] --m 8192 --n 64 --k 16384 --api dgemm --opa T
+2026-11-07T16:20:28Z rep=3 shape:default_ws0:rsvd_AtQ:m8192_n64_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 64 --k 16384 --api dgemm --opa T
+2026-11-07T16:20:38Z rep=3 shape:default_ws:rsvd_AtQ:m8192_n64_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 64 --k 16384 --api dgemm --opa T --workspace-mb 3413
+2026-11-07T16:20:47Z rep=3 shape:eager_ws0:rsvd_AtQ:m8192_n64_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 64 --k 16384 --api dgemm --opa T
+2026-11-07T16:21:08Z rep=3 shape:eager_ws:rsvd_AtQ:m8192_n64_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 64 --k 16384 --api dgemm --opa T --workspace-mb 3413
+2026-11-07T16:21:18Z rep=3 shape:native:rsvd_QtA:m64_n8192_k16384_TN: env[] --m 64 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T16:21:27Z rep=3 shape:default_ws0:rsvd_QtA:m64_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 64 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T16:21:36Z rep=3 shape:default_ws:rsvd_QtA:m64_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 64 --n 8192 --k 16384 --api dgemm --opa T --workspace-mb 3259
+2026-11-07T16:21:45Z rep=3 shape:eager_ws0:rsvd_QtA:m64_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 64 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T16:22:06Z rep=3 shape:eager_ws:rsvd_QtA:m64_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 64 --n 8192 --k 16384 --api dgemm --opa T --workspace-mb 3259
+2026-11-07T16:22:15Z rep=3 shape:native:rsvd_AO:m16384_n256_k8192: env[] --m 16384 --n 256 --k 8192 --api dgemm 
+2026-11-07T16:22:24Z rep=3 shape:default_ws0:rsvd_AO:m16384_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 256 --k 8192 --api dgemm 
+2026-11-07T16:22:43Z rep=3 shape:default_ws:rsvd_AO:m16384_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 256 --k 8192 --api dgemm  --workspace-mb 3433
+2026-11-07T16:22:52Z rep=3 shape:eager_ws0:rsvd_AO:m16384_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 256 --k 8192 --api dgemm 
+2026-11-07T16:23:15Z rep=3 shape:eager_ws:rsvd_AO:m16384_n256_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 256 --k 8192 --api dgemm  --workspace-mb 3433
+2026-11-07T16:23:24Z rep=3 shape:native:rsvd_AtQ:m8192_n256_k16384_TN: env[] --m 8192 --n 256 --k 16384 --api dgemm --opa T
+2026-11-07T16:23:34Z rep=3 shape:default_ws0:rsvd_AtQ:m8192_n256_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 256 --k 16384 --api dgemm --opa T
+2026-11-07T16:23:56Z rep=3 shape:default_ws:rsvd_AtQ:m8192_n256_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 256 --k 16384 --api dgemm --opa T --workspace-mb 3413
+2026-11-07T16:24:06Z rep=3 shape:eager_ws0:rsvd_AtQ:m8192_n256_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 256 --k 16384 --api dgemm --opa T
+2026-11-07T16:24:19Z rep=3 shape:eager_ws:rsvd_AtQ:m8192_n256_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 256 --k 16384 --api dgemm --opa T --workspace-mb 3413
+2026-11-07T16:24:29Z rep=3 shape:native:rsvd_QtA:m256_n8192_k16384_TN: env[] --m 256 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T16:24:38Z rep=3 shape:default_ws0:rsvd_QtA:m256_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 256 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T16:24:59Z rep=3 shape:default_ws:rsvd_QtA:m256_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 256 --n 8192 --k 16384 --api dgemm --opa T --workspace-mb 3259
+2026-11-07T16:25:08Z rep=3 shape:eager_ws0:rsvd_QtA:m256_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 256 --n 8192 --k 16384 --api dgemm --opa T
+2026-11-07T16:25:28Z rep=3 shape:eager_ws:rsvd_QtA:m256_n8192_k16384_TN: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 256 --n 8192 --k 16384 --api dgemm --opa T --workspace-mb 3259
+2026-11-07T16:25:38Z rep=3 shape:native:square:m4096_n4096_k4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T16:25:47Z rep=3 shape:default_ws0:square:m4096_n4096_k4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T16:26:05Z DONE

@@ -1,0 +1,1 @@
+INVALID: CUDA index 8 under default ordering = physical GPU 2 (5060 Ti), which was running P2a at the time (overlap 19:49:18-19:49:40Z; free 4788 MiB). Not a 4090 measurement. Superseded by P3b_mempool_gpu8_20261108T015545Z. The overlapped P2a lines were rerun (P2a_decision_rerun) and agree within 0.5 %.

@@ -1,0 +1,28 @@
+2026-11-07T13:06:55Z start P1a (70 lines x 3)
+2026-11-07T15:12:20Z end P1a -> /home/taiz/fp64/pathB/results/final/P1a_square/P1a_square_gpu4_20261107T130655Z
+WARN  results/final/P1a_square/P1a_square_gpu4_20261107T130655Z  (0 fail, 11 warn)
+    sq:eager_ws0:n512: wall_sync spread 46.7%
+    sq:eager_ws:n512: wall_sync spread 5.9%
+    sq:eager_ws0:n1024: wall_sync spread 54.8%
+    sq:eager_ws:n1024: wall_sync spread 6.8%
+    sq:eager_ws0:n1536: wall_sync spread 19.2%
+    sq:eager_kp:n1536: wall_sync spread 5.6%
+    sq:eager_ws0:n2048: wall_sync spread 25.0%
+    sq:eager_ws0:n3072: wall_sync spread 24.4%
+    sq:eager_ws0:n4096: wall_sync spread 16.7%
+    sq:eager_ws0:n6144: wall_sync spread 18.3%
+    sq:eager_ws0:n12288: wall_sync spread 22.4%
+2026-11-07T15:12:20Z start P1c (117 lines x 3)
+2026-11-07T16:13:53Z end P1c -> /home/taiz/fp64/pathB/results/final/P1c_ranges/P1c_ranges_gpu4_20261107T151220Z
+PASS  results/final/P1c_ranges/P1c_ranges_gpu4_20261107T151220Z  (0 fail, 0 warn)
+2026-11-07T16:13:53Z ALL DONE
+2026-11-07T16:13:53Z start P2b (208 lines x 1)
+2026-11-07T16:52:54Z end P2b -> /home/taiz/fp64/pathB/results/final/P2b_version/P2b_version_gpu4_20261107T161353Z
+PASS  results/final/P2b_version/P2b_version_gpu4_20261107T161353Z  (0 fail, 0 warn)
+2026-11-07T16:52:54Z start P2c (28 lines x 3)
+2026-11-07T17:05:48Z end P2c -> /home/taiz/fp64/pathB/results/final/P2c_bits/P2c_bits_gpu4_20261107T165254Z
+WARN  results/final/P2c_bits/P2c_bits_gpu4_20261107T165254Z  (0 fail, 3 warn)
+    bits:eager_ws:u11:fixed24: emulated error 3.149e-09 > native 2.509e-16
+    bits:eager_ws:u11:fixed32: emulated error 1.196e-11 > native 2.509e-16
+    bits:eager_ws:u11:fixed40: emulated error 5.147e-14 > native 2.509e-16
+2026-11-07T17:05:48Z ALL DONE

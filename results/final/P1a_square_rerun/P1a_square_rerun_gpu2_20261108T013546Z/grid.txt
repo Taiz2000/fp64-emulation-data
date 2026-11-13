@@ -1,0 +1,1 @@
+sq:eager_kp:n512|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 512 --n 512 --k 512 --api dgemm  --keep-pool

@@ -1,0 +1,117 @@
+range:native:ozaki:phi0:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0
+range:default_ws:ozaki:phi0:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0 --workspace-mb 1265
+range:eager_ws:ozaki:phi0:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0 --workspace-mb 1265
+range:native:ozaki:phi0.5:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0.5
+range:default_ws:ozaki:phi0.5:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0.5 --workspace-mb 1265
+range:eager_ws:ozaki:phi0.5:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 0.5 --workspace-mb 1265
+range:native:ozaki:phi1:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 1
+range:default_ws:ozaki:phi1:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 1 --workspace-mb 1265
+range:eager_ws:ozaki:phi1:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 1 --workspace-mb 1265
+range:native:ozaki:phi2:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 2
+range:default_ws:ozaki:phi2:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 2 --workspace-mb 1265
+range:eager_ws:ozaki:phi2:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 2 --workspace-mb 1265
+range:native:ozaki:phi3:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 3
+range:default_ws:ozaki:phi3:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 3 --workspace-mb 1265
+range:eager_ws:ozaki:phi3:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 3 --workspace-mb 1265
+range:native:ozaki:phi4:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 4
+range:default_ws:ozaki:phi4:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 4 --workspace-mb 1265
+range:eager_ws:ozaki:phi4:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 4 --workspace-mb 1265
+range:native:ozaki:phi6:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 6
+range:default_ws:ozaki:phi6:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 6 --workspace-mb 1265
+range:eager_ws:ozaki:phi6:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 6 --workspace-mb 1265
+range:native:ozaki:phi8:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 8
+range:default_ws:ozaki:phi8:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 8 --workspace-mb 1265
+range:eager_ws:ozaki:phi8:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist ozaki --phi 8 --workspace-mb 1265
+range:native:inner:phi1:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 1
+range:default_ws:inner:phi1:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 1 --workspace-mb 1265
+range:eager_ws:inner:phi1:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 1 --workspace-mb 1265
+range:native:inner:phi2:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 2
+range:default_ws:inner:phi2:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 2 --workspace-mb 1265
+range:eager_ws:inner:phi2:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 2 --workspace-mb 1265
+range:native:inner:phi4:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 4
+range:default_ws:inner:phi4:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 4 --workspace-mb 1265
+range:eager_ws:inner:phi4:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 4 --workspace-mb 1265
+range:native:inner:phi6:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6
+range:default_ws:inner:phi6:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --workspace-mb 1265
+range:eager_ws:inner:phi6:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 6 --workspace-mb 1265
+range:native:inner:phi7:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7
+range:default_ws:inner:phi7:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7 --workspace-mb 1265
+range:eager_ws:inner:phi7:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7 --workspace-mb 1265
+range:native:inner:phi7.5:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.5
+range:default_ws:inner:phi7.5:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.5 --workspace-mb 1265
+range:eager_ws:inner:phi7.5:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.5 --workspace-mb 1265
+range:native:inner:phi7.75:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.75
+range:default_ws:inner:phi7.75:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.75 --workspace-mb 1265
+range:eager_ws:inner:phi7.75:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 7.75 --workspace-mb 1265
+range:native:inner:phi8:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 8
+range:default_ws:inner:phi8:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 8 --workspace-mb 1265
+range:eager_ws:inner:phi8:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 8 --workspace-mb 1265
+range:native:inner:phi12:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 12
+range:default_ws:inner:phi12:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 12 --workspace-mb 1265
+range:eager_ws:inner:phi12:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist inner --phi 12 --workspace-mb 1265
+range:native:rowcol:phi2:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 2
+range:default_ws:rowcol:phi2:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 2 --workspace-mb 1265
+range:eager_ws:rowcol:phi2:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 2 --workspace-mb 1265
+range:native:rowcol:phi4:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 4
+range:default_ws:rowcol:phi4:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 4 --workspace-mb 1265
+range:eager_ws:rowcol:phi4:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 4 --workspace-mb 1265
+range:native:rowcol:phi8:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 8
+range:default_ws:rowcol:phi8:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 8 --workspace-mb 1265
+range:eager_ws:rowcol:phi8:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 8 --workspace-mb 1265
+range:native:rowcol:phi16:k4096||--m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 16
+range:default_ws:rowcol:phi16:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 16 --workspace-mb 1265
+range:eager_ws:rowcol:phi16:k4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --dist rowcol --phi 16 --workspace-mb 1265
+range:native:inner:phi4:k256||--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 4
+range:default_ws:inner:phi4:k256|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 4 --workspace-mb 545
+range:eager_ws:inner:phi4:k256|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 4 --workspace-mb 545
+range:native:inner:phi6:k256||--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 6
+range:default_ws:inner:phi6:k256|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 6 --workspace-mb 545
+range:eager_ws:inner:phi6:k256|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 6 --workspace-mb 545
+range:native:inner:phi7:k256||--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7
+range:default_ws:inner:phi7:k256|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7 --workspace-mb 545
+range:eager_ws:inner:phi7:k256|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7 --workspace-mb 545
+range:native:inner:phi7.5:k256||--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.5
+range:default_ws:inner:phi7.5:k256|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.5 --workspace-mb 545
+range:eager_ws:inner:phi7.5:k256|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.5 --workspace-mb 545
+range:native:inner:phi7.75:k256||--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.75
+range:default_ws:inner:phi7.75:k256|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.75 --workspace-mb 545
+range:eager_ws:inner:phi7.75:k256|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 7.75 --workspace-mb 545
+range:native:inner:phi8:k256||--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 8
+range:default_ws:inner:phi8:k256|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 8 --workspace-mb 545
+range:eager_ws:inner:phi8:k256|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 8 --workspace-mb 545
+range:native:inner:phi4:k1024||--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 4
+range:default_ws:inner:phi4:k1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 4 --workspace-mb 689
+range:eager_ws:inner:phi4:k1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 4 --workspace-mb 689
+range:native:inner:phi6:k1024||--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 6
+range:default_ws:inner:phi6:k1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 6 --workspace-mb 689
+range:eager_ws:inner:phi6:k1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 6 --workspace-mb 689
+range:native:inner:phi7:k1024||--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7
+range:default_ws:inner:phi7:k1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7 --workspace-mb 689
+range:eager_ws:inner:phi7:k1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7 --workspace-mb 689
+range:native:inner:phi7.5:k1024||--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.5
+range:default_ws:inner:phi7.5:k1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.5 --workspace-mb 689
+range:eager_ws:inner:phi7.5:k1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.5 --workspace-mb 689
+range:native:inner:phi7.75:k1024||--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.75
+range:default_ws:inner:phi7.75:k1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.75 --workspace-mb 689
+range:eager_ws:inner:phi7.75:k1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 7.75 --workspace-mb 689
+range:native:inner:phi8:k1024||--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 8
+range:default_ws:inner:phi8:k1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 8 --workspace-mb 689
+range:eager_ws:inner:phi8:k1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 8 --workspace-mb 689
+range:native:inner:phi4:k16384||--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 4
+range:default_ws:inner:phi4:k16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 4 --workspace-mb 3569
+range:eager_ws:inner:phi4:k16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 4 --workspace-mb 3569
+range:native:inner:phi6:k16384||--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 6
+range:default_ws:inner:phi6:k16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 6 --workspace-mb 3569
+range:eager_ws:inner:phi6:k16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 6 --workspace-mb 3569
+range:native:inner:phi7:k16384||--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7
+range:default_ws:inner:phi7:k16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7 --workspace-mb 3569
+range:eager_ws:inner:phi7:k16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7 --workspace-mb 3569
+range:native:inner:phi7.5:k16384||--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.5
+range:default_ws:inner:phi7.5:k16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.5 --workspace-mb 3569
+range:eager_ws:inner:phi7.5:k16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.5 --workspace-mb 3569
+range:native:inner:phi7.75:k16384||--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.75
+range:default_ws:inner:phi7.75:k16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.75 --workspace-mb 3569
+range:eager_ws:inner:phi7.75:k16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 7.75 --workspace-mb 3569
+range:native:inner:phi8:k16384||--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 8
+range:default_ws:inner:phi8:k16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 8 --workspace-mb 3569
+range:eager_ws:inner:phi8:k16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 16384 --api dgemm --dist inner --phi 8 --workspace-mb 3569

@@ -1,0 +1,4 @@
+{'mode': 'native', 'gpu': 'NVIDIA GeForce RTX 3090', 'env_emulate': '', 'env_strategy': '', 'env_svmask': '', 'n': 2048, 'ms_per_call': '31.655', 'C_rc': '-inf', 'class_rc': '-inf', 'exact_sign': 1, 'other_entries_finite': True}
+{'mode': 'default', 'gpu': 'NVIDIA GeForce RTX 3090', 'env_emulate': '1', 'env_strategy': '', 'env_svmask': '', 'n': 2048, 'ms_per_call': '31.833', 'C_rc': '-inf', 'class_rc': '-inf', 'exact_sign': 1, 'other_entries_finite': True}
+{'mode': 'eager', 'gpu': 'NVIDIA GeForce RTX 3090', 'env_emulate': '1', 'env_strategy': 'EAGER', 'env_svmask': '', 'n': 2048, 'ms_per_call': '4.247', 'C_rc': 'inf', 'class_rc': '+inf', 'exact_sign': 1, 'other_entries_finite': True}
+{'mode': 'eager_mask0', 'gpu': 'NVIDIA GeForce RTX 3090', 'env_emulate': '1', 'env_strategy': 'EAGER', 'env_svmask': '0', 'n': 2048, 'ms_per_call': '4.648', 'C_rc': 'inf', 'class_rc': '+inf', 'exact_sign': 1, 'other_entries_finite': True}

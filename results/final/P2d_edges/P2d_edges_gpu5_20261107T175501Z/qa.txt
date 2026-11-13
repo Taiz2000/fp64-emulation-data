@@ -1,0 +1,2 @@
+verdict PASS
+lines 72 x reps 3, rows 216

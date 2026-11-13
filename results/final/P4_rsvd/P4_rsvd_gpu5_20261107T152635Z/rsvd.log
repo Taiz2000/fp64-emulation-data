@@ -1,0 +1,1236 @@
+2026-11-07T15:27:06Z rep=1 exp native
+exp native l=1024 q=0 t=1763.0 ms sv_rel=8.88e-16 resid=2.006e-15 (opt 3.694e-16) orth=1.1e-15
+exp native l=256 q=0 t=335.1 ms sv_rel=6.66e-16 resid=2.352e-15 (opt 4.342e-16) orth=8.9e-16
+exp native l=512 q=2 t=2022.7 ms sv_rel=4.44e-16 resid=1.613e-15 (opt 4.108e-16) orth=1.1e-15
+exp native l=64 q=0 t=74.5 ms sv_rel=1.33e-15 resid=1.067e-13 (opt 6.668e-15) orth=6.7e-16
+exp native l=64 q=2 t=253.2 ms sv_rel=6.66e-16 resid=7.146e-15 (opt 6.668e-15) orth=7.8e-16
+exp native l=128 q=0 t=148.0 ms sv_rel=6.66e-16 resid=2.609e-15 (opt 4.472e-16) orth=1.0e-15
+exp native l=256 q=2 t=971.3 ms sv_rel=5.55e-16 resid=1.591e-15 (opt 4.342e-16) orth=8.9e-16
+exp native l=1024 q=2 t=4503.0 ms sv_rel=6.66e-16 resid=2.832e-15 (opt 3.694e-16) orth=1.0e-15
+exp native l=512 q=0 t=746.6 ms sv_rel=2.22e-16 resid=1.974e-15 (opt 4.108e-16) orth=1.1e-15
+exp native l=128 q=2 t=447.7 ms sv_rel=4.44e-16 resid=1.502e-15 (opt 4.472e-16) orth=8.9e-16
+2026-11-07T15:28:33Z rep=1 exp zc
+exp zc l=1024 q=0 t=1777.6 ms sv_rel=8.88e-16 resid=2.006e-15 (opt 3.694e-16) orth=1.1e-15
+exp zc l=256 q=0 t=338.0 ms sv_rel=6.66e-16 resid=2.352e-15 (opt 4.342e-16) orth=8.9e-16
+exp zc l=512 q=2 t=2038.9 ms sv_rel=4.44e-16 resid=1.613e-15 (opt 4.108e-16) orth=1.1e-15
+exp zc l=64 q=0 t=74.6 ms sv_rel=1.33e-15 resid=1.067e-13 (opt 6.668e-15) orth=6.7e-16
+exp zc l=64 q=2 t=253.3 ms sv_rel=6.66e-16 resid=7.146e-15 (opt 6.668e-15) orth=7.8e-16
+exp zc l=128 q=0 t=148.6 ms sv_rel=6.66e-16 resid=2.609e-15 (opt 4.472e-16) orth=1.0e-15
+exp zc l=256 q=2 t=974.1 ms sv_rel=5.55e-16 resid=1.591e-15 (opt 4.342e-16) orth=8.9e-16
+exp zc l=1024 q=2 t=4525.6 ms sv_rel=6.66e-16 resid=2.832e-15 (opt 3.694e-16) orth=1.0e-15
+exp zc l=512 q=0 t=749.3 ms sv_rel=2.22e-16 resid=1.974e-15 (opt 4.108e-16) orth=1.1e-15
+exp zc l=128 q=2 t=447.5 ms sv_rel=4.44e-16 resid=1.502e-15 (opt 4.472e-16) orth=8.9e-16
+2026-11-07T15:30:01Z rep=1 exp zc_eager
+exp zc_eager l=1024 q=0 t=1002.7 ms sv_rel=4.44e-16 resid=1.339e-15 (opt 3.694e-16) orth=1.4e-15
+exp zc_eager l=256 q=0 t=375.7 ms sv_rel=7.77e-16 resid=9.438e-16 (opt 4.342e-16) orth=1.0e-15
+exp zc_eager l=512 q=2 t=881.4 ms sv_rel=5.55e-16 resid=6.384e-16 (opt 4.108e-16) orth=8.9e-16
+exp zc_eager l=64 q=0 t=307.3 ms sv_rel=5.55e-16 resid=9.571e-14 (opt 6.668e-15) orth=6.7e-16
+exp zc_eager l=64 q=2 t=556.3 ms sv_rel=9.99e-16 resid=6.681e-15 (opt 6.668e-15) orth=6.7e-16
+exp zc_eager l=128 q=0 t=359.3 ms sv_rel=6.66e-16 resid=9.920e-16 (opt 4.472e-16) orth=1.0e-15
+exp zc_eager l=256 q=2 t=647.3 ms sv_rel=5.55e-16 resid=6.647e-16 (opt 4.342e-16) orth=8.9e-16
+exp zc_eager l=1024 q=2 t=2042.3 ms sv_rel=4.44e-16 resid=8.633e-16 (opt 3.694e-16) orth=1.0e-15
+exp zc_eager l=512 q=0 t=447.4 ms sv_rel=1.22e-15 resid=9.323e-16 (opt 4.108e-16) orth=1.1e-15
+exp zc_eager l=128 q=2 t=556.7 ms sv_rel=7.77e-16 resid=6.087e-16 (opt 4.472e-16) orth=7.8e-16
+2026-11-07T15:31:00Z rep=1 exp fix
+exp fix l=1024 q=0 t=1785.4 ms sv_rel=8.88e-16 resid=2.006e-15 (opt 3.694e-16) orth=1.1e-15
+exp fix l=256 q=0 t=339.3 ms sv_rel=6.66e-16 resid=2.352e-15 (opt 4.342e-16) orth=8.9e-16
+exp fix l=512 q=2 t=2045.0 ms sv_rel=4.44e-16 resid=1.613e-15 (opt 4.108e-16) orth=1.1e-15
+exp fix l=64 q=0 t=74.6 ms sv_rel=1.33e-15 resid=1.067e-13 (opt 6.668e-15) orth=6.7e-16
+exp fix l=64 q=2 t=253.4 ms sv_rel=6.66e-16 resid=7.146e-15 (opt 6.668e-15) orth=7.8e-16
+exp fix l=128 q=0 t=148.8 ms sv_rel=6.66e-16 resid=2.609e-15 (opt 4.472e-16) orth=1.0e-15
+exp fix l=256 q=2 t=974.1 ms sv_rel=5.55e-16 resid=1.591e-15 (opt 4.342e-16) orth=8.9e-16
+exp fix l=1024 q=2 t=4526.4 ms sv_rel=6.66e-16 resid=2.832e-15 (opt 3.694e-16) orth=1.0e-15
+exp fix l=512 q=0 t=749.3 ms sv_rel=2.22e-16 resid=1.974e-15 (opt 4.108e-16) orth=1.1e-15
+exp fix l=128 q=2 t=447.6 ms sv_rel=4.44e-16 resid=1.502e-15 (opt 4.472e-16) orth=8.9e-16
+2026-11-07T15:32:27Z rep=1 exp fix_eager
+exp fix_eager l=1024 q=0 t=859.9 ms sv_rel=4.44e-16 resid=1.339e-15 (opt 3.694e-16) orth=1.4e-15
+exp fix_eager l=256 q=0 t=170.3 ms sv_rel=7.77e-16 resid=9.438e-16 (opt 4.342e-16) orth=1.0e-15
+exp fix_eager l=512 q=2 t=762.6 ms sv_rel=5.55e-16 resid=6.384e-16 (opt 4.108e-16) orth=8.9e-16
+exp fix_eager l=64 q=0 t=107.5 ms sv_rel=5.55e-16 resid=9.571e-14 (opt 6.668e-15) orth=6.7e-16
+exp fix_eager l=64 q=2 t=301.6 ms sv_rel=9.99e-16 resid=6.681e-15 (opt 6.668e-15) orth=6.7e-16
+exp fix_eager l=128 q=0 t=125.7 ms sv_rel=6.66e-16 resid=9.920e-16 (opt 4.472e-16) orth=1.0e-15
+exp fix_eager l=256 q=2 t=442.0 ms sv_rel=5.55e-16 resid=6.647e-16 (opt 4.342e-16) orth=8.9e-16
+exp fix_eager l=1024 q=2 t=1839.5 ms sv_rel=4.44e-16 resid=8.633e-16 (opt 3.694e-16) orth=1.0e-15
+exp fix_eager l=512 q=0 t=319.8 ms sv_rel=1.22e-15 resid=9.323e-16 (opt 4.108e-16) orth=1.1e-15
+exp fix_eager l=128 q=2 t=342.8 ms sv_rel=7.77e-16 resid=6.087e-16 (opt 4.472e-16) orth=7.8e-16
+2026-11-07T15:33:13Z rep=1 exp fp32
+exp fp32 l=1024 q=0 t=173.0 ms sv_rel=4.17e-07 resid=1.088e-06 (opt 3.694e-16) orth=4.7e-07
+exp fp32 l=256 q=0 t=29.1 ms sv_rel=5.96e-07 resid=4.991e-07 (opt 4.342e-16) orth=4.4e-07
+exp fp32 l=512 q=2 t=123.9 ms sv_rel=3.58e-07 resid=8.189e-07 (opt 4.108e-16) orth=3.9e-07
+exp fp32 l=64 q=0 t=5.6 ms sv_rel=1.19e-06 resid=7.041e-07 (opt 6.668e-15) orth=4.5e-07
+exp fp32 l=64 q=2 t=13.6 ms sv_rel=8.34e-07 resid=1.364e-06 (opt 6.668e-15) orth=4.7e-07
+exp fp32 l=128 q=0 t=13.1 ms sv_rel=6.56e-07 resid=5.627e-07 (opt 4.472e-16) orth=3.9e-07
+exp fp32 l=256 q=2 t=57.0 ms sv_rel=5.36e-07 resid=3.049e-07 (opt 4.342e-16) orth=4.4e-07
+exp fp32 l=1024 q=2 t=299.8 ms sv_rel=4.77e-07 resid=1.117e-06 (opt 3.694e-16) orth=4.0e-07
+exp fp32 l=512 q=0 t=67.4 ms sv_rel=7.15e-07 resid=7.713e-07 (opt 4.108e-16) orth=4.9e-07
+exp fp32 l=128 q=2 t=26.6 ms sv_rel=5.96e-07 resid=5.405e-07 (opt 4.472e-16) orth=4.9e-07
+2026-11-07T15:33:26Z rep=1 exp tf32
+exp tf32 l=1024 q=0 t=168.0 ms sv_rel=1.02e-04 resid=1.499e-04 (opt 3.694e-16) orth=4.9e-07
+exp tf32 l=256 q=0 t=28.5 ms sv_rel=1.01e-04 resid=1.298e-04 (opt 4.342e-16) orth=4.5e-07
+exp tf32 l=512 q=2 t=113.2 ms sv_rel=5.51e-05 resid=1.076e-04 (opt 4.108e-16) orth=4.5e-07
+exp tf32 l=64 q=0 t=5.5 ms sv_rel=5.11e-05 resid=1.711e-04 (opt 6.668e-15) orth=3.7e-07
+exp tf32 l=64 q=2 t=11.7 ms sv_rel=5.32e-05 resid=5.883e-05 (opt 6.668e-15) orth=4.1e-07
+exp tf32 l=128 q=0 t=12.5 ms sv_rel=5.11e-05 resid=1.202e-04 (opt 4.472e-16) orth=3.5e-07
+exp tf32 l=256 q=2 t=50.8 ms sv_rel=1.06e-04 resid=1.201e-04 (opt 4.342e-16) orth=3.7e-07
+exp tf32 l=1024 q=2 t=271.0 ms sv_rel=1.04e-04 resid=1.637e-04 (opt 3.694e-16) orth=4.5e-07
+exp tf32 l=512 q=0 t=65.6 ms sv_rel=5.53e-05 resid=1.031e-04 (opt 4.108e-16) orth=4.9e-07
+exp tf32 l=128 q=2 t=23.5 ms sv_rel=5.76e-05 resid=6.974e-05 (opt 4.472e-16) orth=3.8e-07
+2026-11-07T15:33:39Z rep=1 poly native
+poly native l=1024 q=0 t=1710.5 ms sv_rel=9.79e-13 resid=1.207e-05 (opt 5.613e-06) orth=1.1e-15
+poly native l=256 q=0 t=336.6 ms sv_rel=3.84e-10 resid=1.027e-04 (opt 4.670e-05) orth=1.1e-15
+poly native l=512 q=2 t=2025.3 ms sv_rel=6.66e-16 resid=1.649e-05 (opt 1.609e-05) orth=1.2e-15
+poly native l=64 q=0 t=75.1 ms sv_rel=2.27e-07 resid=9.932e-04 (opt 4.397e-04) orth=7.8e-16
+poly native l=64 q=2 t=253.4 ms sv_rel=7.77e-16 resid=4.569e-04 (opt 4.397e-04) orth=7.8e-16
+poly native l=128 q=0 t=148.6 ms sv_rel=7.57e-09 resid=3.130e-04 (opt 1.392e-04) orth=8.9e-16
+poly native l=256 q=2 t=969.9 ms sv_rel=8.88e-16 resid=4.809e-05 (opt 4.670e-05) orth=1.1e-15
+poly native l=1024 q=2 t=4433.5 ms sv_rel=1.44e-15 resid=5.753e-06 (opt 5.613e-06) orth=1.1e-15
+poly native l=512 q=0 t=734.3 ms sv_rel=1.86e-11 resid=3.487e-05 (opt 1.609e-05) orth=1.1e-15
+poly native l=128 q=2 t=446.2 ms sv_rel=3.33e-16 resid=1.433e-04 (opt 1.392e-04) orth=1.3e-15
+2026-11-07T15:35:06Z rep=1 poly zc
+poly zc l=1024 q=0 t=1710.8 ms sv_rel=9.79e-13 resid=1.207e-05 (opt 5.613e-06) orth=1.1e-15
+poly zc l=256 q=0 t=336.6 ms sv_rel=3.84e-10 resid=1.027e-04 (opt 4.670e-05) orth=1.1e-15
+poly zc l=512 q=2 t=2025.4 ms sv_rel=6.66e-16 resid=1.649e-05 (opt 1.609e-05) orth=1.2e-15
+poly zc l=64 q=0 t=75.0 ms sv_rel=2.27e-07 resid=9.932e-04 (opt 4.397e-04) orth=7.8e-16
+poly zc l=64 q=2 t=253.5 ms sv_rel=7.77e-16 resid=4.569e-04 (opt 4.397e-04) orth=7.8e-16
+poly zc l=128 q=0 t=148.6 ms sv_rel=7.57e-09 resid=3.130e-04 (opt 1.392e-04) orth=8.9e-16
+poly zc l=256 q=2 t=969.9 ms sv_rel=8.88e-16 resid=4.809e-05 (opt 4.670e-05) orth=1.1e-15
+poly zc l=1024 q=2 t=4433.8 ms sv_rel=1.44e-15 resid=5.753e-06 (opt 5.613e-06) orth=1.1e-15
+poly zc l=512 q=0 t=734.2 ms sv_rel=1.86e-11 resid=3.487e-05 (opt 1.609e-05) orth=1.1e-15
+poly zc l=128 q=2 t=446.2 ms sv_rel=3.33e-16 resid=1.433e-04 (opt 1.392e-04) orth=1.3e-15
+2026-11-07T15:36:32Z rep=1 poly zc_eager
+poly zc_eager l=1024 q=0 t=984.2 ms sv_rel=9.80e-13 resid=1.207e-05 (opt 5.613e-06) orth=1.1e-15
+poly zc_eager l=256 q=0 t=364.4 ms sv_rel=3.84e-10 resid=1.027e-04 (opt 4.670e-05) orth=8.9e-16
+poly zc_eager l=512 q=2 t=881.6 ms sv_rel=1.78e-15 resid=1.649e-05 (opt 1.609e-05) orth=1.0e-15
+poly zc_eager l=64 q=0 t=302.6 ms sv_rel=2.27e-07 resid=9.932e-04 (opt 4.397e-04) orth=6.7e-16
+poly zc_eager l=64 q=2 t=498.1 ms sv_rel=1.22e-15 resid=4.569e-04 (opt 4.397e-04) orth=6.7e-16
+poly zc_eager l=128 q=0 t=326.9 ms sv_rel=7.57e-09 resid=3.130e-04 (opt 1.392e-04) orth=1.0e-15
+poly zc_eager l=256 q=2 t=635.7 ms sv_rel=8.88e-16 resid=4.809e-05 (opt 4.670e-05) orth=8.9e-16
+poly zc_eager l=1024 q=2 t=1900.4 ms sv_rel=1.22e-15 resid=5.753e-06 (opt 5.613e-06) orth=1.1e-15
+poly zc_eager l=512 q=0 t=411.2 ms sv_rel=1.86e-11 resid=3.487e-05 (opt 1.609e-05) orth=1.0e-15
+poly zc_eager l=128 q=2 t=528.3 ms sv_rel=2.22e-16 resid=1.433e-04 (opt 1.392e-04) orth=8.9e-16
+2026-11-07T15:37:28Z rep=1 poly fix
+poly fix l=1024 q=0 t=1699.5 ms sv_rel=9.79e-13 resid=1.207e-05 (opt 5.613e-06) orth=1.1e-15
+poly fix l=256 q=0 t=334.3 ms sv_rel=3.84e-10 resid=1.027e-04 (opt 4.670e-05) orth=1.1e-15
+poly fix l=512 q=2 t=2010.8 ms sv_rel=6.66e-16 resid=1.649e-05 (opt 1.609e-05) orth=1.2e-15
+poly fix l=64 q=0 t=75.0 ms sv_rel=2.27e-07 resid=9.932e-04 (opt 4.397e-04) orth=7.8e-16
+poly fix l=64 q=2 t=253.5 ms sv_rel=7.77e-16 resid=4.569e-04 (opt 4.397e-04) orth=7.8e-16
+poly fix l=128 q=0 t=148.6 ms sv_rel=7.57e-09 resid=3.130e-04 (opt 1.392e-04) orth=8.9e-16
+poly fix l=256 q=2 t=970.1 ms sv_rel=8.88e-16 resid=4.809e-05 (opt 4.670e-05) orth=1.1e-15
+poly fix l=1024 q=2 t=4434.3 ms sv_rel=1.44e-15 resid=5.753e-06 (opt 5.613e-06) orth=1.1e-15
+poly fix l=512 q=0 t=734.5 ms sv_rel=1.86e-11 resid=3.487e-05 (opt 1.609e-05) orth=1.1e-15
+poly fix l=128 q=2 t=446.3 ms sv_rel=3.33e-16 resid=1.433e-04 (opt 1.392e-04) orth=1.3e-15
+2026-11-07T15:38:54Z rep=1 poly fix_eager
+poly fix_eager l=1024 q=0 t=779.6 ms sv_rel=9.80e-13 resid=1.207e-05 (opt 5.613e-06) orth=1.1e-15
+poly fix_eager l=256 q=0 t=167.8 ms sv_rel=3.84e-10 resid=1.027e-04 (opt 4.670e-05) orth=8.9e-16
+poly fix_eager l=512 q=2 t=747.1 ms sv_rel=1.78e-15 resid=1.649e-05 (opt 1.609e-05) orth=1.0e-15
+poly fix_eager l=64 q=0 t=107.4 ms sv_rel=2.27e-07 resid=9.932e-04 (opt 4.397e-04) orth=6.7e-16
+poly fix_eager l=64 q=2 t=299.9 ms sv_rel=1.22e-15 resid=4.569e-04 (opt 4.397e-04) orth=6.7e-16
+poly fix_eager l=128 q=0 t=125.1 ms sv_rel=7.57e-09 resid=3.130e-04 (opt 1.392e-04) orth=1.0e-15
+poly fix_eager l=256 q=2 t=437.6 ms sv_rel=8.88e-16 resid=4.809e-05 (opt 4.670e-05) orth=8.9e-16
+poly fix_eager l=1024 q=2 t=1755.9 ms sv_rel=1.22e-15 resid=5.753e-06 (opt 5.613e-06) orth=1.1e-15
+poly fix_eager l=512 q=0 t=301.4 ms sv_rel=1.86e-11 resid=3.487e-05 (opt 1.609e-05) orth=1.0e-15
+poly fix_eager l=128 q=2 t=343.0 ms sv_rel=2.22e-16 resid=1.433e-04 (opt 1.392e-04) orth=8.9e-16
+2026-11-07T15:39:39Z rep=1 poly fp32
+poly fp32 l=1024 q=0 t=147.3 ms sv_rel=7.15e-07 resid=1.224e-05 (opt 5.613e-06) orth=4.4e-07
+poly fp32 l=256 q=0 t=25.4 ms sv_rel=2.38e-07 resid=1.027e-04 (opt 4.670e-05) orth=4.8e-07
+poly fp32 l=512 q=2 t=117.3 ms sv_rel=3.58e-07 resid=1.652e-05 (opt 1.609e-05) orth=4.4e-07
+poly fp32 l=64 q=0 t=5.5 ms sv_rel=4.17e-07 resid=9.932e-04 (opt 4.397e-04) orth=3.5e-07
+poly fp32 l=64 q=2 t=13.2 ms sv_rel=4.77e-07 resid=4.569e-04 (opt 4.397e-04) orth=3.1e-07
+poly fp32 l=128 q=0 t=11.8 ms sv_rel=4.77e-07 resid=3.130e-04 (opt 1.392e-04) orth=4.0e-07
+poly fp32 l=256 q=2 t=53.5 ms sv_rel=2.98e-07 resid=4.809e-05 (opt 4.670e-05) orth=4.6e-07
+poly fp32 l=1024 q=2 t=275.2 ms sv_rel=4.77e-07 resid=5.866e-06 (opt 5.613e-06) orth=4.6e-07
+poly fp32 l=512 q=0 t=58.4 ms sv_rel=2.98e-07 resid=3.494e-05 (opt 1.609e-05) orth=4.6e-07
+poly fp32 l=128 q=2 t=25.3 ms sv_rel=3.58e-07 resid=1.433e-04 (opt 1.392e-04) orth=4.1e-07
+2026-11-07T15:39:52Z rep=1 poly tf32
+poly tf32 l=1024 q=0 t=146.5 ms sv_rel=1.06e-04 resid=1.797e-04 (opt 5.613e-06) orth=4.3e-07
+poly tf32 l=256 q=0 t=24.7 ms sv_rel=1.07e-04 resid=2.656e-04 (opt 4.670e-05) orth=4.4e-07
+poly tf32 l=512 q=2 t=103.9 ms sv_rel=5.56e-05 resid=1.050e-04 (opt 1.609e-05) orth=4.9e-07
+poly tf32 l=64 q=0 t=5.5 ms sv_rel=5.34e-05 resid=1.064e-03 (opt 4.397e-04) orth=3.6e-07
+poly tf32 l=64 q=2 t=11.6 ms sv_rel=5.56e-05 resid=4.609e-04 (opt 4.397e-04) orth=2.8e-07
+poly tf32 l=128 q=0 t=11.1 ms sv_rel=5.27e-05 resid=4.423e-04 (opt 1.392e-04) orth=5.4e-07
+poly tf32 l=256 q=2 t=48.3 ms sv_rel=1.10e-04 resid=1.275e-04 (opt 4.670e-05) orth=3.5e-07
+poly tf32 l=1024 q=2 t=247.4 ms sv_rel=1.05e-04 resid=1.628e-04 (opt 5.613e-06) orth=4.1e-07
+poly tf32 l=512 q=0 t=66.9 ms sv_rel=5.43e-05 resid=1.787e-04 (opt 1.609e-05) orth=4.7e-07
+poly tf32 l=128 q=2 t=23.2 ms sv_rel=5.70e-05 resid=1.570e-04 (opt 1.392e-04) orth=4.3e-07
+2026-11-07T15:40:05Z rep=1 lrnoise native
+lrnoise native l=1024 q=0 t=1799.6 ms sv_rel=2.89e-15 resid=1.189e-09 (opt 1.080e-09) orth=1.0e-15
+lrnoise native l=256 q=0 t=341.1 ms sv_rel=3.11e-15 resid=1.394e-09 (opt 1.230e-09) orth=8.9e-16
+lrnoise native l=512 q=2 t=2044.8 ms sv_rel=2.22e-15 resid=1.192e-09 (opt 1.178e-09) orth=8.9e-16
+lrnoise native l=64 q=0 t=75.5 ms sv_rel=2.00e-15 resid=2.759e-09 (opt 1.271e-09) orth=7.8e-16
+lrnoise native l=64 q=2 t=254.2 ms sv_rel=2.44e-15 resid=1.272e-09 (opt 1.271e-09) orth=8.9e-16
+lrnoise native l=128 q=0 t=149.6 ms sv_rel=2.44e-15 resid=1.623e-09 (opt 1.257e-09) orth=8.9e-16
+lrnoise native l=256 q=2 t=974.2 ms sv_rel=3.11e-15 resid=1.237e-09 (opt 1.230e-09) orth=1.1e-15
+lrnoise native l=1024 q=2 t=4535.4 ms sv_rel=3.11e-15 resid=1.103e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise native l=512 q=0 t=753.0 ms sv_rel=2.44e-15 resid=1.284e-09 (opt 1.178e-09) orth=1.1e-15
+lrnoise native l=128 q=2 t=447.5 ms sv_rel=2.66e-15 resid=1.260e-09 (opt 1.257e-09) orth=1.1e-15
+2026-11-07T15:41:33Z rep=1 lrnoise zc
+lrnoise zc l=1024 q=0 t=1799.6 ms sv_rel=2.89e-15 resid=1.189e-09 (opt 1.080e-09) orth=1.0e-15
+lrnoise zc l=256 q=0 t=341.3 ms sv_rel=3.11e-15 resid=1.394e-09 (opt 1.230e-09) orth=8.9e-16
+lrnoise zc l=512 q=2 t=2044.9 ms sv_rel=2.22e-15 resid=1.192e-09 (opt 1.178e-09) orth=8.9e-16
+lrnoise zc l=64 q=0 t=75.5 ms sv_rel=2.00e-15 resid=2.759e-09 (opt 1.271e-09) orth=7.8e-16
+lrnoise zc l=64 q=2 t=254.2 ms sv_rel=2.44e-15 resid=1.272e-09 (opt 1.271e-09) orth=8.9e-16
+lrnoise zc l=128 q=0 t=149.6 ms sv_rel=2.44e-15 resid=1.623e-09 (opt 1.257e-09) orth=8.9e-16
+lrnoise zc l=256 q=2 t=974.2 ms sv_rel=3.11e-15 resid=1.237e-09 (opt 1.230e-09) orth=1.1e-15
+lrnoise zc l=1024 q=2 t=4535.7 ms sv_rel=3.11e-15 resid=1.103e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise zc l=512 q=0 t=753.0 ms sv_rel=2.44e-15 resid=1.284e-09 (opt 1.178e-09) orth=1.1e-15
+lrnoise zc l=128 q=2 t=447.4 ms sv_rel=2.66e-15 resid=1.260e-09 (opt 1.257e-09) orth=1.1e-15
+2026-11-07T15:43:01Z rep=1 lrnoise zc_eager
+lrnoise zc_eager l=1024 q=0 t=1035.8 ms sv_rel=2.66e-15 resid=1.189e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise zc_eager l=256 q=0 t=368.7 ms sv_rel=3.11e-15 resid=1.394e-09 (opt 1.230e-09) orth=8.9e-16
+lrnoise zc_eager l=512 q=2 t=880.5 ms sv_rel=2.66e-15 resid=1.192e-09 (opt 1.178e-09) orth=8.9e-16
+lrnoise zc_eager l=64 q=0 t=294.9 ms sv_rel=2.00e-15 resid=2.759e-09 (opt 1.271e-09) orth=1.1e-15
+lrnoise zc_eager l=64 q=2 t=512.6 ms sv_rel=2.44e-15 resid=1.272e-09 (opt 1.271e-09) orth=7.8e-16
+lrnoise zc_eager l=128 q=0 t=338.5 ms sv_rel=2.00e-15 resid=1.623e-09 (opt 1.257e-09) orth=8.9e-16
+lrnoise zc_eager l=256 q=2 t=656.1 ms sv_rel=3.33e-15 resid=1.237e-09 (opt 1.230e-09) orth=1.2e-15
+lrnoise zc_eager l=1024 q=2 t=2019.7 ms sv_rel=3.33e-15 resid=1.103e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise zc_eager l=512 q=0 t=457.0 ms sv_rel=2.44e-15 resid=1.284e-09 (opt 1.178e-09) orth=1.1e-15
+lrnoise zc_eager l=128 q=2 t=553.3 ms sv_rel=2.22e-15 resid=1.260e-09 (opt 1.257e-09) orth=1.1e-15
+2026-11-07T15:44:00Z rep=1 lrnoise fix
+lrnoise fix l=1024 q=0 t=1799.8 ms sv_rel=2.89e-15 resid=1.189e-09 (opt 1.080e-09) orth=1.0e-15
+lrnoise fix l=256 q=0 t=341.2 ms sv_rel=3.11e-15 resid=1.394e-09 (opt 1.230e-09) orth=8.9e-16
+lrnoise fix l=512 q=2 t=2045.1 ms sv_rel=2.22e-15 resid=1.192e-09 (opt 1.178e-09) orth=8.9e-16
+lrnoise fix l=64 q=0 t=75.5 ms sv_rel=2.00e-15 resid=2.759e-09 (opt 1.271e-09) orth=7.8e-16
+lrnoise fix l=64 q=2 t=254.3 ms sv_rel=2.44e-15 resid=1.272e-09 (opt 1.271e-09) orth=8.9e-16
+lrnoise fix l=128 q=0 t=150.0 ms sv_rel=2.44e-15 resid=1.623e-09 (opt 1.257e-09) orth=8.9e-16
+lrnoise fix l=256 q=2 t=974.4 ms sv_rel=3.11e-15 resid=1.237e-09 (opt 1.230e-09) orth=1.1e-15
+lrnoise fix l=1024 q=2 t=4535.6 ms sv_rel=3.11e-15 resid=1.103e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise fix l=512 q=0 t=753.0 ms sv_rel=2.44e-15 resid=1.284e-09 (opt 1.178e-09) orth=1.1e-15
+lrnoise fix l=128 q=2 t=447.2 ms sv_rel=2.66e-15 resid=1.260e-09 (opt 1.257e-09) orth=1.1e-15
+2026-11-07T15:45:27Z rep=1 lrnoise fix_eager
+lrnoise fix_eager l=1024 q=0 t=879.3 ms sv_rel=2.66e-15 resid=1.189e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise fix_eager l=256 q=0 t=172.4 ms sv_rel=3.11e-15 resid=1.394e-09 (opt 1.230e-09) orth=8.9e-16
+lrnoise fix_eager l=512 q=2 t=770.3 ms sv_rel=2.66e-15 resid=1.192e-09 (opt 1.178e-09) orth=8.9e-16
+lrnoise fix_eager l=64 q=0 t=108.6 ms sv_rel=2.00e-15 resid=2.759e-09 (opt 1.271e-09) orth=1.1e-15
+lrnoise fix_eager l=64 q=2 t=302.6 ms sv_rel=2.44e-15 resid=1.272e-09 (opt 1.271e-09) orth=7.8e-16
+lrnoise fix_eager l=128 q=0 t=126.9 ms sv_rel=2.00e-15 resid=1.623e-09 (opt 1.257e-09) orth=8.9e-16
+lrnoise fix_eager l=256 q=2 t=446.0 ms sv_rel=3.33e-15 resid=1.237e-09 (opt 1.230e-09) orth=1.2e-15
+lrnoise fix_eager l=1024 q=2 t=1869.3 ms sv_rel=3.33e-15 resid=1.103e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise fix_eager l=512 q=0 t=324.3 ms sv_rel=2.44e-15 resid=1.284e-09 (opt 1.178e-09) orth=1.1e-15
+lrnoise fix_eager l=128 q=2 t=344.7 ms sv_rel=2.22e-15 resid=1.260e-09 (opt 1.257e-09) orth=1.1e-15
+2026-11-07T15:46:13Z rep=1 lrnoise fp32
+lrnoise fp32 l=1024 q=0 t=170.2 ms sv_rel=2.38e-07 resid=1.069e-06 (opt 1.080e-09) orth=4.5e-07
+lrnoise fp32 l=256 q=0 t=26.1 ms sv_rel=3.58e-07 resid=5.351e-07 (opt 1.230e-09) orth=5.3e-07
+lrnoise fp32 l=512 q=2 t=121.7 ms sv_rel=2.38e-07 resid=8.208e-07 (opt 1.178e-09) orth=5.1e-07
+lrnoise fp32 l=64 q=0 t=5.2 ms sv_rel=5.96e-07 resid=1.179e-06 (opt 1.271e-09) orth=3.7e-07
+lrnoise fp32 l=64 q=2 t=13.0 ms sv_rel=5.96e-07 resid=1.374e-06 (opt 1.271e-09) orth=3.9e-07
+lrnoise fp32 l=128 q=0 t=11.4 ms sv_rel=2.38e-07 resid=6.009e-07 (opt 1.257e-09) orth=4.1e-07
+lrnoise fp32 l=256 q=2 t=53.1 ms sv_rel=3.58e-07 resid=3.204e-07 (opt 1.230e-09) orth=3.7e-07
+lrnoise fp32 l=1024 q=2 t=297.7 ms sv_rel=2.38e-07 resid=1.118e-06 (opt 1.080e-09) orth=4.3e-07
+lrnoise fp32 l=512 q=0 t=63.6 ms sv_rel=2.38e-07 resid=7.822e-07 (opt 1.178e-09) orth=4.1e-07
+lrnoise fp32 l=128 q=2 t=24.8 ms sv_rel=2.38e-07 resid=5.556e-07 (opt 1.257e-09) orth=4.1e-07
+2026-11-07T15:46:26Z rep=1 lrnoise tf32
+lrnoise tf32 l=1024 q=0 t=164.9 ms sv_rel=6.07e-05 resid=1.324e-04 (opt 1.080e-09) orth=4.5e-07
+lrnoise tf32 l=256 q=0 t=28.6 ms sv_rel=5.94e-05 resid=1.322e-04 (opt 1.230e-09) orth=3.8e-07
+lrnoise tf32 l=512 q=2 t=110.4 ms sv_rel=2.43e-05 resid=9.277e-05 (opt 1.178e-09) orth=3.5e-07
+lrnoise tf32 l=64 q=0 t=5.6 ms sv_rel=2.50e-05 resid=3.984e-04 (opt 1.271e-09) orth=3.6e-07
+lrnoise tf32 l=64 q=2 t=12.0 ms sv_rel=2.59e-05 resid=4.422e-05 (opt 1.271e-09) orth=3.7e-07
+lrnoise tf32 l=128 q=0 t=12.9 ms sv_rel=2.55e-05 resid=1.724e-04 (opt 1.257e-09) orth=4.7e-07
+lrnoise tf32 l=256 q=2 t=50.8 ms sv_rel=5.93e-05 resid=9.172e-05 (opt 1.230e-09) orth=4.2e-07
+lrnoise tf32 l=1024 q=2 t=270.8 ms sv_rel=6.07e-05 resid=1.392e-04 (opt 1.080e-09) orth=4.7e-07
+lrnoise tf32 l=512 q=0 t=65.6 ms sv_rel=2.55e-05 resid=1.043e-04 (opt 1.178e-09) orth=4.5e-07
+lrnoise tf32 l=128 q=2 t=24.0 ms sv_rel=2.48e-05 resid=5.426e-05 (opt 1.257e-09) orth=3.7e-07
+2026-11-07T15:46:39Z rep=1 scaled4 native
+scaled4 native l=1024 q=0 t=1711.8 ms sv_rel=1.29e-15 resid=1.992e-15 (opt 4.974e-17) orth=1.1e-15
+scaled4 native l=256 q=0 t=336.2 ms sv_rel=1.70e-15 resid=2.323e-15 (opt 2.639e-16) orth=1.0e-15
+scaled4 native l=512 q=2 t=2026.5 ms sv_rel=1.54e-15 resid=1.690e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 native l=64 q=0 t=74.6 ms sv_rel=8.64e-16 resid=5.818e-14 (opt 6.244e-15) orth=8.9e-16
+scaled4 native l=64 q=2 t=253.3 ms sv_rel=1.31e-15 resid=6.756e-15 (opt 6.244e-15) orth=8.9e-16
+scaled4 native l=128 q=0 t=147.6 ms sv_rel=5.92e-16 resid=2.505e-15 (opt 3.633e-16) orth=1.0e-15
+scaled4 native l=256 q=2 t=969.0 ms sv_rel=1.84e-15 resid=1.663e-15 (opt 2.639e-16) orth=8.9e-16
+scaled4 native l=1024 q=2 t=4437.9 ms sv_rel=1.23e-15 resid=2.838e-15 (opt 4.974e-17) orth=1.2e-15
+scaled4 native l=512 q=0 t=736.2 ms sv_rel=8.86e-16 resid=1.986e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 native l=128 q=2 t=445.5 ms sv_rel=1.08e-15 resid=1.640e-15 (opt 3.633e-16) orth=8.9e-16
+2026-11-07T15:48:05Z rep=1 scaled4 zc
+scaled4 zc l=1024 q=0 t=1712.3 ms sv_rel=1.29e-15 resid=1.992e-15 (opt 4.974e-17) orth=1.1e-15
+scaled4 zc l=256 q=0 t=336.3 ms sv_rel=1.70e-15 resid=2.323e-15 (opt 2.639e-16) orth=1.0e-15
+scaled4 zc l=512 q=2 t=2026.6 ms sv_rel=1.54e-15 resid=1.690e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 zc l=64 q=0 t=74.6 ms sv_rel=8.64e-16 resid=5.818e-14 (opt 6.244e-15) orth=8.9e-16
+scaled4 zc l=64 q=2 t=253.2 ms sv_rel=1.31e-15 resid=6.756e-15 (opt 6.244e-15) orth=8.9e-16
+scaled4 zc l=128 q=0 t=147.7 ms sv_rel=5.92e-16 resid=2.505e-15 (opt 3.633e-16) orth=1.0e-15
+scaled4 zc l=256 q=2 t=969.0 ms sv_rel=1.84e-15 resid=1.663e-15 (opt 2.639e-16) orth=8.9e-16
+scaled4 zc l=1024 q=2 t=4438.4 ms sv_rel=1.23e-15 resid=2.838e-15 (opt 4.974e-17) orth=1.2e-15
+scaled4 zc l=512 q=0 t=736.1 ms sv_rel=8.86e-16 resid=1.986e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 zc l=128 q=2 t=445.8 ms sv_rel=1.08e-15 resid=1.640e-15 (opt 3.633e-16) orth=8.9e-16
+2026-11-07T15:49:32Z rep=1 scaled4 zc_eager
+scaled4 zc_eager l=1024 q=0 t=963.9 ms sv_rel=1.08e-15 resid=1.261e-15 (opt 4.974e-17) orth=1.3e-15
+scaled4 zc_eager l=256 q=0 t=365.6 ms sv_rel=2.23e-15 resid=9.747e-16 (opt 2.639e-16) orth=1.1e-15
+scaled4 zc_eager l=512 q=2 t=886.8 ms sv_rel=9.94e-16 resid=5.962e-16 (opt 1.476e-16) orth=1.1e-15
+scaled4 zc_eager l=64 q=0 t=297.3 ms sv_rel=1.23e-15 resid=4.347e-14 (opt 6.244e-15) orth=6.7e-16
+scaled4 zc_eager l=64 q=2 t=492.8 ms sv_rel=8.11e-16 resid=6.258e-15 (opt 6.244e-15) orth=6.7e-16
+scaled4 zc_eager l=128 q=0 t=314.5 ms sv_rel=1.33e-15 resid=8.536e-16 (opt 3.633e-16) orth=8.9e-16
+scaled4 zc_eager l=256 q=2 t=630.5 ms sv_rel=9.20e-16 resid=6.202e-16 (opt 2.639e-16) orth=1.1e-15
+scaled4 zc_eager l=1024 q=2 t=1942.5 ms sv_rel=1.35e-15 resid=7.092e-16 (opt 4.974e-17) orth=1.0e-15
+scaled4 zc_eager l=512 q=0 t=421.5 ms sv_rel=1.18e-15 resid=9.058e-16 (opt 1.476e-16) orth=1.1e-15
+scaled4 zc_eager l=128 q=2 t=554.0 ms sv_rel=1.36e-15 resid=6.323e-16 (opt 3.633e-16) orth=8.9e-16
+2026-11-07T15:50:28Z rep=1 scaled4 fix
+scaled4 fix l=1024 q=0 t=1711.9 ms sv_rel=1.29e-15 resid=1.992e-15 (opt 4.974e-17) orth=1.1e-15
+scaled4 fix l=256 q=0 t=338.6 ms sv_rel=1.70e-15 resid=2.323e-15 (opt 2.639e-16) orth=1.0e-15
+scaled4 fix l=512 q=2 t=2026.4 ms sv_rel=1.54e-15 resid=1.690e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 fix l=64 q=0 t=74.5 ms sv_rel=8.64e-16 resid=5.818e-14 (opt 6.244e-15) orth=8.9e-16
+scaled4 fix l=64 q=2 t=253.2 ms sv_rel=1.31e-15 resid=6.756e-15 (opt 6.244e-15) orth=8.9e-16
+scaled4 fix l=128 q=0 t=147.8 ms sv_rel=5.92e-16 resid=2.505e-15 (opt 3.633e-16) orth=1.0e-15
+scaled4 fix l=256 q=2 t=969.0 ms sv_rel=1.84e-15 resid=1.663e-15 (opt 2.639e-16) orth=8.9e-16
+scaled4 fix l=1024 q=2 t=4437.1 ms sv_rel=1.23e-15 resid=2.838e-15 (opt 4.974e-17) orth=1.2e-15
+scaled4 fix l=512 q=0 t=735.7 ms sv_rel=8.86e-16 resid=1.986e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 fix l=128 q=2 t=445.2 ms sv_rel=1.08e-15 resid=1.640e-15 (opt 3.633e-16) orth=8.9e-16
+2026-11-07T15:51:55Z rep=1 scaled4 fix_eager
+scaled4 fix_eager l=1024 q=0 t=779.7 ms sv_rel=1.08e-15 resid=1.261e-15 (opt 4.974e-17) orth=1.3e-15
+scaled4 fix_eager l=256 q=0 t=167.9 ms sv_rel=2.23e-15 resid=9.747e-16 (opt 2.639e-16) orth=1.1e-15
+scaled4 fix_eager l=512 q=2 t=760.3 ms sv_rel=9.94e-16 resid=5.962e-16 (opt 1.476e-16) orth=1.1e-15
+scaled4 fix_eager l=64 q=0 t=107.0 ms sv_rel=1.23e-15 resid=4.347e-14 (opt 6.244e-15) orth=6.7e-16
+scaled4 fix_eager l=64 q=2 t=303.2 ms sv_rel=8.11e-16 resid=6.258e-15 (opt 6.244e-15) orth=6.7e-16
+scaled4 fix_eager l=128 q=0 t=124.4 ms sv_rel=1.33e-15 resid=8.536e-16 (opt 3.633e-16) orth=8.9e-16
+scaled4 fix_eager l=256 q=2 t=442.3 ms sv_rel=9.20e-16 resid=6.202e-16 (opt 2.639e-16) orth=1.1e-15
+scaled4 fix_eager l=1024 q=2 t=1794.8 ms sv_rel=1.35e-15 resid=7.092e-16 (opt 4.974e-17) orth=1.0e-15
+scaled4 fix_eager l=512 q=0 t=302.8 ms sv_rel=1.18e-15 resid=9.058e-16 (opt 1.476e-16) orth=1.1e-15
+scaled4 fix_eager l=128 q=2 t=346.2 ms sv_rel=1.36e-15 resid=6.323e-16 (opt 3.633e-16) orth=8.9e-16
+2026-11-07T15:52:39Z rep=1 scaled4 fp32
+scaled4 fp32 l=1024 q=0 t=153.6 ms sv_rel=1.83e-07 resid=1.064e-06 (opt 4.974e-17) orth=4.4e-07
+scaled4 fp32 l=256 q=0 t=27.0 ms sv_rel=3.43e-07 resid=4.388e-07 (opt 2.639e-16) orth=4.4e-07
+scaled4 fp32 l=512 q=2 t=119.2 ms sv_rel=1.12e-06 resid=7.440e-07 (opt 1.476e-16) orth=4.3e-07
+scaled4 fp32 l=64 q=0 t=5.6 ms sv_rel=5.81e-07 resid=6.611e-07 (opt 6.244e-15) orth=3.3e-07
+scaled4 fp32 l=64 q=2 t=13.2 ms sv_rel=5.17e-07 resid=9.414e-07 (opt 6.244e-15) orth=3.9e-07
+scaled4 fp32 l=128 q=0 t=12.5 ms sv_rel=4.33e-07 resid=4.796e-07 (opt 3.633e-16) orth=4.7e-07
+scaled4 fp32 l=256 q=2 t=54.8 ms sv_rel=3.72e-07 resid=2.898e-07 (opt 2.639e-16) orth=3.9e-07
+scaled4 fp32 l=1024 q=2 t=278.8 ms sv_rel=7.02e-07 resid=1.062e-06 (opt 4.974e-17) orth=4.8e-07
+scaled4 fp32 l=512 q=0 t=60.4 ms sv_rel=7.00e-07 resid=7.551e-07 (opt 1.476e-16) orth=4.1e-07
+scaled4 fp32 l=128 q=2 t=25.9 ms sv_rel=4.90e-07 resid=4.438e-07 (opt 3.633e-16) orth=3.9e-07
+2026-11-07T15:52:52Z rep=1 scaled4 tf32
+scaled4 tf32 l=1024 q=0 t=148.3 ms sv_rel=9.85e-05 resid=2.313e-04 (opt 4.974e-17) orth=4.7e-07
+scaled4 tf32 l=256 q=0 t=27.2 ms sv_rel=9.96e-05 resid=1.849e-04 (opt 2.639e-16) orth=4.7e-07
+scaled4 tf32 l=512 q=2 t=105.7 ms sv_rel=5.00e-05 resid=2.064e-04 (opt 1.476e-16) orth=4.4e-07
+scaled4 tf32 l=64 q=0 t=5.8 ms sv_rel=5.12e-05 resid=1.819e-04 (opt 6.244e-15) orth=3.5e-07
+scaled4 tf32 l=64 q=2 t=11.9 ms sv_rel=5.34e-05 resid=1.133e-04 (opt 6.244e-15) orth=4.2e-07
+scaled4 tf32 l=128 q=0 t=12.0 ms sv_rel=5.04e-05 resid=1.527e-04 (opt 3.633e-16) orth=5.0e-07
+scaled4 tf32 l=256 q=2 t=49.9 ms sv_rel=1.00e-04 resid=2.004e-04 (opt 2.639e-16) orth=4.4e-07
+scaled4 tf32 l=1024 q=2 t=251.5 ms sv_rel=1.04e-04 resid=2.360e-04 (opt 4.974e-17) orth=4.5e-07
+scaled4 tf32 l=512 q=0 t=60.0 ms sv_rel=5.11e-05 resid=1.931e-04 (opt 1.476e-16) orth=4.4e-07
+scaled4 tf32 l=128 q=2 t=23.3 ms sv_rel=5.04e-05 resid=1.470e-04 (opt 3.633e-16) orth=4.3e-07
+2026-11-07T15:53:04Z rep=1 scaled8 native
+scaled8 native l=1024 q=0 t=1693.9 ms sv_rel=1.78e-15 resid=1.909e-15 (opt 5.606e-18) orth=1.3e-15
+scaled8 native l=256 q=0 t=335.4 ms sv_rel=1.57e-15 resid=2.274e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 native l=512 q=2 t=2023.0 ms sv_rel=1.10e-15 resid=1.568e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 native l=64 q=0 t=74.6 ms sv_rel=1.71e-15 resid=8.598e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 native l=64 q=2 t=253.3 ms sv_rel=1.02e-15 resid=6.038e-15 (opt 5.692e-15) orth=8.9e-16
+scaled8 native l=128 q=0 t=148.8 ms sv_rel=1.88e-15 resid=2.432e-15 (opt 2.916e-16) orth=7.8e-16
+scaled8 native l=256 q=2 t=968.2 ms sv_rel=2.09e-15 resid=1.542e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 native l=1024 q=2 t=4417.8 ms sv_rel=1.41e-15 resid=2.292e-15 (opt 5.606e-18) orth=1.1e-15
+scaled8 native l=512 q=0 t=732.1 ms sv_rel=1.37e-15 resid=1.933e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 native l=128 q=2 t=445.1 ms sv_rel=1.02e-15 resid=1.362e-15 (opt 2.916e-16) orth=8.9e-16
+2026-11-07T15:54:30Z rep=1 scaled8 zc
+scaled8 zc l=1024 q=0 t=1693.9 ms sv_rel=1.78e-15 resid=1.909e-15 (opt 5.606e-18) orth=1.3e-15
+scaled8 zc l=256 q=0 t=335.4 ms sv_rel=1.57e-15 resid=2.274e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 zc l=512 q=2 t=2022.7 ms sv_rel=1.10e-15 resid=1.568e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 zc l=64 q=0 t=74.7 ms sv_rel=1.71e-15 resid=8.598e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 zc l=64 q=2 t=253.2 ms sv_rel=1.02e-15 resid=6.038e-15 (opt 5.692e-15) orth=8.9e-16
+scaled8 zc l=128 q=0 t=147.4 ms sv_rel=1.88e-15 resid=2.432e-15 (opt 2.916e-16) orth=7.8e-16
+scaled8 zc l=256 q=2 t=968.0 ms sv_rel=2.09e-15 resid=1.542e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 zc l=1024 q=2 t=4418.4 ms sv_rel=1.41e-15 resid=2.292e-15 (opt 5.606e-18) orth=1.1e-15
+scaled8 zc l=512 q=0 t=732.0 ms sv_rel=1.37e-15 resid=1.933e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 zc l=128 q=2 t=445.0 ms sv_rel=1.02e-15 resid=1.362e-15 (opt 2.916e-16) orth=8.9e-16
+2026-11-07T15:55:56Z rep=1 scaled8 zc_eager
+scaled8 zc_eager l=1024 q=0 t=914.9 ms sv_rel=1.57e-15 resid=1.292e-15 (opt 5.606e-18) orth=2.0e-15
+scaled8 zc_eager l=256 q=0 t=372.0 ms sv_rel=1.70e-15 resid=8.550e-16 (opt 1.551e-16) orth=1.3e-15
+scaled8 zc_eager l=512 q=2 t=1278.8 ms sv_rel=2.05e-15 resid=1.851e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 zc_eager l=64 q=0 t=305.2 ms sv_rel=1.88e-15 resid=8.207e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 zc_eager l=64 q=2 t=579.9 ms sv_rel=2.16e-15 resid=5.927e-15 (opt 5.692e-15) orth=8.9e-16
+scaled8 zc_eager l=128 q=0 t=321.0 ms sv_rel=2.04e-15 resid=8.540e-16 (opt 2.916e-16) orth=8.9e-16
+scaled8 zc_eager l=256 q=2 t=825.4 ms sv_rel=2.07e-15 resid=1.796e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 zc_eager l=1024 q=2 t=2761.3 ms sv_rel=1.57e-15 resid=1.884e-15 (opt 5.606e-18) orth=1.1e-15
+scaled8 zc_eager l=512 q=0 t=420.0 ms sv_rel=1.45e-15 resid=8.825e-16 (opt 4.891e-17) orth=1.1e-15
+scaled8 zc_eager l=128 q=2 t=602.1 ms sv_rel=8.69e-16 resid=1.651e-15 (opt 2.916e-16) orth=8.9e-16
+2026-11-07T15:57:04Z rep=1 scaled8 fix
+scaled8 fix l=1024 q=0 t=1694.0 ms sv_rel=1.78e-15 resid=1.909e-15 (opt 5.606e-18) orth=1.3e-15
+scaled8 fix l=256 q=0 t=335.5 ms sv_rel=1.57e-15 resid=2.274e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 fix l=512 q=2 t=2022.8 ms sv_rel=1.10e-15 resid=1.568e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 fix l=64 q=0 t=74.6 ms sv_rel=1.71e-15 resid=8.598e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 fix l=64 q=2 t=253.3 ms sv_rel=1.02e-15 resid=6.038e-15 (opt 5.692e-15) orth=8.9e-16
+scaled8 fix l=128 q=0 t=147.3 ms sv_rel=1.88e-15 resid=2.432e-15 (opt 2.916e-16) orth=7.8e-16
+scaled8 fix l=256 q=2 t=968.2 ms sv_rel=2.09e-15 resid=1.542e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 fix l=1024 q=2 t=4418.7 ms sv_rel=1.41e-15 resid=2.292e-15 (opt 5.606e-18) orth=1.1e-15
+scaled8 fix l=512 q=0 t=731.9 ms sv_rel=1.37e-15 resid=1.933e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 fix l=128 q=2 t=445.0 ms sv_rel=1.02e-15 resid=1.362e-15 (opt 2.916e-16) orth=8.9e-16
+2026-11-07T15:58:30Z rep=1 scaled8 fix_eager
+scaled8 fix_eager l=1024 q=0 t=759.7 ms sv_rel=1.57e-15 resid=1.292e-15 (opt 5.606e-18) orth=2.0e-15
+scaled8 fix_eager l=256 q=0 t=165.8 ms sv_rel=1.70e-15 resid=8.550e-16 (opt 1.551e-16) orth=1.3e-15
+scaled8 fix_eager l=512 q=2 t=1162.9 ms sv_rel=2.05e-15 resid=1.851e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 fix_eager l=64 q=0 t=106.9 ms sv_rel=1.88e-15 resid=8.207e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 fix_eager l=64 q=2 t=352.6 ms sv_rel=2.16e-15 resid=5.927e-15 (opt 5.692e-15) orth=8.9e-16
+scaled8 fix_eager l=128 q=0 t=124.3 ms sv_rel=2.04e-15 resid=8.540e-16 (opt 2.916e-16) orth=8.9e-16
+scaled8 fix_eager l=256 q=2 t=616.1 ms sv_rel=2.07e-15 resid=1.796e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 fix_eager l=1024 q=2 t=2638.7 ms sv_rel=1.57e-15 resid=1.884e-15 (opt 5.606e-18) orth=1.1e-15
+scaled8 fix_eager l=512 q=0 t=295.8 ms sv_rel=1.45e-15 resid=8.825e-16 (opt 4.891e-17) orth=1.1e-15
+scaled8 fix_eager l=128 q=2 t=392.5 ms sv_rel=8.69e-16 resid=1.651e-15 (opt 2.916e-16) orth=8.9e-16
+2026-11-07T15:59:25Z rep=1 scaled8 fp32
+scaled8 fp32 l=1024 q=0 t=145.9 ms sv_rel=3.99e-07 resid=1.083e-06 (opt 5.606e-18) orth=5.2e-07
+scaled8 fp32 l=256 q=0 t=26.2 ms sv_rel=5.53e-07 resid=3.870e-07 (opt 1.551e-16) orth=3.9e-07
+scaled8 fp32 l=512 q=2 t=115.6 ms sv_rel=2.33e-07 resid=7.422e-07 (opt 4.891e-17) orth=5.0e-07
+scaled8 fp32 l=64 q=0 t=5.6 ms sv_rel=4.31e-07 resid=5.446e-07 (opt 5.692e-15) orth=3.5e-07
+scaled8 fp32 l=64 q=2 t=13.3 ms sv_rel=6.35e-07 resid=7.196e-07 (opt 5.692e-15) orth=3.6e-07
+scaled8 fp32 l=128 q=0 t=12.3 ms sv_rel=4.39e-07 resid=4.350e-07 (opt 2.916e-16) orth=4.3e-07
+scaled8 fp32 l=256 q=2 t=56.5 ms sv_rel=6.38e-07 resid=2.756e-07 (opt 1.551e-16) orth=3.6e-07
+scaled8 fp32 l=1024 q=2 t=272.1 ms sv_rel=4.82e-07 resid=1.042e-06 (opt 5.606e-18) orth=4.9e-07
+scaled8 fp32 l=512 q=0 t=59.2 ms sv_rel=6.22e-07 resid=7.127e-07 (opt 4.891e-17) orth=4.0e-07
+scaled8 fp32 l=128 q=2 t=25.7 ms sv_rel=7.70e-07 resid=4.123e-07 (opt 2.916e-16) orth=4.2e-07
+2026-11-07T15:59:39Z rep=1 scaled8 tf32
+scaled8 tf32 l=1024 q=0 t=140.4 ms sv_rel=9.85e-05 resid=2.352e-04 (opt 5.606e-18) orth=5.2e-07
+scaled8 tf32 l=256 q=0 t=26.3 ms sv_rel=1.00e-04 resid=2.100e-04 (opt 1.551e-16) orth=3.7e-07
+scaled8 tf32 l=512 q=2 t=104.6 ms sv_rel=5.21e-05 resid=2.158e-04 (opt 4.891e-17) orth=5.2e-07
+scaled8 tf32 l=64 q=0 t=5.4 ms sv_rel=5.00e-05 resid=1.890e-04 (opt 5.692e-15) orth=3.3e-07
+scaled8 tf32 l=64 q=2 t=11.7 ms sv_rel=5.27e-05 resid=1.412e-04 (opt 5.692e-15) orth=3.9e-07
+scaled8 tf32 l=128 q=0 t=12.2 ms sv_rel=4.61e-05 resid=1.724e-04 (opt 2.916e-16) orth=3.9e-07
+scaled8 tf32 l=256 q=2 t=49.0 ms sv_rel=1.03e-04 resid=2.225e-04 (opt 1.551e-16) orth=4.2e-07
+scaled8 tf32 l=1024 q=2 t=242.6 ms sv_rel=1.07e-04 resid=2.379e-04 (opt 5.606e-18) orth=4.9e-07
+scaled8 tf32 l=512 q=0 t=57.8 ms sv_rel=4.85e-05 resid=2.120e-04 (opt 4.891e-17) orth=4.3e-07
+scaled8 tf32 l=128 q=2 t=23.4 ms sv_rel=5.13e-05 resid=1.773e-04 (opt 2.916e-16) orth=3.3e-07
+2026-11-07T15:59:53Z rep=2 exp zc
+exp zc l=128 q=0 t=147.8 ms sv_rel=6.66e-16 resid=2.609e-15 (opt 4.472e-16) orth=1.0e-15
+exp zc l=64 q=0 t=74.5 ms sv_rel=1.33e-15 resid=1.067e-13 (opt 6.668e-15) orth=6.7e-16
+exp zc l=512 q=2 t=2038.5 ms sv_rel=4.44e-16 resid=1.613e-15 (opt 4.108e-16) orth=1.1e-15
+exp zc l=512 q=0 t=746.7 ms sv_rel=2.22e-16 resid=1.974e-15 (opt 4.108e-16) orth=1.1e-15
+exp zc l=1024 q=2 t=4502.5 ms sv_rel=6.66e-16 resid=2.832e-15 (opt 3.694e-16) orth=1.0e-15
+exp zc l=256 q=2 t=971.2 ms sv_rel=5.55e-16 resid=1.591e-15 (opt 4.342e-16) orth=8.9e-16
+exp zc l=128 q=2 t=445.3 ms sv_rel=4.44e-16 resid=1.502e-15 (opt 4.472e-16) orth=8.9e-16
+exp zc l=256 q=0 t=337.8 ms sv_rel=6.66e-16 resid=2.352e-15 (opt 4.342e-16) orth=8.9e-16
+exp zc l=1024 q=0 t=1776.6 ms sv_rel=8.88e-16 resid=2.006e-15 (opt 3.694e-16) orth=1.1e-15
+exp zc l=64 q=2 t=253.6 ms sv_rel=6.66e-16 resid=7.146e-15 (opt 6.668e-15) orth=7.8e-16
+2026-11-07T16:01:20Z rep=2 exp zc_eager
+exp zc_eager l=128 q=0 t=389.2 ms sv_rel=6.66e-16 resid=9.920e-16 (opt 4.472e-16) orth=1.0e-15
+exp zc_eager l=64 q=0 t=302.1 ms sv_rel=5.55e-16 resid=9.571e-14 (opt 6.668e-15) orth=6.7e-16
+exp zc_eager l=512 q=2 t=892.4 ms sv_rel=5.55e-16 resid=6.384e-16 (opt 4.108e-16) orth=8.9e-16
+exp zc_eager l=512 q=0 t=448.4 ms sv_rel=1.22e-15 resid=9.323e-16 (opt 4.108e-16) orth=1.1e-15
+exp zc_eager l=1024 q=2 t=1960.7 ms sv_rel=4.44e-16 resid=8.633e-16 (opt 3.694e-16) orth=1.0e-15
+exp zc_eager l=256 q=2 t=648.6 ms sv_rel=5.55e-16 resid=6.647e-16 (opt 4.342e-16) orth=8.9e-16
+exp zc_eager l=128 q=2 t=537.0 ms sv_rel=7.77e-16 resid=6.087e-16 (opt 4.472e-16) orth=7.8e-16
+exp zc_eager l=256 q=0 t=374.2 ms sv_rel=7.77e-16 resid=9.438e-16 (opt 4.342e-16) orth=1.0e-15
+exp zc_eager l=1024 q=0 t=1001.8 ms sv_rel=4.44e-16 resid=1.339e-15 (opt 3.694e-16) orth=1.4e-15
+exp zc_eager l=64 q=2 t=544.9 ms sv_rel=9.99e-16 resid=6.681e-15 (opt 6.668e-15) orth=6.7e-16
+2026-11-07T16:02:18Z rep=2 exp fix
+exp fix l=128 q=0 t=148.0 ms sv_rel=6.66e-16 resid=2.609e-15 (opt 4.472e-16) orth=1.0e-15
+exp fix l=64 q=0 t=74.4 ms sv_rel=1.33e-15 resid=1.067e-13 (opt 6.668e-15) orth=6.7e-16
+exp fix l=512 q=2 t=2038.5 ms sv_rel=4.44e-16 resid=1.613e-15 (opt 4.108e-16) orth=1.1e-15
+exp fix l=512 q=0 t=746.7 ms sv_rel=2.22e-16 resid=1.974e-15 (opt 4.108e-16) orth=1.1e-15
+exp fix l=1024 q=2 t=4503.0 ms sv_rel=6.66e-16 resid=2.832e-15 (opt 3.694e-16) orth=1.0e-15
+exp fix l=256 q=2 t=971.3 ms sv_rel=5.55e-16 resid=1.591e-15 (opt 4.342e-16) orth=8.9e-16
+exp fix l=128 q=2 t=445.5 ms sv_rel=4.44e-16 resid=1.502e-15 (opt 4.472e-16) orth=8.9e-16
+exp fix l=256 q=0 t=337.9 ms sv_rel=6.66e-16 resid=2.352e-15 (opt 4.342e-16) orth=8.9e-16
+exp fix l=1024 q=0 t=1776.9 ms sv_rel=8.88e-16 resid=2.006e-15 (opt 3.694e-16) orth=1.1e-15
+exp fix l=64 q=2 t=253.2 ms sv_rel=6.66e-16 resid=7.146e-15 (opt 6.668e-15) orth=7.8e-16
+2026-11-07T16:03:46Z rep=2 exp fix_eager
+exp fix_eager l=128 q=0 t=124.7 ms sv_rel=6.66e-16 resid=9.920e-16 (opt 4.472e-16) orth=1.0e-15
+exp fix_eager l=64 q=0 t=106.8 ms sv_rel=5.55e-16 resid=9.571e-14 (opt 6.668e-15) orth=6.7e-16
+exp fix_eager l=512 q=2 t=756.6 ms sv_rel=5.55e-16 resid=6.384e-16 (opt 4.108e-16) orth=8.9e-16
+exp fix_eager l=512 q=0 t=316.0 ms sv_rel=1.22e-15 resid=9.323e-16 (opt 4.108e-16) orth=1.1e-15
+exp fix_eager l=1024 q=2 t=1834.1 ms sv_rel=4.44e-16 resid=8.633e-16 (opt 3.694e-16) orth=1.0e-15
+exp fix_eager l=256 q=2 t=442.2 ms sv_rel=5.55e-16 resid=6.647e-16 (opt 4.342e-16) orth=8.9e-16
+exp fix_eager l=128 q=2 t=342.9 ms sv_rel=7.77e-16 resid=6.087e-16 (opt 4.472e-16) orth=7.8e-16
+exp fix_eager l=256 q=0 t=170.5 ms sv_rel=7.77e-16 resid=9.438e-16 (opt 4.342e-16) orth=1.0e-15
+exp fix_eager l=1024 q=0 t=860.3 ms sv_rel=4.44e-16 resid=1.339e-15 (opt 3.694e-16) orth=1.4e-15
+exp fix_eager l=64 q=2 t=301.6 ms sv_rel=9.99e-16 resid=6.681e-15 (opt 6.668e-15) orth=6.7e-16
+2026-11-07T16:04:31Z rep=2 exp fp32
+exp fp32 l=128 q=0 t=13.3 ms sv_rel=6.56e-07 resid=5.627e-07 (opt 4.472e-16) orth=3.9e-07
+exp fp32 l=64 q=0 t=5.7 ms sv_rel=1.19e-06 resid=7.041e-07 (opt 6.668e-15) orth=4.5e-07
+exp fp32 l=512 q=2 t=124.2 ms sv_rel=3.58e-07 resid=8.189e-07 (opt 4.108e-16) orth=3.9e-07
+exp fp32 l=512 q=0 t=66.0 ms sv_rel=7.15e-07 resid=7.713e-07 (opt 4.108e-16) orth=4.9e-07
+exp fp32 l=1024 q=2 t=339.6 ms sv_rel=4.77e-07 resid=1.117e-06 (opt 3.694e-16) orth=4.0e-07
+exp fp32 l=256 q=2 t=56.6 ms sv_rel=5.36e-07 resid=3.049e-07 (opt 4.342e-16) orth=4.4e-07
+exp fp32 l=128 q=2 t=26.3 ms sv_rel=5.96e-07 resid=5.405e-07 (opt 4.472e-16) orth=4.9e-07
+exp fp32 l=256 q=0 t=29.2 ms sv_rel=5.96e-07 resid=4.991e-07 (opt 4.342e-16) orth=4.4e-07
+exp fp32 l=1024 q=0 t=172.8 ms sv_rel=4.17e-07 resid=1.088e-06 (opt 3.694e-16) orth=4.7e-07
+exp fp32 l=64 q=2 t=13.6 ms sv_rel=8.34e-07 resid=1.364e-06 (opt 6.668e-15) orth=4.7e-07
+2026-11-07T16:04:45Z rep=2 exp tf32
+exp tf32 l=128 q=0 t=13.1 ms sv_rel=5.11e-05 resid=1.202e-04 (opt 4.472e-16) orth=3.5e-07
+exp tf32 l=64 q=0 t=5.9 ms sv_rel=5.11e-05 resid=1.711e-04 (opt 6.668e-15) orth=3.7e-07
+exp tf32 l=512 q=2 t=112.4 ms sv_rel=5.51e-05 resid=1.076e-04 (opt 4.108e-16) orth=4.5e-07
+exp tf32 l=512 q=0 t=64.0 ms sv_rel=5.53e-05 resid=1.031e-04 (opt 4.108e-16) orth=4.9e-07
+exp tf32 l=1024 q=2 t=270.8 ms sv_rel=1.04e-04 resid=1.637e-04 (opt 3.694e-16) orth=4.5e-07
+exp tf32 l=256 q=2 t=50.6 ms sv_rel=1.06e-04 resid=1.201e-04 (opt 4.342e-16) orth=3.7e-07
+exp tf32 l=128 q=2 t=23.6 ms sv_rel=5.76e-05 resid=6.974e-05 (opt 4.472e-16) orth=3.8e-07
+exp tf32 l=256 q=0 t=28.6 ms sv_rel=1.01e-04 resid=1.298e-04 (opt 4.342e-16) orth=4.5e-07
+exp tf32 l=1024 q=0 t=167.3 ms sv_rel=1.02e-04 resid=1.499e-04 (opt 3.694e-16) orth=4.9e-07
+exp tf32 l=64 q=2 t=11.6 ms sv_rel=5.32e-05 resid=5.883e-05 (opt 6.668e-15) orth=4.1e-07
+2026-11-07T16:04:58Z rep=2 exp native
+exp native l=128 q=0 t=148.2 ms sv_rel=6.66e-16 resid=2.609e-15 (opt 4.472e-16) orth=1.0e-15
+exp native l=64 q=0 t=74.4 ms sv_rel=1.33e-15 resid=1.067e-13 (opt 6.668e-15) orth=6.7e-16
+exp native l=512 q=2 t=2038.4 ms sv_rel=4.44e-16 resid=1.613e-15 (opt 4.108e-16) orth=1.1e-15
+exp native l=512 q=0 t=746.7 ms sv_rel=2.22e-16 resid=1.974e-15 (opt 4.108e-16) orth=1.1e-15
+exp native l=1024 q=2 t=4501.9 ms sv_rel=6.66e-16 resid=2.832e-15 (opt 3.694e-16) orth=1.0e-15
+exp native l=256 q=2 t=971.0 ms sv_rel=5.55e-16 resid=1.591e-15 (opt 4.342e-16) orth=8.9e-16
+exp native l=128 q=2 t=445.3 ms sv_rel=4.44e-16 resid=1.502e-15 (opt 4.472e-16) orth=8.9e-16
+exp native l=256 q=0 t=337.7 ms sv_rel=6.66e-16 resid=2.352e-15 (opt 4.342e-16) orth=8.9e-16
+exp native l=1024 q=0 t=1776.2 ms sv_rel=8.88e-16 resid=2.006e-15 (opt 3.694e-16) orth=1.1e-15
+exp native l=64 q=2 t=253.1 ms sv_rel=6.66e-16 resid=7.146e-15 (opt 6.668e-15) orth=7.8e-16
+2026-11-07T16:06:25Z rep=2 poly zc
+poly zc l=128 q=0 t=148.6 ms sv_rel=7.57e-09 resid=3.130e-04 (opt 1.392e-04) orth=8.9e-16
+poly zc l=64 q=0 t=74.9 ms sv_rel=2.27e-07 resid=9.932e-04 (opt 4.397e-04) orth=7.8e-16
+poly zc l=512 q=2 t=2025.3 ms sv_rel=6.66e-16 resid=1.649e-05 (opt 1.609e-05) orth=1.2e-15
+poly zc l=512 q=0 t=734.3 ms sv_rel=1.86e-11 resid=3.487e-05 (opt 1.609e-05) orth=1.1e-15
+poly zc l=1024 q=2 t=4433.7 ms sv_rel=1.44e-15 resid=5.753e-06 (opt 5.613e-06) orth=1.1e-15
+poly zc l=256 q=2 t=970.0 ms sv_rel=8.88e-16 resid=4.809e-05 (opt 4.670e-05) orth=1.1e-15
+poly zc l=128 q=2 t=446.2 ms sv_rel=3.33e-16 resid=1.433e-04 (opt 1.392e-04) orth=1.3e-15
+poly zc l=256 q=0 t=336.6 ms sv_rel=3.84e-10 resid=1.027e-04 (opt 4.670e-05) orth=1.1e-15
+poly zc l=1024 q=0 t=1711.0 ms sv_rel=9.79e-13 resid=1.207e-05 (opt 5.613e-06) orth=1.1e-15
+poly zc l=64 q=2 t=253.6 ms sv_rel=7.77e-16 resid=4.569e-04 (opt 4.397e-04) orth=7.8e-16
+2026-11-07T16:07:51Z rep=2 poly zc_eager
+poly zc_eager l=128 q=0 t=310.2 ms sv_rel=7.57e-09 resid=3.130e-04 (opt 1.392e-04) orth=1.0e-15
+poly zc_eager l=64 q=0 t=295.8 ms sv_rel=2.27e-07 resid=9.932e-04 (opt 4.397e-04) orth=6.7e-16
+poly zc_eager l=512 q=2 t=864.2 ms sv_rel=1.78e-15 resid=1.649e-05 (opt 1.609e-05) orth=1.0e-15
+poly zc_eager l=512 q=0 t=429.1 ms sv_rel=1.86e-11 resid=3.487e-05 (opt 1.609e-05) orth=1.0e-15
+poly zc_eager l=1024 q=2 t=1886.7 ms sv_rel=1.22e-15 resid=5.753e-06 (opt 5.613e-06) orth=1.1e-15
+poly zc_eager l=256 q=2 t=635.0 ms sv_rel=8.88e-16 resid=4.809e-05 (opt 4.670e-05) orth=8.9e-16
+poly zc_eager l=128 q=2 t=555.3 ms sv_rel=2.22e-16 resid=1.433e-04 (opt 1.392e-04) orth=8.9e-16
+poly zc_eager l=256 q=0 t=365.0 ms sv_rel=3.84e-10 resid=1.027e-04 (opt 4.670e-05) orth=8.9e-16
+poly zc_eager l=1024 q=0 t=918.6 ms sv_rel=9.80e-13 resid=1.207e-05 (opt 5.613e-06) orth=1.1e-15
+poly zc_eager l=64 q=2 t=509.3 ms sv_rel=1.22e-15 resid=4.569e-04 (opt 4.397e-04) orth=6.7e-16
+2026-11-07T16:08:47Z rep=2 poly fix
+poly fix l=128 q=0 t=148.6 ms sv_rel=7.57e-09 resid=3.130e-04 (opt 1.392e-04) orth=8.9e-16
+poly fix l=64 q=0 t=75.0 ms sv_rel=2.27e-07 resid=9.932e-04 (opt 4.397e-04) orth=7.8e-16
+poly fix l=512 q=2 t=2025.2 ms sv_rel=6.66e-16 resid=1.649e-05 (opt 1.609e-05) orth=1.2e-15
+poly fix l=512 q=0 t=734.2 ms sv_rel=1.86e-11 resid=3.487e-05 (opt 1.609e-05) orth=1.1e-15
+poly fix l=1024 q=2 t=4433.6 ms sv_rel=1.44e-15 resid=5.753e-06 (opt 5.613e-06) orth=1.1e-15
+poly fix l=256 q=2 t=969.9 ms sv_rel=8.88e-16 resid=4.809e-05 (opt 4.670e-05) orth=1.1e-15
+poly fix l=128 q=2 t=446.2 ms sv_rel=3.33e-16 resid=1.433e-04 (opt 1.392e-04) orth=1.3e-15
+poly fix l=256 q=0 t=336.5 ms sv_rel=3.84e-10 resid=1.027e-04 (opt 4.670e-05) orth=1.1e-15
+poly fix l=1024 q=0 t=1710.6 ms sv_rel=9.79e-13 resid=1.207e-05 (opt 5.613e-06) orth=1.1e-15
+poly fix l=64 q=2 t=253.4 ms sv_rel=7.77e-16 resid=4.569e-04 (opt 4.397e-04) orth=7.8e-16
+2026-11-07T16:10:13Z rep=2 poly fix_eager
+poly fix_eager l=128 q=0 t=124.9 ms sv_rel=7.57e-09 resid=3.130e-04 (opt 1.392e-04) orth=1.0e-15
+poly fix_eager l=64 q=0 t=107.3 ms sv_rel=2.27e-07 resid=9.932e-04 (opt 4.397e-04) orth=6.7e-16
+poly fix_eager l=512 q=2 t=747.0 ms sv_rel=1.78e-15 resid=1.649e-05 (opt 1.609e-05) orth=1.0e-15
+poly fix_eager l=512 q=0 t=301.3 ms sv_rel=1.86e-11 resid=3.487e-05 (opt 1.609e-05) orth=1.0e-15
+poly fix_eager l=1024 q=2 t=1749.9 ms sv_rel=1.22e-15 resid=5.753e-06 (opt 5.613e-06) orth=1.1e-15
+poly fix_eager l=256 q=2 t=438.3 ms sv_rel=8.88e-16 resid=4.809e-05 (opt 4.670e-05) orth=8.9e-16
+poly fix_eager l=128 q=2 t=340.4 ms sv_rel=2.22e-16 resid=1.433e-04 (opt 1.392e-04) orth=8.9e-16
+poly fix_eager l=256 q=0 t=167.7 ms sv_rel=3.84e-10 resid=1.027e-04 (opt 4.670e-05) orth=8.9e-16
+poly fix_eager l=1024 q=0 t=779.6 ms sv_rel=9.80e-13 resid=1.207e-05 (opt 5.613e-06) orth=1.1e-15
+poly fix_eager l=64 q=2 t=299.9 ms sv_rel=1.22e-15 resid=4.569e-04 (opt 4.397e-04) orth=6.7e-16
+2026-11-07T16:10:57Z rep=2 poly fp32
+poly fp32 l=128 q=0 t=11.7 ms sv_rel=4.77e-07 resid=3.130e-04 (opt 1.392e-04) orth=4.0e-07
+poly fp32 l=64 q=0 t=5.5 ms sv_rel=4.17e-07 resid=9.932e-04 (opt 4.397e-04) orth=3.5e-07
+poly fp32 l=512 q=2 t=115.3 ms sv_rel=3.58e-07 resid=1.652e-05 (opt 1.609e-05) orth=4.4e-07
+poly fp32 l=512 q=0 t=57.8 ms sv_rel=2.98e-07 resid=3.494e-05 (opt 1.609e-05) orth=4.6e-07
+poly fp32 l=1024 q=2 t=275.1 ms sv_rel=4.77e-07 resid=5.866e-06 (opt 5.613e-06) orth=4.6e-07
+poly fp32 l=256 q=2 t=53.3 ms sv_rel=2.98e-07 resid=4.809e-05 (opt 4.670e-05) orth=4.6e-07
+poly fp32 l=128 q=2 t=25.2 ms sv_rel=3.58e-07 resid=1.433e-04 (opt 1.392e-04) orth=4.1e-07
+poly fp32 l=256 q=0 t=25.4 ms sv_rel=2.38e-07 resid=1.027e-04 (opt 4.670e-05) orth=4.8e-07
+poly fp32 l=1024 q=0 t=146.5 ms sv_rel=7.15e-07 resid=1.224e-05 (opt 5.613e-06) orth=4.4e-07
+poly fp32 l=64 q=2 t=13.2 ms sv_rel=4.77e-07 resid=4.569e-04 (opt 4.397e-04) orth=3.1e-07
+2026-11-07T16:11:09Z rep=2 poly tf32
+poly tf32 l=128 q=0 t=11.8 ms sv_rel=5.27e-05 resid=4.423e-04 (opt 1.392e-04) orth=5.4e-07
+poly tf32 l=64 q=0 t=5.4 ms sv_rel=5.34e-05 resid=1.064e-03 (opt 4.397e-04) orth=3.6e-07
+poly tf32 l=512 q=2 t=102.3 ms sv_rel=5.56e-05 resid=1.050e-04 (opt 1.609e-05) orth=4.9e-07
+poly tf32 l=512 q=0 t=57.8 ms sv_rel=5.43e-05 resid=1.787e-04 (opt 1.609e-05) orth=4.7e-07
+poly tf32 l=1024 q=2 t=246.0 ms sv_rel=1.05e-04 resid=1.628e-04 (opt 5.613e-06) orth=4.1e-07
+poly tf32 l=256 q=2 t=46.8 ms sv_rel=1.10e-04 resid=1.275e-04 (opt 4.670e-05) orth=3.5e-07
+poly tf32 l=128 q=2 t=22.2 ms sv_rel=5.70e-05 resid=1.570e-04 (opt 1.392e-04) orth=4.3e-07
+poly tf32 l=256 q=0 t=24.6 ms sv_rel=1.07e-04 resid=2.656e-04 (opt 4.670e-05) orth=4.4e-07
+poly tf32 l=1024 q=0 t=146.2 ms sv_rel=1.06e-04 resid=1.797e-04 (opt 5.613e-06) orth=4.3e-07
+poly tf32 l=64 q=2 t=11.4 ms sv_rel=5.56e-05 resid=4.609e-04 (opt 4.397e-04) orth=2.8e-07
+2026-11-07T16:11:22Z rep=2 poly native
+poly native l=128 q=0 t=148.6 ms sv_rel=7.57e-09 resid=3.130e-04 (opt 1.392e-04) orth=8.9e-16
+poly native l=64 q=0 t=75.0 ms sv_rel=2.27e-07 resid=9.932e-04 (opt 4.397e-04) orth=7.8e-16
+poly native l=512 q=2 t=2025.3 ms sv_rel=6.66e-16 resid=1.649e-05 (opt 1.609e-05) orth=1.2e-15
+poly native l=512 q=0 t=734.3 ms sv_rel=1.86e-11 resid=3.487e-05 (opt 1.609e-05) orth=1.1e-15
+poly native l=1024 q=2 t=4433.6 ms sv_rel=1.44e-15 resid=5.753e-06 (opt 5.613e-06) orth=1.1e-15
+poly native l=256 q=2 t=969.9 ms sv_rel=8.88e-16 resid=4.809e-05 (opt 4.670e-05) orth=1.1e-15
+poly native l=128 q=2 t=446.3 ms sv_rel=3.33e-16 resid=1.433e-04 (opt 1.392e-04) orth=1.3e-15
+poly native l=256 q=0 t=336.6 ms sv_rel=3.84e-10 resid=1.027e-04 (opt 4.670e-05) orth=1.1e-15
+poly native l=1024 q=0 t=1710.6 ms sv_rel=9.79e-13 resid=1.207e-05 (opt 5.613e-06) orth=1.1e-15
+poly native l=64 q=2 t=253.5 ms sv_rel=7.77e-16 resid=4.569e-04 (opt 4.397e-04) orth=7.8e-16
+2026-11-07T16:12:48Z rep=2 lrnoise zc
+lrnoise zc l=128 q=0 t=148.7 ms sv_rel=2.44e-15 resid=1.623e-09 (opt 1.257e-09) orth=8.9e-16
+lrnoise zc l=64 q=0 t=75.5 ms sv_rel=2.00e-15 resid=2.759e-09 (opt 1.271e-09) orth=7.8e-16
+lrnoise zc l=512 q=2 t=2044.8 ms sv_rel=2.22e-15 resid=1.192e-09 (opt 1.178e-09) orth=8.9e-16
+lrnoise zc l=512 q=0 t=752.7 ms sv_rel=2.44e-15 resid=1.284e-09 (opt 1.178e-09) orth=1.1e-15
+lrnoise zc l=1024 q=2 t=4535.5 ms sv_rel=3.11e-15 resid=1.103e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise zc l=256 q=2 t=974.2 ms sv_rel=3.11e-15 resid=1.237e-09 (opt 1.230e-09) orth=1.1e-15
+lrnoise zc l=128 q=2 t=447.2 ms sv_rel=2.66e-15 resid=1.260e-09 (opt 1.257e-09) orth=1.1e-15
+lrnoise zc l=256 q=0 t=341.1 ms sv_rel=3.11e-15 resid=1.394e-09 (opt 1.230e-09) orth=8.9e-16
+lrnoise zc l=1024 q=0 t=1799.7 ms sv_rel=2.89e-15 resid=1.189e-09 (opt 1.080e-09) orth=1.0e-15
+lrnoise zc l=64 q=2 t=254.1 ms sv_rel=2.44e-15 resid=1.272e-09 (opt 1.271e-09) orth=8.9e-16
+2026-11-07T16:14:15Z rep=2 lrnoise zc_eager
+lrnoise zc_eager l=128 q=0 t=385.6 ms sv_rel=2.00e-15 resid=1.623e-09 (opt 1.257e-09) orth=8.9e-16
+lrnoise zc_eager l=64 q=0 t=316.6 ms sv_rel=2.00e-15 resid=2.759e-09 (opt 1.271e-09) orth=1.1e-15
+lrnoise zc_eager l=512 q=2 t=886.8 ms sv_rel=2.66e-15 resid=1.192e-09 (opt 1.178e-09) orth=8.9e-16
+lrnoise zc_eager l=512 q=0 t=439.0 ms sv_rel=2.44e-15 resid=1.284e-09 (opt 1.178e-09) orth=1.1e-15
+lrnoise zc_eager l=1024 q=2 t=1990.3 ms sv_rel=3.33e-15 resid=1.103e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise zc_eager l=256 q=2 t=630.2 ms sv_rel=3.33e-15 resid=1.237e-09 (opt 1.230e-09) orth=1.2e-15
+lrnoise zc_eager l=128 q=2 t=537.6 ms sv_rel=2.22e-15 resid=1.260e-09 (opt 1.257e-09) orth=1.1e-15
+lrnoise zc_eager l=256 q=0 t=368.5 ms sv_rel=3.11e-15 resid=1.394e-09 (opt 1.230e-09) orth=8.9e-16
+lrnoise zc_eager l=1024 q=0 t=1100.0 ms sv_rel=2.66e-15 resid=1.189e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise zc_eager l=64 q=2 t=502.8 ms sv_rel=2.44e-15 resid=1.272e-09 (opt 1.271e-09) orth=7.8e-16
+2026-11-07T16:15:15Z rep=2 lrnoise fix
+lrnoise fix l=128 q=0 t=149.6 ms sv_rel=2.44e-15 resid=1.623e-09 (opt 1.257e-09) orth=8.9e-16
+lrnoise fix l=64 q=0 t=75.5 ms sv_rel=2.00e-15 resid=2.759e-09 (opt 1.271e-09) orth=7.8e-16
+lrnoise fix l=512 q=2 t=2044.8 ms sv_rel=2.22e-15 resid=1.192e-09 (opt 1.178e-09) orth=8.9e-16
+lrnoise fix l=512 q=0 t=752.9 ms sv_rel=2.44e-15 resid=1.284e-09 (opt 1.178e-09) orth=1.1e-15
+lrnoise fix l=1024 q=2 t=4535.3 ms sv_rel=3.11e-15 resid=1.103e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise fix l=256 q=2 t=974.3 ms sv_rel=3.11e-15 resid=1.237e-09 (opt 1.230e-09) orth=1.1e-15
+lrnoise fix l=128 q=2 t=447.2 ms sv_rel=2.66e-15 resid=1.260e-09 (opt 1.257e-09) orth=1.1e-15
+lrnoise fix l=256 q=0 t=341.2 ms sv_rel=3.11e-15 resid=1.394e-09 (opt 1.230e-09) orth=8.9e-16
+lrnoise fix l=1024 q=0 t=1799.5 ms sv_rel=2.89e-15 resid=1.189e-09 (opt 1.080e-09) orth=1.0e-15
+lrnoise fix l=64 q=2 t=254.2 ms sv_rel=2.44e-15 resid=1.272e-09 (opt 1.271e-09) orth=8.9e-16
+2026-11-07T16:16:43Z rep=2 lrnoise fix_eager
+lrnoise fix_eager l=128 q=0 t=126.1 ms sv_rel=2.00e-15 resid=1.623e-09 (opt 1.257e-09) orth=8.9e-16
+lrnoise fix_eager l=64 q=0 t=107.8 ms sv_rel=2.00e-15 resid=2.759e-09 (opt 1.271e-09) orth=1.1e-15
+lrnoise fix_eager l=512 q=2 t=764.8 ms sv_rel=2.66e-15 resid=1.192e-09 (opt 1.178e-09) orth=8.9e-16
+lrnoise fix_eager l=512 q=0 t=321.9 ms sv_rel=2.44e-15 resid=1.284e-09 (opt 1.178e-09) orth=1.1e-15
+lrnoise fix_eager l=1024 q=2 t=1849.7 ms sv_rel=3.33e-15 resid=1.103e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise fix_eager l=256 q=2 t=442.8 ms sv_rel=3.33e-15 resid=1.237e-09 (opt 1.230e-09) orth=1.2e-15
+lrnoise fix_eager l=128 q=2 t=342.2 ms sv_rel=2.22e-15 resid=1.260e-09 (opt 1.257e-09) orth=1.1e-15
+lrnoise fix_eager l=256 q=0 t=172.2 ms sv_rel=3.11e-15 resid=1.394e-09 (opt 1.230e-09) orth=8.9e-16
+lrnoise fix_eager l=1024 q=0 t=877.4 ms sv_rel=2.66e-15 resid=1.189e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise fix_eager l=64 q=2 t=300.4 ms sv_rel=2.44e-15 resid=1.272e-09 (opt 1.271e-09) orth=7.8e-16
+2026-11-07T16:17:28Z rep=2 lrnoise fp32
+lrnoise fp32 l=128 q=0 t=11.4 ms sv_rel=2.38e-07 resid=6.009e-07 (opt 1.257e-09) orth=4.1e-07
+lrnoise fp32 l=64 q=0 t=5.1 ms sv_rel=5.96e-07 resid=1.179e-06 (opt 1.271e-09) orth=3.7e-07
+lrnoise fp32 l=512 q=2 t=121.6 ms sv_rel=2.38e-07 resid=8.208e-07 (opt 1.178e-09) orth=5.1e-07
+lrnoise fp32 l=512 q=0 t=63.9 ms sv_rel=2.38e-07 resid=7.822e-07 (opt 1.178e-09) orth=4.1e-07
+lrnoise fp32 l=1024 q=2 t=296.0 ms sv_rel=2.38e-07 resid=1.118e-06 (opt 1.080e-09) orth=4.3e-07
+lrnoise fp32 l=256 q=2 t=52.8 ms sv_rel=3.58e-07 resid=3.204e-07 (opt 1.230e-09) orth=3.7e-07
+lrnoise fp32 l=128 q=2 t=24.9 ms sv_rel=2.38e-07 resid=5.556e-07 (opt 1.257e-09) orth=4.1e-07
+lrnoise fp32 l=256 q=0 t=26.4 ms sv_rel=3.58e-07 resid=5.351e-07 (opt 1.230e-09) orth=5.3e-07
+lrnoise fp32 l=1024 q=0 t=168.4 ms sv_rel=2.38e-07 resid=1.069e-06 (opt 1.080e-09) orth=4.5e-07
+lrnoise fp32 l=64 q=2 t=12.8 ms sv_rel=5.96e-07 resid=1.374e-06 (opt 1.271e-09) orth=3.9e-07
+2026-11-07T16:17:41Z rep=2 lrnoise tf32
+lrnoise tf32 l=128 q=0 t=13.7 ms sv_rel=2.55e-05 resid=1.724e-04 (opt 1.257e-09) orth=4.7e-07
+lrnoise tf32 l=64 q=0 t=5.9 ms sv_rel=2.50e-05 resid=3.984e-04 (opt 1.271e-09) orth=3.6e-07
+lrnoise tf32 l=512 q=2 t=111.2 ms sv_rel=2.43e-05 resid=9.277e-05 (opt 1.178e-09) orth=3.5e-07
+lrnoise tf32 l=512 q=0 t=63.6 ms sv_rel=2.55e-05 resid=1.043e-04 (opt 1.178e-09) orth=4.5e-07
+lrnoise tf32 l=1024 q=2 t=268.8 ms sv_rel=6.07e-05 resid=1.392e-04 (opt 1.080e-09) orth=4.7e-07
+lrnoise tf32 l=256 q=2 t=50.3 ms sv_rel=5.93e-05 resid=9.172e-05 (opt 1.230e-09) orth=4.2e-07
+lrnoise tf32 l=128 q=2 t=23.8 ms sv_rel=2.48e-05 resid=5.426e-05 (opt 1.257e-09) orth=3.7e-07
+lrnoise tf32 l=256 q=0 t=28.3 ms sv_rel=5.94e-05 resid=1.322e-04 (opt 1.230e-09) orth=3.8e-07
+lrnoise tf32 l=1024 q=0 t=164.2 ms sv_rel=6.07e-05 resid=1.324e-04 (opt 1.080e-09) orth=4.5e-07
+lrnoise tf32 l=64 q=2 t=11.9 ms sv_rel=2.59e-05 resid=4.422e-05 (opt 1.271e-09) orth=3.7e-07
+2026-11-07T16:17:54Z rep=2 lrnoise native
+lrnoise native l=128 q=0 t=149.6 ms sv_rel=2.44e-15 resid=1.623e-09 (opt 1.257e-09) orth=8.9e-16
+lrnoise native l=64 q=0 t=75.5 ms sv_rel=2.00e-15 resid=2.759e-09 (opt 1.271e-09) orth=7.8e-16
+lrnoise native l=512 q=2 t=2044.7 ms sv_rel=2.22e-15 resid=1.192e-09 (opt 1.178e-09) orth=8.9e-16
+lrnoise native l=512 q=0 t=752.8 ms sv_rel=2.44e-15 resid=1.284e-09 (opt 1.178e-09) orth=1.1e-15
+lrnoise native l=1024 q=2 t=4535.3 ms sv_rel=3.11e-15 resid=1.103e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise native l=256 q=2 t=974.2 ms sv_rel=3.11e-15 resid=1.237e-09 (opt 1.230e-09) orth=1.1e-15
+lrnoise native l=128 q=2 t=447.2 ms sv_rel=2.66e-15 resid=1.260e-09 (opt 1.257e-09) orth=1.1e-15
+lrnoise native l=256 q=0 t=341.1 ms sv_rel=3.11e-15 resid=1.394e-09 (opt 1.230e-09) orth=8.9e-16
+lrnoise native l=1024 q=0 t=1799.4 ms sv_rel=2.89e-15 resid=1.189e-09 (opt 1.080e-09) orth=1.0e-15
+lrnoise native l=64 q=2 t=254.2 ms sv_rel=2.44e-15 resid=1.272e-09 (opt 1.271e-09) orth=8.9e-16
+2026-11-07T16:19:22Z rep=2 scaled4 zc
+scaled4 zc l=128 q=0 t=147.8 ms sv_rel=5.92e-16 resid=2.505e-15 (opt 3.633e-16) orth=1.0e-15
+scaled4 zc l=64 q=0 t=74.6 ms sv_rel=8.64e-16 resid=5.818e-14 (opt 6.244e-15) orth=8.9e-16
+scaled4 zc l=512 q=2 t=2026.3 ms sv_rel=1.54e-15 resid=1.690e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 zc l=512 q=0 t=735.8 ms sv_rel=8.86e-16 resid=1.986e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 zc l=1024 q=2 t=4436.4 ms sv_rel=1.23e-15 resid=2.838e-15 (opt 4.974e-17) orth=1.2e-15
+scaled4 zc l=256 q=2 t=968.9 ms sv_rel=1.84e-15 resid=1.663e-15 (opt 2.639e-16) orth=8.9e-16
+scaled4 zc l=128 q=2 t=445.4 ms sv_rel=1.08e-15 resid=1.640e-15 (opt 3.633e-16) orth=8.9e-16
+scaled4 zc l=256 q=0 t=336.1 ms sv_rel=1.70e-15 resid=2.323e-15 (opt 2.639e-16) orth=1.0e-15
+scaled4 zc l=1024 q=0 t=1711.9 ms sv_rel=1.29e-15 resid=1.992e-15 (opt 4.974e-17) orth=1.1e-15
+scaled4 zc l=64 q=2 t=253.3 ms sv_rel=1.31e-15 resid=6.756e-15 (opt 6.244e-15) orth=8.9e-16
+2026-11-07T16:20:49Z rep=2 scaled4 zc_eager
+scaled4 zc_eager l=128 q=0 t=317.1 ms sv_rel=1.33e-15 resid=8.536e-16 (opt 3.633e-16) orth=8.9e-16
+scaled4 zc_eager l=64 q=0 t=301.9 ms sv_rel=1.23e-15 resid=4.347e-14 (opt 6.244e-15) orth=6.7e-16
+scaled4 zc_eager l=512 q=2 t=875.5 ms sv_rel=9.94e-16 resid=5.962e-16 (opt 1.476e-16) orth=1.1e-15
+scaled4 zc_eager l=512 q=0 t=418.5 ms sv_rel=1.18e-15 resid=9.058e-16 (opt 1.476e-16) orth=1.1e-15
+scaled4 zc_eager l=1024 q=2 t=1921.9 ms sv_rel=1.35e-15 resid=7.092e-16 (opt 4.974e-17) orth=1.0e-15
+scaled4 zc_eager l=256 q=2 t=637.8 ms sv_rel=9.20e-16 resid=6.202e-16 (opt 2.639e-16) orth=1.1e-15
+scaled4 zc_eager l=128 q=2 t=547.1 ms sv_rel=1.36e-15 resid=6.323e-16 (opt 3.633e-16) orth=8.9e-16
+scaled4 zc_eager l=256 q=0 t=371.6 ms sv_rel=2.23e-15 resid=9.747e-16 (opt 2.639e-16) orth=1.1e-15
+scaled4 zc_eager l=1024 q=0 t=901.1 ms sv_rel=1.08e-15 resid=1.261e-15 (opt 4.974e-17) orth=1.3e-15
+scaled4 zc_eager l=64 q=2 t=497.7 ms sv_rel=8.11e-16 resid=6.258e-15 (opt 6.244e-15) orth=6.7e-16
+2026-11-07T16:21:48Z rep=2 scaled4 fix
+scaled4 fix l=128 q=0 t=147.6 ms sv_rel=5.92e-16 resid=2.505e-15 (opt 3.633e-16) orth=1.0e-15
+scaled4 fix l=64 q=0 t=74.6 ms sv_rel=8.64e-16 resid=5.818e-14 (opt 6.244e-15) orth=8.9e-16
+scaled4 fix l=512 q=2 t=2026.4 ms sv_rel=1.54e-15 resid=1.690e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 fix l=512 q=0 t=736.0 ms sv_rel=8.86e-16 resid=1.986e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 fix l=1024 q=2 t=4437.1 ms sv_rel=1.23e-15 resid=2.838e-15 (opt 4.974e-17) orth=1.2e-15
+scaled4 fix l=256 q=2 t=968.9 ms sv_rel=1.84e-15 resid=1.663e-15 (opt 2.639e-16) orth=8.9e-16
+scaled4 fix l=128 q=2 t=445.6 ms sv_rel=1.08e-15 resid=1.640e-15 (opt 3.633e-16) orth=8.9e-16
+scaled4 fix l=256 q=0 t=336.2 ms sv_rel=1.70e-15 resid=2.323e-15 (opt 2.639e-16) orth=1.0e-15
+scaled4 fix l=1024 q=0 t=1712.0 ms sv_rel=1.29e-15 resid=1.992e-15 (opt 4.974e-17) orth=1.1e-15
+scaled4 fix l=64 q=2 t=253.2 ms sv_rel=1.31e-15 resid=6.756e-15 (opt 6.244e-15) orth=8.9e-16
+2026-11-07T16:23:14Z rep=2 scaled4 fix_eager
+scaled4 fix_eager l=128 q=0 t=124.4 ms sv_rel=1.33e-15 resid=8.536e-16 (opt 3.633e-16) orth=8.9e-16
+scaled4 fix_eager l=64 q=0 t=107.0 ms sv_rel=1.23e-15 resid=4.347e-14 (opt 6.244e-15) orth=6.7e-16
+scaled4 fix_eager l=512 q=2 t=760.0 ms sv_rel=9.94e-16 resid=5.962e-16 (opt 1.476e-16) orth=1.1e-15
+scaled4 fix_eager l=512 q=0 t=302.9 ms sv_rel=1.18e-15 resid=9.058e-16 (opt 1.476e-16) orth=1.1e-15
+scaled4 fix_eager l=1024 q=2 t=1793.7 ms sv_rel=1.35e-15 resid=7.092e-16 (opt 4.974e-17) orth=1.0e-15
+scaled4 fix_eager l=256 q=2 t=442.6 ms sv_rel=9.20e-16 resid=6.202e-16 (opt 2.639e-16) orth=1.1e-15
+scaled4 fix_eager l=128 q=2 t=344.0 ms sv_rel=1.36e-15 resid=6.323e-16 (opt 3.633e-16) orth=8.9e-16
+scaled4 fix_eager l=256 q=0 t=168.0 ms sv_rel=2.23e-15 resid=9.747e-16 (opt 2.639e-16) orth=1.1e-15
+scaled4 fix_eager l=1024 q=0 t=779.2 ms sv_rel=1.08e-15 resid=1.261e-15 (opt 4.974e-17) orth=1.3e-15
+scaled4 fix_eager l=64 q=2 t=304.9 ms sv_rel=8.11e-16 resid=6.258e-15 (opt 6.244e-15) orth=6.7e-16
+2026-11-07T16:23:59Z rep=2 scaled4 fp32
+scaled4 fp32 l=128 q=0 t=12.7 ms sv_rel=4.33e-07 resid=4.796e-07 (opt 3.633e-16) orth=4.7e-07
+scaled4 fp32 l=64 q=0 t=5.9 ms sv_rel=5.81e-07 resid=6.611e-07 (opt 6.244e-15) orth=3.3e-07
+scaled4 fp32 l=512 q=2 t=118.5 ms sv_rel=1.12e-06 resid=7.440e-07 (opt 1.476e-16) orth=4.3e-07
+scaled4 fp32 l=512 q=0 t=60.1 ms sv_rel=7.00e-07 resid=7.551e-07 (opt 1.476e-16) orth=4.1e-07
+scaled4 fp32 l=1024 q=2 t=279.7 ms sv_rel=7.02e-07 resid=1.062e-06 (opt 4.974e-17) orth=4.8e-07
+scaled4 fp32 l=256 q=2 t=54.7 ms sv_rel=3.72e-07 resid=2.898e-07 (opt 2.639e-16) orth=3.9e-07
+scaled4 fp32 l=128 q=2 t=26.0 ms sv_rel=4.90e-07 resid=4.438e-07 (opt 3.633e-16) orth=3.9e-07
+scaled4 fp32 l=256 q=0 t=27.0 ms sv_rel=3.43e-07 resid=4.388e-07 (opt 2.639e-16) orth=4.4e-07
+scaled4 fp32 l=1024 q=0 t=153.3 ms sv_rel=1.83e-07 resid=1.064e-06 (opt 4.974e-17) orth=4.4e-07
+scaled4 fp32 l=64 q=2 t=13.4 ms sv_rel=5.17e-07 resid=9.414e-07 (opt 6.244e-15) orth=3.9e-07
+2026-11-07T16:24:12Z rep=2 scaled4 tf32
+scaled4 tf32 l=128 q=0 t=13.2 ms sv_rel=5.04e-05 resid=1.527e-04 (opt 3.633e-16) orth=5.0e-07
+scaled4 tf32 l=64 q=0 t=5.8 ms sv_rel=5.12e-05 resid=1.819e-04 (opt 6.244e-15) orth=3.5e-07
+scaled4 tf32 l=512 q=2 t=107.8 ms sv_rel=5.00e-05 resid=2.064e-04 (opt 1.476e-16) orth=4.4e-07
+scaled4 tf32 l=512 q=0 t=60.0 ms sv_rel=5.11e-05 resid=1.931e-04 (opt 1.476e-16) orth=4.4e-07
+scaled4 tf32 l=1024 q=2 t=251.2 ms sv_rel=1.04e-04 resid=2.360e-04 (opt 4.974e-17) orth=4.5e-07
+scaled4 tf32 l=256 q=2 t=49.5 ms sv_rel=1.00e-04 resid=2.004e-04 (opt 2.639e-16) orth=4.4e-07
+scaled4 tf32 l=128 q=2 t=23.2 ms sv_rel=5.04e-05 resid=1.470e-04 (opt 3.633e-16) orth=4.3e-07
+scaled4 tf32 l=256 q=0 t=26.9 ms sv_rel=9.96e-05 resid=1.849e-04 (opt 2.639e-16) orth=4.7e-07
+scaled4 tf32 l=1024 q=0 t=148.4 ms sv_rel=9.85e-05 resid=2.313e-04 (opt 4.974e-17) orth=4.7e-07
+scaled4 tf32 l=64 q=2 t=11.6 ms sv_rel=5.34e-05 resid=1.133e-04 (opt 6.244e-15) orth=4.2e-07
+2026-11-07T16:24:24Z rep=2 scaled4 native
+scaled4 native l=128 q=0 t=147.7 ms sv_rel=5.92e-16 resid=2.505e-15 (opt 3.633e-16) orth=1.0e-15
+scaled4 native l=64 q=0 t=74.6 ms sv_rel=8.64e-16 resid=5.818e-14 (opt 6.244e-15) orth=8.9e-16
+scaled4 native l=512 q=2 t=2026.2 ms sv_rel=1.54e-15 resid=1.690e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 native l=512 q=0 t=735.9 ms sv_rel=8.86e-16 resid=1.986e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 native l=1024 q=2 t=4437.2 ms sv_rel=1.23e-15 resid=2.838e-15 (opt 4.974e-17) orth=1.2e-15
+scaled4 native l=256 q=2 t=968.9 ms sv_rel=1.84e-15 resid=1.663e-15 (opt 2.639e-16) orth=8.9e-16
+scaled4 native l=128 q=2 t=445.5 ms sv_rel=1.08e-15 resid=1.640e-15 (opt 3.633e-16) orth=8.9e-16
+scaled4 native l=256 q=0 t=336.2 ms sv_rel=1.70e-15 resid=2.323e-15 (opt 2.639e-16) orth=1.0e-15
+scaled4 native l=1024 q=0 t=1711.9 ms sv_rel=1.29e-15 resid=1.992e-15 (opt 4.974e-17) orth=1.1e-15
+scaled4 native l=64 q=2 t=253.2 ms sv_rel=1.31e-15 resid=6.756e-15 (opt 6.244e-15) orth=8.9e-16
+2026-11-07T16:25:50Z rep=2 scaled8 zc
+scaled8 zc l=128 q=0 t=147.5 ms sv_rel=1.88e-15 resid=2.432e-15 (opt 2.916e-16) orth=7.8e-16
+scaled8 zc l=64 q=0 t=74.6 ms sv_rel=1.71e-15 resid=8.598e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 zc l=512 q=2 t=2022.7 ms sv_rel=1.10e-15 resid=1.568e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 zc l=512 q=0 t=732.0 ms sv_rel=1.37e-15 resid=1.933e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 zc l=1024 q=2 t=4418.1 ms sv_rel=1.41e-15 resid=2.292e-15 (opt 5.606e-18) orth=1.1e-15
+scaled8 zc l=256 q=2 t=968.3 ms sv_rel=2.09e-15 resid=1.542e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 zc l=128 q=2 t=444.9 ms sv_rel=1.02e-15 resid=1.362e-15 (opt 2.916e-16) orth=8.9e-16
+scaled8 zc l=256 q=0 t=335.4 ms sv_rel=1.57e-15 resid=2.274e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 zc l=1024 q=0 t=1693.9 ms sv_rel=1.78e-15 resid=1.909e-15 (opt 5.606e-18) orth=1.3e-15
+scaled8 zc l=64 q=2 t=253.3 ms sv_rel=1.02e-15 resid=6.038e-15 (opt 5.692e-15) orth=8.9e-16
+2026-11-07T16:27:16Z rep=2 scaled8 zc_eager
+scaled8 zc_eager l=128 q=0 t=324.8 ms sv_rel=2.04e-15 resid=8.540e-16 (opt 2.916e-16) orth=8.9e-16
+scaled8 zc_eager l=64 q=0 t=293.4 ms sv_rel=1.88e-15 resid=8.207e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 zc_eager l=512 q=2 t=1305.4 ms sv_rel=2.05e-15 resid=1.851e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 zc_eager l=512 q=0 t=406.0 ms sv_rel=1.45e-15 resid=8.825e-16 (opt 4.891e-17) orth=1.1e-15
+scaled8 zc_eager l=1024 q=2 t=2840.7 ms sv_rel=1.57e-15 resid=1.884e-15 (opt 5.606e-18) orth=1.1e-15
+scaled8 zc_eager l=256 q=2 t=803.6 ms sv_rel=2.07e-15 resid=1.796e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 zc_eager l=128 q=2 t=579.0 ms sv_rel=8.69e-16 resid=1.651e-15 (opt 2.916e-16) orth=8.9e-16
+scaled8 zc_eager l=256 q=0 t=382.7 ms sv_rel=1.70e-15 resid=8.550e-16 (opt 1.551e-16) orth=1.3e-15
+scaled8 zc_eager l=1024 q=0 t=893.3 ms sv_rel=1.57e-15 resid=1.292e-15 (opt 5.606e-18) orth=2.0e-15
+scaled8 zc_eager l=64 q=2 t=617.6 ms sv_rel=2.16e-15 resid=5.927e-15 (opt 5.692e-15) orth=8.9e-16
+2026-11-07T16:28:24Z rep=2 scaled8 fix
+scaled8 fix l=128 q=0 t=147.5 ms sv_rel=1.88e-15 resid=2.432e-15 (opt 2.916e-16) orth=7.8e-16
+scaled8 fix l=64 q=0 t=74.6 ms sv_rel=1.71e-15 resid=8.598e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 fix l=512 q=2 t=2022.6 ms sv_rel=1.10e-15 resid=1.568e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 fix l=512 q=0 t=731.9 ms sv_rel=1.37e-15 resid=1.933e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 fix l=1024 q=2 t=4417.9 ms sv_rel=1.41e-15 resid=2.292e-15 (opt 5.606e-18) orth=1.1e-15
+scaled8 fix l=256 q=2 t=968.2 ms sv_rel=2.09e-15 resid=1.542e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 fix l=128 q=2 t=445.0 ms sv_rel=1.02e-15 resid=1.362e-15 (opt 2.916e-16) orth=8.9e-16
+scaled8 fix l=256 q=0 t=335.4 ms sv_rel=1.57e-15 resid=2.274e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 fix l=1024 q=0 t=1693.9 ms sv_rel=1.78e-15 resid=1.909e-15 (opt 5.606e-18) orth=1.3e-15
+scaled8 fix l=64 q=2 t=253.2 ms sv_rel=1.02e-15 resid=6.038e-15 (opt 5.692e-15) orth=8.9e-16
+2026-11-07T16:29:50Z rep=2 scaled8 fix_eager
+scaled8 fix_eager l=128 q=0 t=124.1 ms sv_rel=2.04e-15 resid=8.540e-16 (opt 2.916e-16) orth=8.9e-16
+scaled8 fix_eager l=64 q=0 t=106.9 ms sv_rel=1.88e-15 resid=8.207e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 fix_eager l=512 q=2 t=1162.7 ms sv_rel=2.05e-15 resid=1.851e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 fix_eager l=512 q=0 t=296.0 ms sv_rel=1.45e-15 resid=8.825e-16 (opt 4.891e-17) orth=1.1e-15
+scaled8 fix_eager l=1024 q=2 t=2638.9 ms sv_rel=1.57e-15 resid=1.884e-15 (opt 5.606e-18) orth=1.1e-15
+scaled8 fix_eager l=256 q=2 t=616.3 ms sv_rel=2.07e-15 resid=1.796e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 fix_eager l=128 q=2 t=392.7 ms sv_rel=8.69e-16 resid=1.651e-15 (opt 2.916e-16) orth=8.9e-16
+scaled8 fix_eager l=256 q=0 t=165.8 ms sv_rel=1.70e-15 resid=8.550e-16 (opt 1.551e-16) orth=1.3e-15
+scaled8 fix_eager l=1024 q=0 t=759.4 ms sv_rel=1.57e-15 resid=1.292e-15 (opt 5.606e-18) orth=2.0e-15
+scaled8 fix_eager l=64 q=2 t=352.7 ms sv_rel=2.16e-15 resid=5.927e-15 (opt 5.692e-15) orth=8.9e-16
+2026-11-07T16:30:45Z rep=2 scaled8 fp32
+scaled8 fp32 l=128 q=0 t=12.0 ms sv_rel=4.39e-07 resid=4.350e-07 (opt 2.916e-16) orth=4.3e-07
+scaled8 fp32 l=64 q=0 t=5.9 ms sv_rel=4.31e-07 resid=5.446e-07 (opt 5.692e-15) orth=3.5e-07
+scaled8 fp32 l=512 q=2 t=116.2 ms sv_rel=2.33e-07 resid=7.422e-07 (opt 4.891e-17) orth=5.0e-07
+scaled8 fp32 l=512 q=0 t=58.7 ms sv_rel=6.22e-07 resid=7.127e-07 (opt 4.891e-17) orth=4.0e-07
+scaled8 fp32 l=1024 q=2 t=270.9 ms sv_rel=4.82e-07 resid=1.042e-06 (opt 5.606e-18) orth=4.9e-07
+scaled8 fp32 l=256 q=2 t=54.1 ms sv_rel=6.38e-07 resid=2.756e-07 (opt 1.551e-16) orth=3.6e-07
+scaled8 fp32 l=128 q=2 t=25.6 ms sv_rel=7.70e-07 resid=4.123e-07 (opt 2.916e-16) orth=4.2e-07
+scaled8 fp32 l=256 q=0 t=26.3 ms sv_rel=5.53e-07 resid=3.870e-07 (opt 1.551e-16) orth=3.9e-07
+scaled8 fp32 l=1024 q=0 t=146.2 ms sv_rel=3.99e-07 resid=1.083e-06 (opt 5.606e-18) orth=5.2e-07
+scaled8 fp32 l=64 q=2 t=13.5 ms sv_rel=6.35e-07 resid=7.196e-07 (opt 5.692e-15) orth=3.6e-07
+2026-11-07T16:30:57Z rep=2 scaled8 tf32
+scaled8 tf32 l=128 q=0 t=12.8 ms sv_rel=4.61e-05 resid=1.724e-04 (opt 2.916e-16) orth=3.9e-07
+scaled8 tf32 l=64 q=0 t=5.5 ms sv_rel=5.00e-05 resid=1.890e-04 (opt 5.692e-15) orth=3.3e-07
+scaled8 tf32 l=512 q=2 t=102.6 ms sv_rel=5.21e-05 resid=2.158e-04 (opt 4.891e-17) orth=5.2e-07
+scaled8 tf32 l=512 q=0 t=58.1 ms sv_rel=4.85e-05 resid=2.120e-04 (opt 4.891e-17) orth=4.3e-07
+scaled8 tf32 l=1024 q=2 t=242.1 ms sv_rel=1.07e-04 resid=2.379e-04 (opt 5.606e-18) orth=4.9e-07
+scaled8 tf32 l=256 q=2 t=48.6 ms sv_rel=1.03e-04 resid=2.225e-04 (opt 1.551e-16) orth=4.2e-07
+scaled8 tf32 l=128 q=2 t=23.1 ms sv_rel=5.13e-05 resid=1.773e-04 (opt 2.916e-16) orth=3.3e-07
+scaled8 tf32 l=256 q=0 t=26.2 ms sv_rel=1.00e-04 resid=2.100e-04 (opt 1.551e-16) orth=3.7e-07
+scaled8 tf32 l=1024 q=0 t=140.1 ms sv_rel=9.85e-05 resid=2.352e-04 (opt 5.606e-18) orth=5.2e-07
+scaled8 tf32 l=64 q=2 t=11.7 ms sv_rel=5.27e-05 resid=1.412e-04 (opt 5.692e-15) orth=3.9e-07
+2026-11-07T16:31:09Z rep=2 scaled8 native
+scaled8 native l=128 q=0 t=147.4 ms sv_rel=1.88e-15 resid=2.432e-15 (opt 2.916e-16) orth=7.8e-16
+scaled8 native l=64 q=0 t=74.6 ms sv_rel=1.71e-15 resid=8.598e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 native l=512 q=2 t=2022.8 ms sv_rel=1.10e-15 resid=1.568e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 native l=512 q=0 t=731.9 ms sv_rel=1.37e-15 resid=1.933e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 native l=1024 q=2 t=4417.4 ms sv_rel=1.41e-15 resid=2.292e-15 (opt 5.606e-18) orth=1.1e-15
+scaled8 native l=256 q=2 t=968.0 ms sv_rel=2.09e-15 resid=1.542e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 native l=128 q=2 t=445.0 ms sv_rel=1.02e-15 resid=1.362e-15 (opt 2.916e-16) orth=8.9e-16
+scaled8 native l=256 q=0 t=335.3 ms sv_rel=1.57e-15 resid=2.274e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 native l=1024 q=0 t=1693.6 ms sv_rel=1.78e-15 resid=1.909e-15 (opt 5.606e-18) orth=1.3e-15
+scaled8 native l=64 q=2 t=253.1 ms sv_rel=1.02e-15 resid=6.038e-15 (opt 5.692e-15) orth=8.9e-16
+2026-11-07T16:32:35Z rep=3 exp zc_eager
+exp zc_eager l=1024 q=2 t=2068.3 ms sv_rel=4.44e-16 resid=8.633e-16 (opt 3.694e-16) orth=1.0e-15
+exp zc_eager l=512 q=0 t=461.3 ms sv_rel=1.22e-15 resid=9.323e-16 (opt 4.108e-16) orth=1.1e-15
+exp zc_eager l=64 q=0 t=350.9 ms sv_rel=5.55e-16 resid=9.571e-14 (opt 6.668e-15) orth=6.7e-16
+exp zc_eager l=128 q=0 t=315.2 ms sv_rel=6.66e-16 resid=9.920e-16 (opt 4.472e-16) orth=1.0e-15
+exp zc_eager l=64 q=2 t=486.2 ms sv_rel=9.99e-16 resid=6.681e-15 (opt 6.668e-15) orth=6.7e-16
+exp zc_eager l=256 q=0 t=368.4 ms sv_rel=7.77e-16 resid=9.438e-16 (opt 4.342e-16) orth=1.0e-15
+exp zc_eager l=512 q=2 t=876.7 ms sv_rel=5.55e-16 resid=6.384e-16 (opt 4.108e-16) orth=8.9e-16
+exp zc_eager l=256 q=2 t=626.0 ms sv_rel=5.55e-16 resid=6.647e-16 (opt 4.342e-16) orth=8.9e-16
+exp zc_eager l=128 q=2 t=528.8 ms sv_rel=7.77e-16 resid=6.087e-16 (opt 4.472e-16) orth=7.8e-16
+exp zc_eager l=1024 q=0 t=991.1 ms sv_rel=4.44e-16 resid=1.339e-15 (opt 3.694e-16) orth=1.4e-15
+2026-11-07T16:33:34Z rep=3 exp fix
+exp fix l=1024 q=2 t=4502.5 ms sv_rel=6.66e-16 resid=2.832e-15 (opt 3.694e-16) orth=1.0e-15
+exp fix l=512 q=0 t=746.7 ms sv_rel=2.22e-16 resid=1.974e-15 (opt 4.108e-16) orth=1.1e-15
+exp fix l=64 q=0 t=74.4 ms sv_rel=1.33e-15 resid=1.067e-13 (opt 6.668e-15) orth=6.7e-16
+exp fix l=128 q=0 t=148.0 ms sv_rel=6.66e-16 resid=2.609e-15 (opt 4.472e-16) orth=1.0e-15
+exp fix l=64 q=2 t=253.1 ms sv_rel=6.66e-16 resid=7.146e-15 (opt 6.668e-15) orth=7.8e-16
+exp fix l=256 q=0 t=337.7 ms sv_rel=6.66e-16 resid=2.352e-15 (opt 4.342e-16) orth=8.9e-16
+exp fix l=512 q=2 t=2038.5 ms sv_rel=4.44e-16 resid=1.613e-15 (opt 4.108e-16) orth=1.1e-15
+exp fix l=256 q=2 t=971.1 ms sv_rel=5.55e-16 resid=1.591e-15 (opt 4.342e-16) orth=8.9e-16
+exp fix l=128 q=2 t=445.4 ms sv_rel=4.44e-16 resid=1.502e-15 (opt 4.472e-16) orth=8.9e-16
+exp fix l=1024 q=0 t=1776.4 ms sv_rel=8.88e-16 resid=2.006e-15 (opt 3.694e-16) orth=1.1e-15
+2026-11-07T16:35:01Z rep=3 exp fix_eager
+exp fix_eager l=1024 q=2 t=1838.9 ms sv_rel=4.44e-16 resid=8.633e-16 (opt 3.694e-16) orth=1.0e-15
+exp fix_eager l=512 q=0 t=317.6 ms sv_rel=1.22e-15 resid=9.323e-16 (opt 4.108e-16) orth=1.1e-15
+exp fix_eager l=64 q=0 t=107.4 ms sv_rel=5.55e-16 resid=9.571e-14 (opt 6.668e-15) orth=6.7e-16
+exp fix_eager l=128 q=0 t=125.5 ms sv_rel=6.66e-16 resid=9.920e-16 (opt 4.472e-16) orth=1.0e-15
+exp fix_eager l=64 q=2 t=301.4 ms sv_rel=9.99e-16 resid=6.681e-15 (opt 6.668e-15) orth=6.7e-16
+exp fix_eager l=256 q=0 t=169.8 ms sv_rel=7.77e-16 resid=9.438e-16 (opt 4.342e-16) orth=1.0e-15
+exp fix_eager l=512 q=2 t=761.6 ms sv_rel=5.55e-16 resid=6.384e-16 (opt 4.108e-16) orth=8.9e-16
+exp fix_eager l=256 q=2 t=440.1 ms sv_rel=5.55e-16 resid=6.647e-16 (opt 4.342e-16) orth=8.9e-16
+exp fix_eager l=128 q=2 t=342.2 ms sv_rel=7.77e-16 resid=6.087e-16 (opt 4.472e-16) orth=7.8e-16
+exp fix_eager l=1024 q=0 t=859.5 ms sv_rel=4.44e-16 resid=1.339e-15 (opt 3.694e-16) orth=1.4e-15
+2026-11-07T16:35:47Z rep=3 exp fp32
+exp fp32 l=1024 q=2 t=300.9 ms sv_rel=4.77e-07 resid=1.117e-06 (opt 3.694e-16) orth=4.0e-07
+exp fp32 l=512 q=0 t=66.8 ms sv_rel=7.15e-07 resid=7.713e-07 (opt 4.108e-16) orth=4.9e-07
+exp fp32 l=64 q=0 t=5.6 ms sv_rel=1.19e-06 resid=7.041e-07 (opt 6.668e-15) orth=4.5e-07
+exp fp32 l=128 q=0 t=13.1 ms sv_rel=6.56e-07 resid=5.627e-07 (opt 4.472e-16) orth=3.9e-07
+exp fp32 l=64 q=2 t=13.5 ms sv_rel=8.34e-07 resid=1.364e-06 (opt 6.668e-15) orth=4.7e-07
+exp fp32 l=256 q=0 t=31.1 ms sv_rel=5.96e-07 resid=4.991e-07 (opt 4.342e-16) orth=4.4e-07
+exp fp32 l=512 q=2 t=123.2 ms sv_rel=3.58e-07 resid=8.189e-07 (opt 4.108e-16) orth=3.9e-07
+exp fp32 l=256 q=2 t=56.3 ms sv_rel=5.36e-07 resid=3.049e-07 (opt 4.342e-16) orth=4.4e-07
+exp fp32 l=128 q=2 t=26.2 ms sv_rel=5.96e-07 resid=5.405e-07 (opt 4.472e-16) orth=4.9e-07
+exp fp32 l=1024 q=0 t=172.6 ms sv_rel=4.17e-07 resid=1.088e-06 (opt 3.694e-16) orth=4.7e-07
+2026-11-07T16:36:00Z rep=3 exp tf32
+exp tf32 l=1024 q=2 t=269.9 ms sv_rel=1.04e-04 resid=1.637e-04 (opt 3.694e-16) orth=4.5e-07
+exp tf32 l=512 q=0 t=63.2 ms sv_rel=5.53e-05 resid=1.031e-04 (opt 4.108e-16) orth=4.9e-07
+exp tf32 l=64 q=0 t=5.5 ms sv_rel=5.11e-05 resid=1.711e-04 (opt 6.668e-15) orth=3.7e-07
+exp tf32 l=128 q=0 t=12.6 ms sv_rel=5.11e-05 resid=1.202e-04 (opt 4.472e-16) orth=3.5e-07
+exp tf32 l=64 q=2 t=11.7 ms sv_rel=5.32e-05 resid=5.883e-05 (opt 6.668e-15) orth=4.1e-07
+exp tf32 l=256 q=0 t=31.3 ms sv_rel=1.01e-04 resid=1.298e-04 (opt 4.342e-16) orth=4.5e-07
+exp tf32 l=512 q=2 t=110.7 ms sv_rel=5.51e-05 resid=1.076e-04 (opt 4.108e-16) orth=4.5e-07
+exp tf32 l=256 q=2 t=50.6 ms sv_rel=1.06e-04 resid=1.201e-04 (opt 4.342e-16) orth=3.7e-07
+exp tf32 l=128 q=2 t=23.4 ms sv_rel=5.76e-05 resid=6.974e-05 (opt 4.472e-16) orth=3.8e-07
+exp tf32 l=1024 q=0 t=167.9 ms sv_rel=1.02e-04 resid=1.499e-04 (opt 3.694e-16) orth=4.9e-07
+2026-11-07T16:36:13Z rep=3 exp native
+exp native l=1024 q=2 t=4503.4 ms sv_rel=6.66e-16 resid=2.832e-15 (opt 3.694e-16) orth=1.0e-15
+exp native l=512 q=0 t=746.7 ms sv_rel=2.22e-16 resid=1.974e-15 (opt 4.108e-16) orth=1.1e-15
+exp native l=64 q=0 t=74.4 ms sv_rel=1.33e-15 resid=1.067e-13 (opt 6.668e-15) orth=6.7e-16
+exp native l=128 q=0 t=147.8 ms sv_rel=6.66e-16 resid=2.609e-15 (opt 4.472e-16) orth=1.0e-15
+exp native l=64 q=2 t=253.1 ms sv_rel=6.66e-16 resid=7.146e-15 (opt 6.668e-15) orth=7.8e-16
+exp native l=256 q=0 t=337.7 ms sv_rel=6.66e-16 resid=2.352e-15 (opt 4.342e-16) orth=8.9e-16
+exp native l=512 q=2 t=2038.2 ms sv_rel=4.44e-16 resid=1.613e-15 (opt 4.108e-16) orth=1.1e-15
+exp native l=256 q=2 t=971.0 ms sv_rel=5.55e-16 resid=1.591e-15 (opt 4.342e-16) orth=8.9e-16
+exp native l=128 q=2 t=445.4 ms sv_rel=4.44e-16 resid=1.502e-15 (opt 4.472e-16) orth=8.9e-16
+exp native l=1024 q=0 t=1775.9 ms sv_rel=8.88e-16 resid=2.006e-15 (opt 3.694e-16) orth=1.1e-15
+2026-11-07T16:37:40Z rep=3 exp zc
+exp zc l=1024 q=2 t=4502.2 ms sv_rel=6.66e-16 resid=2.832e-15 (opt 3.694e-16) orth=1.0e-15
+exp zc l=512 q=0 t=746.7 ms sv_rel=2.22e-16 resid=1.974e-15 (opt 4.108e-16) orth=1.1e-15
+exp zc l=64 q=0 t=74.4 ms sv_rel=1.33e-15 resid=1.067e-13 (opt 6.668e-15) orth=6.7e-16
+exp zc l=128 q=0 t=148.2 ms sv_rel=6.66e-16 resid=2.609e-15 (opt 4.472e-16) orth=1.0e-15
+exp zc l=64 q=2 t=253.1 ms sv_rel=6.66e-16 resid=7.146e-15 (opt 6.668e-15) orth=7.8e-16
+exp zc l=256 q=0 t=337.9 ms sv_rel=6.66e-16 resid=2.352e-15 (opt 4.342e-16) orth=8.9e-16
+exp zc l=512 q=2 t=2038.4 ms sv_rel=4.44e-16 resid=1.613e-15 (opt 4.108e-16) orth=1.1e-15
+exp zc l=256 q=2 t=971.2 ms sv_rel=5.55e-16 resid=1.591e-15 (opt 4.342e-16) orth=8.9e-16
+exp zc l=128 q=2 t=445.4 ms sv_rel=4.44e-16 resid=1.502e-15 (opt 4.472e-16) orth=8.9e-16
+exp zc l=1024 q=0 t=1776.5 ms sv_rel=8.88e-16 resid=2.006e-15 (opt 3.694e-16) orth=1.1e-15
+2026-11-07T16:39:07Z rep=3 poly zc_eager
+poly zc_eager l=1024 q=2 t=1893.6 ms sv_rel=1.22e-15 resid=5.753e-06 (opt 5.613e-06) orth=1.1e-15
+poly zc_eager l=512 q=0 t=410.7 ms sv_rel=1.86e-11 resid=3.487e-05 (opt 1.609e-05) orth=1.0e-15
+poly zc_eager l=64 q=0 t=388.0 ms sv_rel=2.27e-07 resid=9.932e-04 (opt 4.397e-04) orth=6.7e-16
+poly zc_eager l=128 q=0 t=316.5 ms sv_rel=7.57e-09 resid=3.130e-04 (opt 1.392e-04) orth=1.0e-15
+poly zc_eager l=64 q=2 t=499.4 ms sv_rel=1.22e-15 resid=4.569e-04 (opt 4.397e-04) orth=6.7e-16
+poly zc_eager l=256 q=0 t=431.8 ms sv_rel=3.84e-10 resid=1.027e-04 (opt 4.670e-05) orth=8.9e-16
+poly zc_eager l=512 q=2 t=858.1 ms sv_rel=1.78e-15 resid=1.649e-05 (opt 1.609e-05) orth=1.0e-15
+poly zc_eager l=256 q=2 t=664.4 ms sv_rel=8.88e-16 resid=4.809e-05 (opt 4.670e-05) orth=8.9e-16
+poly zc_eager l=128 q=2 t=542.1 ms sv_rel=2.22e-16 resid=1.433e-04 (opt 1.392e-04) orth=8.9e-16
+poly zc_eager l=1024 q=0 t=925.7 ms sv_rel=9.80e-13 resid=1.207e-05 (opt 5.613e-06) orth=1.1e-15
+2026-11-07T16:40:04Z rep=3 poly fix
+poly fix l=1024 q=2 t=4434.5 ms sv_rel=1.44e-15 resid=5.753e-06 (opt 5.613e-06) orth=1.1e-15
+poly fix l=512 q=0 t=736.8 ms sv_rel=1.86e-11 resid=3.487e-05 (opt 1.609e-05) orth=1.1e-15
+poly fix l=64 q=0 t=75.1 ms sv_rel=2.27e-07 resid=9.932e-04 (opt 4.397e-04) orth=7.8e-16
+poly fix l=128 q=0 t=149.4 ms sv_rel=7.57e-09 resid=3.130e-04 (opt 1.392e-04) orth=8.9e-16
+poly fix l=64 q=2 t=253.8 ms sv_rel=7.77e-16 resid=4.569e-04 (opt 4.397e-04) orth=7.8e-16
+poly fix l=256 q=0 t=338.1 ms sv_rel=3.84e-10 resid=1.027e-04 (opt 4.670e-05) orth=1.1e-15
+poly fix l=512 q=2 t=2031.8 ms sv_rel=6.66e-16 resid=1.649e-05 (opt 1.609e-05) orth=1.2e-15
+poly fix l=256 q=2 t=972.9 ms sv_rel=8.88e-16 resid=4.809e-05 (opt 4.670e-05) orth=1.1e-15
+poly fix l=128 q=2 t=448.3 ms sv_rel=3.33e-16 resid=1.433e-04 (opt 1.392e-04) orth=1.3e-15
+poly fix l=1024 q=0 t=1719.6 ms sv_rel=9.79e-13 resid=1.207e-05 (opt 5.613e-06) orth=1.1e-15
+2026-11-07T16:41:31Z rep=3 poly fix_eager
+poly fix_eager l=1024 q=2 t=1771.6 ms sv_rel=1.22e-15 resid=5.753e-06 (opt 5.613e-06) orth=1.1e-15
+poly fix_eager l=512 q=0 t=303.2 ms sv_rel=1.86e-11 resid=3.487e-05 (opt 1.609e-05) orth=1.0e-15
+poly fix_eager l=64 q=0 t=108.8 ms sv_rel=2.27e-07 resid=9.932e-04 (opt 4.397e-04) orth=6.7e-16
+poly fix_eager l=128 q=0 t=126.2 ms sv_rel=7.57e-09 resid=3.130e-04 (opt 1.392e-04) orth=1.0e-15
+poly fix_eager l=64 q=2 t=302.6 ms sv_rel=1.22e-15 resid=4.569e-04 (opt 4.397e-04) orth=6.7e-16
+poly fix_eager l=256 q=0 t=169.7 ms sv_rel=3.84e-10 resid=1.027e-04 (opt 4.670e-05) orth=8.9e-16
+poly fix_eager l=512 q=2 t=754.2 ms sv_rel=1.78e-15 resid=1.649e-05 (opt 1.609e-05) orth=1.0e-15
+poly fix_eager l=256 q=2 t=441.7 ms sv_rel=8.88e-16 resid=4.809e-05 (opt 4.670e-05) orth=8.9e-16
+poly fix_eager l=128 q=2 t=343.6 ms sv_rel=2.22e-16 resid=1.433e-04 (opt 1.392e-04) orth=8.9e-16
+poly fix_eager l=1024 q=0 t=781.4 ms sv_rel=9.80e-13 resid=1.207e-05 (opt 5.613e-06) orth=1.1e-15
+2026-11-07T16:42:15Z rep=3 poly fp32
+poly fp32 l=1024 q=2 t=276.5 ms sv_rel=4.77e-07 resid=5.866e-06 (opt 5.613e-06) orth=4.6e-07
+poly fp32 l=512 q=0 t=57.2 ms sv_rel=2.98e-07 resid=3.494e-05 (opt 1.609e-05) orth=4.6e-07
+poly fp32 l=64 q=0 t=5.5 ms sv_rel=4.17e-07 resid=9.932e-04 (opt 4.397e-04) orth=3.5e-07
+poly fp32 l=128 q=0 t=11.8 ms sv_rel=4.77e-07 resid=3.130e-04 (opt 1.392e-04) orth=4.0e-07
+poly fp32 l=64 q=2 t=13.3 ms sv_rel=4.77e-07 resid=4.569e-04 (opt 4.397e-04) orth=3.1e-07
+poly fp32 l=256 q=0 t=27.8 ms sv_rel=2.38e-07 resid=1.027e-04 (opt 4.670e-05) orth=4.8e-07
+poly fp32 l=512 q=2 t=116.2 ms sv_rel=3.58e-07 resid=1.652e-05 (opt 1.609e-05) orth=4.4e-07
+poly fp32 l=256 q=2 t=53.8 ms sv_rel=2.98e-07 resid=4.809e-05 (opt 4.670e-05) orth=4.6e-07
+poly fp32 l=128 q=2 t=25.5 ms sv_rel=3.58e-07 resid=1.433e-04 (opt 1.392e-04) orth=4.1e-07
+poly fp32 l=1024 q=0 t=147.7 ms sv_rel=7.15e-07 resid=1.224e-05 (opt 5.613e-06) orth=4.4e-07
+2026-11-07T16:42:28Z rep=3 poly tf32
+poly tf32 l=1024 q=2 t=247.3 ms sv_rel=1.05e-04 resid=1.628e-04 (opt 5.613e-06) orth=4.1e-07
+poly tf32 l=512 q=0 t=57.9 ms sv_rel=5.43e-05 resid=1.787e-04 (opt 1.609e-05) orth=4.7e-07
+poly tf32 l=64 q=0 t=5.1 ms sv_rel=5.34e-05 resid=1.064e-03 (opt 4.397e-04) orth=3.6e-07
+poly tf32 l=128 q=0 t=11.0 ms sv_rel=5.27e-05 resid=4.423e-04 (opt 1.392e-04) orth=5.4e-07
+poly tf32 l=64 q=2 t=11.4 ms sv_rel=5.56e-05 resid=4.609e-04 (opt 4.397e-04) orth=2.8e-07
+poly tf32 l=256 q=0 t=24.6 ms sv_rel=1.07e-04 resid=2.656e-04 (opt 4.670e-05) orth=4.4e-07
+poly tf32 l=512 q=2 t=103.6 ms sv_rel=5.56e-05 resid=1.050e-04 (opt 1.609e-05) orth=4.9e-07
+poly tf32 l=256 q=2 t=47.4 ms sv_rel=1.10e-04 resid=1.275e-04 (opt 4.670e-05) orth=3.5e-07
+poly tf32 l=128 q=2 t=22.5 ms sv_rel=5.70e-05 resid=1.570e-04 (opt 1.392e-04) orth=4.3e-07
+poly tf32 l=1024 q=0 t=147.5 ms sv_rel=1.06e-04 resid=1.797e-04 (opt 5.613e-06) orth=4.3e-07
+2026-11-07T16:42:42Z rep=3 poly native
+poly native l=1024 q=2 t=4433.4 ms sv_rel=1.44e-15 resid=5.753e-06 (opt 5.613e-06) orth=1.1e-15
+poly native l=512 q=0 t=734.2 ms sv_rel=1.86e-11 resid=3.487e-05 (opt 1.609e-05) orth=1.1e-15
+poly native l=64 q=0 t=75.1 ms sv_rel=2.27e-07 resid=9.932e-04 (opt 4.397e-04) orth=7.8e-16
+poly native l=128 q=0 t=148.5 ms sv_rel=7.57e-09 resid=3.130e-04 (opt 1.392e-04) orth=8.9e-16
+poly native l=64 q=2 t=253.4 ms sv_rel=7.77e-16 resid=4.569e-04 (opt 4.397e-04) orth=7.8e-16
+poly native l=256 q=0 t=336.5 ms sv_rel=3.84e-10 resid=1.027e-04 (opt 4.670e-05) orth=1.1e-15
+poly native l=512 q=2 t=2025.1 ms sv_rel=6.66e-16 resid=1.649e-05 (opt 1.609e-05) orth=1.2e-15
+poly native l=256 q=2 t=969.8 ms sv_rel=8.88e-16 resid=4.809e-05 (opt 4.670e-05) orth=1.1e-15
+poly native l=128 q=2 t=446.2 ms sv_rel=3.33e-16 resid=1.433e-04 (opt 1.392e-04) orth=1.3e-15
+poly native l=1024 q=0 t=1710.3 ms sv_rel=9.79e-13 resid=1.207e-05 (opt 5.613e-06) orth=1.1e-15
+2026-11-07T16:44:09Z rep=3 poly zc
+poly zc l=1024 q=2 t=4433.3 ms sv_rel=1.44e-15 resid=5.753e-06 (opt 5.613e-06) orth=1.1e-15
+poly zc l=512 q=0 t=734.2 ms sv_rel=1.86e-11 resid=3.487e-05 (opt 1.609e-05) orth=1.1e-15
+poly zc l=64 q=0 t=75.0 ms sv_rel=2.27e-07 resid=9.932e-04 (opt 4.397e-04) orth=7.8e-16
+poly zc l=128 q=0 t=148.5 ms sv_rel=7.57e-09 resid=3.130e-04 (opt 1.392e-04) orth=8.9e-16
+poly zc l=64 q=2 t=253.4 ms sv_rel=7.77e-16 resid=4.569e-04 (opt 4.397e-04) orth=7.8e-16
+poly zc l=256 q=0 t=336.6 ms sv_rel=3.84e-10 resid=1.027e-04 (opt 4.670e-05) orth=1.1e-15
+poly zc l=512 q=2 t=2025.2 ms sv_rel=6.66e-16 resid=1.649e-05 (opt 1.609e-05) orth=1.2e-15
+poly zc l=256 q=2 t=969.9 ms sv_rel=8.88e-16 resid=4.809e-05 (opt 4.670e-05) orth=1.1e-15
+poly zc l=128 q=2 t=446.2 ms sv_rel=3.33e-16 resid=1.433e-04 (opt 1.392e-04) orth=1.3e-15
+poly zc l=1024 q=0 t=1710.3 ms sv_rel=9.79e-13 resid=1.207e-05 (opt 5.613e-06) orth=1.1e-15
+2026-11-07T16:45:35Z rep=3 lrnoise zc_eager
+lrnoise zc_eager l=1024 q=2 t=1991.9 ms sv_rel=3.33e-15 resid=1.103e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise zc_eager l=512 q=0 t=432.1 ms sv_rel=2.44e-15 resid=1.284e-09 (opt 1.178e-09) orth=1.1e-15
+lrnoise zc_eager l=64 q=0 t=296.0 ms sv_rel=2.00e-15 resid=2.759e-09 (opt 1.271e-09) orth=1.1e-15
+lrnoise zc_eager l=128 q=0 t=392.7 ms sv_rel=2.00e-15 resid=1.623e-09 (opt 1.257e-09) orth=8.9e-16
+lrnoise zc_eager l=64 q=2 t=491.6 ms sv_rel=2.44e-15 resid=1.272e-09 (opt 1.271e-09) orth=7.8e-16
+lrnoise zc_eager l=256 q=0 t=363.9 ms sv_rel=3.11e-15 resid=1.394e-09 (opt 1.230e-09) orth=8.9e-16
+lrnoise zc_eager l=512 q=2 t=883.8 ms sv_rel=2.66e-15 resid=1.192e-09 (opt 1.178e-09) orth=8.9e-16
+lrnoise zc_eager l=256 q=2 t=705.0 ms sv_rel=3.33e-15 resid=1.237e-09 (opt 1.230e-09) orth=1.2e-15
+lrnoise zc_eager l=128 q=2 t=531.7 ms sv_rel=2.22e-15 resid=1.260e-09 (opt 1.257e-09) orth=1.1e-15
+lrnoise zc_eager l=1024 q=0 t=1023.1 ms sv_rel=2.66e-15 resid=1.189e-09 (opt 1.080e-09) orth=1.1e-15
+2026-11-07T16:46:33Z rep=3 lrnoise fix
+lrnoise fix l=1024 q=2 t=4535.0 ms sv_rel=3.11e-15 resid=1.103e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise fix l=512 q=0 t=752.8 ms sv_rel=2.44e-15 resid=1.284e-09 (opt 1.178e-09) orth=1.1e-15
+lrnoise fix l=64 q=0 t=75.5 ms sv_rel=2.00e-15 resid=2.759e-09 (opt 1.271e-09) orth=7.8e-16
+lrnoise fix l=128 q=0 t=150.4 ms sv_rel=2.44e-15 resid=1.623e-09 (opt 1.257e-09) orth=8.9e-16
+lrnoise fix l=64 q=2 t=254.5 ms sv_rel=2.44e-15 resid=1.272e-09 (opt 1.271e-09) orth=8.9e-16
+lrnoise fix l=256 q=0 t=342.7 ms sv_rel=3.11e-15 resid=1.394e-09 (opt 1.230e-09) orth=8.9e-16
+lrnoise fix l=512 q=2 t=2051.4 ms sv_rel=2.22e-15 resid=1.192e-09 (opt 1.178e-09) orth=8.9e-16
+lrnoise fix l=256 q=2 t=977.2 ms sv_rel=3.11e-15 resid=1.237e-09 (opt 1.230e-09) orth=1.1e-15
+lrnoise fix l=128 q=2 t=449.4 ms sv_rel=2.66e-15 resid=1.260e-09 (opt 1.257e-09) orth=1.1e-15
+lrnoise fix l=1024 q=0 t=1808.8 ms sv_rel=2.89e-15 resid=1.189e-09 (opt 1.080e-09) orth=1.0e-15
+2026-11-07T16:48:01Z rep=3 lrnoise fix_eager
+lrnoise fix_eager l=1024 q=2 t=1859.8 ms sv_rel=3.33e-15 resid=1.103e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise fix_eager l=512 q=0 t=322.5 ms sv_rel=2.44e-15 resid=1.284e-09 (opt 1.178e-09) orth=1.1e-15
+lrnoise fix_eager l=64 q=0 t=107.9 ms sv_rel=2.00e-15 resid=2.759e-09 (opt 1.271e-09) orth=1.1e-15
+lrnoise fix_eager l=128 q=0 t=126.9 ms sv_rel=2.00e-15 resid=1.623e-09 (opt 1.257e-09) orth=8.9e-16
+lrnoise fix_eager l=64 q=2 t=302.5 ms sv_rel=2.44e-15 resid=1.272e-09 (opt 1.271e-09) orth=7.8e-16
+lrnoise fix_eager l=256 q=0 t=173.6 ms sv_rel=3.11e-15 resid=1.394e-09 (opt 1.230e-09) orth=8.9e-16
+lrnoise fix_eager l=512 q=2 t=770.3 ms sv_rel=2.66e-15 resid=1.192e-09 (opt 1.178e-09) orth=8.9e-16
+lrnoise fix_eager l=256 q=2 t=445.7 ms sv_rel=3.33e-15 resid=1.237e-09 (opt 1.230e-09) orth=1.2e-15
+lrnoise fix_eager l=128 q=2 t=344.3 ms sv_rel=2.22e-15 resid=1.260e-09 (opt 1.257e-09) orth=1.1e-15
+lrnoise fix_eager l=1024 q=0 t=879.1 ms sv_rel=2.66e-15 resid=1.189e-09 (opt 1.080e-09) orth=1.1e-15
+2026-11-07T16:48:46Z rep=3 lrnoise fp32
+lrnoise fp32 l=1024 q=2 t=294.6 ms sv_rel=2.38e-07 resid=1.118e-06 (opt 1.080e-09) orth=4.3e-07
+lrnoise fp32 l=512 q=0 t=62.3 ms sv_rel=2.38e-07 resid=7.822e-07 (opt 1.178e-09) orth=4.1e-07
+lrnoise fp32 l=64 q=0 t=5.1 ms sv_rel=5.96e-07 resid=1.179e-06 (opt 1.271e-09) orth=3.7e-07
+lrnoise fp32 l=128 q=0 t=11.3 ms sv_rel=2.38e-07 resid=6.009e-07 (opt 1.257e-09) orth=4.1e-07
+lrnoise fp32 l=64 q=2 t=12.8 ms sv_rel=5.96e-07 resid=1.374e-06 (opt 1.271e-09) orth=3.9e-07
+lrnoise fp32 l=256 q=0 t=26.2 ms sv_rel=3.58e-07 resid=5.351e-07 (opt 1.230e-09) orth=5.3e-07
+lrnoise fp32 l=512 q=2 t=121.0 ms sv_rel=2.38e-07 resid=8.208e-07 (opt 1.178e-09) orth=5.1e-07
+lrnoise fp32 l=256 q=2 t=53.0 ms sv_rel=3.58e-07 resid=3.204e-07 (opt 1.230e-09) orth=3.7e-07
+lrnoise fp32 l=128 q=2 t=24.9 ms sv_rel=2.38e-07 resid=5.556e-07 (opt 1.257e-09) orth=4.1e-07
+lrnoise fp32 l=1024 q=0 t=168.5 ms sv_rel=2.38e-07 resid=1.069e-06 (opt 1.080e-09) orth=4.5e-07
+2026-11-07T16:49:00Z rep=3 lrnoise tf32
+lrnoise tf32 l=1024 q=2 t=270.0 ms sv_rel=6.07e-05 resid=1.392e-04 (opt 1.080e-09) orth=4.7e-07
+lrnoise tf32 l=512 q=0 t=64.1 ms sv_rel=2.55e-05 resid=1.043e-04 (opt 1.178e-09) orth=4.5e-07
+lrnoise tf32 l=64 q=0 t=5.5 ms sv_rel=2.50e-05 resid=3.984e-04 (opt 1.271e-09) orth=3.6e-07
+lrnoise tf32 l=128 q=0 t=12.9 ms sv_rel=2.55e-05 resid=1.724e-04 (opt 1.257e-09) orth=4.7e-07
+lrnoise tf32 l=64 q=2 t=11.9 ms sv_rel=2.59e-05 resid=4.422e-05 (opt 1.271e-09) orth=3.7e-07
+lrnoise tf32 l=256 q=0 t=28.9 ms sv_rel=5.94e-05 resid=1.322e-04 (opt 1.230e-09) orth=3.8e-07
+lrnoise tf32 l=512 q=2 t=110.0 ms sv_rel=2.43e-05 resid=9.277e-05 (opt 1.178e-09) orth=3.5e-07
+lrnoise tf32 l=256 q=2 t=50.6 ms sv_rel=5.93e-05 resid=9.172e-05 (opt 1.230e-09) orth=4.2e-07
+lrnoise tf32 l=128 q=2 t=24.1 ms sv_rel=2.48e-05 resid=5.426e-05 (opt 1.257e-09) orth=3.7e-07
+lrnoise tf32 l=1024 q=0 t=164.6 ms sv_rel=6.07e-05 resid=1.324e-04 (opt 1.080e-09) orth=4.5e-07
+2026-11-07T16:49:13Z rep=3 lrnoise native
+lrnoise native l=1024 q=2 t=4535.0 ms sv_rel=3.11e-15 resid=1.103e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise native l=512 q=0 t=752.7 ms sv_rel=2.44e-15 resid=1.284e-09 (opt 1.178e-09) orth=1.1e-15
+lrnoise native l=64 q=0 t=75.3 ms sv_rel=2.00e-15 resid=2.759e-09 (opt 1.271e-09) orth=7.8e-16
+lrnoise native l=128 q=0 t=149.6 ms sv_rel=2.44e-15 resid=1.623e-09 (opt 1.257e-09) orth=8.9e-16
+lrnoise native l=64 q=2 t=254.2 ms sv_rel=2.44e-15 resid=1.272e-09 (opt 1.271e-09) orth=8.9e-16
+lrnoise native l=256 q=0 t=341.0 ms sv_rel=3.11e-15 resid=1.394e-09 (opt 1.230e-09) orth=8.9e-16
+lrnoise native l=512 q=2 t=2044.7 ms sv_rel=2.22e-15 resid=1.192e-09 (opt 1.178e-09) orth=8.9e-16
+lrnoise native l=256 q=2 t=974.1 ms sv_rel=3.11e-15 resid=1.237e-09 (opt 1.230e-09) orth=1.1e-15
+lrnoise native l=128 q=2 t=447.2 ms sv_rel=2.66e-15 resid=1.260e-09 (opt 1.257e-09) orth=1.1e-15
+lrnoise native l=1024 q=0 t=1799.0 ms sv_rel=2.89e-15 resid=1.189e-09 (opt 1.080e-09) orth=1.0e-15
+2026-11-07T16:50:41Z rep=3 lrnoise zc
+lrnoise zc l=1024 q=2 t=4534.4 ms sv_rel=3.11e-15 resid=1.103e-09 (opt 1.080e-09) orth=1.1e-15
+lrnoise zc l=512 q=0 t=752.6 ms sv_rel=2.44e-15 resid=1.284e-09 (opt 1.178e-09) orth=1.1e-15
+lrnoise zc l=64 q=0 t=75.5 ms sv_rel=2.00e-15 resid=2.759e-09 (opt 1.271e-09) orth=7.8e-16
+lrnoise zc l=128 q=0 t=149.5 ms sv_rel=2.44e-15 resid=1.623e-09 (opt 1.257e-09) orth=8.9e-16
+lrnoise zc l=64 q=2 t=254.0 ms sv_rel=2.44e-15 resid=1.272e-09 (opt 1.271e-09) orth=8.9e-16
+lrnoise zc l=256 q=0 t=340.9 ms sv_rel=3.11e-15 resid=1.394e-09 (opt 1.230e-09) orth=8.9e-16
+lrnoise zc l=512 q=2 t=2044.7 ms sv_rel=2.22e-15 resid=1.192e-09 (opt 1.178e-09) orth=8.9e-16
+lrnoise zc l=256 q=2 t=974.0 ms sv_rel=3.11e-15 resid=1.237e-09 (opt 1.230e-09) orth=1.1e-15
+lrnoise zc l=128 q=2 t=447.2 ms sv_rel=2.66e-15 resid=1.260e-09 (opt 1.257e-09) orth=1.1e-15
+lrnoise zc l=1024 q=0 t=1799.1 ms sv_rel=2.89e-15 resid=1.189e-09 (opt 1.080e-09) orth=1.0e-15
+2026-11-07T16:52:10Z rep=3 scaled4 zc_eager
+scaled4 zc_eager l=1024 q=2 t=1946.9 ms sv_rel=1.35e-15 resid=7.092e-16 (opt 4.974e-17) orth=1.0e-15
+scaled4 zc_eager l=512 q=0 t=436.5 ms sv_rel=1.18e-15 resid=9.058e-16 (opt 1.476e-16) orth=1.1e-15
+scaled4 zc_eager l=64 q=0 t=292.9 ms sv_rel=1.23e-15 resid=4.347e-14 (opt 6.244e-15) orth=6.7e-16
+scaled4 zc_eager l=128 q=0 t=378.1 ms sv_rel=1.33e-15 resid=8.536e-16 (opt 3.633e-16) orth=8.9e-16
+scaled4 zc_eager l=64 q=2 t=489.7 ms sv_rel=8.11e-16 resid=6.258e-15 (opt 6.244e-15) orth=6.7e-16
+scaled4 zc_eager l=256 q=0 t=353.4 ms sv_rel=2.23e-15 resid=9.747e-16 (opt 2.639e-16) orth=1.1e-15
+scaled4 zc_eager l=512 q=2 t=869.0 ms sv_rel=9.94e-16 resid=5.962e-16 (opt 1.476e-16) orth=1.1e-15
+scaled4 zc_eager l=256 q=2 t=628.9 ms sv_rel=9.20e-16 resid=6.202e-16 (opt 2.639e-16) orth=1.1e-15
+scaled4 zc_eager l=128 q=2 t=577.8 ms sv_rel=1.36e-15 resid=6.323e-16 (opt 3.633e-16) orth=8.9e-16
+scaled4 zc_eager l=1024 q=0 t=1161.9 ms sv_rel=1.08e-15 resid=1.261e-15 (opt 4.974e-17) orth=1.3e-15
+2026-11-07T16:53:07Z rep=3 scaled4 fix
+scaled4 fix l=1024 q=2 t=4436.3 ms sv_rel=1.23e-15 resid=2.838e-15 (opt 4.974e-17) orth=1.2e-15
+scaled4 fix l=512 q=0 t=735.8 ms sv_rel=8.86e-16 resid=1.986e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 fix l=64 q=0 t=74.6 ms sv_rel=8.64e-16 resid=5.818e-14 (opt 6.244e-15) orth=8.9e-16
+scaled4 fix l=128 q=0 t=149.1 ms sv_rel=5.92e-16 resid=2.505e-15 (opt 3.633e-16) orth=1.0e-15
+scaled4 fix l=64 q=2 t=254.1 ms sv_rel=1.31e-15 resid=6.756e-15 (opt 6.244e-15) orth=8.9e-16
+scaled4 fix l=256 q=0 t=336.1 ms sv_rel=1.70e-15 resid=2.323e-15 (opt 2.639e-16) orth=1.0e-15
+scaled4 fix l=512 q=2 t=2026.3 ms sv_rel=1.54e-15 resid=1.690e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 fix l=256 q=2 t=968.8 ms sv_rel=1.84e-15 resid=1.663e-15 (opt 2.639e-16) orth=8.9e-16
+scaled4 fix l=128 q=2 t=445.3 ms sv_rel=1.08e-15 resid=1.640e-15 (opt 3.633e-16) orth=8.9e-16
+scaled4 fix l=1024 q=0 t=1711.5 ms sv_rel=1.29e-15 resid=1.992e-15 (opt 4.974e-17) orth=1.1e-15
+2026-11-07T16:54:33Z rep=3 scaled4 fix_eager
+scaled4 fix_eager l=1024 q=2 t=1798.4 ms sv_rel=1.35e-15 resid=7.092e-16 (opt 4.974e-17) orth=1.0e-15
+scaled4 fix_eager l=512 q=0 t=302.7 ms sv_rel=1.18e-15 resid=9.058e-16 (opt 1.476e-16) orth=1.1e-15
+scaled4 fix_eager l=64 q=0 t=107.9 ms sv_rel=1.23e-15 resid=4.347e-14 (opt 6.244e-15) orth=6.7e-16
+scaled4 fix_eager l=128 q=0 t=124.5 ms sv_rel=1.33e-15 resid=8.536e-16 (opt 3.633e-16) orth=8.9e-16
+scaled4 fix_eager l=64 q=2 t=305.2 ms sv_rel=8.11e-16 resid=6.258e-15 (opt 6.244e-15) orth=6.7e-16
+scaled4 fix_eager l=256 q=0 t=169.0 ms sv_rel=2.23e-15 resid=9.747e-16 (opt 2.639e-16) orth=1.1e-15
+scaled4 fix_eager l=512 q=2 t=764.6 ms sv_rel=9.94e-16 resid=5.962e-16 (opt 1.476e-16) orth=1.1e-15
+scaled4 fix_eager l=256 q=2 t=445.6 ms sv_rel=9.20e-16 resid=6.202e-16 (opt 2.639e-16) orth=1.1e-15
+scaled4 fix_eager l=128 q=2 t=346.4 ms sv_rel=1.36e-15 resid=6.323e-16 (opt 3.633e-16) orth=8.9e-16
+scaled4 fix_eager l=1024 q=0 t=779.4 ms sv_rel=1.08e-15 resid=1.261e-15 (opt 4.974e-17) orth=1.3e-15
+2026-11-07T16:55:18Z rep=3 scaled4 fp32
+scaled4 fp32 l=1024 q=2 t=280.1 ms sv_rel=7.02e-07 resid=1.062e-06 (opt 4.974e-17) orth=4.8e-07
+scaled4 fp32 l=512 q=0 t=60.1 ms sv_rel=7.00e-07 resid=7.551e-07 (opt 1.476e-16) orth=4.1e-07
+scaled4 fp32 l=64 q=0 t=5.7 ms sv_rel=5.81e-07 resid=6.611e-07 (opt 6.244e-15) orth=3.3e-07
+scaled4 fp32 l=128 q=0 t=12.5 ms sv_rel=4.33e-07 resid=4.796e-07 (opt 3.633e-16) orth=4.7e-07
+scaled4 fp32 l=64 q=2 t=13.5 ms sv_rel=5.17e-07 resid=9.414e-07 (opt 6.244e-15) orth=3.9e-07
+scaled4 fp32 l=256 q=0 t=28.8 ms sv_rel=3.43e-07 resid=4.388e-07 (opt 2.639e-16) orth=4.4e-07
+scaled4 fp32 l=512 q=2 t=118.0 ms sv_rel=1.12e-06 resid=7.440e-07 (opt 1.476e-16) orth=4.3e-07
+scaled4 fp32 l=256 q=2 t=54.9 ms sv_rel=3.72e-07 resid=2.898e-07 (opt 2.639e-16) orth=3.9e-07
+scaled4 fp32 l=128 q=2 t=25.6 ms sv_rel=4.90e-07 resid=4.438e-07 (opt 3.633e-16) orth=3.9e-07
+scaled4 fp32 l=1024 q=0 t=182.2 ms sv_rel=1.83e-07 resid=1.064e-06 (opt 4.974e-17) orth=4.4e-07
+2026-11-07T16:55:32Z rep=3 scaled4 tf32
+scaled4 tf32 l=1024 q=2 t=251.0 ms sv_rel=1.04e-04 resid=2.360e-04 (opt 4.974e-17) orth=4.5e-07
+scaled4 tf32 l=512 q=0 t=59.9 ms sv_rel=5.11e-05 resid=1.931e-04 (opt 1.476e-16) orth=4.4e-07
+scaled4 tf32 l=64 q=0 t=5.5 ms sv_rel=5.12e-05 resid=1.819e-04 (opt 6.244e-15) orth=3.5e-07
+scaled4 tf32 l=128 q=0 t=12.0 ms sv_rel=5.04e-05 resid=1.527e-04 (opt 3.633e-16) orth=5.0e-07
+scaled4 tf32 l=64 q=2 t=11.9 ms sv_rel=5.34e-05 resid=1.133e-04 (opt 6.244e-15) orth=4.2e-07
+scaled4 tf32 l=256 q=0 t=29.1 ms sv_rel=9.96e-05 resid=1.849e-04 (opt 2.639e-16) orth=4.7e-07
+scaled4 tf32 l=512 q=2 t=124.8 ms sv_rel=5.00e-05 resid=2.064e-04 (opt 1.476e-16) orth=4.4e-07
+scaled4 tf32 l=256 q=2 t=54.2 ms sv_rel=1.00e-04 resid=2.004e-04 (opt 2.639e-16) orth=4.4e-07
+scaled4 tf32 l=128 q=2 t=24.3 ms sv_rel=5.04e-05 resid=1.470e-04 (opt 3.633e-16) orth=4.3e-07
+scaled4 tf32 l=1024 q=0 t=147.3 ms sv_rel=9.85e-05 resid=2.313e-04 (opt 4.974e-17) orth=4.7e-07
+2026-11-07T16:55:45Z rep=3 scaled4 native
+scaled4 native l=1024 q=2 t=4436.2 ms sv_rel=1.23e-15 resid=2.838e-15 (opt 4.974e-17) orth=1.2e-15
+scaled4 native l=512 q=0 t=735.8 ms sv_rel=8.86e-16 resid=1.986e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 native l=64 q=0 t=74.6 ms sv_rel=8.64e-16 resid=5.818e-14 (opt 6.244e-15) orth=8.9e-16
+scaled4 native l=128 q=0 t=147.7 ms sv_rel=5.92e-16 resid=2.505e-15 (opt 3.633e-16) orth=1.0e-15
+scaled4 native l=64 q=2 t=253.2 ms sv_rel=1.31e-15 resid=6.756e-15 (opt 6.244e-15) orth=8.9e-16
+scaled4 native l=256 q=0 t=336.2 ms sv_rel=1.70e-15 resid=2.323e-15 (opt 2.639e-16) orth=1.0e-15
+scaled4 native l=512 q=2 t=2026.3 ms sv_rel=1.54e-15 resid=1.690e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 native l=256 q=2 t=968.8 ms sv_rel=1.84e-15 resid=1.663e-15 (opt 2.639e-16) orth=8.9e-16
+scaled4 native l=128 q=2 t=445.3 ms sv_rel=1.08e-15 resid=1.640e-15 (opt 3.633e-16) orth=8.9e-16
+scaled4 native l=1024 q=0 t=1711.6 ms sv_rel=1.29e-15 resid=1.992e-15 (opt 4.974e-17) orth=1.1e-15
+2026-11-07T16:57:11Z rep=3 scaled4 zc
+scaled4 zc l=1024 q=2 t=4436.4 ms sv_rel=1.23e-15 resid=2.838e-15 (opt 4.974e-17) orth=1.2e-15
+scaled4 zc l=512 q=0 t=735.9 ms sv_rel=8.86e-16 resid=1.986e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 zc l=64 q=0 t=74.6 ms sv_rel=8.64e-16 resid=5.818e-14 (opt 6.244e-15) orth=8.9e-16
+scaled4 zc l=128 q=0 t=147.9 ms sv_rel=5.92e-16 resid=2.505e-15 (opt 3.633e-16) orth=1.0e-15
+scaled4 zc l=64 q=2 t=253.2 ms sv_rel=1.31e-15 resid=6.756e-15 (opt 6.244e-15) orth=8.9e-16
+scaled4 zc l=256 q=0 t=336.2 ms sv_rel=1.70e-15 resid=2.323e-15 (opt 2.639e-16) orth=1.0e-15
+scaled4 zc l=512 q=2 t=2026.4 ms sv_rel=1.54e-15 resid=1.690e-15 (opt 1.476e-16) orth=1.1e-15
+scaled4 zc l=256 q=2 t=968.8 ms sv_rel=1.84e-15 resid=1.663e-15 (opt 2.639e-16) orth=8.9e-16
+scaled4 zc l=128 q=2 t=445.2 ms sv_rel=1.08e-15 resid=1.640e-15 (opt 3.633e-16) orth=8.9e-16
+scaled4 zc l=1024 q=0 t=1711.9 ms sv_rel=1.29e-15 resid=1.992e-15 (opt 4.974e-17) orth=1.1e-15
+2026-11-07T16:58:37Z rep=3 scaled8 zc_eager
+scaled8 zc_eager l=1024 q=2 t=2923.5 ms sv_rel=1.57e-15 resid=1.884e-15 (opt 5.606e-18) orth=1.1e-15
+scaled8 zc_eager l=512 q=0 t=406.3 ms sv_rel=1.45e-15 resid=8.825e-16 (opt 4.891e-17) orth=1.1e-15
+scaled8 zc_eager l=64 q=0 t=296.1 ms sv_rel=1.88e-15 resid=8.207e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 zc_eager l=128 q=0 t=383.6 ms sv_rel=2.04e-15 resid=8.540e-16 (opt 2.916e-16) orth=8.9e-16
+scaled8 zc_eager l=64 q=2 t=542.0 ms sv_rel=2.16e-15 resid=5.927e-15 (opt 5.692e-15) orth=8.9e-16
+scaled8 zc_eager l=256 q=0 t=353.8 ms sv_rel=1.70e-15 resid=8.550e-16 (opt 1.551e-16) orth=1.3e-15
+scaled8 zc_eager l=512 q=2 t=1273.9 ms sv_rel=2.05e-15 resid=1.851e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 zc_eager l=256 q=2 t=803.8 ms sv_rel=2.07e-15 resid=1.796e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 zc_eager l=128 q=2 t=580.4 ms sv_rel=8.69e-16 resid=1.651e-15 (opt 2.916e-16) orth=8.9e-16
+scaled8 zc_eager l=1024 q=0 t=939.0 ms sv_rel=1.57e-15 resid=1.292e-15 (opt 5.606e-18) orth=2.0e-15
+2026-11-07T16:59:46Z rep=3 scaled8 fix
+scaled8 fix l=1024 q=2 t=4417.4 ms sv_rel=1.41e-15 resid=2.292e-15 (opt 5.606e-18) orth=1.1e-15
+scaled8 fix l=512 q=0 t=732.0 ms sv_rel=1.37e-15 resid=1.933e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 fix l=64 q=0 t=74.6 ms sv_rel=1.71e-15 resid=8.598e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 fix l=128 q=0 t=147.7 ms sv_rel=1.88e-15 resid=2.432e-15 (opt 2.916e-16) orth=7.8e-16
+scaled8 fix l=64 q=2 t=253.2 ms sv_rel=1.02e-15 resid=6.038e-15 (opt 5.692e-15) orth=8.9e-16
+scaled8 fix l=256 q=0 t=335.3 ms sv_rel=1.57e-15 resid=2.274e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 fix l=512 q=2 t=2022.8 ms sv_rel=1.10e-15 resid=1.568e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 fix l=256 q=2 t=968.0 ms sv_rel=2.09e-15 resid=1.542e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 fix l=128 q=2 t=444.9 ms sv_rel=1.02e-15 resid=1.362e-15 (opt 2.916e-16) orth=8.9e-16
+scaled8 fix l=1024 q=0 t=1693.4 ms sv_rel=1.78e-15 resid=1.909e-15 (opt 5.606e-18) orth=1.3e-15
+2026-11-07T17:01:12Z rep=3 scaled8 fix_eager
+scaled8 fix_eager l=1024 q=2 t=2641.4 ms sv_rel=1.57e-15 resid=1.884e-15 (opt 5.606e-18) orth=1.1e-15
+scaled8 fix_eager l=512 q=0 t=296.7 ms sv_rel=1.45e-15 resid=8.825e-16 (opt 4.891e-17) orth=1.1e-15
+scaled8 fix_eager l=64 q=0 t=107.3 ms sv_rel=1.88e-15 resid=8.207e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 fix_eager l=128 q=0 t=125.0 ms sv_rel=2.04e-15 resid=8.540e-16 (opt 2.916e-16) orth=8.9e-16
+scaled8 fix_eager l=64 q=2 t=355.2 ms sv_rel=2.16e-15 resid=5.927e-15 (opt 5.692e-15) orth=8.9e-16
+scaled8 fix_eager l=256 q=0 t=167.0 ms sv_rel=1.70e-15 resid=8.550e-16 (opt 1.551e-16) orth=1.3e-15
+scaled8 fix_eager l=512 q=2 t=1171.5 ms sv_rel=2.05e-15 resid=1.851e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 fix_eager l=256 q=2 t=620.5 ms sv_rel=2.07e-15 resid=1.796e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 fix_eager l=128 q=2 t=395.1 ms sv_rel=8.69e-16 resid=1.651e-15 (opt 2.916e-16) orth=8.9e-16
+scaled8 fix_eager l=1024 q=0 t=760.2 ms sv_rel=1.57e-15 resid=1.292e-15 (opt 5.606e-18) orth=2.0e-15
+2026-11-07T17:02:07Z rep=3 scaled8 fp32
+scaled8 fp32 l=1024 q=2 t=273.6 ms sv_rel=4.82e-07 resid=1.042e-06 (opt 5.606e-18) orth=4.9e-07
+scaled8 fp32 l=512 q=0 t=60.2 ms sv_rel=6.22e-07 resid=7.127e-07 (opt 4.891e-17) orth=4.0e-07
+scaled8 fp32 l=64 q=0 t=5.6 ms sv_rel=4.31e-07 resid=5.446e-07 (opt 5.692e-15) orth=3.5e-07
+scaled8 fp32 l=128 q=0 t=12.2 ms sv_rel=4.39e-07 resid=4.350e-07 (opt 2.916e-16) orth=4.3e-07
+scaled8 fp32 l=64 q=2 t=13.3 ms sv_rel=6.35e-07 resid=7.196e-07 (opt 5.692e-15) orth=3.6e-07
+scaled8 fp32 l=256 q=0 t=28.5 ms sv_rel=5.53e-07 resid=3.870e-07 (opt 1.551e-16) orth=3.9e-07
+scaled8 fp32 l=512 q=2 t=115.8 ms sv_rel=2.33e-07 resid=7.422e-07 (opt 4.891e-17) orth=5.0e-07
+scaled8 fp32 l=256 q=2 t=54.4 ms sv_rel=6.38e-07 resid=2.756e-07 (opt 1.551e-16) orth=3.6e-07
+scaled8 fp32 l=128 q=2 t=25.7 ms sv_rel=7.70e-07 resid=4.123e-07 (opt 2.916e-16) orth=4.2e-07
+scaled8 fp32 l=1024 q=0 t=146.3 ms sv_rel=3.99e-07 resid=1.083e-06 (opt 5.606e-18) orth=5.2e-07
+2026-11-07T17:02:20Z rep=3 scaled8 tf32
+scaled8 tf32 l=1024 q=2 t=242.9 ms sv_rel=1.07e-04 resid=2.379e-04 (opt 5.606e-18) orth=4.9e-07
+scaled8 tf32 l=512 q=0 t=57.3 ms sv_rel=4.85e-05 resid=2.120e-04 (opt 4.891e-17) orth=4.3e-07
+scaled8 tf32 l=64 q=0 t=5.4 ms sv_rel=5.00e-05 resid=1.890e-04 (opt 5.692e-15) orth=3.3e-07
+scaled8 tf32 l=128 q=0 t=12.2 ms sv_rel=4.61e-05 resid=1.724e-04 (opt 2.916e-16) orth=3.9e-07
+scaled8 tf32 l=64 q=2 t=11.7 ms sv_rel=5.27e-05 resid=1.412e-04 (opt 5.692e-15) orth=3.9e-07
+scaled8 tf32 l=256 q=0 t=28.3 ms sv_rel=1.00e-04 resid=2.100e-04 (opt 1.551e-16) orth=3.7e-07
+scaled8 tf32 l=512 q=2 t=104.5 ms sv_rel=5.21e-05 resid=2.158e-04 (opt 4.891e-17) orth=5.2e-07
+scaled8 tf32 l=256 q=2 t=48.6 ms sv_rel=1.03e-04 resid=2.225e-04 (opt 1.551e-16) orth=4.2e-07
+scaled8 tf32 l=128 q=2 t=23.2 ms sv_rel=5.13e-05 resid=1.773e-04 (opt 2.916e-16) orth=3.3e-07
+scaled8 tf32 l=1024 q=0 t=140.4 ms sv_rel=9.85e-05 resid=2.352e-04 (opt 5.606e-18) orth=5.2e-07
+2026-11-07T17:02:32Z rep=3 scaled8 native
+scaled8 native l=1024 q=2 t=4417.0 ms sv_rel=1.41e-15 resid=2.292e-15 (opt 5.606e-18) orth=1.1e-15
+scaled8 native l=512 q=0 t=731.9 ms sv_rel=1.37e-15 resid=1.933e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 native l=64 q=0 t=74.6 ms sv_rel=1.71e-15 resid=8.598e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 native l=128 q=0 t=147.5 ms sv_rel=1.88e-15 resid=2.432e-15 (opt 2.916e-16) orth=7.8e-16
+scaled8 native l=64 q=2 t=253.2 ms sv_rel=1.02e-15 resid=6.038e-15 (opt 5.692e-15) orth=8.9e-16
+scaled8 native l=256 q=0 t=335.3 ms sv_rel=1.57e-15 resid=2.274e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 native l=512 q=2 t=2022.6 ms sv_rel=1.10e-15 resid=1.568e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 native l=256 q=2 t=968.0 ms sv_rel=2.09e-15 resid=1.542e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 native l=128 q=2 t=445.1 ms sv_rel=1.02e-15 resid=1.362e-15 (opt 2.916e-16) orth=8.9e-16
+scaled8 native l=1024 q=0 t=1693.3 ms sv_rel=1.78e-15 resid=1.909e-15 (opt 5.606e-18) orth=1.3e-15
+2026-11-07T17:03:58Z rep=3 scaled8 zc
+scaled8 zc l=1024 q=2 t=4417.0 ms sv_rel=1.41e-15 resid=2.292e-15 (opt 5.606e-18) orth=1.1e-15
+scaled8 zc l=512 q=0 t=731.9 ms sv_rel=1.37e-15 resid=1.933e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 zc l=64 q=0 t=74.6 ms sv_rel=1.71e-15 resid=8.598e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 zc l=128 q=0 t=147.5 ms sv_rel=1.88e-15 resid=2.432e-15 (opt 2.916e-16) orth=7.8e-16
+scaled8 zc l=64 q=2 t=253.2 ms sv_rel=1.02e-15 resid=6.038e-15 (opt 5.692e-15) orth=8.9e-16
+scaled8 zc l=256 q=0 t=335.4 ms sv_rel=1.57e-15 resid=2.274e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 zc l=512 q=2 t=2023.0 ms sv_rel=1.10e-15 resid=1.568e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 zc l=256 q=2 t=968.4 ms sv_rel=2.09e-15 resid=1.542e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 zc l=128 q=2 t=445.1 ms sv_rel=1.02e-15 resid=1.362e-15 (opt 2.916e-16) orth=8.9e-16
+scaled8 zc l=1024 q=0 t=1694.4 ms sv_rel=1.78e-15 resid=1.909e-15 (opt 5.606e-18) orth=1.3e-15
+WARNING: The version of the system or its configuration does not allow enabling CPU profiling:
+- CPU IP/backtrace sampling will be disabled.
+- CPU context switch tracing will be disabled.
+Try the 'nsys status --environment' command to learn more.
+
+exp zc l=1024 q=0 t=1925.0 ms sv_rel=8.88e-16 resid=2.006e-15 (opt 3.694e-16) orth=1.1e-15
+exp zc l=64 q=0 t=75.6 ms sv_rel=1.33e-15 resid=1.067e-13 (opt 6.668e-15) orth=6.7e-16
+exp zc l=512 q=2 t=2046.3 ms sv_rel=4.44e-16 resid=1.613e-15 (opt 4.108e-16) orth=1.1e-15
+exp zc l=64 q=2 t=254.3 ms sv_rel=6.66e-16 resid=7.146e-15 (opt 6.668e-15) orth=7.8e-16
+exp zc l=128 q=2 t=448.0 ms sv_rel=4.44e-16 resid=1.502e-15 (opt 4.472e-16) orth=8.9e-16
+exp zc l=512 q=0 t=753.6 ms sv_rel=2.22e-16 resid=1.974e-15 (opt 4.108e-16) orth=1.1e-15
+exp zc l=128 q=0 t=151.2 ms sv_rel=6.66e-16 resid=2.609e-15 (opt 4.472e-16) orth=1.0e-15
+exp zc l=256 q=0 t=342.0 ms sv_rel=6.66e-16 resid=2.352e-15 (opt 4.342e-16) orth=8.9e-16
+exp zc l=256 q=2 t=976.6 ms sv_rel=5.55e-16 resid=1.591e-15 (opt 4.342e-16) orth=8.9e-16
+exp zc l=1024 q=2 t=4545.9 ms sv_rel=6.66e-16 resid=2.832e-15 (opt 3.694e-16) orth=1.0e-15
+Collecting data...
+Generating '/tmp/nsys-taiz/nsys-report-0e66.qdstrm'
+[1/1] [0%                          ] exp.zc.nsys-rep[1/1] [0%                          ] exp.zc.nsys-rep[1/1] [1%                          ] exp.zc.nsys-rep[1/1] [2%                          ] exp.zc.nsys-rep[1/1] [5%                          ] exp.zc.nsys-rep[1/1] [6%                          ] exp.zc.nsys-rep[1/1] [7%                          ] exp.zc.nsys-rep[1/1] [8%                          ] exp.zc.nsys-rep[1/1] [9%                          ] exp.zc.nsys-rep[1/1] [10%                         ] exp.zc.nsys-rep[1/1] [11%                         ] exp.zc.nsys-rep[1/1] [12%                         ] exp.zc.nsys-rep[1/1] [13%                         ] exp.zc.nsys-rep[1/1] [14%                         ] exp.zc.nsys-rep[1/1] [=15%                        ] exp.zc.nsys-rep[1/1] [=16%                        ] exp.zc.nsys-rep[1/1] [=17%                        ] exp.zc.nsys-rep[1/1] [==18%                       ] exp.zc.nsys-rep[1/1] [==19%                       ] exp.zc.nsys-rep[1/1] [==20%                       ] exp.zc.nsys-rep[1/1] [======================92%   ] exp.zc.nsys-rep[1/1] [=======================96%  ] exp.zc.nsys-rep[1/1] [========================98% ] exp.zc.nsys-rep[1/1] [========================100%] exp.zc.nsys-rep[1/1] [========================100%] exp.zc.nsys-rep
+Generated:
+	/home/taiz/fp64/pathB/results/final/P4_rsvd/P4_rsvd_gpu5_20261107T152635Z/nsys/exp.zc.nsys-rep
+WARNING: The version of the system or its configuration does not allow enabling CPU profiling:
+- CPU IP/backtrace sampling will be disabled.
+- CPU context switch tracing will be disabled.
+Try the 'nsys status --environment' command to learn more.
+
+exp zc_eager l=1024 q=0 t=1627.8 ms sv_rel=4.44e-16 resid=1.339e-15 (opt 3.694e-16) orth=1.4e-15
+exp zc_eager l=64 q=0 t=734.8 ms sv_rel=5.55e-16 resid=9.571e-14 (opt 6.668e-15) orth=6.7e-16
+exp zc_eager l=512 q=2 t=872.6 ms sv_rel=5.55e-16 resid=6.384e-16 (opt 4.108e-16) orth=8.9e-16
+exp zc_eager l=64 q=2 t=488.5 ms sv_rel=9.99e-16 resid=6.681e-15 (opt 6.668e-15) orth=6.7e-16
+exp zc_eager l=128 q=2 t=614.4 ms sv_rel=7.77e-16 resid=6.087e-16 (opt 4.472e-16) orth=7.8e-16
+exp zc_eager l=512 q=0 t=624.5 ms sv_rel=1.22e-15 resid=9.323e-16 (opt 4.108e-16) orth=1.1e-15
+exp zc_eager l=128 q=0 t=1166.8 ms sv_rel=6.66e-16 resid=9.920e-16 (opt 4.472e-16) orth=1.0e-15
+exp zc_eager l=256 q=0 t=1246.6 ms sv_rel=7.77e-16 resid=9.438e-16 (opt 4.342e-16) orth=1.0e-15
+exp zc_eager l=256 q=2 t=634.7 ms sv_rel=5.55e-16 resid=6.647e-16 (opt 4.342e-16) orth=8.9e-16
+exp zc_eager l=1024 q=2 t=1971.8 ms sv_rel=4.44e-16 resid=8.633e-16 (opt 3.694e-16) orth=1.0e-15
+Collecting data...
+Generating '/tmp/nsys-taiz/nsys-report-fc94.qdstrm'
+[1/1] [0%                          ] exp.zc_eager.nsys-rep[1/1] [0%                          ] exp.zc_eager.nsys-rep[1/1] [1%                          ] exp.zc_eager.nsys-rep[1/1] [2%                          ] exp.zc_eager.nsys-rep[1/1] [5%                          ] exp.zc_eager.nsys-rep[1/1] [6%                          ] exp.zc_eager.nsys-rep[1/1] [7%                          ] exp.zc_eager.nsys-rep[1/1] [8%                          ] exp.zc_eager.nsys-rep[1/1] [9%                          ] exp.zc_eager.nsys-rep[1/1] [10%                         ] exp.zc_eager.nsys-rep[1/1] [11%                         ] exp.zc_eager.nsys-rep[1/1] [12%                         ] exp.zc_eager.nsys-rep[1/1] [13%                         ] exp.zc_eager.nsys-rep[1/1] [14%                         ] exp.zc_eager.nsys-rep[1/1] [=15%                        ] exp.zc_eager.nsys-rep[1/1] [=16%                        ] exp.zc_eager.nsys-rep[1/1] [=17%                        ] exp.zc_eager.nsys-rep[1/1] [==18%                       ] exp.zc_eager.nsys-rep[1/1] [==19%                       ] exp.zc_eager.nsys-rep[1/1] [==20%                       ] exp.zc_eager.nsys-rep[1/1] [======================92%   ] exp.zc_eager.nsys-rep[1/1] [=======================96%  ] exp.zc_eager.nsys-rep[1/1] [========================98% ] exp.zc_eager.nsys-rep[1/1] [========================100%] exp.zc_eager.nsys-rep[1/1] [========================100%] exp.zc_eager.nsys-rep
+Generated:
+	/home/taiz/fp64/pathB/results/final/P4_rsvd/P4_rsvd_gpu5_20261107T152635Z/nsys/exp.zc_eager.nsys-rep
+WARNING: The version of the system or its configuration does not allow enabling CPU profiling:
+- CPU IP/backtrace sampling will be disabled.
+- CPU context switch tracing will be disabled.
+Try the 'nsys status --environment' command to learn more.
+
+scaled8 zc l=1024 q=0 t=1814.5 ms sv_rel=1.78e-15 resid=1.909e-15 (opt 5.606e-18) orth=1.3e-15
+scaled8 zc l=64 q=0 t=75.5 ms sv_rel=1.71e-15 resid=8.598e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 zc l=512 q=2 t=2014.9 ms sv_rel=1.10e-15 resid=1.568e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 zc l=64 q=2 t=252.5 ms sv_rel=1.02e-15 resid=6.038e-15 (opt 5.692e-15) orth=8.9e-16
+scaled8 zc l=128 q=2 t=444.3 ms sv_rel=1.02e-15 resid=1.362e-15 (opt 2.916e-16) orth=8.9e-16
+scaled8 zc l=512 q=0 t=732.3 ms sv_rel=1.37e-15 resid=1.933e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 zc l=128 q=0 t=149.3 ms sv_rel=1.88e-15 resid=2.432e-15 (opt 2.916e-16) orth=7.8e-16
+scaled8 zc l=256 q=0 t=335.9 ms sv_rel=1.57e-15 resid=2.274e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 zc l=256 q=2 t=964.1 ms sv_rel=2.09e-15 resid=1.542e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 zc l=1024 q=2 t=4402.4 ms sv_rel=1.41e-15 resid=2.292e-15 (opt 5.606e-18) orth=1.1e-15
+Collecting data...
+Generating '/tmp/nsys-taiz/nsys-report-5bec.qdstrm'
+[1/1] [0%                          ] scaled8.zc.nsys-rep[1/1] [0%                          ] scaled8.zc.nsys-rep[1/1] [1%                          ] scaled8.zc.nsys-rep[1/1] [2%                          ] scaled8.zc.nsys-rep[1/1] [5%                          ] scaled8.zc.nsys-rep[1/1] [6%                          ] scaled8.zc.nsys-rep[1/1] [7%                          ] scaled8.zc.nsys-rep[1/1] [8%                          ] scaled8.zc.nsys-rep[1/1] [9%                          ] scaled8.zc.nsys-rep[1/1] [10%                         ] scaled8.zc.nsys-rep[1/1] [11%                         ] scaled8.zc.nsys-rep[1/1] [12%                         ] scaled8.zc.nsys-rep[1/1] [13%                         ] scaled8.zc.nsys-rep[1/1] [14%                         ] scaled8.zc.nsys-rep[1/1] [=15%                        ] scaled8.zc.nsys-rep[1/1] [=16%                        ] scaled8.zc.nsys-rep[1/1] [=17%                        ] scaled8.zc.nsys-rep[1/1] [==18%                       ] scaled8.zc.nsys-rep[1/1] [==19%                       ] scaled8.zc.nsys-rep[1/1] [==20%                       ] scaled8.zc.nsys-rep[1/1] [======================91%   ] scaled8.zc.nsys-rep[1/1] [======================92%   ] scaled8.zc.nsys-rep[1/1] [=======================96%  ] scaled8.zc.nsys-rep[1/1] [========================98% ] scaled8.zc.nsys-rep[1/1] [========================100%] scaled8.zc.nsys-rep[1/1] [========================100%] scaled8.zc.nsys-rep
+Generated:
+	/home/taiz/fp64/pathB/results/final/P4_rsvd/P4_rsvd_gpu5_20261107T152635Z/nsys/scaled8.zc.nsys-rep
+WARNING: The version of the system or its configuration does not allow enabling CPU profiling:
+- CPU IP/backtrace sampling will be disabled.
+- CPU context switch tracing will be disabled.
+Try the 'nsys status --environment' command to learn more.
+
+scaled8 zc_eager l=1024 q=0 t=2088.5 ms sv_rel=1.57e-15 resid=1.292e-15 (opt 5.606e-18) orth=2.0e-15
+scaled8 zc_eager l=64 q=0 t=295.4 ms sv_rel=1.88e-15 resid=8.207e-14 (opt 5.692e-15) orth=6.7e-16
+scaled8 zc_eager l=512 q=2 t=1280.5 ms sv_rel=2.05e-15 resid=1.851e-15 (opt 4.891e-17) orth=1.1e-15
+scaled8 zc_eager l=64 q=2 t=806.7 ms sv_rel=2.16e-15 resid=5.927e-15 (opt 5.692e-15) orth=8.9e-16
+scaled8 zc_eager l=128 q=2 t=1431.5 ms sv_rel=8.69e-16 resid=1.651e-15 (opt 2.916e-16) orth=8.9e-16
+scaled8 zc_eager l=512 q=0 t=1617.2 ms sv_rel=1.45e-15 resid=8.825e-16 (opt 4.891e-17) orth=1.1e-15
+scaled8 zc_eager l=128 q=0 t=532.9 ms sv_rel=2.04e-15 resid=8.540e-16 (opt 2.916e-16) orth=8.9e-16
+scaled8 zc_eager l=256 q=0 t=358.9 ms sv_rel=1.70e-15 resid=8.550e-16 (opt 1.551e-16) orth=1.3e-15
+scaled8 zc_eager l=256 q=2 t=807.0 ms sv_rel=2.07e-15 resid=1.796e-15 (opt 1.551e-16) orth=8.9e-16
+scaled8 zc_eager l=1024 q=2 t=3007.1 ms sv_rel=1.57e-15 resid=1.884e-15 (opt 5.606e-18) orth=1.1e-15
+Collecting data...
+Generating '/tmp/nsys-taiz/nsys-report-9434.qdstrm'
+[1/1] [0%                          ] scaled8.zc_eager.nsys-rep[1/1] [0%                          ] scaled8.zc_eager.nsys-rep[1/1] [1%                          ] scaled8.zc_eager.nsys-rep[1/1] [2%                          ] scaled8.zc_eager.nsys-rep[1/1] [5%                          ] scaled8.zc_eager.nsys-rep[1/1] [6%                          ] scaled8.zc_eager.nsys-rep[1/1] [7%                          ] scaled8.zc_eager.nsys-rep[1/1] [8%                          ] scaled8.zc_eager.nsys-rep[1/1] [9%                          ] scaled8.zc_eager.nsys-rep[1/1] [10%                         ] scaled8.zc_eager.nsys-rep[1/1] [11%                         ] scaled8.zc_eager.nsys-rep[1/1] [12%                         ] scaled8.zc_eager.nsys-rep[1/1] [13%                         ] scaled8.zc_eager.nsys-rep[1/1] [14%                         ] scaled8.zc_eager.nsys-rep[1/1] [=15%                        ] scaled8.zc_eager.nsys-rep[1/1] [=16%                        ] scaled8.zc_eager.nsys-rep[1/1] [=17%                        ] scaled8.zc_eager.nsys-rep[1/1] [==18%                       ] scaled8.zc_eager.nsys-rep[1/1] [==19%                       ] scaled8.zc_eager.nsys-rep[1/1] [==20%                       ] scaled8.zc_eager.nsys-rep[1/1] [======================91%   ] scaled8.zc_eager.nsys-rep[1/1] [======================92%   ] scaled8.zc_eager.nsys-rep[1/1] [=======================96%  ] scaled8.zc_eager.nsys-rep[1/1] [========================98% ] scaled8.zc_eager.nsys-rep[1/1] [========================100%] scaled8.zc_eager.nsys-rep[1/1] [========================100%] scaled8.zc_eager.nsys-rep
+Generated:
+	/home/taiz/fp64/pathB/results/final/P4_rsvd/P4_rsvd_gpu5_20261107T152635Z/nsys/scaled8.zc_eager.nsys-rep
+2026-11-07T17:07:20Z DONE

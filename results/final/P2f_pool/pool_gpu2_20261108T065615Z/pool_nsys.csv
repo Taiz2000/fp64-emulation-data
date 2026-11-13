@@ -1,0 +1,25 @@
+label,gpu,cublas_version,cupy,env_emulate,env_strategy,n,api,pool,threshold,ws_mib,call,wall_ms,default_used_high_mib,default_reserved_high_mib,default_reserved_cur_mib,custom_used_high_mib,custom_reserved_high_mib,custom_reserved_cur_mib,devfree_drop_mib,current_pool,check_relerr
+nsys_eager_zc_matmul,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,matmul,default,zero,0,0,327.601,1232.0,1248.0,0.0,,,,130.0,default,3.1e-16
+nsys_eager_zc_matmul,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,matmul,default,zero,0,1,72.756,1232.0,1248.0,0.0,,,,0.0,default,1.2e-14
+nsys_eager_zc_matmul,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,matmul,default,zero,0,2,178.274,1232.0,1248.0,0.0,,,,0.0,default,5.5e-16
+nsys_eager_zc_matmul,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,matmul,default,zero,0,3,68.115,1232.0,1248.0,0.0,,,,0.0,default,2.0e-16
+nsys_eager_zc_matmul,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,matmul,default,zero,0,4,98.054,1232.0,1248.0,0.0,,,,0.0,default,4.2e-16
+nsys_eager_zc_matmul,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,matmul,default,zero,0,5,863.956,1232.0,1248.0,0.0,,,,0.0,default,1.7e-16
+nsys_eager_ws_matmul,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,matmul,default,zero,2048,0,278.701,1232.0,1248.0,0.0,,,,130.0,default,3.1e-16
+nsys_eager_ws_matmul,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,matmul,default,zero,2048,1,165.466,1232.0,1248.0,0.0,,,,0.0,default,1.2e-14
+nsys_eager_ws_matmul,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,matmul,default,zero,2048,2,42.717,1232.0,1248.0,0.0,,,,0.0,default,5.5e-16
+nsys_eager_ws_matmul,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,matmul,default,zero,2048,3,94.094,1232.0,1248.0,0.0,,,,0.0,default,2.0e-16
+nsys_eager_ws_matmul,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,matmul,default,zero,2048,4,39.846,1232.0,1248.0,0.0,,,,0.0,default,4.2e-16
+nsys_eager_ws_matmul,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,matmul,default,zero,2048,5,93.201,1232.0,1248.0,0.0,,,,0.0,default,1.7e-16
+nsys_eager_ws_dgemm,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,dgemm,default,zero,2048,0,251.410,1232.0,1248.0,0.0,,,,2.0,default,3.1e-16
+nsys_eager_ws_dgemm,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,dgemm,default,zero,2048,1,153.557,1232.0,1248.0,0.0,,,,0.0,default,1.2e-14
+nsys_eager_ws_dgemm,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,dgemm,default,zero,2048,2,68.201,1232.0,1248.0,0.0,,,,0.0,default,5.5e-16
+nsys_eager_ws_dgemm,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,dgemm,default,zero,2048,3,98.710,1232.0,1248.0,0.0,,,,0.0,default,2.0e-16
+nsys_eager_ws_dgemm,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,dgemm,default,zero,2048,4,134.801,1232.0,1248.0,0.0,,,,0.0,default,4.2e-16
+nsys_eager_ws_dgemm,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,dgemm,default,zero,2048,5,69.731,1232.0,1248.0,0.0,,,,0.0,default,1.7e-16
+nsys_eager_ws_ctypes,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,ctypes,default,zero,2048,0,187.368,0.0,0.0,0.0,,,,2.0,default,3.1e-16
+nsys_eager_ws_ctypes,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,ctypes,default,zero,2048,1,29.147,0.0,0.0,0.0,,,,0.0,default,1.2e-14
+nsys_eager_ws_ctypes,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,ctypes,default,zero,2048,2,29.093,0.0,0.0,0.0,,,,0.0,default,5.5e-16
+nsys_eager_ws_ctypes,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,ctypes,default,zero,2048,3,29.185,0.0,0.0,0.0,,,,0.0,default,2.0e-16
+nsys_eager_ws_ctypes,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,ctypes,default,zero,2048,4,29.156,0.0,0.0,0.0,,,,0.0,default,4.2e-16
+nsys_eager_ws_ctypes,NVIDIA GeForce RTX 5060 Ti,130800,14.2.0,1,EAGER,4096,ctypes,default,zero,2048,5,29.447,0.0,0.0,0.0,,,,0.0,default,1.7e-16

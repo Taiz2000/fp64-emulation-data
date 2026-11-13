@@ -1,0 +1,120 @@
+panel,gpu_or_k,cfg_or_phi,bits,speedup_or_path,path_or_gpus,agree
+a,256,7.25,106,emu,3090/4090/5060 Ti,True
+a,256,7.5,107,emu,3090/4090/5060 Ti,True
+a,256,7.6,109,fallback,3090/4090/5060 Ti,True
+a,256,7.7,109,fallback,3090/4090/5060 Ti,True
+a,256,7.75,109,fallback,3090/4090/5060 Ti,True
+a,256,7.8,109,fallback,3090/4090/5060 Ti,True
+a,256,7.9,110,fallback,3090/4090/5060 Ti,True
+a,256,8.0,111,fallback,3090/4090/5060 Ti,True
+a,512,7.25,104,emu,3090/4090/5060 Ti,True
+a,512,7.5,106,emu,3090/4090/5060 Ti,True
+a,512,7.6,107,emu,3090/4090/5060 Ti,True
+a,512,7.7,107,emu,3090/4090/5060 Ti,True
+a,512,7.75,108,fallback,3090/4090/5060 Ti,True
+a,512,7.8,108,fallback,3090/4090/5060 Ti,True
+a,512,7.9,109,fallback,3090/4090/5060 Ti,True
+a,512,8.0,109,fallback,3090/4090/5060 Ti,True
+a,1024,7.25,104,emu,3090/4090/5060 Ti,True
+a,1024,7.5,105,emu,3090/4090/5060 Ti,True
+a,1024,7.6,107,emu,3090/4090/5060 Ti,True
+a,1024,7.7,107,emu,3090/4090/5060 Ti,True
+a,1024,7.75,107,emu,3090/4090/5060 Ti,True
+a,1024,7.8,107,emu,3090/4090/5060 Ti,True
+a,1024,7.9,109,fallback,3090/4090/5060 Ti,True
+a,1024,8.0,109,fallback,3090/4090/5060 Ti,True
+a,2048,7.25,104,emu,3090/4090/5060 Ti,True
+a,2048,7.5,105,emu,3090/4090/5060 Ti,True
+a,2048,7.6,106,emu,3090/4090/5060 Ti,True
+a,2048,7.7,107,fallback,3090/4090/5060 Ti,True
+a,2048,7.75,107,fallback,3090/4090/5060 Ti,True
+a,2048,7.8,107,emu,3090/4090/5060 Ti,True
+a,2048,7.9,108,fallback,3090/4090/5060 Ti,True
+a,2048,8.0,108,fallback,3090/4090/5060 Ti,True
+a,4096,7.25,104,emu,3090/4090/5060 Ti,True
+a,4096,7.5,104,emu,3090/4090/5060 Ti,True
+a,4096,7.6,106,emu,3090/4090/5060 Ti,True
+a,4096,7.7,106,emu,3090/4090/5060 Ti,True
+a,4096,7.75,106,emu,3090/4090/5060 Ti,True
+a,4096,7.8,106,emu,3090/4090/5060 Ti,True
+a,4096,7.9,108,fallback,3090/4090/5060 Ti,True
+a,4096,8.0,108,fallback,3090/4090/5060 Ti,True
+a,8192,7.25,103,emu,3090/4090/5060 Ti,True
+a,8192,7.5,103,emu,3090/4090/5060 Ti,True
+a,8192,7.6,105,emu,3090/4090/5060 Ti,True
+a,8192,7.7,105,emu,3090/4090/5060 Ti,True
+a,8192,7.75,105,emu,3090/4090/5060 Ti,True
+a,8192,7.8,105,emu,3090/4090/5060 Ti,True
+a,8192,7.9,107,fallback,3090/4090/5060 Ti,True
+a,8192,8.0,107,fallback,3090/4090/5060 Ti,True
+a,16384,7.25,103,emu,3090/4090/5060 Ti,True
+a,16384,7.5,103,emu,3090/4090/5060 Ti,True
+a,16384,7.6,105,emu,3090/4090/5060 Ti,True
+a,16384,7.7,105,emu,3090/4090/5060 Ti,True
+a,16384,7.75,105,emu,3090/4090/5060 Ti,True
+a,16384,7.8,105,emu,3090/4090/5060 Ti,True
+a,16384,7.9,107,fallback,3090/4090/5060 Ti,True
+a,16384,8.0,107,fallback,3090/4090/5060 Ti,True
+b,3090,range:ozaki:phi0:k4096,58,11.1261,emu
+b,3090,range:rowcol:phi2:k4096,60,10.6468,emu
+b,3090,range:rowcol:phi4:k4096,60,10.6602,emu
+b,3090,range:rowcol:phi8:k4096,60,10.6673,emu
+b,3090,range:rowcol:phi16:k4096,60,10.6718,emu
+b,3090,range:ozaki:phi0.5:k4096,64,10.6828,emu
+b,3090,range:inner:phi1:k4096,64,10.7092,emu
+b,3090,range:inner:phi2:k4096,69,10.3932,emu
+b,3090,range:ozaki:phi1:k4096,70,10.3936,emu
+b,3090,range:ozaki:phi2:k4096,81,9.4654,emu
+b,3090,range:inner:phi4:k4096,83,9.1231,emu
+b,3090,range:ozaki:phi3:k4096,92,8.6194,emu
+b,3090,range:inner:phi6:k4096,94,8.6161,emu
+b,3090,range:ozaki:phi4:k4096,102,7.9676,emu
+b,3090,range:inner:phi7:k4096,102,7.9694,emu
+b,3090,range:inner:phi7.5:k4096,104,7.9783,emu
+b,3090,range:inner:phi7.75:k4096,106,7.9671,emu
+b,3090,range:inner:phi8:k4096,108,0.9897,fallback
+b,3090,range:ozaki:phi6:k4096,127,0.9897,fallback
+b,3090,range:inner:phi12:k4096,133,0.9897,fallback
+b,3090,range:ozaki:phi8:k4096,151,0.9897,fallback
+b,4090,range:ozaki:phi0:k4096,58,10.4506,emu
+b,4090,range:rowcol:phi16:k4096,60,10.1686,emu
+b,4090,range:rowcol:phi8:k4096,60,10.1690,emu
+b,4090,range:rowcol:phi4:k4096,60,10.1738,emu
+b,4090,range:rowcol:phi2:k4096,60,10.1797,emu
+b,4090,range:inner:phi1:k4096,64,10.1726,emu
+b,4090,range:ozaki:phi0.5:k4096,64,10.1730,emu
+b,4090,range:inner:phi2:k4096,69,9.9093,emu
+b,4090,range:ozaki:phi1:k4096,70,9.9001,emu
+b,4090,range:ozaki:phi2:k4096,81,9.1576,emu
+b,4090,range:inner:phi4:k4096,83,8.7195,emu
+b,4090,range:ozaki:phi3:k4096,92,8.3011,emu
+b,4090,range:inner:phi6:k4096,94,8.3191,emu
+b,4090,range:ozaki:phi4:k4096,102,7.7497,emu
+b,4090,range:inner:phi7:k4096,102,7.7770,emu
+b,4090,range:inner:phi7.5:k4096,104,7.7659,emu
+b,4090,range:inner:phi7.75:k4096,106,7.7576,emu
+b,4090,range:inner:phi8:k4096,108,0.9821,fallback
+b,4090,range:ozaki:phi6:k4096,127,0.9818,fallback
+b,4090,range:inner:phi12:k4096,133,0.9825,fallback
+b,4090,range:ozaki:phi8:k4096,151,0.9833,fallback
+b,5060 Ti,range:ozaki:phi0:k4096,58,13.2183,emu
+b,5060 Ti,range:rowcol:phi2:k4096,60,12.8725,emu
+b,5060 Ti,range:rowcol:phi4:k4096,60,12.8775,emu
+b,5060 Ti,range:rowcol:phi8:k4096,60,12.9120,emu
+b,5060 Ti,range:rowcol:phi16:k4096,60,12.9141,emu
+b,5060 Ti,range:ozaki:phi0.5:k4096,64,12.8810,emu
+b,5060 Ti,range:inner:phi1:k4096,64,12.8810,emu
+b,5060 Ti,range:inner:phi2:k4096,69,12.5525,emu
+b,5060 Ti,range:ozaki:phi1:k4096,70,12.5859,emu
+b,5060 Ti,range:ozaki:phi2:k4096,81,11.7065,emu
+b,5060 Ti,range:inner:phi4:k4096,83,11.1893,emu
+b,5060 Ti,range:ozaki:phi3:k4096,92,10.7041,emu
+b,5060 Ti,range:inner:phi6:k4096,94,10.7056,emu
+b,5060 Ti,range:ozaki:phi4:k4096,102,10.0581,emu
+b,5060 Ti,range:inner:phi7:k4096,102,10.0607,emu
+b,5060 Ti,range:inner:phi7.5:k4096,104,10.0588,emu
+b,5060 Ti,range:inner:phi7.75:k4096,106,10.0606,emu
+b,5060 Ti,range:inner:phi8:k4096,108,0.9962,fallback
+b,5060 Ti,range:ozaki:phi6:k4096,127,0.9964,fallback
+b,5060 Ti,range:inner:phi12:k4096,133,0.9932,fallback
+b,5060 Ti,range:ozaki:phi8:k4096,151,0.9931,fallback

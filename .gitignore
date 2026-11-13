@@ -1,0 +1,14 @@
+# unpacked from lt.tar.xz / kern.tar.xz by unpack.sh
+results/final/**/lt/
+results/final/**/kern/
+# regenerated rSVD input matrices (workloads/make_inputs.py); the sigma_*.npy references are tracked
+data/exp.npy
+data/poly.npy
+data/lrnoise.npy
+data/scaled4.npy
+data/scaled8.npy
+.venv/
+__pycache__/
+*.pyc
+*.sqlite
+*.nsys-rep

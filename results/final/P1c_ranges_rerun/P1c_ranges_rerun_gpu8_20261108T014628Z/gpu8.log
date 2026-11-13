@@ -1,0 +1,7 @@
+2026-11-08T01:46:37Z rep=1 range:native:inner:phi8:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 8
+2026-11-08T01:46:45Z rep=1 range:eager_ws:inner:phi4:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 4 --workspace-mb 689
+2026-11-08T01:46:54Z rep=2 range:eager_ws:inner:phi4:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 4 --workspace-mb 689
+2026-11-08T01:47:03Z rep=2 range:native:inner:phi8:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 8
+2026-11-08T01:47:11Z rep=3 range:native:inner:phi8:k256: env[] --m 4096 --n 4096 --k 256 --api dgemm --dist inner --phi 8
+2026-11-08T01:47:19Z rep=3 range:eager_ws:inner:phi4:k1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 1024 --api dgemm --dist inner --phi 4 --workspace-mb 689
+2026-11-08T01:47:28Z DONE

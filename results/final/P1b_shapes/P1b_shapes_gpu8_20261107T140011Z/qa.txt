@@ -1,0 +1,30 @@
+verdict WARN
+lines 245 x reps 3, rows 735
+WARN shape:native:odd:m4097_n4097_k4097: native 1.154 TFLOPS vs PoC 1.23
+WARN shape:eager_ws0:odd:m4097_n4097_k4097: rep-median spread 18.2% -> rerun
+WARN shape:native:odd:m4000_n4000_k4000: native 1.173 TFLOPS vs PoC 1.23
+WARN shape:eager_ws0:panel:m8192_n8192_k128: rep-median spread 19.8% -> rerun
+WARN shape:eager_ws0:skinny:m8192_n8_k8192: rep-median spread 16.9% -> rerun
+WARN shape:eager_ws0:skinny:m8192_n192_k8192: wall_sync spread 18.3%
+WARN shape:default_ws0:skinny:m8192_n256_k8192: rep-median spread 19.9% -> rerun
+WARN shape:default_ws0:skinny:m8192_n256_k8192: wall_sync spread 17.7%
+WARN shape:eager_ws0:skinny:m8192_n256_k8192: wall_sync spread 20.6%
+WARN shape:eager_ws0:skinny:m8192_n384_k8192: wall_sync spread 18.1%
+WARN shape:eager_ws0:skinny:m8192_n2048_k8192: wall_sync spread 18.4%
+WARN shape:eager_ws0:shortwide:m32_n8192_k8192: rep-median spread 23.6% -> rerun
+WARN shape:native:shortwide:m64_n8192_k8192: wall_sync spread 5.1%
+WARN shape:eager_ws0:shortwide:m64_n8192_k8192: rep-median spread 27.9% -> rerun
+WARN shape:eager_ws0:shortwide:m256_n8192_k8192: rep-median spread 20.0% -> rerun
+WARN shape:default_ws0:shortwide:m512_n8192_k8192: wall_sync spread 15.9%
+WARN shape:eager_ws0:shortwide:m512_n8192_k8192: wall_sync spread 24.1%
+WARN shape:eager_ws0:gram:m32_n32_k8192: wall_sync spread 22.4%
+WARN shape:eager_ws0:gram:m32_n32_k131072: wall_sync spread 15.1%
+WARN shape:native:gram:m128_n128_k8192: wall_sync spread 10.9%
+WARN shape:eager_ws:gram:m128_n128_k8192: wall_sync spread 8.5%
+WARN shape:eager_ws0:gram:m512_n512_k8192: wall_sync spread 27.7%
+WARN shape:default_ws0:gram:m512_n512_k32768: wall_sync spread 19.6%
+WARN shape:eager_ws0:gram:m512_n512_k32768: wall_sync spread 19.9%
+WARN shape:default_ws0:gram:m512_n512_k131072: wall_sync spread 21.8%
+WARN shape:eager_ws0:rsvd_QtA:m64_n8192_k16384_TN: wall_sync spread 18.4%
+WARN shape:native:rsvd_AtQ:m8192_n256_k16384_TN: wall_sync spread 5.6%
+WARN shape:eager_ws0:rsvd_AtQ:m8192_n256_k16384_TN: rep-median spread 15.2% -> rerun

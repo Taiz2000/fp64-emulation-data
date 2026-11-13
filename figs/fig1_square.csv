@@ -1,0 +1,59 @@
+gpu,n,mode,time,speedup,run_min,run_max,runs,path
+3090,512,eager_ws,event,2.0723,2.0630,2.0822,6,emu
+3090,512,eager_ws0,wall,0.1862,0.1275,0.1874,3,emu
+3090,1024,eager_ws,event,4.0997,4.0818,4.1209,6,emu
+3090,1024,eager_ws0,wall,0.9296,0.6712,1.1106,3,emu
+3090,1536,eager_ws,event,6.1072,6.1043,6.1095,3,emu
+3090,1536,eager_ws0,wall,1.6045,1.4309,1.7266,3,emu
+3090,2048,eager_ws,event,7.4209,7.3942,7.4263,3,emu
+3090,2048,eager_ws0,wall,2.1021,1.7473,2.2049,3,emu
+3090,3072,eager_ws,event,9.6146,9.5670,9.6426,3,emu
+3090,3072,eager_ws0,wall,2.9084,2.7087,3.5064,3,emu
+3090,4096,eager_ws,event,11.1192,11.0411,11.1611,3,emu
+3090,4096,eager_ws0,wall,3.7583,3.5890,4.2690,3,emu
+3090,6144,eager_ws,event,12.3765,12.3100,12.3849,3,emu
+3090,6144,eager_ws0,wall,5.3424,4.5570,5.4005,3,emu
+3090,8192,eager_ws,event,13.3909,13.3327,13.4105,3,emu
+3090,8192,eager_ws0,wall,6.4766,6.1902,6.6271,3,emu
+3090,12288,eager_ws,event,14.4916,14.4691,14.5049,3,emu
+3090,12288,eager_ws0,wall,9.9977,8.3884,10.3298,3,emu
+3090,16384,eager_ws,event,14.2067,14.1950,14.2607,3,emu
+3090,16384,eager_ws0,wall,11.8225,11.8169,12.1887,3,emu
+4090,512,default_ws,event,1.1220,1.1209,1.1332,3,emu
+4090,512,default_ws0,wall,0.0877,0.0836,0.0954,3,emu
+4090,1024,default_ws,event,4.0584,4.0453,4.0650,3,emu
+4090,1024,default_ws0,wall,0.5630,0.5551,0.5999,3,emu
+4090,1536,default_ws,event,5.3626,5.3592,5.3640,3,emu
+4090,1536,default_ws0,wall,0.9478,0.8708,1.0342,3,emu
+4090,2048,default_ws,event,6.7854,6.7781,6.8121,6,emu
+4090,2048,default_ws0,wall,1.3654,1.2988,1.4416,3,emu
+4090,3072,default_ws,event,8.8211,8.8084,8.8302,6,emu
+4090,3072,default_ws0,wall,1.8991,1.5938,1.9353,3,emu
+4090,4096,default_ws,event,10.4587,10.4489,10.4609,3,emu
+4090,4096,default_ws0,wall,2.6368,2.6276,2.7634,3,emu
+4090,6144,default_ws,event,12.6247,12.6238,12.6442,3,emu
+4090,6144,default_ws0,wall,3.2224,3.1628,3.6301,3,emu
+4090,8192,default_ws,event,13.5676,13.5652,13.6268,3,emu
+4090,8192,default_ws0,wall,4.1887,3.9204,4.7105,3,emu
+4090,12288,default_ws,event,15.1332,15.0845,15.1556,3,emu
+4090,12288,default_ws0,wall,7.8483,7.7022,8.2678,3,emu
+4090,16384,default_ws,event,15.1291,15.1034,15.2165,3,emu
+4090,16384,default_ws0,wall,10.3709,10.0679,11.1927,3,emu
+5060 Ti,512,default_ws,event,0.9999,0.9985,1.0007,3,native
+5060 Ti,512,default_ws0,wall,0.9972,0.9109,1.0007,3,native
+5060 Ti,1024,default_ws,event,4.9541,4.9538,4.9588,3,emu
+5060 Ti,1024,default_ws0,wall,2.4048,2.0848,2.6578,3,emu
+5060 Ti,1536,default_ws,event,6.7103,6.6942,6.7125,3,emu
+5060 Ti,1536,default_ws0,wall,3.4578,3.4400,4.0139,3,emu
+5060 Ti,2048,default_ws,event,8.6888,8.6871,8.6905,3,emu
+5060 Ti,2048,default_ws0,wall,4.7042,4.4983,5.6426,3,emu
+5060 Ti,3072,default_ws,event,11.0247,11.0194,11.0267,3,emu
+5060 Ti,3072,default_ws0,wall,6.8090,6.2131,7.0814,3,emu
+5060 Ti,4096,default_ws,event,13.2401,13.2360,13.2407,3,emu
+5060 Ti,4096,default_ws0,wall,8.9195,7.0385,8.9279,3,emu
+5060 Ti,6144,default_ws,event,16.4146,16.4025,16.4201,3,emu
+5060 Ti,6144,default_ws0,wall,11.8998,10.8991,12.5424,3,emu
+5060 Ti,8192,default_ws,event,18.8012,18.7932,18.8123,3,emu
+5060 Ti,8192,default_ws0,wall,14.6280,13.7007,14.7033,3,emu
+5060 Ti,12288,default_ws,event,0.9994,0.9990,0.9996,3,native
+5060 Ti,12288,default_ws0,wall,0.9991,0.9989,0.9995,3,native

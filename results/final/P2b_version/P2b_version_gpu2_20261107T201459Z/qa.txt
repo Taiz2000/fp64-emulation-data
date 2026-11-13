@@ -1,0 +1,6 @@
+verdict WARN
+lines 204 x reps 1, rows 204
+WARN ver13.1:native:sq:n2048: native 0.336 TFLOPS vs PoC 0.36
+WARN ver13.2:native:sq:n2048: native 0.337 TFLOPS vs PoC 0.36
+WARN ver13.3:native:sq:n2048: native 0.337 TFLOPS vs PoC 0.36
+WARN ver13.4:native:sq:n2048: native 0.337 TFLOPS vs PoC 0.36

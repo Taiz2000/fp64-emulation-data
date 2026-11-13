@@ -1,0 +1,6 @@
+gpu	config	ok/runs	med_ms	spread%	p90/med	TFLOPS	x_native	path	bits	err_comp	nat_err	err_rel	J/call	wall_sync	x_nat_wall
+ce RTX 3090	shape:eager_ws:gram:m128_n128_k8192	3/3	2.217	1.4	1.00	0.121	0.26	emu	58	6.2e-18	3.3e-17	2.6e-14	0.560	2.220	0.26
+ce RTX 3090	shape:native:gram:m128_n128_k8192	3/3	0.583	1.4	1.00	0.461	1.00	native	-	3.3e-17	3.3e-17	4.7e-12	0.125	0.585	1.00
+ce RTX 3090	shape:eager_ws0:gram:m32_n32_k8192	3/3	3.338	2.1	1.13	0.005	nan	emu	58	6.5e-18	3.4e-17	1.5e-15	1.567	9.032	nan
+ce RTX 3090	shape:native:rsvd_AO:m16384_n256_k8192	3/3	127.206	0.8	1.00	0.540	1.00	native	-	3.6e-16	3.6e-16	2.2e-12	27.846	127.210	1.00
+ce RTX 3090	shape:eager_ws0:skinny:m8192_n64_k8192	3/3	31.421	5.0	1.07	0.273	nan	emu	58	6.6e-18	5.0e-17	1.1e-14	17.380	80.546	nan

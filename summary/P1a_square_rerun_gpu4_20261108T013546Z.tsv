@@ -1,0 +1,4 @@
+gpu	config	ok/runs	med_ms	spread%	p90/med	TFLOPS	x_native	path	bits	err_comp	nat_err	err_rel	J/call	wall_sync	x_nat_wall
+ce RTX 3090	sq:eager_ws:n1024	3/3	1.080	1.0	1.00	1.989	nan	emu	59	2.2e-17	3.0e-16	5.2e-16	0.333	1.089	nan
+ce RTX 3090	sq:eager_kp:n1536	3/3	2.318	0.7	1.00	3.126	nan	emu	59	1.6e-17	2.8e-16	2.8e-15	0.788	2.321	nan
+ce RTX 3090	sq:eager_ws:n512	3/3	0.312	0.9	1.00	0.859	nan	emu	60	2.4e-17	3.0e-16	2.1e-15	0.095	0.314	nan

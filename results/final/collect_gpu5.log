@@ -1,0 +1,26 @@
+2026-11-07T13:06:55Z start P1b (245 lines x 3)
+2026-11-07T15:26:35Z end P1b -> /home/taiz/fp64/pathB/results/final/P1b_shapes/P1b_shapes_gpu5_20261107T130655Z
+WARN  results/final/P1b_shapes/P1b_shapes_gpu5_20261107T130655Z  (0 fail, 22 warn)
+    shape:eager_ws0:square:m4096_n4096_k4096: wall_sync spread 34.7%
+    shape:native:odd:m4097_n4097_k4097: native 0.523 TFLOPS vs PoC 0.54
+    shape:eager_ws0:odd:m4097_n4097_k4097: wall_sync spread 34.9%
+    shape:eager_ws0:odd:m3001_n5003_k2999: wall_sync spread 30.0%
+    shape:eager_ws0:panel:m8192_n8192_k1024: wall_sync spread 22.1%
+    shape:eager_ws0:skinny:m8192_n32_k8192: wall_sync spread 16.0%
+    shape:eager_ws0:skinny:m8192_n64_k8192: rep-median spread 15.1% -> rerun
+    shape:eager_ws0:skinny:m8192_n192_k8192: wall_sync spread 19.3%
+    shape:eager_ws0:skinny:m8192_n384_k8192: wall_sync spread 16.3%
+    shape:eager_ws0:shortwide:m32_n8192_k8192: wall_sync spread 15.4%
+    shape:eager_ws0:shortwide:m256_n8192_k8192: wall_sync spread 22.8%
+    shape:eager_ws0:shortwide:m512_n8192_k8192: wall_sync spread 20.5%
+    shape:eager_ws0:gram:m32_n32_k8192: throttle reasons ['0x424']
+    shape:eager_ws0:gram:m32_n32_k32768: wall_sync spread 26.1%
+    shape:native:gram:m128_n128_k8192: wall_sync spread 8.3%
+2026-11-07T15:26:35Z ALL DONE
+2026-11-07T17:07:20Z start P2a (870 lines x 1)
+2026-11-07T17:55:01Z end P2a -> /home/taiz/fp64/pathB/results/final/P2a_decision/P2a_decision_gpu5_20261107T170720Z
+PASS  results/final/P2a_decision/P2a_decision_gpu5_20261107T170720Z  (0 fail, 0 warn)
+2026-11-07T17:55:01Z start P2d (72 lines x 3)
+2026-11-07T18:27:50Z end P2d -> /home/taiz/fp64/pathB/results/final/P2d_edges/P2d_edges_gpu5_20261107T175501Z
+PASS  results/final/P2d_edges/P2d_edges_gpu5_20261107T175501Z  (0 fail, 0 warn)
+2026-11-07T18:27:50Z ALL DONE

@@ -1,0 +1,70 @@
+sq:native:n512||--m 512 --n 512 --k 512 --api dgemm 
+sq:default_ws0:n512|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 512 --n 512 --k 512 --api dgemm 
+sq:default_kp:n512|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 512 --n 512 --k 512 --api dgemm  --keep-pool
+sq:default_ws:n512|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 512 --n 512 --k 512 --api dgemm  --workspace-mb 107
+sq:eager_ws0:n512|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 512 --n 512 --k 512 --api dgemm 
+sq:eager_kp:n512|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 512 --n 512 --k 512 --api dgemm  --keep-pool
+sq:eager_ws:n512|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 512 --n 512 --k 512 --api dgemm  --workspace-mb 107
+sq:native:n1024||--m 1024 --n 1024 --k 1024 --api dgemm 
+sq:default_ws0:n1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 1024 --n 1024 --k 1024 --api dgemm 
+sq:default_kp:n1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 1024 --n 1024 --k 1024 --api dgemm  --keep-pool
+sq:default_ws:n1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 1024 --n 1024 --k 1024 --api dgemm  --workspace-mb 124
+sq:eager_ws0:n1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 1024 --n 1024 --k 1024 --api dgemm 
+sq:eager_kp:n1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 1024 --n 1024 --k 1024 --api dgemm  --keep-pool
+sq:eager_ws:n1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 1024 --n 1024 --k 1024 --api dgemm  --workspace-mb 124
+sq:native:n1536||--m 1536 --n 1536 --k 1536 --api dgemm 
+sq:default_ws0:n1536|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 1536 --n 1536 --k 1536 --api dgemm 
+sq:default_kp:n1536|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 1536 --n 1536 --k 1536 --api dgemm  --keep-pool
+sq:default_ws:n1536|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 1536 --n 1536 --k 1536 --api dgemm  --workspace-mb 206
+sq:eager_ws0:n1536|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 1536 --n 1536 --k 1536 --api dgemm 
+sq:eager_kp:n1536|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 1536 --n 1536 --k 1536 --api dgemm  --keep-pool
+sq:eager_ws:n1536|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 1536 --n 1536 --k 1536 --api dgemm  --workspace-mb 206
+sq:native:n2048||--m 2048 --n 2048 --k 2048 --api dgemm 
+sq:default_ws0:n2048|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 2048 --n 2048 --k 2048 --api dgemm 
+sq:default_kp:n2048|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 2048 --n 2048 --k 2048 --api dgemm  --keep-pool
+sq:default_ws:n2048|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 2048 --n 2048 --k 2048 --api dgemm  --workspace-mb 341
+sq:eager_ws0:n2048|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 2048 --n 2048 --k 2048 --api dgemm 
+sq:eager_kp:n2048|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 2048 --n 2048 --k 2048 --api dgemm  --keep-pool
+sq:eager_ws:n2048|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 2048 --n 2048 --k 2048 --api dgemm  --workspace-mb 341
+sq:native:n3072||--m 3072 --n 3072 --k 3072 --api dgemm 
+sq:default_ws0:n3072|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 3072 --n 3072 --k 3072 --api dgemm 
+sq:default_kp:n3072|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 3072 --n 3072 --k 3072 --api dgemm  --keep-pool
+sq:default_ws:n3072|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 3072 --n 3072 --k 3072 --api dgemm  --workspace-mb 726
+sq:eager_ws0:n3072|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 3072 --n 3072 --k 3072 --api dgemm 
+sq:eager_kp:n3072|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 3072 --n 3072 --k 3072 --api dgemm  --keep-pool
+sq:eager_ws:n3072|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 3072 --n 3072 --k 3072 --api dgemm  --workspace-mb 726
+sq:native:n4096||--m 4096 --n 4096 --k 4096 --api dgemm 
+sq:default_ws0:n4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm 
+sq:default_kp:n4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm  --keep-pool
+sq:default_ws:n4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm  --workspace-mb 1265
+sq:eager_ws0:n4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm 
+sq:eager_kp:n4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm  --keep-pool
+sq:eager_ws:n4096|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm  --workspace-mb 1265
+sq:native:n6144||--m 6144 --n 6144 --k 6144 --api dgemm 
+sq:default_ws0:n6144|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 6144 --n 6144 --k 6144 --api dgemm 
+sq:default_kp:n6144|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 6144 --n 6144 --k 6144 --api dgemm  --keep-pool
+sq:default_ws:n6144|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 6144 --n 6144 --k 6144 --api dgemm  --workspace-mb 2805
+sq:eager_ws0:n6144|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 6144 --n 6144 --k 6144 --api dgemm 
+sq:eager_kp:n6144|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 6144 --n 6144 --k 6144 --api dgemm  --keep-pool
+sq:eager_ws:n6144|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 6144 --n 6144 --k 6144 --api dgemm  --workspace-mb 2805
+sq:native:n8192||--m 8192 --n 8192 --k 8192 --api dgemm 
+sq:default_ws0:n8192|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 8192 --n 8192 --k 8192 --api dgemm 
+sq:default_kp:n8192|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 8192 --n 8192 --k 8192 --api dgemm  --keep-pool
+sq:default_ws:n8192|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 8192 --n 8192 --k 8192 --api dgemm  --workspace-mb 4961
+sq:eager_ws0:n8192|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 8192 --n 8192 --k 8192 --api dgemm 
+sq:eager_kp:n8192|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 8192 --n 8192 --k 8192 --api dgemm  --keep-pool
+sq:eager_ws:n8192|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 8192 --n 8192 --k 8192 --api dgemm  --workspace-mb 4961
+sq:native:n12288||--m 12288 --n 12288 --k 12288 --api dgemm 
+sq:default_ws0:n12288|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 12288 --n 12288 --k 12288 --api dgemm 
+sq:default_kp:n12288|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 12288 --n 12288 --k 12288 --api dgemm  --keep-pool
+sq:default_ws:n12288|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 12288 --n 12288 --k 12288 --api dgemm  --workspace-mb 6513
+sq:eager_ws0:n12288|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 12288 --n 12288 --k 12288 --api dgemm 
+sq:eager_kp:n12288|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 12288 --n 12288 --k 12288 --api dgemm  --keep-pool
+sq:eager_ws:n12288|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 12288 --n 12288 --k 12288 --api dgemm  --workspace-mb 6513
+sq:native:n16384||--m 16384 --n 16384 --k 16384 --api dgemm 
+sq:default_ws0:n16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 16384 --n 16384 --k 16384 --api dgemm 
+sq:default_kp:n16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 16384 --n 16384 --k 16384 --api dgemm  --keep-pool
+sq:default_ws:n16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 16384 --n 16384 --k 16384 --api dgemm  --workspace-mb 6754
+sq:eager_ws0:n16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 16384 --n 16384 --k 16384 --api dgemm 
+sq:eager_kp:n16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 16384 --n 16384 --k 16384 --api dgemm  --keep-pool
+sq:eager_ws:n16384|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 16384 --n 16384 --k 16384 --api dgemm  --workspace-mb 6754

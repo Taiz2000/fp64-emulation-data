@@ -1,0 +1,1 @@
+INVALID: run_p3b.sh lacked CUDA_DEVICE_ORDER=PCI_BUS_ID; CUDA index 2 = physical GPU 1 (spare 3090), not the 5060 Ti. Superseded by P3b_mempool_gpu2_20261108T015545Z.

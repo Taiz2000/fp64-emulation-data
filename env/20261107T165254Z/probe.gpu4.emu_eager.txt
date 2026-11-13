@@ -1,0 +1,35 @@
+cudart_runtime_version=13040
+cuda_driver_version=13040
+cublas_property_version=13.8.0
+cublas_header_version=13.8.0.4
+env.CUDA_VISIBLE_DEVICES=4
+env.CUDA_DEVICE_ORDER=PCI_BUS_ID
+env.CUBLAS_EMULATE_DOUBLE_PRECISION=1
+env.CUBLAS_EMULATION_STRATEGY=EAGER
+env.CUBLAS_EMULATION_SPECIAL_VALUES_SUPPORT_MASK=<unset>
+env.CUBLAS_FIXEDPOINT_EMULATION_MANTISSA_BIT_COUNT=<unset>
+env.CUBLAS_ENABLE_EXPERIMENTAL_ESC=<unset>
+env.CUBLAS_WORKSPACE_CONFIG=<unset>
+env.LD_LIBRARY_PATH=<unset>
+visible_devices=1
+dev0.name=NVIDIA GeForce RTX 3090
+dev0.pci=0000:81:00.0
+dev0.cc=8.6
+dev0.sm_count=82
+dev0.max_sm_clock_khz=1695000
+dev0.mem_clock_khz=9751000
+dev0.mem_bus_bits=384
+dev0.l2_bytes=6291456
+dev0.mem_total_mib=24176
+dev0.mem_free_mib=23911
+dev0.cublas_handle_version=130800
+dev0.handle.math_mode=0
+dev0.handle.emulation_strategy=0  # 0=DEFAULT 1=PERFORMANT 2=EAGER
+dev0.handle.mantissa_control=0  # 0=DYNAMIC 1=FIXED
+dev0.handle.max_mantissa_bits=0
+dev0.handle.mantissa_bit_offset=0
+dev0.handle.special_values_mask=0xffff
+dev0.handle.mantissa_bitcount_ptr=(nil)
+loaded_lib=/usr/local/cuda-13.4/targets/x86_64-linux/lib/libcublas.so.13
+loaded_lib=/usr/local/cuda-13.4/targets/x86_64-linux/lib/libcublasLt.so.13
+loaded_lib=/lib/x86_64-linux-gnu/libcuda.so.1

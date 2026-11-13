@@ -1,0 +1,11 @@
+verdict WARN
+lines 72 x reps 3, rows 216
+WARN edge:default_ws0:op:sq4096:NN: wall_sync spread 38.1%
+WARN edge:default_ws0:op:skinny256:NN: wall_sync spread 37.1%
+WARN edge:default_ws0:op:sq4096:NT: wall_sync spread 36.8%
+WARN edge:default_ws0:op:skinny256:NT: wall_sync spread 39.0%
+WARN edge:default_ws0:op:sq4096:TN: wall_sync spread 33.6%
+WARN edge:default_ws0:op:skinny256:TN: wall_sync spread 28.1%
+WARN edge:default_ws0:op:sq4096:TT: wall_sync spread 32.3%
+WARN edge:default_ws0:op:skinny256:TT: wall_sync spread 31.0%
+WARN edge:default_ws0:batch64:n512: wall_sync spread 26.3%

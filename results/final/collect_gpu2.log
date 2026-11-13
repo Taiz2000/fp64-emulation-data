@@ -1,0 +1,60 @@
+2026-11-07T13:16:49Z start P1a (63 lines x 3)
+2026-11-07T14:50:12Z end P1a -> /home/taiz/fp64/pathB/results/final/P1a_square/P1a_square_gpu2_20261107T131649Z
+WARN  results/final/P1a_square/P1a_square_gpu2_20261107T131649Z  (0 fail, 8 warn)
+    sq:eager_kp:n512: wall_sync spread 5.1%
+    sq:default_ws0:n1024: wall_sync spread 24.9%
+    sq:eager_ws0:n1536: wall_sync spread 30.9%
+    sq:native:n2048: native 0.337 TFLOPS vs PoC 0.36
+    sq:default_ws0:n2048: wall_sync spread 21.2%
+    sq:eager_ws0:n2048: wall_sync spread 23.8%
+    sq:default_ws0:n4096: wall_sync spread 26.8%
+    sq:eager_ws0:n8192: wall_sync spread 19.4%
+2026-11-07T14:50:12Z start P1b (245 lines x 3)
+2026-11-07T16:51:54Z end P1b -> /home/taiz/fp64/pathB/results/final/P1b_shapes/P1b_shapes_gpu2_20261107T145012Z
+WARN  results/final/P1b_shapes/P1b_shapes_gpu2_20261107T145012Z  (0 fail, 41 warn)
+    shape:native:odd:m4097_n4097_k4097: native 0.342 TFLOPS vs PoC 0.36
+    shape:eager_ws0:odd:m4097_n4097_k4097: wall_sync spread 16.4%
+    shape:native:odd:m4000_n4000_k4000: native 0.348 TFLOPS vs PoC 0.36
+    shape:default_ws0:odd:m4000_n4000_k4000: wall_sync spread 55.6%
+    shape:eager_ws0:odd:m4000_n4000_k4000: wall_sync spread 22.3%
+    shape:eager_ws0:odd:m3001_n5003_k2999: wall_sync spread 21.9%
+    shape:eager_ws0:panel:m8192_n8192_k32: wall_sync spread 37.7%
+    shape:eager_ws0:panel:m8192_n8192_k64: wall_sync spread 26.1%
+    shape:eager_ws0:panel:m8192_n8192_k96: wall_sync spread 25.7%
+    shape:eager_ws0:panel:m8192_n8192_k256: wall_sync spread 34.5%
+    shape:default_ws0:panel:m8192_n8192_k512: wall_sync spread 21.5%
+    shape:eager_ws0:panel:m8192_n8192_k512: wall_sync spread 26.8%
+    shape:default_ws0:panel:m8192_n8192_k1024: wall_sync spread 41.9%
+    shape:eager_ws0:skinny:m8192_n64_k8192: wall_sync spread 25.1%
+    shape:eager_ws0:skinny:m8192_n96_k8192: wall_sync spread 18.1%
+2026-11-07T16:51:54Z start P1c (117 lines x 3)
+2026-11-07T17:56:41Z end P1c -> /home/taiz/fp64/pathB/results/final/P1c_ranges/P1c_ranges_gpu2_20261107T165154Z
+PASS  results/final/P1c_ranges/P1c_ranges_gpu2_20261107T165154Z  (0 fail, 0 warn)
+2026-11-07T17:56:41Z ALL DONE
+2026-11-07T19:35:20Z start P2a (861 lines x 1)
+2026-11-07T20:14:59Z end P2a -> /home/taiz/fp64/pathB/results/final/P2a_decision/P2a_decision_gpu2_20261107T193520Z
+PASS  results/final/P2a_decision/P2a_decision_gpu2_20261107T193520Z  (0 fail, 0 warn)
+2026-11-07T20:14:59Z start P2b (204 lines x 1)
+2026-11-07T20:39:09Z end P2b -> /home/taiz/fp64/pathB/results/final/P2b_version/P2b_version_gpu2_20261107T201459Z
+WARN  results/final/P2b_version/P2b_version_gpu2_20261107T201459Z  (0 fail, 4 warn)
+    ver13.1:native:sq:n2048: native 0.336 TFLOPS vs PoC 0.36
+    ver13.2:native:sq:n2048: native 0.337 TFLOPS vs PoC 0.36
+    ver13.3:native:sq:n2048: native 0.337 TFLOPS vs PoC 0.36
+    ver13.4:native:sq:n2048: native 0.337 TFLOPS vs PoC 0.36
+2026-11-07T20:39:09Z start P2c (28 lines x 3)
+2026-11-07T20:52:29Z end P2c -> /home/taiz/fp64/pathB/results/final/P2c_bits/P2c_bits_gpu2_20261107T203909Z
+WARN  results/final/P2c_bits/P2c_bits_gpu2_20261107T203909Z  (0 fail, 3 warn)
+    bits:eager_ws:u11:fixed24: emulated error 3.149e-09 > native 2.509e-16
+    bits:eager_ws:u11:fixed32: emulated error 1.196e-11 > native 2.509e-16
+    bits:eager_ws:u11:fixed40: emulated error 5.147e-14 > native 2.509e-16
+2026-11-07T20:52:29Z start P2d (72 lines x 3)
+2026-11-07T21:25:58Z end P2d -> /home/taiz/fp64/pathB/results/final/P2d_edges/P2d_edges_gpu2_20261107T205229Z
+WARN  results/final/P2d_edges/P2d_edges_gpu2_20261107T205229Z  (0 fail, 7 warn)
+    edge:native:inject:nan: native 0.337 TFLOPS vs PoC 0.36
+    edge:native:inject:inf: native 0.337 TFLOPS vs PoC 0.36
+    edge:native:inject:ninf: native 0.337 TFLOPS vs PoC 0.36
+    edge:native:inject:subnormal: native 0.337 TFLOPS vs PoC 0.36
+    edge:native:inject:huge: native 0.337 TFLOPS vs PoC 0.36
+    edge:native:inject:overflow: native 0.337 TFLOPS vs PoC 0.36
+    edge:native:inject:zeroblock: native 0.337 TFLOPS vs PoC 0.36
+2026-11-07T21:25:58Z ALL DONE

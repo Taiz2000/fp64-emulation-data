@@ -1,0 +1,72 @@
+edge:native:inject:nan||--m 2048 --n 2048 --k 2048 --api dgemm --inject nan --kern-out @OUT@/kern/edge:native:inject:nan.r@REP@.tsv
+edge:default_ws:inject:nan|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 2048 --n 2048 --k 2048 --api dgemm --inject nan --workspace-mb 341 --kern-out @OUT@/kern/edge:default_ws:inject:nan.r@REP@.tsv
+edge:eager_ws:inject:nan|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 2048 --n 2048 --k 2048 --api dgemm --inject nan --workspace-mb 341 --kern-out @OUT@/kern/edge:eager_ws:inject:nan.r@REP@.tsv
+edge:eager_ws_mask0:inject:nan|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER CUBLAS_EMULATION_SPECIAL_VALUES_SUPPORT_MASK=0|--m 2048 --n 2048 --k 2048 --api dgemm --inject nan --workspace-mb 341 --kern-out @OUT@/kern/edge:eager_ws_mask0:inject:nan.r@REP@.tsv
+edge:native:inject:inf||--m 2048 --n 2048 --k 2048 --api dgemm --inject inf --kern-out @OUT@/kern/edge:native:inject:inf.r@REP@.tsv
+edge:default_ws:inject:inf|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 2048 --n 2048 --k 2048 --api dgemm --inject inf --workspace-mb 341 --kern-out @OUT@/kern/edge:default_ws:inject:inf.r@REP@.tsv
+edge:eager_ws:inject:inf|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 2048 --n 2048 --k 2048 --api dgemm --inject inf --workspace-mb 341 --kern-out @OUT@/kern/edge:eager_ws:inject:inf.r@REP@.tsv
+edge:eager_ws_mask0:inject:inf|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER CUBLAS_EMULATION_SPECIAL_VALUES_SUPPORT_MASK=0|--m 2048 --n 2048 --k 2048 --api dgemm --inject inf --workspace-mb 341 --kern-out @OUT@/kern/edge:eager_ws_mask0:inject:inf.r@REP@.tsv
+edge:native:inject:ninf||--m 2048 --n 2048 --k 2048 --api dgemm --inject ninf --kern-out @OUT@/kern/edge:native:inject:ninf.r@REP@.tsv
+edge:default_ws:inject:ninf|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 2048 --n 2048 --k 2048 --api dgemm --inject ninf --workspace-mb 341 --kern-out @OUT@/kern/edge:default_ws:inject:ninf.r@REP@.tsv
+edge:eager_ws:inject:ninf|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 2048 --n 2048 --k 2048 --api dgemm --inject ninf --workspace-mb 341 --kern-out @OUT@/kern/edge:eager_ws:inject:ninf.r@REP@.tsv
+edge:eager_ws_mask0:inject:ninf|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER CUBLAS_EMULATION_SPECIAL_VALUES_SUPPORT_MASK=0|--m 2048 --n 2048 --k 2048 --api dgemm --inject ninf --workspace-mb 341 --kern-out @OUT@/kern/edge:eager_ws_mask0:inject:ninf.r@REP@.tsv
+edge:native:inject:subnormal||--m 2048 --n 2048 --k 2048 --api dgemm --inject subnormal --kern-out @OUT@/kern/edge:native:inject:subnormal.r@REP@.tsv
+edge:default_ws:inject:subnormal|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 2048 --n 2048 --k 2048 --api dgemm --inject subnormal --workspace-mb 341 --kern-out @OUT@/kern/edge:default_ws:inject:subnormal.r@REP@.tsv
+edge:eager_ws:inject:subnormal|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 2048 --n 2048 --k 2048 --api dgemm --inject subnormal --workspace-mb 341 --kern-out @OUT@/kern/edge:eager_ws:inject:subnormal.r@REP@.tsv
+edge:eager_ws_mask0:inject:subnormal|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER CUBLAS_EMULATION_SPECIAL_VALUES_SUPPORT_MASK=0|--m 2048 --n 2048 --k 2048 --api dgemm --inject subnormal --workspace-mb 341 --kern-out @OUT@/kern/edge:eager_ws_mask0:inject:subnormal.r@REP@.tsv
+edge:native:inject:huge||--m 2048 --n 2048 --k 2048 --api dgemm --inject huge --kern-out @OUT@/kern/edge:native:inject:huge.r@REP@.tsv
+edge:default_ws:inject:huge|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 2048 --n 2048 --k 2048 --api dgemm --inject huge --workspace-mb 341 --kern-out @OUT@/kern/edge:default_ws:inject:huge.r@REP@.tsv
+edge:eager_ws:inject:huge|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 2048 --n 2048 --k 2048 --api dgemm --inject huge --workspace-mb 341 --kern-out @OUT@/kern/edge:eager_ws:inject:huge.r@REP@.tsv
+edge:eager_ws_mask0:inject:huge|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER CUBLAS_EMULATION_SPECIAL_VALUES_SUPPORT_MASK=0|--m 2048 --n 2048 --k 2048 --api dgemm --inject huge --workspace-mb 341 --kern-out @OUT@/kern/edge:eager_ws_mask0:inject:huge.r@REP@.tsv
+edge:native:inject:overflow||--m 2048 --n 2048 --k 2048 --api dgemm --inject overflow --kern-out @OUT@/kern/edge:native:inject:overflow.r@REP@.tsv
+edge:default_ws:inject:overflow|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 2048 --n 2048 --k 2048 --api dgemm --inject overflow --workspace-mb 341 --kern-out @OUT@/kern/edge:default_ws:inject:overflow.r@REP@.tsv
+edge:eager_ws:inject:overflow|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 2048 --n 2048 --k 2048 --api dgemm --inject overflow --workspace-mb 341 --kern-out @OUT@/kern/edge:eager_ws:inject:overflow.r@REP@.tsv
+edge:eager_ws_mask0:inject:overflow|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER CUBLAS_EMULATION_SPECIAL_VALUES_SUPPORT_MASK=0|--m 2048 --n 2048 --k 2048 --api dgemm --inject overflow --workspace-mb 341 --kern-out @OUT@/kern/edge:eager_ws_mask0:inject:overflow.r@REP@.tsv
+edge:native:inject:zeroblock||--m 2048 --n 2048 --k 2048 --api dgemm --inject zeroblock --kern-out @OUT@/kern/edge:native:inject:zeroblock.r@REP@.tsv
+edge:default_ws:inject:zeroblock|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 2048 --n 2048 --k 2048 --api dgemm --inject zeroblock --workspace-mb 341 --kern-out @OUT@/kern/edge:default_ws:inject:zeroblock.r@REP@.tsv
+edge:eager_ws:inject:zeroblock|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 2048 --n 2048 --k 2048 --api dgemm --inject zeroblock --workspace-mb 341 --kern-out @OUT@/kern/edge:eager_ws:inject:zeroblock.r@REP@.tsv
+edge:eager_ws_mask0:inject:zeroblock|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER CUBLAS_EMULATION_SPECIAL_VALUES_SUPPORT_MASK=0|--m 2048 --n 2048 --k 2048 --api dgemm --inject zeroblock --workspace-mb 341 --kern-out @OUT@/kern/edge:eager_ws_mask0:inject:zeroblock.r@REP@.tsv
+edge:native:op:sq4096:NN||--m 4096 --n 4096 --k 4096 --api dgemm --opa N --opb N
+edge:default_ws0:op:sq4096:NN|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --opa N --opb N
+edge:default_ws:op:sq4096:NN|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --opa N --opb N --workspace-mb 1265
+edge:eager_ws:op:sq4096:NN|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --opa N --opb N --workspace-mb 1265
+edge:native:op:skinny256:NN||--m 8192 --n 256 --k 8192 --api dgemm --opa N --opb N
+edge:default_ws0:op:skinny256:NN|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 8192 --n 256 --k 8192 --api dgemm --opa N --opb N
+edge:default_ws:op:skinny256:NN|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 8192 --n 256 --k 8192 --api dgemm --opa N --opb N --workspace-mb 1781
+edge:eager_ws:op:skinny256:NN|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 8192 --n 256 --k 8192 --api dgemm --opa N --opb N --workspace-mb 1781
+edge:native:op:sq4096:NT||--m 4096 --n 4096 --k 4096 --api dgemm --opa N --opb T
+edge:default_ws0:op:sq4096:NT|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --opa N --opb T
+edge:default_ws:op:sq4096:NT|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --opa N --opb T --workspace-mb 1265
+edge:eager_ws:op:sq4096:NT|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --opa N --opb T --workspace-mb 1265
+edge:native:op:skinny256:NT||--m 8192 --n 256 --k 8192 --api dgemm --opa N --opb T
+edge:default_ws0:op:skinny256:NT|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 8192 --n 256 --k 8192 --api dgemm --opa N --opb T
+edge:default_ws:op:skinny256:NT|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 8192 --n 256 --k 8192 --api dgemm --opa N --opb T --workspace-mb 1781
+edge:eager_ws:op:skinny256:NT|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 8192 --n 256 --k 8192 --api dgemm --opa N --opb T --workspace-mb 1781
+edge:native:op:sq4096:TN||--m 4096 --n 4096 --k 4096 --api dgemm --opa T --opb N
+edge:default_ws0:op:sq4096:TN|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --opa T --opb N
+edge:default_ws:op:sq4096:TN|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --opa T --opb N --workspace-mb 1265
+edge:eager_ws:op:sq4096:TN|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --opa T --opb N --workspace-mb 1265
+edge:native:op:skinny256:TN||--m 8192 --n 256 --k 8192 --api dgemm --opa T --opb N
+edge:default_ws0:op:skinny256:TN|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 8192 --n 256 --k 8192 --api dgemm --opa T --opb N
+edge:default_ws:op:skinny256:TN|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 8192 --n 256 --k 8192 --api dgemm --opa T --opb N --workspace-mb 1781
+edge:eager_ws:op:skinny256:TN|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 8192 --n 256 --k 8192 --api dgemm --opa T --opb N --workspace-mb 1781
+edge:native:op:sq4096:TT||--m 4096 --n 4096 --k 4096 --api dgemm --opa T --opb T
+edge:default_ws0:op:sq4096:TT|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --opa T --opb T
+edge:default_ws:op:sq4096:TT|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 4096 --n 4096 --k 4096 --api dgemm --opa T --opb T --workspace-mb 1265
+edge:eager_ws:op:sq4096:TT|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 4096 --n 4096 --k 4096 --api dgemm --opa T --opb T --workspace-mb 1265
+edge:native:op:skinny256:TT||--m 8192 --n 256 --k 8192 --api dgemm --opa T --opb T
+edge:default_ws0:op:skinny256:TT|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 8192 --n 256 --k 8192 --api dgemm --opa T --opb T
+edge:default_ws:op:skinny256:TT|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 8192 --n 256 --k 8192 --api dgemm --opa T --opb T --workspace-mb 1781
+edge:eager_ws:op:skinny256:TT|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 8192 --n 256 --k 8192 --api dgemm --opa T --opb T --workspace-mb 1781
+edge:native:beta:panel256||--m 8192 --n 8192 --k 256 --api dgemm --alpha -1 --beta 1
+edge:default_ws0:beta:panel256|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 8192 --n 8192 --k 256 --api dgemm --alpha -1 --beta 1
+edge:default_ws:beta:panel256|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 8192 --n 8192 --k 256 --api dgemm --alpha -1 --beta 1 --workspace-mb 1985
+edge:eager_ws:beta:panel256|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 8192 --n 8192 --k 256 --api dgemm --alpha -1 --beta 1 --workspace-mb 1985
+edge:native:batch64:n512||--m 512 --n 512 --k 512 --api dgemm --batch 64
+edge:default_ws0:batch64:n512|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 512 --n 512 --k 512 --api dgemm --batch 64
+edge:default_ws:batch64:n512|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 512 --n 512 --k 512 --api dgemm --batch 64 --workspace-mb 722
+edge:eager_ws:batch64:n512|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 512 --n 512 --k 512 --api dgemm --batch 64 --workspace-mb 722
+edge:native:batch64:n1024||--m 1024 --n 1024 --k 1024 --api dgemm --batch 64
+edge:default_ws0:batch64:n1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 1024 --n 1024 --k 1024 --api dgemm --batch 64
+edge:default_ws:batch64:n1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1|--m 1024 --n 1024 --k 1024 --api dgemm --batch 64 --workspace-mb 1762
+edge:eager_ws:batch64:n1024|CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER|--m 1024 --n 1024 --k 1024 --api dgemm --batch 64 --workspace-mb 1762

@@ -1,0 +1,24 @@
+verdict WARN
+lines 245 x reps 3, rows 735
+WARN shape:eager_ws0:square:m4096_n4096_k4096: wall_sync spread 34.7%
+WARN shape:native:odd:m4097_n4097_k4097: native 0.523 TFLOPS vs PoC 0.54
+WARN shape:eager_ws0:odd:m4097_n4097_k4097: wall_sync spread 34.9%
+WARN shape:eager_ws0:odd:m3001_n5003_k2999: wall_sync spread 30.0%
+WARN shape:eager_ws0:panel:m8192_n8192_k1024: wall_sync spread 22.1%
+WARN shape:eager_ws0:skinny:m8192_n32_k8192: wall_sync spread 16.0%
+WARN shape:eager_ws0:skinny:m8192_n64_k8192: rep-median spread 15.1% -> rerun
+WARN shape:eager_ws0:skinny:m8192_n192_k8192: wall_sync spread 19.3%
+WARN shape:eager_ws0:skinny:m8192_n384_k8192: wall_sync spread 16.3%
+WARN shape:eager_ws0:shortwide:m32_n8192_k8192: wall_sync spread 15.4%
+WARN shape:eager_ws0:shortwide:m256_n8192_k8192: wall_sync spread 22.8%
+WARN shape:eager_ws0:shortwide:m512_n8192_k8192: wall_sync spread 20.5%
+WARN shape:eager_ws0:gram:m32_n32_k8192: throttle reasons ['0x424']
+WARN shape:eager_ws0:gram:m32_n32_k32768: wall_sync spread 26.1%
+WARN shape:native:gram:m128_n128_k8192: wall_sync spread 8.3%
+WARN shape:eager_ws:gram:m128_n128_k8192: wall_sync spread 5.2%
+WARN shape:eager_ws0:gram:m128_n128_k32768: wall_sync spread 15.2%
+WARN shape:eager_ws0:gram:m512_n512_k8192: wall_sync spread 27.8%
+WARN shape:eager_ws0:gram:m512_n512_k131072: wall_sync spread 18.7%
+WARN shape:eager_ws0:rsvd_AtQ:m8192_n64_k16384_TN: wall_sync spread 28.1%
+WARN shape:eager_ws0:rsvd_QtA:m64_n8192_k16384_TN: wall_sync spread 17.4%
+WARN shape:native:rsvd_AO:m16384_n256_k8192: wall_sync spread 5.3%

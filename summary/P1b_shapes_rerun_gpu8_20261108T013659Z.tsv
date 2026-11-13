@@ -1,0 +1,13 @@
+gpu	config	ok/runs	med_ms	spread%	p90/med	TFLOPS	x_native	path	bits	err_comp	nat_err	err_rel	J/call	wall_sync	x_nat_wall
+ce RTX 4090	shape:eager_ws:gram:m128_n128_k8192	3/3	1.120	0.3	1.00	0.240	0.24	emu	58	6.2e-18	3.3e-17	2.6e-14	0.275	1.122	0.25
+ce RTX 4090	shape:native:gram:m128_n128_k8192	3/3	0.274	0.0	1.00	0.978	1.00	native	-	3.3e-17	3.3e-17	4.7e-12	0.047	0.276	1.00
+ce RTX 4090	shape:eager_ws0:odd:m4097_n4097_k4097	3/3	17.305	21.3	1.02	7.948	nan	emu	58	1.1e-17	3.8e-16	7.4e-16	9.560	46.953	nan
+ce RTX 4090	shape:eager_ws0:panel:m8192_n8192_k128	3/3	11.759	4.2	1.03	1.461	nan	emu	67	4.8e-17	3.6e-16	3.1e-15	8.576	52.801	nan
+ce RTX 4090	shape:eager_ws0:rsvd_AtQ:m8192_n256_k16384_TN	3/3	36.428	3.3	1.01	1.886	1.53	emu	58	4.9e-18	3.4e-16	8.4e-16	18.136	105.939	0.53
+ce RTX 4090	shape:native:rsvd_AtQ:m8192_n256_k16384_TN	3/3	55.797	0.0	1.00	1.232	1.00	native	-	3.4e-16	3.4e-16	2.9e-12	9.494	55.800	1.00
+ce RTX 4090	shape:eager_ws0:shortwide:m256_n8192_k8192	3/3	17.173	2.3	1.02	2.001	nan	emu	58	6.5e-18	3.0e-16	3.6e-15	8.494	51.576	nan
+ce RTX 4090	shape:eager_ws0:shortwide:m32_n8192_k8192	3/3	17.078	5.3	1.02	0.251	nan	emu	58	6.5e-18	3.2e-16	4.5e-15	8.399	51.559	nan
+ce RTX 4090	shape:eager_ws0:shortwide:m64_n8192_k8192	3/3	17.016	0.7	1.02	0.505	0.41	emu	58	6.5e-18	3.0e-16	2.2e-14	8.310	51.283	0.14
+ce RTX 4090	shape:native:shortwide:m64_n8192_k8192	3/3	6.986	0.0	1.00	1.230	1.00	native	-	3.0e-16	3.0e-16	4.9e-12	1.372	6.988	1.00
+ce RTX 4090	shape:default_ws0:skinny:m8192_n256_k8192	3/3	18.589	3.8	1.02	1.848	nan	emu	58	6.4e-18	1.1e-16	2.0e-15	9.462	53.920	nan
+ce RTX 4090	shape:eager_ws0:skinny:m8192_n8_k8192	3/3	18.264	1.4	1.02	0.059	nan	emu	58	6.6e-18	8.8e-17	2.0e-15	9.597	54.273	nan

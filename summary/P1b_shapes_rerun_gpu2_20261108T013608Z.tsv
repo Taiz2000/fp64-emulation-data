@@ -1,0 +1,3 @@
+gpu	config	ok/runs	med_ms	spread%	p90/med	TFLOPS	x_native	path	bits	err_comp	nat_err	err_rel	J/call	wall_sync	x_nat_wall
+RTX 5060 Ti	shape:eager_ws0:gram:m32_n32_k131072	3/3	15.424	10.4	1.08	0.017	nan	emu	57	1.2e-18	2.5e-17	6.0e-15	1.131	30.585	nan
+RTX 5060 Ti	shape:native:shortwide:m128_n8192_k8192	3/3	50.750	0.0	1.00	0.339	1.00	native	-	2.4e-16	2.4e-16	5.3e-12	2.178	50.756	1.00

@@ -1,0 +1,10 @@
+timestamp_utc=20261107T170837Z
+hostname=[removed]
+kernel=5.15.0-203-generic
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+CPU(s):                                  128
+Model name:                              AMD EPYC 7C13 64-Core Processor
+Socket(s):                               1
+NUMA node(s):                            1
+               total        used        free      shared  buff/cache   available
+Mem:             503          41          16           0         445         457

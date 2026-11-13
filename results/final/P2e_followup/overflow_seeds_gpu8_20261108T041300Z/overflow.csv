@@ -1,0 +1,13 @@
+mode,gpu,env_emulate,env_strategy,env_svmask,n,ms_per_call,C_rc,class_rc,exact_sign,other_entries_finite
+native,NVIDIA GeForce RTX 4090,,,,2048,15.239,inf,+inf,-1,True
+eager,NVIDIA GeForce RTX 4090,1,EAGER,,2048,2.083,-inf,-inf,-1,True
+native,NVIDIA GeForce RTX 4090,,,,2048,15.251,-inf,-inf,1,True
+eager,NVIDIA GeForce RTX 4090,1,EAGER,,2048,2.089,inf,+inf,1,True
+native,NVIDIA GeForce RTX 4090,,,,2048,15.249,-inf,-inf,1,True
+eager,NVIDIA GeForce RTX 4090,1,EAGER,,2048,2.227,inf,+inf,1,True
+native,NVIDIA GeForce RTX 4090,,,,2048,15.252,-inf,-inf,1,True
+eager,NVIDIA GeForce RTX 4090,1,EAGER,,2048,2.087,inf,+inf,1,True
+native,NVIDIA GeForce RTX 4090,,,,2048,15.251,-inf,-inf,1,True
+eager,NVIDIA GeForce RTX 4090,1,EAGER,,2048,2.088,inf,+inf,1,True
+native,NVIDIA GeForce RTX 4090,,,,2048,15.253,-inf,-inf,-1,True
+eager,NVIDIA GeForce RTX 4090,1,EAGER,,2048,2.230,-inf,-inf,-1,True

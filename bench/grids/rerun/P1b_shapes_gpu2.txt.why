@@ -1,0 +1,2 @@
+shape:native:shortwide:m128_n8192_k8192: wall_sync spread 5.3%
+shape:eager_ws0:gram:m32_n32_k131072: rep-median spread 20.8% -> rerun

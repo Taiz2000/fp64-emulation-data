@@ -1,0 +1,1 @@
+REPEATS=1 CPUS=36-47 OMP_NUM_THREADS=12 BIN=/home/taiz/fp64/pathB/bench/bin/dgemm_bench_v5

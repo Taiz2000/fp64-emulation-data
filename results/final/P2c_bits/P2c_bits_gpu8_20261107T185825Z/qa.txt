@@ -1,0 +1,8 @@
+verdict WARN
+lines 28 x reps 3, rows 84
+WARN bits:eager_ws:u11:fixed24: emulated error 3.149e-09 > native 2.509e-16
+WARN bits:eager_ws:u11:fixed32: emulated error 1.196e-11 > native 2.509e-16
+WARN bits:eager_ws:u11:fixed40: emulated error 5.147e-14 > native 2.509e-16
+WARN bits:eager_ws:u11:dyncap64: throttle reasons ['0x24']
+WARN bits:eager_ws:inner_phi6:fixed64: throttle reasons ['0x24']
+WARN bits:eager_ws:inner_phi6:fixed96: throttle reasons ['0x24']

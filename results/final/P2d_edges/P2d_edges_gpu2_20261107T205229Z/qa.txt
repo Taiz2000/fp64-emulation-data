@@ -1,0 +1,9 @@
+verdict WARN
+lines 72 x reps 3, rows 216
+WARN edge:native:inject:nan: native 0.337 TFLOPS vs PoC 0.36
+WARN edge:native:inject:inf: native 0.337 TFLOPS vs PoC 0.36
+WARN edge:native:inject:ninf: native 0.337 TFLOPS vs PoC 0.36
+WARN edge:native:inject:subnormal: native 0.337 TFLOPS vs PoC 0.36
+WARN edge:native:inject:huge: native 0.337 TFLOPS vs PoC 0.36
+WARN edge:native:inject:overflow: native 0.337 TFLOPS vs PoC 0.36
+WARN edge:native:inject:zeroblock: native 0.337 TFLOPS vs PoC 0.36

@@ -1,0 +1,7 @@
+2026-11-08T01:36:17Z rep=1 shape:native:shortwide:m128_n8192_k8192: env[] --m 128 --n 8192 --k 8192 --api dgemm 
+2026-11-08T01:36:26Z rep=1 shape:eager_ws0:gram:m32_n32_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 131072 --api dgemm 
+2026-11-08T01:36:40Z rep=2 shape:eager_ws0:gram:m32_n32_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 131072 --api dgemm 
+2026-11-08T01:36:55Z rep=2 shape:native:shortwide:m128_n8192_k8192: env[] --m 128 --n 8192 --k 8192 --api dgemm 
+2026-11-08T01:37:04Z rep=3 shape:native:shortwide:m128_n8192_k8192: env[] --m 128 --n 8192 --k 8192 --api dgemm 
+2026-11-08T01:37:13Z rep=3 shape:eager_ws0:gram:m32_n32_k131072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 131072 --api dgemm 
+2026-11-08T01:37:26Z DONE

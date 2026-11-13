@@ -1,0 +1,211 @@
+2026-11-07T13:07:06Z rep=1 sq:native:n512: env[] --m 512 --n 512 --k 512 --api dgemm 
+2026-11-07T13:07:10Z rep=1 sq:default_ws0:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 512 --api dgemm 
+2026-11-07T13:07:14Z rep=1 sq:default_kp:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 512 --api dgemm  --keep-pool
+2026-11-07T13:07:18Z rep=1 sq:default_ws:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 512 --api dgemm  --workspace-mb 107
+2026-11-07T13:07:22Z rep=1 sq:eager_ws0:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 512 --api dgemm 
+2026-11-07T13:07:37Z rep=1 sq:eager_kp:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 512 --api dgemm  --keep-pool
+2026-11-07T13:07:40Z rep=1 sq:eager_ws:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 512 --api dgemm  --workspace-mb 107
+2026-11-07T13:07:43Z rep=1 sq:native:n1024: env[] --m 1024 --n 1024 --k 1024 --api dgemm 
+2026-11-07T13:07:52Z rep=1 sq:default_ws0:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1024 --n 1024 --k 1024 --api dgemm 
+2026-11-07T13:08:00Z rep=1 sq:default_kp:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1024 --n 1024 --k 1024 --api dgemm  --keep-pool
+2026-11-07T13:08:08Z rep=1 sq:default_ws:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1024 --n 1024 --k 1024 --api dgemm  --workspace-mb 124
+2026-11-07T13:08:17Z rep=1 sq:eager_ws0:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1024 --n 1024 --k 1024 --api dgemm 
+2026-11-07T13:08:32Z rep=1 sq:eager_kp:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1024 --n 1024 --k 1024 --api dgemm  --keep-pool
+2026-11-07T13:08:37Z rep=1 sq:eager_ws:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1024 --n 1024 --k 1024 --api dgemm  --workspace-mb 124
+2026-11-07T13:08:43Z rep=1 sq:native:n1536: env[] --m 1536 --n 1536 --k 1536 --api dgemm 
+2026-11-07T13:08:51Z rep=1 sq:default_ws0:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1536 --n 1536 --k 1536 --api dgemm 
+2026-11-07T13:08:59Z rep=1 sq:default_kp:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1536 --n 1536 --k 1536 --api dgemm  --keep-pool
+2026-11-07T13:09:07Z rep=1 sq:default_ws:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1536 --n 1536 --k 1536 --api dgemm  --workspace-mb 206
+2026-11-07T13:09:15Z rep=1 sq:eager_ws0:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1536 --n 1536 --k 1536 --api dgemm 
+2026-11-07T13:09:31Z rep=1 sq:eager_kp:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1536 --n 1536 --k 1536 --api dgemm  --keep-pool
+2026-11-07T13:09:38Z rep=1 sq:eager_ws:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1536 --n 1536 --k 1536 --api dgemm  --workspace-mb 206
+2026-11-07T13:09:46Z rep=1 sq:native:n2048: env[] --m 2048 --n 2048 --k 2048 --api dgemm 
+2026-11-07T13:09:54Z rep=1 sq:default_ws0:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 2048 --n 2048 --k 2048 --api dgemm 
+2026-11-07T13:10:02Z rep=1 sq:default_kp:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 2048 --n 2048 --k 2048 --api dgemm  --keep-pool
+2026-11-07T13:10:11Z rep=1 sq:default_ws:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 2048 --n 2048 --k 2048 --api dgemm  --workspace-mb 341
+2026-11-07T13:10:19Z rep=1 sq:eager_ws0:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 2048 --n 2048 --k 2048 --api dgemm 
+2026-11-07T13:10:29Z rep=1 sq:eager_kp:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 2048 --n 2048 --k 2048 --api dgemm  --keep-pool
+2026-11-07T13:10:38Z rep=1 sq:eager_ws:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 2048 --n 2048 --k 2048 --api dgemm  --workspace-mb 341
+2026-11-07T13:10:46Z rep=1 sq:native:n3072: env[] --m 3072 --n 3072 --k 3072 --api dgemm 
+2026-11-07T13:10:55Z rep=1 sq:default_ws0:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 3072 --n 3072 --k 3072 --api dgemm 
+2026-11-07T13:11:04Z rep=1 sq:default_kp:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 3072 --n 3072 --k 3072 --api dgemm  --keep-pool
+2026-11-07T13:11:13Z rep=1 sq:default_ws:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 3072 --n 3072 --k 3072 --api dgemm  --workspace-mb 726
+2026-11-07T13:11:22Z rep=1 sq:eager_ws0:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 3072 --n 3072 --k 3072 --api dgemm 
+2026-11-07T13:11:39Z rep=1 sq:eager_kp:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 3072 --n 3072 --k 3072 --api dgemm  --keep-pool
+2026-11-07T13:11:47Z rep=1 sq:eager_ws:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 3072 --n 3072 --k 3072 --api dgemm  --workspace-mb 726
+2026-11-07T13:11:56Z rep=1 sq:native:n4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T13:12:06Z rep=1 sq:default_ws0:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T13:12:15Z rep=1 sq:default_kp:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm  --keep-pool
+2026-11-07T13:12:25Z rep=1 sq:default_ws:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm  --workspace-mb 1265
+2026-11-07T13:12:35Z rep=1 sq:eager_ws0:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T13:12:54Z rep=1 sq:eager_kp:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm  --keep-pool
+2026-11-07T13:13:03Z rep=1 sq:eager_ws:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm  --workspace-mb 1265
+2026-11-07T13:13:12Z rep=1 sq:native:n6144: env[] --m 6144 --n 6144 --k 6144 --api dgemm 
+2026-11-07T13:13:29Z rep=1 sq:default_ws0:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 6144 --n 6144 --k 6144 --api dgemm 
+2026-11-07T13:13:46Z rep=1 sq:default_kp:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 6144 --n 6144 --k 6144 --api dgemm  --keep-pool
+2026-11-07T13:14:03Z rep=1 sq:default_ws:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 6144 --n 6144 --k 6144 --api dgemm  --workspace-mb 2805
+2026-11-07T13:14:20Z rep=1 sq:eager_ws0:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 6144 --n 6144 --k 6144 --api dgemm 
+2026-11-07T13:14:37Z rep=1 sq:eager_kp:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 6144 --n 6144 --k 6144 --api dgemm  --keep-pool
+2026-11-07T13:14:48Z rep=1 sq:eager_ws:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 6144 --n 6144 --k 6144 --api dgemm  --workspace-mb 2805
+2026-11-07T13:14:59Z rep=1 sq:native:n8192: env[] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T13:15:37Z rep=1 sq:default_ws0:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T13:16:15Z rep=1 sq:default_kp:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 8192 --api dgemm  --keep-pool
+2026-11-07T13:16:52Z rep=1 sq:default_ws:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 8192 --api dgemm  --workspace-mb 4961
+2026-11-07T13:17:30Z rep=1 sq:eager_ws0:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T13:17:50Z rep=1 sq:eager_kp:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 8192 --api dgemm  --keep-pool
+2026-11-07T13:18:03Z rep=1 sq:eager_ws:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 8192 --api dgemm  --workspace-mb 4961
+2026-11-07T13:18:16Z rep=1 sq:native:n12288: env[] --m 12288 --n 12288 --k 12288 --api dgemm 
+2026-11-07T13:20:18Z rep=1 sq:default_ws0:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 12288 --n 12288 --k 12288 --api dgemm 
+2026-11-07T13:22:20Z rep=1 sq:default_kp:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 12288 --n 12288 --k 12288 --api dgemm  --keep-pool
+2026-11-07T13:24:22Z rep=1 sq:default_ws:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 12288 --n 12288 --k 12288 --api dgemm  --workspace-mb 6513
+2026-11-07T13:26:25Z rep=1 sq:eager_ws0:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 12288 --n 12288 --k 12288 --api dgemm 
+2026-11-07T13:26:52Z rep=1 sq:eager_kp:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 12288 --n 12288 --k 12288 --api dgemm  --keep-pool
+2026-11-07T13:27:15Z rep=1 sq:eager_ws:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 12288 --n 12288 --k 12288 --api dgemm  --workspace-mb 6513
+2026-11-07T13:27:38Z rep=1 sq:native:n16384: env[] --m 16384 --n 16384 --k 16384 --api dgemm 
+2026-11-07T13:32:25Z rep=1 sq:default_ws0:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 16384 --k 16384 --api dgemm 
+2026-11-07T13:37:09Z rep=1 sq:default_kp:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 16384 --k 16384 --api dgemm  --keep-pool
+2026-11-07T13:41:53Z rep=1 sq:default_ws:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 16384 --k 16384 --api dgemm  --workspace-mb 6754
+2026-11-07T13:46:37Z rep=1 sq:eager_ws0:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 16384 --k 16384 --api dgemm 
+2026-11-07T13:47:25Z rep=1 sq:eager_kp:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 16384 --k 16384 --api dgemm  --keep-pool
+2026-11-07T13:48:10Z rep=1 sq:eager_ws:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 16384 --k 16384 --api dgemm  --workspace-mb 6754
+2026-11-07T13:48:54Z rep=2 sq:default_ws0:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 512 --api dgemm 
+2026-11-07T13:48:58Z rep=2 sq:default_kp:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 512 --api dgemm  --keep-pool
+2026-11-07T13:49:02Z rep=2 sq:default_ws:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 512 --api dgemm  --workspace-mb 107
+2026-11-07T13:49:06Z rep=2 sq:eager_ws0:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 512 --api dgemm 
+2026-11-07T13:49:13Z rep=2 sq:eager_kp:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 512 --api dgemm  --keep-pool
+2026-11-07T13:49:16Z rep=2 sq:eager_ws:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 512 --api dgemm  --workspace-mb 107
+2026-11-07T13:49:19Z rep=2 sq:native:n1024: env[] --m 1024 --n 1024 --k 1024 --api dgemm 
+2026-11-07T13:49:27Z rep=2 sq:default_ws0:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1024 --n 1024 --k 1024 --api dgemm 
+2026-11-07T13:49:35Z rep=2 sq:default_kp:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1024 --n 1024 --k 1024 --api dgemm  --keep-pool
+2026-11-07T13:49:43Z rep=2 sq:default_ws:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1024 --n 1024 --k 1024 --api dgemm  --workspace-mb 124
+2026-11-07T13:49:52Z rep=2 sq:eager_ws0:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1024 --n 1024 --k 1024 --api dgemm 
+2026-11-07T13:50:04Z rep=2 sq:eager_kp:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1024 --n 1024 --k 1024 --api dgemm  --keep-pool
+2026-11-07T13:50:09Z rep=2 sq:eager_ws:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1024 --n 1024 --k 1024 --api dgemm  --workspace-mb 124
+2026-11-07T13:50:14Z rep=2 sq:native:n1536: env[] --m 1536 --n 1536 --k 1536 --api dgemm 
+2026-11-07T13:50:23Z rep=2 sq:default_ws0:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1536 --n 1536 --k 1536 --api dgemm 
+2026-11-07T13:50:31Z rep=2 sq:default_kp:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1536 --n 1536 --k 1536 --api dgemm  --keep-pool
+2026-11-07T13:50:39Z rep=2 sq:default_ws:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1536 --n 1536 --k 1536 --api dgemm  --workspace-mb 206
+2026-11-07T13:50:47Z rep=2 sq:eager_ws0:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1536 --n 1536 --k 1536 --api dgemm 
+2026-11-07T13:51:04Z rep=2 sq:eager_kp:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1536 --n 1536 --k 1536 --api dgemm  --keep-pool
+2026-11-07T13:51:11Z rep=2 sq:eager_ws:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1536 --n 1536 --k 1536 --api dgemm  --workspace-mb 206
+2026-11-07T13:51:19Z rep=2 sq:native:n2048: env[] --m 2048 --n 2048 --k 2048 --api dgemm 
+2026-11-07T13:51:27Z rep=2 sq:default_ws0:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 2048 --n 2048 --k 2048 --api dgemm 
+2026-11-07T13:51:36Z rep=2 sq:default_kp:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 2048 --n 2048 --k 2048 --api dgemm  --keep-pool
+2026-11-07T13:51:44Z rep=2 sq:default_ws:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 2048 --n 2048 --k 2048 --api dgemm  --workspace-mb 341
+2026-11-07T13:51:52Z rep=2 sq:eager_ws0:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 2048 --n 2048 --k 2048 --api dgemm 
+2026-11-07T13:52:10Z rep=2 sq:eager_kp:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 2048 --n 2048 --k 2048 --api dgemm  --keep-pool
+2026-11-07T13:52:19Z rep=2 sq:eager_ws:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 2048 --n 2048 --k 2048 --api dgemm  --workspace-mb 341
+2026-11-07T13:52:27Z rep=2 sq:native:n3072: env[] --m 3072 --n 3072 --k 3072 --api dgemm 
+2026-11-07T13:52:36Z rep=2 sq:default_ws0:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 3072 --n 3072 --k 3072 --api dgemm 
+2026-11-07T13:52:45Z rep=2 sq:default_kp:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 3072 --n 3072 --k 3072 --api dgemm  --keep-pool
+2026-11-07T13:52:54Z rep=2 sq:default_ws:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 3072 --n 3072 --k 3072 --api dgemm  --workspace-mb 726
+2026-11-07T13:53:03Z rep=2 sq:eager_ws0:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 3072 --n 3072 --k 3072 --api dgemm 
+2026-11-07T13:53:22Z rep=2 sq:eager_kp:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 3072 --n 3072 --k 3072 --api dgemm  --keep-pool
+2026-11-07T13:53:30Z rep=2 sq:eager_ws:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 3072 --n 3072 --k 3072 --api dgemm  --workspace-mb 726
+2026-11-07T13:53:39Z rep=2 sq:native:n4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T13:53:49Z rep=2 sq:default_ws0:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T13:53:58Z rep=2 sq:default_kp:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm  --keep-pool
+2026-11-07T13:54:08Z rep=2 sq:default_ws:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm  --workspace-mb 1265
+2026-11-07T13:54:18Z rep=2 sq:eager_ws0:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T13:54:35Z rep=2 sq:eager_kp:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm  --keep-pool
+2026-11-07T13:54:44Z rep=2 sq:eager_ws:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm  --workspace-mb 1265
+2026-11-07T13:54:53Z rep=2 sq:native:n6144: env[] --m 6144 --n 6144 --k 6144 --api dgemm 
+2026-11-07T13:55:10Z rep=2 sq:default_ws0:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 6144 --n 6144 --k 6144 --api dgemm 
+2026-11-07T13:55:27Z rep=2 sq:default_kp:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 6144 --n 6144 --k 6144 --api dgemm  --keep-pool
+2026-11-07T13:55:44Z rep=2 sq:default_ws:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 6144 --n 6144 --k 6144 --api dgemm  --workspace-mb 2805
+2026-11-07T13:56:01Z rep=2 sq:eager_ws0:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 6144 --n 6144 --k 6144 --api dgemm 
+2026-11-07T13:56:18Z rep=2 sq:eager_kp:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 6144 --n 6144 --k 6144 --api dgemm  --keep-pool
+2026-11-07T13:56:28Z rep=2 sq:eager_ws:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 6144 --n 6144 --k 6144 --api dgemm  --workspace-mb 2805
+2026-11-07T13:56:39Z rep=2 sq:native:n8192: env[] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T13:57:17Z rep=2 sq:default_ws0:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T13:57:55Z rep=2 sq:default_kp:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 8192 --api dgemm  --keep-pool
+2026-11-07T13:58:33Z rep=2 sq:default_ws:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 8192 --api dgemm  --workspace-mb 4961
+2026-11-07T13:59:10Z rep=2 sq:eager_ws0:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T13:59:30Z rep=2 sq:eager_kp:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 8192 --api dgemm  --keep-pool
+2026-11-07T13:59:42Z rep=2 sq:eager_ws:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 8192 --api dgemm  --workspace-mb 4961
+2026-11-07T13:59:55Z rep=2 sq:native:n12288: env[] --m 12288 --n 12288 --k 12288 --api dgemm 
+2026-11-07T14:01:58Z rep=2 sq:default_ws0:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 12288 --n 12288 --k 12288 --api dgemm 
+2026-11-07T14:04:00Z rep=2 sq:default_kp:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 12288 --n 12288 --k 12288 --api dgemm  --keep-pool
+2026-11-07T14:06:02Z rep=2 sq:default_ws:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 12288 --n 12288 --k 12288 --api dgemm  --workspace-mb 6513
+2026-11-07T14:08:03Z rep=2 sq:eager_ws0:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 12288 --n 12288 --k 12288 --api dgemm 
+2026-11-07T14:08:30Z rep=2 sq:eager_kp:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 12288 --n 12288 --k 12288 --api dgemm  --keep-pool
+2026-11-07T14:08:52Z rep=2 sq:eager_ws:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 12288 --n 12288 --k 12288 --api dgemm  --workspace-mb 6513
+2026-11-07T14:09:15Z rep=2 sq:native:n16384: env[] --m 16384 --n 16384 --k 16384 --api dgemm 
+2026-11-07T14:13:59Z rep=2 sq:default_ws0:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 16384 --k 16384 --api dgemm 
+2026-11-07T14:18:43Z rep=2 sq:default_kp:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 16384 --k 16384 --api dgemm  --keep-pool
+2026-11-07T14:23:28Z rep=2 sq:default_ws:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 16384 --k 16384 --api dgemm  --workspace-mb 6754
+2026-11-07T14:28:12Z rep=2 sq:eager_ws0:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 16384 --k 16384 --api dgemm 
+2026-11-07T14:29:00Z rep=2 sq:eager_kp:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 16384 --k 16384 --api dgemm  --keep-pool
+2026-11-07T14:29:44Z rep=2 sq:eager_ws:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 16384 --k 16384 --api dgemm  --workspace-mb 6754
+2026-11-07T14:30:29Z rep=2 sq:native:n512: env[] --m 512 --n 512 --k 512 --api dgemm 
+2026-11-07T14:30:32Z rep=3 sq:default_kp:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 512 --api dgemm  --keep-pool
+2026-11-07T14:30:36Z rep=3 sq:default_ws:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 512 --api dgemm  --workspace-mb 107
+2026-11-07T14:30:40Z rep=3 sq:eager_ws0:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 512 --api dgemm 
+2026-11-07T14:30:51Z rep=3 sq:eager_kp:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 512 --api dgemm  --keep-pool
+2026-11-07T14:30:54Z rep=3 sq:eager_ws:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 512 --n 512 --k 512 --api dgemm  --workspace-mb 107
+2026-11-07T14:30:58Z rep=3 sq:native:n1024: env[] --m 1024 --n 1024 --k 1024 --api dgemm 
+2026-11-07T14:31:06Z rep=3 sq:default_ws0:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1024 --n 1024 --k 1024 --api dgemm 
+2026-11-07T14:31:14Z rep=3 sq:default_kp:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1024 --n 1024 --k 1024 --api dgemm  --keep-pool
+2026-11-07T14:31:22Z rep=3 sq:default_ws:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1024 --n 1024 --k 1024 --api dgemm  --workspace-mb 124
+2026-11-07T14:31:30Z rep=3 sq:eager_ws0:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1024 --n 1024 --k 1024 --api dgemm 
+2026-11-07T14:31:41Z rep=3 sq:eager_kp:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1024 --n 1024 --k 1024 --api dgemm  --keep-pool
+2026-11-07T14:31:46Z rep=3 sq:eager_ws:n1024: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1024 --n 1024 --k 1024 --api dgemm  --workspace-mb 124
+2026-11-07T14:31:52Z rep=3 sq:native:n1536: env[] --m 1536 --n 1536 --k 1536 --api dgemm 
+2026-11-07T14:32:00Z rep=3 sq:default_ws0:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1536 --n 1536 --k 1536 --api dgemm 
+2026-11-07T14:32:08Z rep=3 sq:default_kp:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1536 --n 1536 --k 1536 --api dgemm  --keep-pool
+2026-11-07T14:32:16Z rep=3 sq:default_ws:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 1536 --n 1536 --k 1536 --api dgemm  --workspace-mb 206
+2026-11-07T14:32:24Z rep=3 sq:eager_ws0:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1536 --n 1536 --k 1536 --api dgemm 
+2026-11-07T14:32:40Z rep=3 sq:eager_kp:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1536 --n 1536 --k 1536 --api dgemm  --keep-pool
+2026-11-07T14:32:48Z rep=3 sq:eager_ws:n1536: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 1536 --n 1536 --k 1536 --api dgemm  --workspace-mb 206
+2026-11-07T14:32:56Z rep=3 sq:native:n2048: env[] --m 2048 --n 2048 --k 2048 --api dgemm 
+2026-11-07T14:33:04Z rep=3 sq:default_ws0:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 2048 --n 2048 --k 2048 --api dgemm 
+2026-11-07T14:33:12Z rep=3 sq:default_kp:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 2048 --n 2048 --k 2048 --api dgemm  --keep-pool
+2026-11-07T14:33:21Z rep=3 sq:default_ws:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 2048 --n 2048 --k 2048 --api dgemm  --workspace-mb 341
+2026-11-07T14:33:29Z rep=3 sq:eager_ws0:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 2048 --n 2048 --k 2048 --api dgemm 
+2026-11-07T14:33:46Z rep=3 sq:eager_kp:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 2048 --n 2048 --k 2048 --api dgemm  --keep-pool
+2026-11-07T14:33:54Z rep=3 sq:eager_ws:n2048: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 2048 --n 2048 --k 2048 --api dgemm  --workspace-mb 341
+2026-11-07T14:34:02Z rep=3 sq:native:n3072: env[] --m 3072 --n 3072 --k 3072 --api dgemm 
+2026-11-07T14:34:11Z rep=3 sq:default_ws0:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 3072 --n 3072 --k 3072 --api dgemm 
+2026-11-07T14:34:20Z rep=3 sq:default_kp:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 3072 --n 3072 --k 3072 --api dgemm  --keep-pool
+2026-11-07T14:34:29Z rep=3 sq:default_ws:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 3072 --n 3072 --k 3072 --api dgemm  --workspace-mb 726
+2026-11-07T14:34:38Z rep=3 sq:eager_ws0:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 3072 --n 3072 --k 3072 --api dgemm 
+2026-11-07T14:34:56Z rep=3 sq:eager_kp:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 3072 --n 3072 --k 3072 --api dgemm  --keep-pool
+2026-11-07T14:35:05Z rep=3 sq:eager_ws:n3072: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 3072 --n 3072 --k 3072 --api dgemm  --workspace-mb 726
+2026-11-07T14:35:13Z rep=3 sq:native:n4096: env[] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T14:35:23Z rep=3 sq:default_ws0:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T14:35:33Z rep=3 sq:default_kp:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm  --keep-pool
+2026-11-07T14:35:43Z rep=3 sq:default_ws:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 4096 --n 4096 --k 4096 --api dgemm  --workspace-mb 1265
+2026-11-07T14:35:52Z rep=3 sq:eager_ws0:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm 
+2026-11-07T14:36:09Z rep=3 sq:eager_kp:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm  --keep-pool
+2026-11-07T14:36:19Z rep=3 sq:eager_ws:n4096: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 4096 --n 4096 --k 4096 --api dgemm  --workspace-mb 1265
+2026-11-07T14:36:28Z rep=3 sq:native:n6144: env[] --m 6144 --n 6144 --k 6144 --api dgemm 
+2026-11-07T14:36:45Z rep=3 sq:default_ws0:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 6144 --n 6144 --k 6144 --api dgemm 
+2026-11-07T14:37:01Z rep=3 sq:default_kp:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 6144 --n 6144 --k 6144 --api dgemm  --keep-pool
+2026-11-07T14:37:19Z rep=3 sq:default_ws:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 6144 --n 6144 --k 6144 --api dgemm  --workspace-mb 2805
+2026-11-07T14:37:35Z rep=3 sq:eager_ws0:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 6144 --n 6144 --k 6144 --api dgemm 
+2026-11-07T14:37:54Z rep=3 sq:eager_kp:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 6144 --n 6144 --k 6144 --api dgemm  --keep-pool
+2026-11-07T14:38:05Z rep=3 sq:eager_ws:n6144: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 6144 --n 6144 --k 6144 --api dgemm  --workspace-mb 2805
+2026-11-07T14:38:16Z rep=3 sq:native:n8192: env[] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:38:53Z rep=3 sq:default_ws0:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:39:31Z rep=3 sq:default_kp:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 8192 --api dgemm  --keep-pool
+2026-11-07T14:40:08Z rep=3 sq:default_ws:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 8192 --n 8192 --k 8192 --api dgemm  --workspace-mb 4961
+2026-11-07T14:40:46Z rep=3 sq:eager_ws0:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 8192 --api dgemm 
+2026-11-07T14:41:05Z rep=3 sq:eager_kp:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 8192 --api dgemm  --keep-pool
+2026-11-07T14:41:18Z rep=3 sq:eager_ws:n8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 8192 --k 8192 --api dgemm  --workspace-mb 4961
+2026-11-07T14:41:31Z rep=3 sq:native:n12288: env[] --m 12288 --n 12288 --k 12288 --api dgemm 
+2026-11-07T14:43:33Z rep=3 sq:default_ws0:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 12288 --n 12288 --k 12288 --api dgemm 
+2026-11-07T14:45:35Z rep=3 sq:default_kp:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 12288 --n 12288 --k 12288 --api dgemm  --keep-pool
+2026-11-07T14:47:37Z rep=3 sq:default_ws:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 12288 --n 12288 --k 12288 --api dgemm  --workspace-mb 6513
+2026-11-07T14:49:39Z rep=3 sq:eager_ws0:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 12288 --n 12288 --k 12288 --api dgemm 
+2026-11-07T14:50:05Z rep=3 sq:eager_kp:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 12288 --n 12288 --k 12288 --api dgemm  --keep-pool
+2026-11-07T14:50:29Z rep=3 sq:eager_ws:n12288: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 12288 --n 12288 --k 12288 --api dgemm  --workspace-mb 6513
+2026-11-07T14:50:51Z rep=3 sq:native:n16384: env[] --m 16384 --n 16384 --k 16384 --api dgemm 
+2026-11-07T14:55:37Z rep=3 sq:default_ws0:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 16384 --k 16384 --api dgemm 
+2026-11-07T15:00:23Z rep=3 sq:default_kp:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 16384 --k 16384 --api dgemm  --keep-pool
+2026-11-07T15:05:09Z rep=3 sq:default_ws:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 16384 --n 16384 --k 16384 --api dgemm  --workspace-mb 6754
+2026-11-07T15:09:55Z rep=3 sq:eager_ws0:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 16384 --k 16384 --api dgemm 
+2026-11-07T15:10:42Z rep=3 sq:eager_kp:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 16384 --k 16384 --api dgemm  --keep-pool
+2026-11-07T15:11:27Z rep=3 sq:eager_ws:n16384: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 16384 --n 16384 --k 16384 --api dgemm  --workspace-mb 6754
+2026-11-07T15:12:12Z rep=3 sq:native:n512: env[] --m 512 --n 512 --k 512 --api dgemm 
+2026-11-07T15:12:16Z rep=3 sq:default_ws0:n512: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1] --m 512 --n 512 --k 512 --api dgemm 
+2026-11-07T15:12:20Z DONE

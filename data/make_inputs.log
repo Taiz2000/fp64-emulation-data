@@ -1,0 +1,8 @@
+/home/taiz/fp64/pathB/workloads/make_inputs.py:45: RuntimeWarning: divide by zero encountered in power
+  s_poly = np.where(i < 10, 1.0, (i - 8.0) ** -2)
+orthonormal factors: 14.6 s
+exp: build 6.6 s, dgesdd 123.9 s, sigma_1=1, sigma_200=3.040e-17, max|ref-exact|=8.88e-16
+poly: build 5.3 s, dgesdd 143.0 s, sigma_1=1, sigma_200=2.713e-05, max|ref-exact|=1.11e-15
+lrnoise: build 3.0 s, dgesdd 125.5 s, sigma_1=1, sigma_200=1.620e-10, max|ref-exact|=nan
+scaled4: build 5.2 s, dgesdd 143.1 s, sigma_1=1919.96, sigma_200=1.184e-13, max|ref-exact|=nan
+scaled8: build 5.2 s, dgesdd 147.2 s, sigma_1=1.46089e+07, sigma_200=8.166e-10, max|ref-exact|=nan

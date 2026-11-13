@@ -1,0 +1,88 @@
+gpu,family,dim,eager_speedup,eager_path,default_path
+3090,skinny,8,0.0760,emu,native
+3090,skinny,16,0.4110,emu,native
+3090,skinny,32,0.2797,emu,native
+3090,skinny,64,0.5701,emu,native
+3090,skinny,96,0.8489,emu,native
+3090,skinny,128,1.1223,emu,native
+3090,skinny,192,2.0184,emu,native
+3090,skinny,256,2.6792,emu,native
+3090,skinny,384,4.2316,emu,native
+3090,skinny,512,5.1941,emu,native
+3090,skinny,1024,7.4827,emu,native
+3090,skinny,2048,9.9424,emu,native
+4090,skinny,8,0.0644,emu,native
+4090,skinny,16,0.1269,emu,native
+4090,skinny,32,0.2467,emu,native
+4090,skinny,64,0.5012,emu,native
+4090,skinny,96,0.7436,emu,native
+4090,skinny,128,0.9873,emu,native
+4090,skinny,192,2.1841,emu,emu
+4090,skinny,256,2.1676,emu,emu
+4090,skinny,384,3.5510,emu,emu
+4090,skinny,512,4.2119,emu,emu
+4090,skinny,1024,6.7912,emu,emu
+4090,skinny,2048,9.7352,emu,emu
+5060 Ti,skinny,8,0.4119,emu,native
+5060 Ti,skinny,16,0.4104,emu,native
+5060 Ti,skinny,32,0.4106,emu,native
+5060 Ti,skinny,64,0.8141,emu,native
+5060 Ti,skinny,96,1.2142,emu,native
+5060 Ti,skinny,128,1.6097,emu,native
+5060 Ti,skinny,192,2.1810,emu,emu
+5060 Ti,skinny,256,2.9337,emu,emu
+5060 Ti,skinny,384,4.0675,emu,emu
+5060 Ti,skinny,512,5.0910,emu,emu
+5060 Ti,skinny,1024,8.2314,emu,emu
+5060 Ti,skinny,2048,12.1690,emu,emu
+3090,panel,16,0.3685,emu,native
+3090,panel,32,0.6986,emu,native
+3090,panel,48,1.1722,emu,native
+3090,panel,64,1.5438,emu,native
+3090,panel,96,2.4443,emu,native
+3090,panel,128,3.1045,emu,native
+3090,panel,192,4.7375,emu,native
+3090,panel,256,6.2274,emu,native
+3090,panel,512,9.2930,emu,native
+3090,panel,1024,11.6158,emu,native
+3090,panel,2048,12.7627,emu,native
+4090,panel,16,0.3071,emu,native
+4090,panel,32,0.5887,emu,native
+4090,panel,48,0.8411,emu,native
+4090,panel,64,1.2851,emu,native
+4090,panel,96,2.0300,emu,native
+4090,panel,128,2.5853,emu,native
+4090,panel,192,3.9505,emu,native
+4090,panel,256,5.2055,emu,native
+4090,panel,512,8.0678,emu,emu
+4090,panel,1024,10.6468,emu,emu
+4090,panel,2048,12.5381,emu,emu
+5060 Ti,panel,16,0.5123,emu,native
+5060 Ti,panel,32,0.9717,emu,native
+5060 Ti,panel,48,1.3636,emu,native
+5060 Ti,panel,64,1.8179,emu,native
+5060 Ti,panel,96,2.8542,emu,native
+5060 Ti,panel,128,3.6601,emu,native
+5060 Ti,panel,192,4.8664,emu,native
+5060 Ti,panel,256,6.4144,emu,native
+5060 Ti,panel,512,9.9304,emu,emu
+5060 Ti,panel,1024,13.4077,emu,emu
+5060 Ti,panel,2048,16.0614,emu,emu
+3090,shortwide,8,0.4585,emu,native
+3090,shortwide,32,0.4594,emu,native
+3090,shortwide,64,0.9143,emu,native
+3090,shortwide,128,1.4787,emu,native
+3090,shortwide,256,2.9181,emu,native
+3090,shortwide,512,4.8738,emu,native
+4090,shortwide,8,0.2996,emu,native
+4090,shortwide,32,0.2992,emu,native
+4090,shortwide,64,0.5963,emu,native
+4090,shortwide,128,1.1875,emu,native
+4090,shortwide,256,2.3563,emu,emu
+4090,shortwide,512,4.2107,emu,emu
+5060 Ti,shortwide,8,0.4109,emu,native
+5060 Ti,shortwide,32,0.4088,emu,native
+5060 Ti,shortwide,64,0.8140,emu,native
+5060 Ti,shortwide,128,1.5099,emu,native
+5060 Ti,shortwide,256,2.9418,emu,emu
+5060 Ti,shortwide,512,5.1016,emu,emu

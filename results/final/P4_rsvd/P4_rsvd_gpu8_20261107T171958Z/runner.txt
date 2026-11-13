@@ -1,0 +1,1 @@
+REPEATS=3 CPUS=36-47 MATS=exp poly lrnoise scaled4 scaled8

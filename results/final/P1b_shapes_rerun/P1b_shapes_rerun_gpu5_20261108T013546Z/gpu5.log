@@ -1,0 +1,16 @@
+2026-11-08T01:35:57Z rep=1 shape:eager_ws0:skinny:m8192_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 64 --k 8192 --api dgemm 
+2026-11-08T01:36:20Z rep=1 shape:eager_ws0:gram:m32_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 8192 --api dgemm 
+2026-11-08T01:36:37Z rep=1 shape:native:gram:m128_n128_k8192: env[] --m 128 --n 128 --k 8192 --api dgemm 
+2026-11-08T01:36:41Z rep=1 shape:eager_ws:gram:m128_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 8192 --api dgemm  --workspace-mb 215
+2026-11-08T01:36:49Z rep=1 shape:native:rsvd_AO:m16384_n256_k8192: env[] --m 16384 --n 256 --k 8192 --api dgemm 
+2026-11-08T01:36:58Z rep=2 shape:eager_ws0:gram:m32_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 8192 --api dgemm 
+2026-11-08T01:37:16Z rep=2 shape:native:gram:m128_n128_k8192: env[] --m 128 --n 128 --k 8192 --api dgemm 
+2026-11-08T01:37:20Z rep=2 shape:eager_ws:gram:m128_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 8192 --api dgemm  --workspace-mb 215
+2026-11-08T01:37:28Z rep=2 shape:native:rsvd_AO:m16384_n256_k8192: env[] --m 16384 --n 256 --k 8192 --api dgemm 
+2026-11-08T01:37:37Z rep=2 shape:eager_ws0:skinny:m8192_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 64 --k 8192 --api dgemm 
+2026-11-08T01:37:54Z rep=3 shape:native:gram:m128_n128_k8192: env[] --m 128 --n 128 --k 8192 --api dgemm 
+2026-11-08T01:37:58Z rep=3 shape:eager_ws:gram:m128_n128_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 128 --n 128 --k 8192 --api dgemm  --workspace-mb 215
+2026-11-08T01:38:05Z rep=3 shape:native:rsvd_AO:m16384_n256_k8192: env[] --m 16384 --n 256 --k 8192 --api dgemm 
+2026-11-08T01:38:15Z rep=3 shape:eager_ws0:skinny:m8192_n64_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 8192 --n 64 --k 8192 --api dgemm 
+2026-11-08T01:38:32Z rep=3 shape:eager_ws0:gram:m32_n32_k8192: env[CUBLAS_EMULATE_DOUBLE_PRECISION=1 CUBLAS_EMULATION_STRATEGY=EAGER] --m 32 --n 32 --k 8192 --api dgemm 
+2026-11-08T01:38:47Z DONE

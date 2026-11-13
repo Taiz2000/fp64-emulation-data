@@ -1,0 +1,65 @@
+2026-11-07T13:08:39Z start P1a (70 lines x 3)
+2026-11-07T14:00:11Z end P1a -> /home/taiz/fp64/pathB/results/final/P1a_square/P1a_square_gpu8_20261107T130839Z
+WARN  results/final/P1a_square/P1a_square_gpu8_20261107T130839Z  (0 fail, 10 warn)
+    sq:default_kp:n1024: wall_sync spread 15.7%
+    sq:default_ws0:n1536: wall_sync spread 17.2%
+    sq:eager_ws0:n1536: wall_sync spread 22.9%
+    sq:default_ws:n2048: wall_sync spread 5.9%
+    sq:default_ws0:n3072: wall_sync spread 21.0%
+    sq:default_ws:n3072: wall_sync spread 5.2%
+    sq:eager_ws0:n3072: wall_sync spread 23.1%
+    sq:eager_ws0:n4096: wall_sync spread 19.1%
+    sq:eager_ws0:n6144: wall_sync spread 26.1%
+    sq:default_ws0:n8192: wall_sync spread 17.9%
+2026-11-07T14:00:11Z start P1b (245 lines x 3)
+2026-11-07T16:26:05Z end P1b -> /home/taiz/fp64/pathB/results/final/P1b_shapes/P1b_shapes_gpu8_20261107T140011Z
+WARN  results/final/P1b_shapes/P1b_shapes_gpu8_20261107T140011Z  (0 fail, 28 warn)
+    shape:native:odd:m4097_n4097_k4097: native 1.154 TFLOPS vs PoC 1.23
+    shape:eager_ws0:odd:m4097_n4097_k4097: rep-median spread 18.2% -> rerun
+    shape:native:odd:m4000_n4000_k4000: native 1.173 TFLOPS vs PoC 1.23
+    shape:eager_ws0:panel:m8192_n8192_k128: rep-median spread 19.8% -> rerun
+    shape:eager_ws0:skinny:m8192_n8_k8192: rep-median spread 16.9% -> rerun
+    shape:eager_ws0:skinny:m8192_n192_k8192: wall_sync spread 18.3%
+    shape:default_ws0:skinny:m8192_n256_k8192: rep-median spread 19.9% -> rerun
+    shape:default_ws0:skinny:m8192_n256_k8192: wall_sync spread 17.7%
+    shape:eager_ws0:skinny:m8192_n256_k8192: wall_sync spread 20.6%
+    shape:eager_ws0:skinny:m8192_n384_k8192: wall_sync spread 18.1%
+    shape:eager_ws0:skinny:m8192_n2048_k8192: wall_sync spread 18.4%
+    shape:eager_ws0:shortwide:m32_n8192_k8192: rep-median spread 23.6% -> rerun
+    shape:native:shortwide:m64_n8192_k8192: wall_sync spread 5.1%
+    shape:eager_ws0:shortwide:m64_n8192_k8192: rep-median spread 27.9% -> rerun
+    shape:eager_ws0:shortwide:m256_n8192_k8192: rep-median spread 20.0% -> rerun
+2026-11-07T16:26:05Z start P1c (117 lines x 3)
+2026-11-07T17:19:58Z end P1c -> /home/taiz/fp64/pathB/results/final/P1c_ranges/P1c_ranges_gpu8_20261107T162605Z
+WARN  results/final/P1c_ranges/P1c_ranges_gpu8_20261107T162605Z  (0 fail, 2 warn)
+    range:native:inner:phi8:k256: wall_sync spread 5.2%
+    range:eager_ws:inner:phi4:k1024: wall_sync spread 5.6%
+2026-11-07T17:19:58Z ALL DONE
+2026-11-07T18:10:59Z start P2a (870 lines x 1)
+2026-11-07T18:37:22Z end P2a -> /home/taiz/fp64/pathB/results/final/P2a_decision/P2a_decision_gpu8_20261107T181059Z
+PASS  results/final/P2a_decision/P2a_decision_gpu8_20261107T181059Z  (0 fail, 0 warn)
+2026-11-07T18:37:22Z start P2b (208 lines x 1)
+2026-11-07T18:58:25Z end P2b -> /home/taiz/fp64/pathB/results/final/P2b_version/P2b_version_gpu8_20261107T183723Z
+PASS  results/final/P2b_version/P2b_version_gpu8_20261107T183723Z  (0 fail, 0 warn)
+2026-11-07T18:58:25Z start P2c (28 lines x 3)
+2026-11-07T19:10:55Z end P2c -> /home/taiz/fp64/pathB/results/final/P2c_bits/P2c_bits_gpu8_20261107T185825Z
+WARN  results/final/P2c_bits/P2c_bits_gpu8_20261107T185825Z  (0 fail, 6 warn)
+    bits:eager_ws:u11:fixed24: emulated error 3.149e-09 > native 2.509e-16
+    bits:eager_ws:u11:fixed32: emulated error 1.196e-11 > native 2.509e-16
+    bits:eager_ws:u11:fixed40: emulated error 5.147e-14 > native 2.509e-16
+    bits:eager_ws:u11:dyncap64: throttle reasons ['0x24']
+    bits:eager_ws:inner_phi6:fixed64: throttle reasons ['0x24']
+    bits:eager_ws:inner_phi6:fixed96: throttle reasons ['0x24']
+2026-11-07T19:10:55Z start P2d (72 lines x 3)
+2026-11-07T19:46:37Z end P2d -> /home/taiz/fp64/pathB/results/final/P2d_edges/P2d_edges_gpu8_20261107T191055Z
+WARN  results/final/P2d_edges/P2d_edges_gpu8_20261107T191055Z  (0 fail, 9 warn)
+    edge:default_ws0:op:sq4096:NN: wall_sync spread 38.1%
+    edge:default_ws0:op:skinny256:NN: wall_sync spread 37.1%
+    edge:default_ws0:op:sq4096:NT: wall_sync spread 36.8%
+    edge:default_ws0:op:skinny256:NT: wall_sync spread 39.0%
+    edge:default_ws0:op:sq4096:TN: wall_sync spread 33.6%
+    edge:default_ws0:op:skinny256:TN: wall_sync spread 28.1%
+    edge:default_ws0:op:sq4096:TT: wall_sync spread 32.3%
+    edge:default_ws0:op:skinny256:TT: wall_sync spread 31.0%
+    edge:default_ws0:batch64:n512: wall_sync spread 26.3%
+2026-11-07T19:46:37Z ALL DONE

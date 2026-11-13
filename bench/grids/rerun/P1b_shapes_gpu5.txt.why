@@ -1,0 +1,5 @@
+shape:eager_ws0:skinny:m8192_n64_k8192: rep-median spread 15.1% -> rerun
+shape:eager_ws0:gram:m32_n32_k8192: throttle reasons ['0x424']
+shape:native:gram:m128_n128_k8192: wall_sync spread 8.3%
+shape:eager_ws:gram:m128_n128_k8192: wall_sync spread 5.2%
+shape:native:rsvd_AO:m16384_n256_k8192: wall_sync spread 5.3%

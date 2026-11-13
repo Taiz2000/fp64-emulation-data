@@ -1,8 +1,11 @@
 # FP64 emulation in cuBLAS on consumer GPUs: data and code
 
 This repository holds the benchmark, the workload, the raw results, the environment snapshots, and the analysis
-scripts behind the paper *FP64 Emulation in cuBLAS on Consumer GPUs: Analysing What a Single Switch Delivers*. The
-study measures cuBLAS's automatic FP64 emulation (`CUBLAS_EMULATE_DOUBLE_PRECISION=1`) on an RTX 3090, an RTX 4090,
+scripts behind the paper *FP64 Emulation in cuBLAS on Consumer GPUs: Analysing What a Single Switch Delivers*. 
+
+The paper is part of an independent research project developed as part of undergraduate coursework.
+
+The study measures cuBLAS's automatic FP64 emulation (`CUBLAS_EMULATE_DOUBLE_PRECISION=1`) on an RTX 3090, an RTX 4090,
 and an RTX 5060 Ti, using cuBLAS 13.8.0.4 from CUDA 13.4 Update 1.
 
 Every number in the paper appears in `summary/LEDGER.md` together with the files it comes from, and the scripts in
